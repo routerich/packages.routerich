@@ -34,22 +34,22 @@ Version: 1-1
 Depends: libc
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 1172
+Installed-Size: 1259
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 1856
-SHA256sum: accde4a438c7eff5a7ad24f180fe34d2b5e2d0bb9e451f2833d36a8a9ad28af2
+Size: 1957
+SHA256sum: 02afad24b82e61c985c2df55905d3f0cf5955b8a4908e0d72a5564e27b41cfc0
 Description:  Base config
 
 Package: filebrowser
-Version: 2.30.0-1
+Version: 2.31.1-1
 Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 7316810
-Filename: filebrowser_2.30.0-1_aarch64_cortex-a53.ipk
-Size: 7303486
-SHA256sum: 312bc3d1a88ac843cf81ede2d51b1e798fd6e4777e36fe42a068bdc74418db29
+Installed-Size: 6087504
+Filename: filebrowser_2.31.1-1_aarch64_cortex-a53.ipk
+Size: 6089443
+SHA256sum: 3dfa33be3065acea6a23b27ddf6adb3dd6c75f446872d87c06a51fc0129573d7
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -102,14 +102,14 @@ SHA256sum: 876106a53d6c4ad1b49785550bce8c3c0aec05a75f6f3d6f1b0732f1693ab8bd
 Description:  Open App Filter Module
 
 Package: luci-app-filebrowser-go
-Version: unknown
+Version: git-24.251.47845-34bffa6
 Depends: libc, filebrowser
 Section: luci
 Architecture: all
-Installed-Size: 1600
-Filename: luci-app-filebrowser-go_unknown_all.ipk
-Size: 2409
-SHA256sum: 7e0957f514520acfff1155813183cbb38f0e16682dd56a9718a3a1b136686dcd
+Installed-Size: 1598
+Filename: luci-app-filebrowser-go_git-24.251.47845-34bffa6_all.ipk
+Size: 2413
+SHA256sum: adfd98340471322e35b576d62f55c3502083d72095fee8dcb3b3ba20da884665
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-internet-detector
