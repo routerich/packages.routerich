@@ -1,0 +1,450 @@
+Package: amneziawg-tools
+Version: 1.0.20240213-1
+Depends: libc
+Source: feeds/routerich/awg-openwrt/amneziawg-tools
+SourceName: amneziawg-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: opt
+SourceDateEpoch: 1725647398
+Maintainer: Jason A. Donenfeld <Jason@zx2c4.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30098
+Filename: amneziawg-tools_1.0.20240213-1_aarch64_cortex-a53.ipk
+Size: 31076
+SHA256sum: a5c46ab94b4ab1e3ae0ba82eab14b844a15c581e8998ca5a90cf3d389090227b
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
+ 
+ This package provides the userspace control program for WireGuard,
+ `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+
+Package: appfilter
+Version: 2024-08-04-65cd325f-1
+Depends: libc, libblobmsg-json20230523, libjson-c5, libpthread, libubox20230523, libubus20230605, libuci20130104, kmod-oaf
+Source: feeds/routerich/open-app-filter
+SourceName: appfilter
+Section: net
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 27183
+Filename: appfilter_2024-08-04-65cd325f-1_aarch64_cortex-a53.ipk
+Size: 27771
+SHA256sum: 8c907e1fff76c4cf3d50a44df3749d31c6fb98323b61dda4829ec4af27eff80f
+Description:  App filter userspace module
+
+Package: base-config-routerich
+Version: 1-1
+Depends: libc
+Source: feeds/routerich/base-config-routerich
+SourceName: base-config-routerich
+Section: config
+SourceDateEpoch: 1725486101
+Architecture: aarch64_cortex-a53
+Installed-Size: 1172
+Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
+Size: 1856
+SHA256sum: accde4a438c7eff5a7ad24f180fe34d2b5e2d0bb9e451f2833d36a8a9ad28af2
+Description:  Base config
+
+Package: filebrowser
+Version: 2.30.0-1
+Depends: libc
+Source: feeds/routerich/filebrowser
+SourceName: filebrowser
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1725272439
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7316810
+Filename: filebrowser_2.30.0-1_aarch64_cortex-a53.ipk
+Size: 7303486
+SHA256sum: 312bc3d1a88ac843cf81ede2d51b1e798fd6e4777e36fe42a068bdc74418db29
+Description:  filebrowser provides a file managing interface within a specified directory
+ and it can be used to upload, delete, preview, rename and edit your files.
+ It allows the creation of multiple users and each user can have its own directory.
+ It can be used as a standalone app or as a middleware.
+
+Package: internet-detector
+Version: 1.3.0-1
+Depends: libc, lua, luaposix, libuci-lua
+Source: feeds/routerich/luci-app-internet-detector/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1725390791
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 10090
+Filename: internet-detector_1.3.0-1_all.ipk
+Size: 10972
+SHA256sum: 38e8cc0ab52cd8a4b49bb513bc35bc4ca0c501773fe1476a7133721e8225cef6
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
+
+Package: luci-app-access-control
+Version: 0.4.3
+Depends: libc, luci-lua-runtime
+Source: feeds/routerich/luci-app-access-control
+SourceName: luci-app-access-control
+Section: luci
+SourceDateEpoch: 1725618917
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3994
+Filename: luci-app-access-control_0.4.3_all.ipk
+Size: 5006
+SHA256sum: fe9096db55ed8a95b53ef9e3cd1c6baff4b0a07d4571a9027d872befaafdd1d5
+Description:  LuCI Internet Access Control
+
+Package: luci-app-amneziawg
+Version: git-24.250.66598-3fedd25
+Depends: libc, amneziawg-tools, ucode
+Source: feeds/routerich/awg-openwrt/luci-app-amneziawg
+SourceName: luci-app-amneziawg
+Section: luci
+SourceDateEpoch: 1725647398
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10777
+Filename: luci-app-amneziawg_git-24.250.66598-3fedd25_all.ipk
+Size: 11643
+SHA256sum: fb68244c2a786fc506333f019ec6b4486f9e9d953d115d29e826dcf0d9976ec5
+Description:  Support for AmneziaWG VPN
+
+Package: luci-app-appfilter
+Version: 5.0.2
+Depends: libc, appfilter, luci-compat, luci-lua-runtime
+Source: feeds/routerich/luci-app-appfilter
+SourceName: luci-app-appfilter
+Section: luci
+SourceDateEpoch: 1725272439
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 268766
+Filename: luci-app-appfilter_5.0.2_all.ipk
+Size: 269708
+SHA256sum: 876106a53d6c4ad1b49785550bce8c3c0aec05a75f6f3d6f1b0732f1693ab8bd
+Description:  Open App Filter Module
+
+Package: luci-app-filebrowser-go
+Version: unknown
+Depends: libc, filebrowser
+Source: feeds/routerich/luci-app-filebrowser-go
+SourceName: luci-app-filebrowser-go
+Section: luci
+SourceDateEpoch: 1725272439
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1600
+Filename: luci-app-filebrowser-go_unknown_all.ipk
+Size: 2409
+SHA256sum: 7e0957f514520acfff1155813183cbb38f0e16682dd56a9718a3a1b136686dcd
+Description:  LuCI app for FileBrowser
+
+Package: luci-app-internet-detector
+Version: 1.3.0-r1
+Depends: libc, internet-detector
+Source: feeds/routerich/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1725390791
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8256
+Filename: luci-app-internet-detector_1.3.0-r1_all.ipk
+Size: 9089
+SHA256sum: 8c577278c10b415a344893a89920905c15635ba0c146fe2b4b2c447e870a4d76
+Description:  LuCI support for internet-detector
+
+Package: luci-app-log
+Version: 1.1.0-r5
+Depends: libc
+Source: feeds/routerich/luci-app-log
+SourceName: luci-app-log
+License: MIT
+Section: luci
+SourceDateEpoch: 1725307136
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 8562
+Filename: luci-app-log_1.1.0-r5_all.ipk
+Size: 9430
+SHA256sum: c15ad980f282f14f1b47682e09a930dc72fcbb9ffdb3185a21cd489180935197
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
+Package: luci-app-oaf
+Version: 5.0.2
+Depends: libc, appfilter, kmod-oaf, luci-compat, luci-lua-runtime
+Source: feeds/routerich/luci-app-oaf
+SourceName: luci-app-oaf
+Section: luci
+SourceDateEpoch: 1725272439
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 268578
+Filename: luci-app-oaf_5.0.2_all.ipk
+Size: 269511
+SHA256sum: 0882315821cac1d47b5e9e5a99fe962f84cb39e1c278ccea8d41c840717a4bea
+Description:  Open App Filter Module
+
+Package: luci-app-ruantiblock
+Version: 1.5.0-r2
+Depends: libc, ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
+Section: luci
+SourceDateEpoch: 1725390741
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 17797
+Filename: luci-app-ruantiblock_1.5.0-r2_all.ipk
+Size: 18643
+SHA256sum: 55db0f18bfe37caf7010ffc3859ed12f3efff1ff0709fbdd0beee38ea63d7e6f
+Description:  LuCI support for ruantiblock
+
+Package: luci-app-temp-status
+Version: 0.4.1-r1
+Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1725272439
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2847
+Filename: luci-app-temp-status_0.4.1-r1_all.ipk
+Size: 3718
+SHA256sum: 5ac7fe620f442bbfaeaae5bd1cacbb837a0cdb188a477f8ec7412a3928a25c1e
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-vsftpd
+Version: git-24.247.46290-8e5e6c3
+Depends: libc, vsftpd, luci-lua-runtime
+Source: feeds/routerich/luci-app-vsftpd
+SourceName: luci-app-vsftpd
+Section: luci
+SourceDateEpoch: 1725630464
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3051
+Filename: luci-app-vsftpd_git-24.247.46290-8e5e6c3_all.ipk
+Size: 3888
+SHA256sum: 3377a72053cba7c446e47819265a2cf456b45ffca7451607fb322e4b365cc2f7
+Description:  LuCI support for VSFTPD
+
+Package: luci-app-wizard
+Version: 1.0.0-1
+Depends: libc, luci-base, rpcd-mod-iwinfo
+Source: feeds/routerich/luci-app-wizard
+SourceName: luci-app-wizard
+Section: opt
+SourceDateEpoch: 1725307683
+Architecture: all
+Installed-Size: 3903
+Filename: luci-app-wizard_1.0.0-1_all.ipk
+Size: 4743
+SHA256sum: dbe4fd0fb42dd5a2ddf895ca9148aa9ae533784d6752ebb845f3990efd7bd0d2
+Description:  LuCI Support for wizard.
+
+Package: luci-app-zerotier
+Version: git-24.246.71936-f2165eb
+Depends: libc, zerotier, jsonfilter, ucode
+Source: feeds/routerich/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1725632861
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 4235
+Filename: luci-app-zerotier_git-24.246.71936-f2165eb_all.ipk
+Size: 5061
+SHA256sum: b9f71757c8596410e0dcde5406f2db0291a56757c6118ab23cbcb1b7b0ff918e
+Description:  LuCI for Zerotier
+
+Package: luci-i18n-access-control-ru
+Version: git-24.250.38117-e4d65f9
+Depends: libc, luci-app-access-control
+Source: feeds/routerich/luci-app-access-control
+SourceName: luci-i18n-access-control-ru
+Section: luci
+SourceDateEpoch: 1725618917
+Architecture: all
+Installed-Size: 1189
+Filename: luci-i18n-access-control-ru_git-24.250.38117-e4d65f9_all.ipk
+Size: 1938
+SHA256sum: 306cccbf00c8f49d153adb161e46d506d6dad9a91b1254855810f491d2896441
+Description:  Translation for luci-app-access-control - Русский (Russian)
+
+Package: luci-i18n-internet-detector-ru
+Version: git-24.247.69191-81986ba
+Depends: libc, luci-app-internet-detector
+Source: feeds/routerich/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-i18n-internet-detector-ru
+Section: luci
+SourceDateEpoch: 1725390791
+Architecture: all
+Installed-Size: 4312
+Filename: luci-i18n-internet-detector-ru_git-24.247.69191-81986ba_all.ipk
+Size: 5055
+SHA256sum: e089239ddf3482416f8c2dbc5feffc57ed736abe5d0d60b7d263a80e90ba495d
+Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-log-ru
+Version: git-24.246.71936-f2165eb
+Depends: libc, luci-app-log
+Source: feeds/routerich/luci-app-log
+SourceName: luci-i18n-log-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1725307136
+Architecture: all
+Installed-Size: 1402
+Filename: luci-i18n-log-ru_git-24.246.71936-f2165eb_all.ipk
+Size: 2163
+SHA256sum: 62587f10e784b1c1be462a2529a0063ab9ba7b7b8c48120c1c30cd7650d3de81
+Description:  Translation for luci-app-log - Русский (Russian)
+
+Package: luci-i18n-ruantiblock-ru
+Version: git-24.247.69141-f377802
+Depends: libc, luci-app-ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-i18n-ruantiblock-ru
+Section: luci
+SourceDateEpoch: 1725390741
+Architecture: all
+Installed-Size: 5105
+Filename: luci-i18n-ruantiblock-ru_git-24.247.69141-f377802_all.ipk
+Size: 5862
+SHA256sum: 286180f67d11d3cc203bcdbf68c2e7dfe782c7de456167131c0fbc797139e63d
+Description:  Translation for luci-app-ruantiblock - Русский (Russian)
+
+Package: luci-i18n-temp-status-ru
+Version: unknown
+Depends: libc, luci-app-temp-status
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-i18n-temp-status-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1725272439
+Architecture: all
+Installed-Size: 551
+Filename: luci-i18n-temp-status-ru_unknown_all.ipk
+Size: 1300
+SHA256sum: 929ae21f018e59636950eb92b56e88ffadbc614a0229e6f8f0197e51dbdd1885
+Description:  Translation for luci-app-temp-status - Русский (Russian)
+
+Package: luci-i18n-vsftpd-ru
+Version: git-24.250.49664-12eb8d3
+Depends: libc, luci-app-vsftpd
+Source: feeds/routerich/luci-app-vsftpd
+SourceName: luci-i18n-vsftpd-ru
+Section: luci
+SourceDateEpoch: 1725630464
+Architecture: all
+Installed-Size: 2363
+Filename: luci-i18n-vsftpd-ru_git-24.250.49664-12eb8d3_all.ipk
+Size: 3086
+SHA256sum: 0f8bd545ddfa864f329355455e7916aeaf1a81f95490b1816e92f58046448ed3
+Description:  Translation for luci-app-vsftpd - Русский (Russian)
+
+Package: luci-i18n-zerotier-ru
+Version: git-24.250.52061-702579b
+Depends: libc, luci-app-zerotier
+Source: feeds/routerich/luci-app-zerotier
+SourceName: luci-i18n-zerotier-ru
+Section: luci
+SourceDateEpoch: 1725632861
+Architecture: all
+Installed-Size: 1186
+Filename: luci-i18n-zerotier-ru_git-24.250.52061-702579b_all.ipk
+Size: 1932
+SHA256sum: febe1212fc426c51c5e205ca99a083689920b07bcad10995382906733d2686e1
+Description:  Translation for luci-app-zerotier - Русский (Russian)
+
+Package: luci-theme-routerich
+Version: 1.0.0
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Source: feeds/routerich/luci-theme-routerich
+SourceName: luci-theme-routerich
+Section: luci
+SourceDateEpoch: 1725375429
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 452775
+Filename: luci-theme-routerich_1.0.0_all.ipk
+Size: 453352
+SHA256sum: cc2263fb1531948411f66f87c0937826031097219fa63c28f7907eff29c7629f
+Description:  Routerich Theme
+
+Package: ruantiblock
+Version: 1.5.0-2
+Depends: libc, dnsmasq-full
+Source: feeds/routerich/ruantiblock_openwrt/ruantiblock
+SourceName: ruantiblock
+Section: net
+SourceDateEpoch: 1725390741
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 15124
+Filename: ruantiblock_1.5.0-2_all.ipk
+Size: 16235
+SHA256sum: 3d3ddc521e350882fbaa5d44a779d5f2d5ee6b699b54b3d56e0b2a0efa9c72d0
+Description:  Ruantiblock
+
+Package: vsftpd
+Version: 3.0.5-2
+Depends: libc, libuci20130104
+Source: feeds/routerich/vsftpd
+SourceName: vsftpd
+License: GPLv2
+Section: net
+SourceDateEpoch: 1725307136
+CPE-ID: cpe:/a:vsftpd_project:vsftpd
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: aarch64_cortex-a53
+Installed-Size: 45264
+Filename: vsftpd_3.0.5-2_aarch64_cortex-a53.ipk
+Size: 45698
+SHA256sum: 87bbdbca2c57269e1a5e23efbbe87c0811f15739d878ccb184eecf02255becb3
+Description:  Fast and secure FTP server (no TLS)
+
+Package: youtubeUnblock
+Version: 0.3.2-mediatek-1
+Depends: libc, libpthread
+Source: feeds/routerich/youtubeUnblock
+SourceName: youtubeUnblock
+Section: net
+SourceDateEpoch: 1725387347
+Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23486
+Filename: youtubeUnblock_0.3.2-mediatek-1_aarch64_cortex-a53.ipk
+Size: 24090
+SHA256sum: 7de0ac27930f148a0e46b96fe05d19f62d0485aa2cb432cee23c2e89f848a868
+Description:  Bypasses Googlevideo detection systems that relies on SNI
+
+Package: zerotier
+Version: 1.14.0-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
+Source: feeds/routerich/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1725307136
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 571421
+Filename: zerotier_1.14.0-1_aarch64_cortex-a53.ipk
+Size: 571130
+SHA256sum: 5ee8daec552b53c537c5b3731196117967952dd7cf2af5dcd562121599eaa7cf
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
