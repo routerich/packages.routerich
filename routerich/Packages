@@ -124,14 +124,14 @@ SHA256sum: fb68244c2a786fc506333f019ec6b4486f9e9d953d115d29e826dcf0d9976ec5
 Description:  Support for AmneziaWG VPN
 
 Package: luci-app-filebrowser-go
-Version: git-24.251.47845-34bffa6
+Version: git-24.252.39226-c89d418
 Depends: libc, filebrowser
 Section: luci
 Architecture: all
-Installed-Size: 1598
-Filename: luci-app-filebrowser-go_git-24.251.47845-34bffa6_all.ipk
-Size: 2413
-SHA256sum: adfd98340471322e35b576d62f55c3502083d72095fee8dcb3b3ba20da884665
+Installed-Size: 1592
+Filename: luci-app-filebrowser-go_git-24.252.39226-c89d418_all.ipk
+Size: 2414
+SHA256sum: eafbe7ceb5e689d037b1223f96cbb637a68a6f3184021419ff306fbd88db19c2
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-internet-detector
@@ -211,6 +211,17 @@ Filename: luci-i18n-access-control-ru_git-24.250.38117-e4d65f9_all.ipk
 Size: 1938
 SHA256sum: 306cccbf00c8f49d153adb161e46d506d6dad9a91b1254855810f491d2896441
 Description:  Translation for luci-app-access-control - Русский (Russian)
+
+Package: luci-i18n-filebrowser-go-ru
+Version: git-24.252.39022-6c7f144
+Depends: libc, luci-app-filebrowser-go
+Section: luci
+Architecture: all
+Installed-Size: 875
+Filename: luci-i18n-filebrowser-go-ru_git-24.252.39022-6c7f144_all.ipk
+Size: 1629
+SHA256sum: ad21ab2fd83164998d012dff46bb7c920c1ff81919d8779174464af94f77ab55
+Description:  Translation for luci-app-filebrowser-go - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
 Version: git-24.247.69191-81986ba
