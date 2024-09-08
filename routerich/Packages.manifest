@@ -23,32 +23,18 @@ Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and uti
  This package provides the userspace control program for WireGuard,
  `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
 
-Package: appfilter
-Version: 2024-08-04-65cd325f-1
-Depends: libc, libblobmsg-json20230523, libjson-c5, libpthread, libubox20230523, libubus20230605, libuci20130104, kmod-oaf
-Source: feeds/routerich/open-app-filter
-SourceName: appfilter
-Section: net
-SourceDateEpoch: 1725272439
-Architecture: aarch64_cortex-a53
-Installed-Size: 27183
-Filename: appfilter_2024-08-04-65cd325f-1_aarch64_cortex-a53.ipk
-Size: 27771
-SHA256sum: 8c907e1fff76c4cf3d50a44df3749d31c6fb98323b61dda4829ec4af27eff80f
-Description:  App filter userspace module
-
 Package: base-config-routerich
 Version: 1-1
 Depends: libc
 Source: feeds/routerich/base-config-routerich
 SourceName: base-config-routerich
 Section: config
-SourceDateEpoch: 1725486101
+SourceDateEpoch: 1725741008
 Architecture: aarch64_cortex-a53
-Installed-Size: 1259
+Installed-Size: 1493
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 1957
-SHA256sum: 02afad24b82e61c985c2df55905d3f0cf5955b8a4908e0d72a5564e27b41cfc0
+Size: 2191
+SHA256sum: 347a5da71fbacda2bf25f016e5be6796770991ee5dfdba0353f78a16283c334e
 Description:  Base config
 
 Package: filebrowser
@@ -59,13 +45,13 @@ SourceName: filebrowser
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1725715045
+SourceDateEpoch: 1725726026
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6087504
+Installed-Size: 6087507
 Filename: filebrowser_2.31.1-1_aarch64_cortex-a53.ipk
-Size: 6089443
-SHA256sum: 3dfa33be3065acea6a23b27ddf6adb3dd6c75f446872d87c06a51fc0129573d7
+Size: 6089446
+SHA256sum: 75caf6a8416fa457aaca428a0d060d98e64df0e1c18547be96f716d80c38ed68
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -87,6 +73,62 @@ SHA256sum: 38e8cc0ab52cd8a4b49bb513bc35bc4ca0c501773fe1476a7133721e8225cef6
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
+
+Package: libQt6Core
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: libQt6Core
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 2817511
+Filename: libQt6Core_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 2810261
+SHA256sum: 97a4bd0529ddbabfea1b317f343274982b8756f6a24d3039ef4a0fccabfba0a1
+Description:  This package provides the Qt6 Core v6.7.2 library.
+
+Package: libQt6Network
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: libQt6Network
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 861187
+Filename: libQt6Network_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 860015
+SHA256sum: 161ae774f87fc204e18ce1b5d84aed84521ce2d78be95428a1db936c063f075c
+Description:  This package provides the Qt6 Network v6.7.2 library.
+
+Package: libQt6Sql
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: libQt6Sql
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 79717
+Filename: libQt6Sql_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 80169
+SHA256sum: fdc4e7eb044b2ede5be810bf9e067ea2dacb09f69eec69b4286632542d5a4cfa
+Description:  This package provides the Qt6 Sql v6.7.2 library.
+
+Package: libQt6Xml
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: libQt6Xml
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 66788
+Filename: libQt6Xml_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 67523
+SHA256sum: 7f0ddfe31d50a6e5b65a2ec50a19d65fb26ea39348f4c585830ba6bb21d3892d
+Description:  This package provides the Qt6 Xml v6.7.2 library.
 
 Package: luci-app-access-control
 Version: 0.4.3
@@ -117,21 +159,6 @@ Filename: luci-app-amneziawg_git-24.250.66598-3fedd25_all.ipk
 Size: 11643
 SHA256sum: fb68244c2a786fc506333f019ec6b4486f9e9d953d115d29e826dcf0d9976ec5
 Description:  Support for AmneziaWG VPN
-
-Package: luci-app-appfilter
-Version: 5.0.2
-Depends: libc, appfilter, luci-compat, luci-lua-runtime
-Source: feeds/routerich/luci-app-appfilter
-SourceName: luci-app-appfilter
-Section: luci
-SourceDateEpoch: 1725272439
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 268766
-Filename: luci-app-appfilter_5.0.2_all.ipk
-Size: 269708
-SHA256sum: 876106a53d6c4ad1b49785550bce8c3c0aec05a75f6f3d6f1b0732f1693ab8bd
-Description:  Open App Filter Module
 
 Package: luci-app-filebrowser-go
 Version: git-24.251.47845-34bffa6
@@ -179,51 +206,20 @@ Size: 9430
 SHA256sum: c15ad980f282f14f1b47682e09a930dc72fcbb9ffdb3185a21cd489180935197
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
-Package: luci-app-oaf
-Version: 5.0.2
-Depends: libc, appfilter, kmod-oaf, luci-compat, luci-lua-runtime
-Source: feeds/routerich/luci-app-oaf
-SourceName: luci-app-oaf
+Package: luci-app-qbittorrent
+Version: 1.0.1
+Depends: libc, qbittorrent
+Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
 Section: luci
 SourceDateEpoch: 1725272439
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 268578
-Filename: luci-app-oaf_5.0.2_all.ipk
-Size: 269511
-SHA256sum: 0882315821cac1d47b5e9e5a99fe962f84cb39e1c278ccea8d41c840717a4bea
-Description:  Open App Filter Module
-
-Package: luci-app-ruantiblock
-Version: 1.5.0-r2
-Depends: libc, ruantiblock
-Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
-SourceName: luci-app-ruantiblock
-Section: luci
-SourceDateEpoch: 1725390741
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 17797
-Filename: luci-app-ruantiblock_1.5.0-r2_all.ipk
-Size: 18643
-SHA256sum: 55db0f18bfe37caf7010ffc3859ed12f3efff1ff0709fbdd0beee38ea63d7e6f
-Description:  LuCI support for ruantiblock
-
-Package: luci-app-temp-status
-Version: 0.4.1-r1
-Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
-Source: feeds/routerich/luci-app-temp-status
-SourceName: luci-app-temp-status
-License: MIT
-Section: luci
-SourceDateEpoch: 1725272439
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 2847
-Filename: luci-app-temp-status_0.4.1-r1_all.ipk
-Size: 3718
-SHA256sum: 5ac7fe620f442bbfaeaae5bd1cacbb837a0cdb188a477f8ec7412a3928a25c1e
-Description:  Temperature sensors data for the LuCI status page
+Installed-Size: 1751
+Filename: luci-app-qbittorrent_1.0.1_all.ipk
+Size: 2563
+SHA256sum: be2cf322a0894d54eb2e540ed534390a2df1f02dc1b02e30b64dd84daee00ac1
+Description:  LuCI support for qBittorrent
 
 Package: luci-app-vsftpd
 Version: git-24.247.46290-8e5e6c3
@@ -312,35 +308,6 @@ Size: 2163
 SHA256sum: 62587f10e784b1c1be462a2529a0063ab9ba7b7b8c48120c1c30cd7650d3de81
 Description:  Translation for luci-app-log - Русский (Russian)
 
-Package: luci-i18n-ruantiblock-ru
-Version: git-24.247.69141-f377802
-Depends: libc, luci-app-ruantiblock
-Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
-SourceName: luci-i18n-ruantiblock-ru
-Section: luci
-SourceDateEpoch: 1725390741
-Architecture: all
-Installed-Size: 5105
-Filename: luci-i18n-ruantiblock-ru_git-24.247.69141-f377802_all.ipk
-Size: 5862
-SHA256sum: 286180f67d11d3cc203bcdbf68c2e7dfe782c7de456167131c0fbc797139e63d
-Description:  Translation for luci-app-ruantiblock - Русский (Russian)
-
-Package: luci-i18n-temp-status-ru
-Version: unknown
-Depends: libc, luci-app-temp-status
-Source: feeds/routerich/luci-app-temp-status
-SourceName: luci-i18n-temp-status-ru
-License: MIT
-Section: luci
-SourceDateEpoch: 1725272439
-Architecture: all
-Installed-Size: 551
-Filename: luci-i18n-temp-status-ru_unknown_all.ipk
-Size: 1300
-SHA256sum: 929ae21f018e59636950eb92b56e88ffadbc614a0229e6f8f0197e51dbdd1885
-Description:  Translation for luci-app-temp-status - Русский (Russian)
-
 Package: luci-i18n-vsftpd-ru
 Version: git-24.250.49664-12eb8d3
 Depends: libc, luci-app-vsftpd
@@ -384,20 +351,75 @@ Size: 453352
 SHA256sum: cc2263fb1531948411f66f87c0937826031097219fa63c28f7907eff29c7629f
 Description:  Routerich Theme
 
-Package: ruantiblock
-Version: 1.5.0-2
-Depends: libc, dnsmasq-full
-Source: feeds/routerich/ruantiblock_openwrt/ruantiblock
-SourceName: ruantiblock
+Package: qbittorrent
+Version: 4.6.6-1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+Provides: qBittorrent
+Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
+SourceName: qbittorrent
+License: GPL-2.0+
+LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1725390741
-Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
-Architecture: all
-Installed-Size: 15124
-Filename: ruantiblock_1.5.0-2_all.ipk
-Size: 16235
-SHA256sum: 3d3ddc521e350882fbaa5d44a779d5f2d5ee6b699b54b3d56e0b2a0efa9c72d0
-Description:  Ruantiblock
+SourceDateEpoch: 1725272439
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: aarch64_cortex-a53
+Installed-Size: 7889667
+Filename: qbittorrent_4.6.6-1_aarch64_cortex-a53.ipk
+Size: 7884125
+SHA256sum: c717f2dcdf00f6dddab9bb48aeeb300e5eebf0ba84ea45818209ae4c98b9e3ec
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6-plugin-libqopensslbackend
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 118619
+Filename: qt6-plugin-libqopensslbackend_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 118854
+SHA256sum: 693de80e8a5c15f3ec042d2208298965d606af145d7dd5c23285ac0b6d7533f9
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.7.2-1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6-plugin-libqsqlite
+Section: libs
+SourceDateEpoch: 1725272439
+Architecture: aarch64_cortex-a53
+Installed-Size: 957367
+Filename: qt6-plugin-libqsqlite_6.7.2-1_aarch64_cortex-a53.ipk
+Size: 957573
+SHA256sum: f7e77b4832cb98012577699bc24b52ea824b582e415a377356dca2ad8f71fad1
+Description:  Qt6 Plugin libqsqlite
+
+Package: rblibtorrent2.0
+Version: 2.0.10-1
+Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
+Provides: rblibtorrent
+Source: feeds/routerich/openwrt-qBittorrent/rblibtorrent
+SourceName: rblibtorrent
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1725272439
+ABIVersion: 2.0
+Architecture: aarch64_cortex-a53
+Installed-Size: 1366701
+Filename: rblibtorrent2.0_2.0.10-1_aarch64_cortex-a53.ipk
+Size: 1363547
+SHA256sum: b3a2a24c7a47090c267ee249ea46fd917f62ebb784413890b674851f0a08adb3
+Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
+ all the other bittorrent implementations around. It is a library and not a
+ full featured client, although it comes with a working example client.
 
 Package: vsftpd
 Version: 3.0.5-2
