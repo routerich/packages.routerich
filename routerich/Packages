@@ -23,10 +23,10 @@ Version: 1-1
 Depends: libc
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 1493
+Installed-Size: 1495
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 2191
-SHA256sum: 347a5da71fbacda2bf25f016e5be6796770991ee5dfdba0353f78a16283c334e
+Size: 2194
+SHA256sum: 16c221e0a322537ed7eee3fdf54555cb394a0e5cadacb3f6fbe1a83558a60035
 Description:  Base config
 
 Package: filebrowser
@@ -62,10 +62,10 @@ Version: 6.7.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 2817511
+Installed-Size: 2817520
 Filename: libQt6Core_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 2810261
-SHA256sum: 97a4bd0529ddbabfea1b317f343274982b8756f6a24d3039ef4a0fccabfba0a1
+Size: 2810159
+SHA256sum: c981d2ff1be7919d568bf303d959802f286549bed552003e73b85c7c4313a4e8
 Description:  This package provides the Qt6 Core v6.7.2 library.
 
 Package: libQt6Network
@@ -75,8 +75,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 861187
 Filename: libQt6Network_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 860015
-SHA256sum: 161ae774f87fc204e18ce1b5d84aed84521ce2d78be95428a1db936c063f075c
+Size: 860081
+SHA256sum: e352e231b988eb782c2d402b776dce9e9e0c18d50a2ab08abd4bd3082ae385ac
 Description:  This package provides the Qt6 Network v6.7.2 library.
 
 Package: libQt6Sql
@@ -86,8 +86,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 79717
 Filename: libQt6Sql_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 80169
-SHA256sum: fdc4e7eb044b2ede5be810bf9e067ea2dacb09f69eec69b4286632542d5a4cfa
+Size: 80116
+SHA256sum: 678a5a50499fbfa7340fc101b4e71bf2ccbffcd065e2c8d5564c6e800cbf93ff
 Description:  This package provides the Qt6 Sql v6.7.2 library.
 
 Package: libQt6Xml
@@ -95,10 +95,10 @@ Version: 6.7.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 66788
+Installed-Size: 66787
 Filename: libQt6Xml_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 67523
-SHA256sum: 7f0ddfe31d50a6e5b65a2ec50a19d65fb26ea39348f4c585830ba6bb21d3892d
+Size: 67501
+SHA256sum: ee6d2cb0c68726a3f6491b00030f99026c83270bfd51e3f1c48111438c3a873f
 Description:  This package provides the Qt6 Xml v6.7.2 library.
 
 Package: luci-app-access-control
@@ -162,10 +162,10 @@ Version: 1.0.1
 Depends: libc, qbittorrent
 Section: luci
 Architecture: all
-Installed-Size: 1751
+Installed-Size: 1749
 Filename: luci-app-qbittorrent_1.0.1_all.ipk
-Size: 2563
-SHA256sum: be2cf322a0894d54eb2e540ed534390a2df1f02dc1b02e30b64dd84daee00ac1
+Size: 2564
+SHA256sum: 693f4ed06c52f30326a2fa1073aaf3d5c1c09ff242849eaf65f61686c543af9e
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-vsftpd
@@ -246,6 +246,17 @@ Size: 2163
 SHA256sum: 62587f10e784b1c1be462a2529a0063ab9ba7b7b8c48120c1c30cd7650d3de81
 Description:  Translation for luci-app-log - Русский (Russian)
 
+Package: luci-i18n-qbittorrent-ru
+Version: git-24.252.08653-eff063a
+Depends: libc, luci-app-qbittorrent
+Section: luci
+Architecture: all
+Installed-Size: 736
+Filename: luci-i18n-qbittorrent-ru_git-24.252.08653-eff063a_all.ipk
+Size: 1493
+SHA256sum: dd8253f558fbda3e03fccb94d9a9c379968b1fb5e4d6e949442ca139e7b8346a
+Description:  Translation for luci-app-qbittorrent - Русский (Russian)
+
 Package: luci-i18n-vsftpd-ru
 Version: git-24.250.49664-12eb8d3
 Depends: libc, luci-app-vsftpd
@@ -273,10 +284,10 @@ Version: 1.0.0
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 452775
+Installed-Size: 454228
 Filename: luci-theme-routerich_1.0.0_all.ipk
-Size: 453352
-SHA256sum: cc2263fb1531948411f66f87c0937826031097219fa63c28f7907eff29c7629f
+Size: 454792
+SHA256sum: f6aa29e81ab3a68017bdabbf45b3ed963326664a7296c339072f5ae835befa00
 Description:  Routerich Theme
 
 Package: qbittorrent
@@ -287,10 +298,10 @@ License: GPL-2.0+
 Section: net
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7889667
+Installed-Size: 7889666
 Filename: qbittorrent_4.6.6-1_aarch64_cortex-a53.ipk
-Size: 7884125
-SHA256sum: c717f2dcdf00f6dddab9bb48aeeb300e5eebf0ba84ea45818209ae4c98b9e3ec
+Size: 7884019
+SHA256sum: f7aa30fb65c0d54e1fb16968238d33a6bd18c7a98df5ec305bfc267777a518f4
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -304,8 +315,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 118619
 Filename: qt6-plugin-libqopensslbackend_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 118854
-SHA256sum: 693de80e8a5c15f3ec042d2208298965d606af145d7dd5c23285ac0b6d7533f9
+Size: 118836
+SHA256sum: 73b3c3a14abc1bdb2d26ab0fe19ace0e10a1cbc1c3403640668e45bcba1c9982
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
@@ -315,8 +326,8 @@ Section: libs
 Architecture: aarch64_cortex-a53
 Installed-Size: 957367
 Filename: qt6-plugin-libqsqlite_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 957573
-SHA256sum: f7e77b4832cb98012577699bc24b52ea824b582e415a377356dca2ad8f71fad1
+Size: 957534
+SHA256sum: d297b5f5314bac9df71247bc3bff58636c940b2440657f049ddd6b5a131c97bf
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0
@@ -327,10 +338,10 @@ License: BSD
 Section: libs
 ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
-Installed-Size: 1366701
+Installed-Size: 1366703
 Filename: rblibtorrent2.0_2.0.10-1_aarch64_cortex-a53.ipk
-Size: 1363547
-SHA256sum: b3a2a24c7a47090c267ee249ea46fd917f62ebb784413890b674851f0a08adb3
+Size: 1363578
+SHA256sum: cef41e4182e62d117292f1230880b5cf3cd95926c1cbe83cf9b563ce5a4cfd53
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
