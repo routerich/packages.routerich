@@ -184,14 +184,14 @@ SHA256sum: bbe74f284b5517f72a634c1020bbd4ba67371deb8ec91e22b97ce1d8ef4a8e16
 Description:  3proxy simple webUI
 
 Package: luci-app-access-control
-Version: 0.4.3
+Version: 0.4.4
 Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 3999
-Filename: luci-app-access-control_0.4.3_all.ipk
-Size: 5010
-SHA256sum: 1e556bf5ac3b531bf62a7078ba806432d46e394720872fc09f1bb34b4a737248
+Installed-Size: 4020
+Filename: luci-app-access-control_0.4.4_all.ipk
+Size: 5032
+SHA256sum: a64dcc2dc9be30b7c78662f7034e107a04411df9ad64f8e9ac97a73449c7b6ad
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
@@ -237,18 +237,6 @@ Filename: luci-app-filebrowser-go_git-24.252.39226-c89d418_all.ipk
 Size: 2420
 SHA256sum: 96c6b816e0a1379d73c21eb6c4da4a757244d7916635e2b665acd468d50c1e9e
 Description:  LuCI app for FileBrowser
-
-Package: luci-app-gpoint
-Version: 2.6.0
-Depends: libc, lua, luci-compat, curl, lua-rs232, luasocket, iwinfo, libiwinfo-lua, lua-bit32, usbutils, gpsd, luci-lua-runtime
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 48217
-Filename: luci-app-gpoint_2.6.0_all.ipk
-Size: 49271
-SHA256sum: e21cd4f0f3920ec00fa15e9de0d7ce1345c27f2c60229f17b0ef97495c5bb174
-Description:  GNSS Information dashboard for 3G/LTE dongle
 
 Package: luci-app-internet-detector
 Version: 1.3.0-r1
@@ -308,17 +296,6 @@ Size: 5979
 SHA256sum: f9ac85ee6bd34233027d0b3c5cbdc326d3131126d08ac7713cf29f379feb9345
 Description:  Information dashboard for 3G/LTE dongle
 
-Package: luci-app-pingcontrol
-Version: 1
-Depends: libc, pingcontrol
-Section: luci
-Architecture: all
-Installed-Size: 1376
-Filename: luci-app-pingcontrol_1_all.ipk
-Size: 2187
-SHA256sum: a04e2c0b7d6f0cdcf6042f9a3db71047aabce5783f0ad2318b589cf9437fe7b6
-Description:  LuCI network interface control
-
 Package: luci-app-qbittorrent
 Version: 1.0.1
 Depends: libc, qbittorrent
@@ -329,18 +306,6 @@ Filename: luci-app-qbittorrent_1.0.1_all.ipk
 Size: 2564
 SHA256sum: 693f4ed06c52f30326a2fa1073aaf3d5c1c09ff242849eaf65f61686c543af9e
 Description:  LuCI support for qBittorrent
-
-Package: luci-app-rtorrent
-Version: 0.1.7
-Depends: libc, rtorrent-rpc, luaexpat, luasocket, luasec, screen, luci-lua-runtime
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 39804
-Filename: luci-app-rtorrent_0.1.7_all.ipk
-Size: 40771
-SHA256sum: dc7a66218c352c48c56c01157f25ef95210547bf1cb32b0378e5161a51641126
-Description:  rTorrent LuCI web interface
 
 Package: luci-app-sms-tool-js
 Version: 2.0.24-20240827
@@ -524,17 +489,6 @@ Size: 2329
 SHA256sum: cc518111dcade623b1df71e6c5d7db6cddc816be3534db6d9f1b4f888ff4edb8
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
-Package: luci-i18n-pingcontrol-ru
-Version: unknown
-Depends: libc, luci-app-pingcontrol
-Section: luci
-Architecture: all
-Installed-Size: 828
-Filename: luci-i18n-pingcontrol-ru_unknown_all.ipk
-Size: 1570
-SHA256sum: 819e8a621b9cbc019fdffdba4394034ede1fbd8e521d9d3b976208acee0a4977
-Description:  Translation for luci-app-pingcontrol - Русский (Russian)
-
 Package: luci-i18n-qbittorrent-ru
 Version: git-24.252.08653-eff063a
 Depends: libc, luci-app-qbittorrent
@@ -545,18 +499,6 @@ Filename: luci-i18n-qbittorrent-ru_git-24.252.08653-eff063a_all.ipk
 Size: 1493
 SHA256sum: dd8253f558fbda3e03fccb94d9a9c379968b1fb5e4d6e949442ca139e7b8346a
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
-
-Package: luci-i18n-rtorrent-ru
-Version: unknown
-Depends: libc, luci-app-rtorrent
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 1717
-Filename: luci-i18n-rtorrent-ru_unknown_all.ipk
-Size: 2493
-SHA256sum: 748afa1621296e17f5c2ddc32269ba1caca21c9d7a383ac41be9a0d6ab176b83
-Description:  Translation for luci-app-rtorrent - Русский (Russian)
 
 Package: luci-i18n-sms-tool-js-ru
 Version: git-24.255.44995-eddd63f
@@ -890,17 +832,6 @@ Size: 5233
 SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
 Description:  Signal information for 3G/LTE dongle
 
-Package: pingcontrol
-Version: 1-1
-Depends: libc
-Section: utils
-Architecture: all
-Installed-Size: 1492
-Filename: pingcontrol_1-1_all.ipk
-Size: 2231
-SHA256sum: b39f4996646a270a77ce8793a53628d40bc6010ca440df66de1274ac7014e3f3
-Description:  This package contains a utility for managing the interface using ping requests.
-
 Package: qbittorrent
 Version: 4.6.6-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
@@ -1006,13 +937,13 @@ Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM
 
 Package: youtubeUnblock
 Version: 0.3.2-mediatek-1
-Depends: libc, libpthread
+Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 23486
 Filename: youtubeUnblock_0.3.2-mediatek-1_aarch64_cortex-a53.ipk
-Size: 24090
-SHA256sum: 7de0ac27930f148a0e46b96fe05d19f62d0485aa2cb432cee23c2e89f848a868
+Size: 24111
+SHA256sum: eee14c7218e58eb1c0d348e80966ee346fd34860c649f6a655be739a4ec543a6
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
