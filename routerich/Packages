@@ -1,25 +1,13 @@
-Package: 3proxy
-Version: 0.9.4-2
-Depends: libc, libpthread, libopenssl3, libpcre2
-License: GPLv2
-Section: net
-Architecture: aarch64_cortex-a53
-Installed-Size: 111026
-Filename: 3proxy_0.9.4-2_aarch64_cortex-a53.ipk
-Size: 111465
-SHA256sum: 03d75b72c3460529b5c12612146b94ac001a7668ab0b4112af89ed60fdd394ff
-Description:  3APA3A 3proxy tiny proxy servers
-
 Package: accel-ppp
 Version: 1.13.0-4
 Depends: libc, libpcre, libopenssl3, libpthread, librt, libatomic1, libucontext
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 341441
+Installed-Size: 341442
 Filename: accel-ppp_1.13.0-4_aarch64_cortex-a53.ipk
-Size: 338135
-SHA256sum: 6d5acd71b15ee4751ae587114e8170e1ea1ec0eb4ed72a063b47b9789804dd10
+Size: 338139
+SHA256sum: c044e941f65ffcabd0416aaf3aaf23e637d62087653c2232aa230d19125cf8c7
 Description:  accel-ppp VPN server
 
 Package: amneziawg-tools
@@ -57,25 +45,28 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 
 Package: base-config-routerich
 Version: 1-1
-Depends: libc
+Depends: libc, kmod-mtd-rw, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, iptables-zz-legacy
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 1553
+Installed-Size: 341050
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 2244
-SHA256sum: c9c152d4df349e37f95854b028f5e7256ac23c02f3453c2ab500d6364aaeb1b1
+Size: 340416
+SHA256sum: 6cc48c49c3070cd68ae965ea57851e73aebf12e5a15ff5ecf051345b475a84a5
 Description:  Base config
 
-Package: cellled
-Version: 0.0.1-1
-Depends: libc
-Section: opt
-Architecture: all
-Installed-Size: 1875
-Filename: cellled_0.0.1-1_all.ipk
-Size: 2599
-SHA256sum: cb541c7d31d9a8d4edb659e970c6c6c0841d4242194b29a215cc334da268caf5
-Description:  Indicate LED cellular signal signal strength.
+Package: dnsproxy
+Version: 0.73.2-2
+Depends: libc, ca-bundle
+License: Apache-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 2725440
+Filename: dnsproxy_0.73.2-2_aarch64_cortex-a53.ipk
+Size: 2726843
+SHA256sum: 3d5d8dbf0dab727137baf0767005900b431c0ddd302a7ec31e6feca7e8fb7cd7
+Description:  A simple DNS proxy server that supports all existing DNS protocols including
+ DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
+ work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
 
 Package: filebrowser
 Version: 2.31.1-1
@@ -160,6 +151,18 @@ Size: 67501
 SHA256sum: ee6d2cb0c68726a3f6491b00030f99026c83270bfd51e3f1c48111438c3a873f
 Description:  This package provides the Qt6 Xml v6.7.2 library.
 
+Package: lua-ipops
+Version: 0.0.1-1
+Depends: libc, lua
+License: GPL-2.0
+Section: opt
+Architecture: all
+Installed-Size: 2591
+Filename: lua-ipops_0.0.1-1_all.ipk
+Size: 3324
+SHA256sum: 4d2b46fe7c532f2bd1b68a759ace3f0c7dd4617d465e94b50dea153cd95baa86
+Description:  lua ipops lib
+
 Package: luci-app-3ginfo-lite
 Version: 1.0.74-20240827
 Depends: libc, sms-tool, comgt, kmod-usb-serial-option
@@ -171,38 +174,26 @@ Size: 111335
 SHA256sum: 2f3d8f42031b411404d9605a8fa2c257955b25a70c2bb3cd71767e351db42b89
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
-Package: luci-app-3proxy
-Version: 0.1.0
-Depends: libc, 3proxy
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 994
-Filename: luci-app-3proxy_0.1.0_all.ipk
-Size: 1824
-SHA256sum: bbe74f284b5517f72a634c1020bbd4ba67371deb8ec91e22b97ce1d8ef4a8e16
-Description:  3proxy simple webUI
-
 Package: luci-app-access-control
 Version: 0.4.4
 Depends: libc, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 4020
+Installed-Size: 4019
 Filename: luci-app-access-control_0.4.4_all.ipk
-Size: 5032
-SHA256sum: a64dcc2dc9be30b7c78662f7034e107a04411df9ad64f8e9ac97a73449c7b6ad
+Size: 5030
+SHA256sum: d8abb7f6b2c661b412c012239dc7c31c331bffc662b105e1e8db1c07adc6adfd
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
-Version: git-24.250.66598-3fedd25
+Version: git-24.260.55527-cc627d3
 Depends: libc, amneziawg-tools, ucode
 Section: luci
 Architecture: all
-Installed-Size: 10777
-Filename: luci-app-amneziawg_git-24.250.66598-3fedd25_all.ipk
-Size: 11643
-SHA256sum: fb68244c2a786fc506333f019ec6b4486f9e9d953d115d29e826dcf0d9976ec5
+Installed-Size: 10780
+Filename: luci-app-amneziawg_git-24.260.55527-cc627d3_all.ipk
+Size: 11651
+SHA256sum: 952d8a62926739b664f9f29ca54497423be71ee74bb92f18be4812f86712a236
 Description:  Support for AmneziaWG VPN
 
 Package: luci-app-atinout
@@ -215,17 +206,6 @@ Filename: luci-app-atinout_0.1.0-1_all.ipk
 Size: 3760
 SHA256sum: 0973fda4c839e4959c19d045eb86094a41279625857ba09fceaf17be1b3354d4
 Description:  LuCI JS interface for the atinout.
-
-Package: luci-app-cellled
-Version: 0.1.0-2
-Depends: libc, cellled
-Section: luci
-Architecture: all
-Installed-Size: 2196
-Filename: luci-app-cellled_0.1.0-2_all.ipk
-Size: 3045
-SHA256sum: b46197d48a4ce497eaa918549dec38da59a0e73c2b7f0f01a639dd12fbd3f535
-Description:  LuCI application for showing cellular RSSI LED
 
 Package: luci-app-filebrowser-go
 Version: git-24.252.39226-c89d418
@@ -296,6 +276,29 @@ Size: 5979
 SHA256sum: f9ac85ee6bd34233027d0b3c5cbdc326d3131126d08ac7713cf29f379feb9345
 Description:  Information dashboard for 3G/LTE dongle
 
+Package: luci-app-mosdns
+Version: 1.6.5
+Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
+Section: luci
+Architecture: all
+Installed-Size: 102677
+Filename: luci-app-mosdns_1.6.5_all.ipk
+Size: 103470
+SHA256sum: 2050fc3e26675bb22a5f622ab46b6b1f675e1f2c4eeff71f585c5dddb9f6a5a8
+Description:  LuCI Support for mosdns
+
+Package: luci-app-natflow-users
+Version: 1.0.1-1
+Depends: libc, natflow-auth, luci-compat, tc-tiny
+License: GPLv3
+Section: opt
+Architecture: all
+Installed-Size: 9755
+Filename: luci-app-natflow-users_1.0.1-1_all.ipk
+Size: 10624
+SHA256sum: 93a56a0be7a2c9df346a93f5adda8e94b4ea55c9e582766ba38634200c4177a2
+Description:  LuCI Support for natflow users.
+
 Package: luci-app-qbittorrent
 Version: 1.0.1
 Depends: libc, qbittorrent
@@ -330,6 +333,18 @@ Size: 8438
 SHA256sum: 7de12a55a1ceed14427403cd115528bd41f638cc5da5e8be1f261dd8f82f4bb4
 Description:  Web UI for smstools3
 
+Package: luci-app-telegrambot
+Version: 0.1.0-3
+Depends: libc, telegrambot
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 992
+Filename: luci-app-telegrambot_0.1.0-3_all.ipk
+Size: 1865
+SHA256sum: b78a03cd4f41b729fc8daccecee9fab6262b976849a780c9658fc56cb23124a1
+Description:  TelegramBot simple webUI
+
 Package: luci-app-ttl
 Version: 0.0.3-0
 Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt
@@ -358,11 +373,22 @@ Version: 1.0.0-1
 Depends: libc, luci-base, rpcd-mod-iwinfo
 Section: opt
 Architecture: all
-Installed-Size: 3903
+Installed-Size: 4053
 Filename: luci-app-wizard_1.0.0-1_all.ipk
-Size: 4743
-SHA256sum: dbe4fd0fb42dd5a2ddf895ca9148aa9ae533784d6752ebb845f3990efd7bd0d2
+Size: 4904
+SHA256sum: 9f9f4f41f6a927ada0ec106ffbdd6463cb26bd9ae765ae7b9a4a714eb9095c6c
 Description:  LuCI Support for wizard.
+
+Package: luci-app-youtubeUnblock
+Version: 1.0.0-mediatek-1
+Depends: libc, youtubeUnblock
+Section: services
+Architecture: aarch64_cortex-a53
+Installed-Size: 3181
+Filename: luci-app-youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
+Size: 3948
+SHA256sum: 9b29bd994b9c481d63fe43a207eeaada3400f7efb51b0a45006dd2537b4633c2
+Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: luci-app-zerotier
 Version: git-24.246.71936-f2165eb
@@ -386,27 +412,15 @@ Size: 3291
 SHA256sum: 6d1d912a8873892a2cb4ef3ab2cd6f3f5a0f6a991066423c2f29efbaef6cee4d
 Description:  Translation for luci-app-3ginfo-lite - Русский (Russian)
 
-Package: luci-i18n-3proxy-ru
-Version: git-24.255.44995-eddd63f
-Depends: libc, luci-app-3proxy
-License: GPLv3
-Section: luci
-Architecture: all
-Installed-Size: 476
-Filename: luci-i18n-3proxy-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1247
-SHA256sum: 9d56e628b69040e135ee5f1e033eb2354be7d99e878df2a8b15cc25515a5dafe
-Description:  Translation for luci-app-3proxy - Русский (Russian)
-
 Package: luci-i18n-access-control-ru
-Version: git-24.255.46329-f323f19
+Version: git-24.257.68090-39128d1
 Depends: libc, luci-app-access-control
 Section: luci
 Architecture: all
-Installed-Size: 1227
-Filename: luci-i18n-access-control-ru_git-24.255.46329-f323f19_all.ipk
-Size: 1983
-SHA256sum: 7ae6f43dfcf5a8fcc472ea45a1e9d875a08afc2ff7e83f44c6585ca1d3e0cc8a
+Installed-Size: 1230
+Filename: luci-i18n-access-control-ru_git-24.257.68090-39128d1_all.ipk
+Size: 1990
+SHA256sum: 09603f59b4d38251cc8ab5556ea8b57fd6aedc3cb8c826b3008f8c0aa56f74a2
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
@@ -419,17 +433,6 @@ Filename: luci-i18n-atinout-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 1689
 SHA256sum: 79227c4c88e96567e1fdc7eda9230ec68f13c93236db033c2581e628d1ea00da
 Description:  Translation for luci-app-atinout - Русский (Russian)
-
-Package: luci-i18n-cellled-ru
-Version: git-24.255.44995-eddd63f
-Depends: libc, luci-app-cellled
-Section: luci
-Architecture: all
-Installed-Size: 839
-Filename: luci-i18n-cellled-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1596
-SHA256sum: b33ae8099d4c67d35f59c643063ebc6a63717082fc9661dec3a445d10a972c5e
-Description:  Translation for luci-app-cellled - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
 Version: git-24.252.41075-d2f498a
@@ -522,6 +525,18 @@ Filename: luci-i18n-smstools3-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 3279
 SHA256sum: 1e00610352eab2c39922760b65cff3641c50a63e25bff12f352922d5b539918a
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
+
+Package: luci-i18n-telegrambot-ru
+Version: git-24.255.44995-eddd63f
+Depends: libc, luci-app-telegrambot
+License: GPLv3
+Section: luci
+Architecture: all
+Installed-Size: 784
+Filename: luci-i18n-telegrambot-ru_git-24.255.44995-eddd63f_all.ipk
+Size: 1553
+SHA256sum: 5d74b651a7cf46a693e7d4ecc74a8910393fa617a3e13d62e61c4783f0c891cd
+Description:  Translation for luci-app-telegrambot - Русский (Russian)
 
 Package: luci-i18n-ttl-ru
 Version: git-24.255.44995-eddd63f
@@ -832,6 +847,54 @@ Size: 5233
 SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
 Description:  Signal information for 3G/LTE dongle
 
+Package: mosdns
+Version: 5.3.3-1
+Depends: libc, ca-bundle
+License: GPL-3.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 6154706
+Filename: mosdns_5.3.3-1_aarch64_cortex-a53.ipk
+Size: 6136196
+SHA256sum: dc3374eefeb81bc7ae3612fbab087642b6c771b5ced68013f51f0de03f09d206
+Description:  A plug-in DNS forwarder/splitter
+
+Package: natflow-auth
+Version: 20240910
+Depends: libc, kmod-natflow, ipset, lua-ipops
+License: GPL-2.0
+Section: opt
+Architecture: aarch64_cortex-a53
+Installed-Size: 3864
+Filename: natflow-auth_20240910_aarch64_cortex-a53.ipk
+Size: 4658
+SHA256sum: f2f2e11f4bd51cfc8b82c884ee40731aa01e7ae5c1aa59de62f753fcafac5315
+Description:  natflow auth init script
+
+Package: natflow-hostacl
+Version: 20240910
+Depends: libc, natflow-auth, urllogger
+License: GPL-2.0
+Section: opt
+Architecture: aarch64_cortex-a53
+Installed-Size: 1211
+Filename: natflow-hostacl_20240910_aarch64_cortex-a53.ipk
+Size: 2023
+SHA256sum: 9602d6105955af955a8fb508153b66ccbd0b17cb7724d58187b2d061cab35a66
+Description:  natflow hostacl init script
+
+Package: natflow
+Version: 20240910
+Depends: libc, ethtool, kmod-natflow
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 988
+Filename: natflow_20240910_aarch64_cortex-a53.ipk
+Size: 1755
+SHA256sum: d46ccd3aec79744437c9c066ca14afcca206145f7f253649c862b52b8a6b0ad5
+Description:  Natflow init script
+
 Package: qbittorrent
 Version: 4.6.6-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
@@ -872,18 +935,6 @@ Size: 957534
 SHA256sum: d297b5f5314bac9df71247bc3bff58636c940b2440657f049ddd6b5a131c97bf
 Description:  Qt6 Plugin libqsqlite
 
-Package: qtools
-Version: 0.0.1-0~cross
-Depends: libc, libreadline8, libncurses6
-License: LICENSE
-Section: telephony
-Architecture: aarch64_cortex-a53
-Installed-Size: 190158
-Filename: qtools_0.0.1-0~cross_aarch64_cortex-a53.ipk
-Size: 188574
-SHA256sum: 177ff43ae8780df979c4e9a4a11df08185eaff0f16dd14759ff8169e4b97c766
-Description:  A set of tools for working with flash modems based on the Qualcom chipset The set consists of a package of utilities and a set of patched loaders.
-
 Package: rblibtorrent2.0
 Version: 2.0.10-1
 Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
@@ -911,6 +962,30 @@ Size: 6305
 SHA256sum: cf7327a9eb6bd0f457da9f4a45ef4d7409308398eb4356f5a241945d9df27cd5
 Description:  Telegram bot for router with firmware Lede/Openwrt.
 
+Package: urllogger
+Version: 0.0.1-1
+Depends: libc, kmod-natflow
+License: GPL-2.0
+Section: opt
+Architecture: aarch64_cortex-a53
+Installed-Size: 1358
+Filename: urllogger_0.0.1-1_aarch64_cortex-a53.ipk
+Size: 2116
+SHA256sum: c05bbb8700a534bf967396b9720a7ccc6d751ba1785920711565797c3835549b
+Description:  urllogger
+
+Package: v2dat
+Version: 2022-12-15-47b8ee51-1
+Depends: libc
+License: GPL-3.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 2815990
+Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_cortex-a53.ipk
+Size: 2807843
+SHA256sum: c62df9204dd7bda8313ea2e17f605336e873fb40c66e18e64a408321eb87c991
+Description:  V2ray geo/ip data unpack tools
+
 Package: vsftpd
 Version: 3.0.5-2
 Depends: libc, libuci20130104
@@ -936,14 +1011,14 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 0.3.2-mediatek-1
-Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
-Section: net
+Version: 1.0.0-mediatek-1
+Depends: libc, libpthread, luci-base, luci-compat
+Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 23486
-Filename: youtubeUnblock_0.3.2-mediatek-1_aarch64_cortex-a53.ipk
-Size: 24111
-SHA256sum: eee14c7218e58eb1c0d348e80966ee346fd34860c649f6a655be739a4ec543a6
+Installed-Size: 25508
+Filename: youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
+Size: 26141
+SHA256sum: d29dda1fb7eb5ebe2383c459a30a32d72a03859417647dc3ed39badc3af2ecdd
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
