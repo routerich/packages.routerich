@@ -107,17 +107,6 @@ Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
-Package: kmod-natflow
-Version: 5.15.162+20240910-1
-Depends: kernel (=5.15.162-1-21653748d3d89d206f894089ee987c51), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-License: GPL-2.0
-Section: kernel
-Architecture: aarch64_cortex-a53
-Installed-Size: 72945
-Filename: kmod-natflow_5.15.162+20240910-1_aarch64_cortex-a53.ipk
-Size: 73493
-SHA256sum: 8d3e627bd7875b8f1bd1da80877051027f1f9b7fa35b418f5819513a8d54b227
-Description:  fast nat forward kmod
 
 Package: libQt6Core
 Version: 6.7.2-1
