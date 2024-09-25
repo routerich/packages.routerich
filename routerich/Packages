@@ -1,15 +1,3 @@
-Package: accel-ppp
-Version: 1.13.0-4
-Depends: libc, libpcre, libopenssl3, libpthread, librt, libatomic1, libucontext
-License: GPL-2.0
-Section: net
-Architecture: aarch64_cortex-a53
-Installed-Size: 341442
-Filename: accel-ppp_1.13.0-4_aarch64_cortex-a53.ipk
-Size: 338139
-SHA256sum: c044e941f65ffcabd0416aaf3aaf23e637d62087653c2232aa230d19125cf8c7
-Description:  accel-ppp VPN server
-
 Package: amneziawg-tools
 Version: 1.0.20240213-1
 Depends: libc
@@ -54,20 +42,6 @@ Size: 340416
 SHA256sum: 6cc48c49c3070cd68ae965ea57851e73aebf12e5a15ff5ecf051345b475a84a5
 Description:  Base config
 
-Package: dnsproxy
-Version: 0.73.2-2
-Depends: libc, ca-bundle
-License: Apache-2.0
-Section: net
-Architecture: aarch64_cortex-a53
-Installed-Size: 2725440
-Filename: dnsproxy_0.73.2-2_aarch64_cortex-a53.ipk
-Size: 2726843
-SHA256sum: 3d5d8dbf0dab727137baf0767005900b431c0ddd302a7ec31e6feca7e8fb7cd7
-Description:  A simple DNS proxy server that supports all existing DNS protocols including
- DNS-over-TLS, DNS-over-HTTPS, DNSCrypt, and DNS-over-QUIC.Moreover, it can
- work as a DNS-over-HTTPS, DNS-over-TLS or DNS-over-QUIC server.
-
 Package: filebrowser
 Version: 2.31.1-1
 Depends: libc
@@ -107,6 +81,17 @@ Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
+Package: kmod-natflow
+Version: 5.15.162+20240910-1
+Depends: kernel (=5.15.162-1-03ba5b5fee47f2232a088e3cd9832aec), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+License: GPL-2.0
+Section: kernel
+Architecture: aarch64_cortex-a53
+Installed-Size: 72945
+Filename: kmod-natflow_5.15.162+20240910-1_aarch64_cortex-a53.ipk
+Size: 73490
+SHA256sum: 50822136504c798d92961e0412a97016097fdde842cb7e4192cc0ae7aa18bbe9
+Description:  fast nat forward kmod
 
 Package: libQt6Core
 Version: 6.7.2-1
@@ -276,17 +261,6 @@ Filename: luci-app-modeminfo_0.4.2-1_all.ipk
 Size: 5979
 SHA256sum: f9ac85ee6bd34233027d0b3c5cbdc326d3131126d08ac7713cf29f379feb9345
 Description:  Information dashboard for 3G/LTE dongle
-
-Package: luci-app-mosdns
-Version: 1.6.5
-Depends: libc, mosdns, jsonfilter, curl, v2ray-geoip, v2ray-geosite, v2dat
-Section: luci
-Architecture: all
-Installed-Size: 102677
-Filename: luci-app-mosdns_1.6.5_all.ipk
-Size: 103470
-SHA256sum: 2050fc3e26675bb22a5f622ab46b6b1f675e1f2c4eeff71f585c5dddb9f6a5a8
-Description:  LuCI Support for mosdns
 
 Package: luci-app-natflow-users
 Version: 1.0.1-1
@@ -848,18 +822,6 @@ Size: 5233
 SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
 Description:  Signal information for 3G/LTE dongle
 
-Package: mosdns
-Version: 5.3.3-1
-Depends: libc, ca-bundle
-License: GPL-3.0
-Section: net
-Architecture: aarch64_cortex-a53
-Installed-Size: 6154706
-Filename: mosdns_5.3.3-1_aarch64_cortex-a53.ipk
-Size: 6136196
-SHA256sum: dc3374eefeb81bc7ae3612fbab087642b6c771b5ced68013f51f0de03f09d206
-Description:  A plug-in DNS forwarder/splitter
-
 Package: natflow-auth
 Version: 20240910
 Depends: libc, kmod-natflow, ipset, lua-ipops
@@ -974,18 +936,6 @@ Filename: urllogger_0.0.1-1_aarch64_cortex-a53.ipk
 Size: 2116
 SHA256sum: c05bbb8700a534bf967396b9720a7ccc6d751ba1785920711565797c3835549b
 Description:  urllogger
-
-Package: v2dat
-Version: 2022-12-15-47b8ee51-1
-Depends: libc
-License: GPL-3.0
-Section: utils
-Architecture: aarch64_cortex-a53
-Installed-Size: 2815990
-Filename: v2dat_2022-12-15-47b8ee51-1_aarch64_cortex-a53.ipk
-Size: 2807843
-SHA256sum: c62df9204dd7bda8313ea2e17f605336e873fb40c66e18e64a408321eb87c991
-Description:  V2ray geo/ip data unpack tools
 
 Package: vsftpd
 Version: 3.0.5-2
