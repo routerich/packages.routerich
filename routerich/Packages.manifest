@@ -142,6 +142,22 @@ Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
+Package: kmod-natflow
+Version: 5.15.162+20240910-1
+Depends: kernel (=5.15.162-1-21653748d3d89d206f894089ee987c51), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+Source: feeds/routerich/natflow/package_new_natflow
+SourceName: kmod-natflow
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1726690773
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 72945
+Filename: kmod-natflow_5.15.162+20240910-1_aarch64_cortex-a53.ipk
+Size: 73493
+SHA256sum: 8d3e627bd7875b8f1bd1da80877051027f1f9b7fa35b418f5819513a8d54b227
+Description:  fast nat forward kmod
+
 Package: libQt6Core
 Version: 6.7.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
@@ -498,12 +514,12 @@ Depends: libc, luci-base, rpcd-mod-iwinfo
 Source: feeds/routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1727183927
+SourceDateEpoch: 1727209314
 Architecture: all
 Installed-Size: 4053
 Filename: luci-app-wizard_1.0.0-1_all.ipk
-Size: 4904
-SHA256sum: 9f9f4f41f6a927ada0ec106ffbdd6463cb26bd9ae765ae7b9a4a714eb9095c6c
+Size: 4892
+SHA256sum: b1c7d9db73ef5d58508f275d0c905ab8fe1c12ea55b31077adb300d918c1296a
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
