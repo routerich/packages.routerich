@@ -6986,10 +6986,10 @@ Depends: kernel (=5.15.162-1-03ba5b5fee47f2232a088e3cd9832aec), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 79840
+Installed-Size: 79883
 Filename: kmod-mt7915e_5.15.162+2024-04-03-1e336a85-1_aarch64_cortex-a53.ipk
-Size: 80308
-SHA256sum: 5a8aa93a63266732e77bec62be30935673cc6d6f763dc69036f3de166ae2a1ec
+Size: 80297
+SHA256sum: 36758ba9c07977df0fb8e0164d05ff5fc278e3e9daa4b4e1f4575f4800c0d31b
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7916-firmware
