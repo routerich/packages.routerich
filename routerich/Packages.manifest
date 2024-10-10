@@ -43,33 +43,33 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 
 Package: base-config-routerich
 Version: 1-1
-Depends: libc, kmod-mtd-rw, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, iptables-zz-legacy
+Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, iptables-zz-legacy, kmod-nf-nathelper-extra
 Source: feeds/routerich/base-config-routerich
 SourceName: base-config-routerich
 Section: config
-SourceDateEpoch: 1727205536
+SourceDateEpoch: 1728587841
 Architecture: aarch64_cortex-a53
-Installed-Size: 341050
+Installed-Size: 341147
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 340416
-SHA256sum: 6cc48c49c3070cd68ae965ea57851e73aebf12e5a15ff5ecf051345b475a84a5
+Size: 340537
+SHA256sum: a6ed8ed2d27a7525fb1e2555f3fb83a612ab72b942ba8e7712c1343924ac1743
 Description:  Base config
 
 Package: filebrowser
-Version: 2.31.1-1
+Version: 2.31.2-1
 Depends: libc
 Source: feeds/routerich/filebrowser
 SourceName: filebrowser
 License: Apache-2.0
 LicenseFiles: LICENSE
 Section: utils
-SourceDateEpoch: 1725726026
+SourceDateEpoch: 1728066102
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6087507
-Filename: filebrowser_2.31.1-1_aarch64_cortex-a53.ipk
-Size: 6089446
-SHA256sum: 75caf6a8416fa457aaca428a0d060d98e64df0e1c18547be96f716d80c38ed68
+Installed-Size: 6085864
+Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
+Size: 6087800
+SHA256sum: 9734ba64608a8f8af202844199de917595fcb544835b8b1ae669cdd5d3fbc579
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -106,22 +106,6 @@ Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
-Package: kmod-natflow
-Version: 5.15.162+20240910-1
-Depends: kernel (=5.15.162-1-03ba5b5fee47f2232a088e3cd9832aec), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-Source: feeds/routerich/natflow/package_new_natflow
-SourceName: kmod-natflow
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1726690773
-Maintainer: Chen Minqiang <ptpt52@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 72945
-Filename: kmod-natflow_5.15.162+20240910-1_aarch64_cortex-a53.ipk
-Size: 73490
-SHA256sum: 50822136504c798d92961e0412a97016097fdde842cb7e4192cc0ae7aa18bbe9
-Description:  fast nat forward kmod
-
 Package: libQt6Core
 Version: 6.7.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
@@ -133,7 +117,7 @@ Architecture: aarch64_cortex-a53
 Installed-Size: 2817520
 Filename: libQt6Core_6.7.2-1_aarch64_cortex-a53.ipk
 Size: 2810159
-SHA256sum: c981d2ff1be7919d568bf303d959802f286549bed552003e73b85c7c4313a4e8
+SHA256sum: 905d57de02aa544cb7b4b37bfc400fe8b0c305faf8ac78eaf615a27346d004dd
 Description:  This package provides the Qt6 Core v6.7.2 library.
 
 Package: libQt6Network
@@ -144,10 +128,10 @@ SourceName: libQt6Network
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 861187
+Installed-Size: 861186
 Filename: libQt6Network_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 860081
-SHA256sum: e352e231b988eb782c2d402b776dce9e9e0c18d50a2ab08abd4bd3082ae385ac
+Size: 860086
+SHA256sum: 2c4dd81e34ff099ba94e10c1879b289ec0ff492a585764cc98587ecea75dcdc0
 Description:  This package provides the Qt6 Network v6.7.2 library.
 
 Package: libQt6Sql
@@ -160,8 +144,8 @@ SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
 Installed-Size: 79717
 Filename: libQt6Sql_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 80116
-SHA256sum: 678a5a50499fbfa7340fc101b4e71bf2ccbffcd065e2c8d5564c6e800cbf93ff
+Size: 80133
+SHA256sum: 6549686c329e600edeaa7a78aae5e3444812164c0f4f968ce903b3da3fa202ee
 Description:  This package provides the Qt6 Sql v6.7.2 library.
 
 Package: libQt6Xml
@@ -172,10 +156,10 @@ SourceName: libQt6Xml
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 66787
+Installed-Size: 66788
 Filename: libQt6Xml_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 67501
-SHA256sum: ee6d2cb0c68726a3f6491b00030f99026c83270bfd51e3f1c48111438c3a873f
+Size: 67509
+SHA256sum: d6a57e51807eeecbb55e917ff4a1d459b7aa3d08c7ba60e7650f55a62a65cdf1
 Description:  This package provides the Qt6 Xml v6.7.2 library.
 
 Package: lua-ipops
@@ -253,6 +237,21 @@ Filename: luci-app-atinout_0.1.0-1_all.ipk
 Size: 3760
 SHA256sum: 0973fda4c839e4959c19d045eb86094a41279625857ba09fceaf17be1b3354d4
 Description:  LuCI JS interface for the atinout.
+
+Package: luci-app-autoreboot
+Version: 1.0
+Depends: libc, luci-compat, luci-lua-runtime
+Source: feeds/routerich/luci-app-autoreboot
+SourceName: luci-app-autoreboot
+Section: luci
+SourceDateEpoch: 1728591935
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 1527
+Filename: luci-app-autoreboot_1.0_all.ipk
+Size: 2361
+SHA256sum: 8a4ad8d38f4c5554441ec4aaafd733d8189d0b2e04f5557f15d9fc48d75ea610
+Description:  LuCI support for Scheduled Reboot
 
 Package: luci-app-filebrowser-go
 Version: git-24.252.39226-c89d418
@@ -442,6 +441,22 @@ Size: 3720
 SHA256sum: 8ea61ab8881875c1bb972c6e93fdfea778fb38929f9412cc456a19e7690dcd9c
 Description:  Antitethering module for luci-app-firewall
 
+Package: luci-app-upnp
+Version: git-24.281.39563-4c404d2
+Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
+Source: feeds/routerich/luci-app-upnp
+SourceName: luci-app-upnp
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1728298763
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 3795
+Filename: luci-app-upnp_git-24.281.39563-4c404d2_all.ipk
+Size: 4679
+SHA256sum: 90d273ff0b2d68ebcdf2de064557df1d78da30cd52f5522825962a841f279775
+Description:  Universal Plug and Play (UPnP IGD) & PCP/NAT-PMP configuration module
+
 Package: luci-app-vsftpd
 Version: git-24.247.46290-8e5e6c3
 Depends: libc, vsftpd, luci-lua-runtime
@@ -463,12 +478,12 @@ Depends: libc, luci-base, rpcd-mod-iwinfo
 Source: feeds/routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1727209314
+SourceDateEpoch: 1728124321
 Architecture: all
-Installed-Size: 4053
+Installed-Size: 4225
 Filename: luci-app-wizard_1.0.0-1_all.ipk
-Size: 4892
-SHA256sum: b1c7d9db73ef5d58508f275d0c905ab8fe1c12ea55b31077adb300d918c1296a
+Size: 5074
+SHA256sum: f6ab81dc5047618473dab1655a6384df3af8a8d0407cf6050c14d4716e261202
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -477,13 +492,13 @@ Depends: libc, youtubeUnblock
 Source: feeds/routerich/youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 Section: services
-SourceDateEpoch: 1727180411
+SourceDateEpoch: 1728497116
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 3181
+Installed-Size: 3182
 Filename: luci-app-youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
-Size: 3948
-SHA256sum: 9b29bd994b9c481d63fe43a207eeaada3400f7efb51b0a45006dd2537b4633c2
+Size: 3952
+SHA256sum: bd2c261166243d236350714e1ebeb9ab2f5c43fa49ddc6b589f50e9118e661f6
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: luci-app-zerotier
@@ -542,6 +557,20 @@ Filename: luci-i18n-atinout-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 1689
 SHA256sum: 79227c4c88e96567e1fdc7eda9230ec68f13c93236db033c2581e628d1ea00da
 Description:  Translation for luci-app-atinout - Русский (Russian)
+
+Package: luci-i18n-autoreboot-ru
+Version: git-24.284.73535-ae453b8
+Depends: libc, luci-app-autoreboot
+Source: feeds/routerich/luci-app-autoreboot
+SourceName: luci-i18n-autoreboot-ru
+Section: luci
+SourceDateEpoch: 1728591935
+Architecture: all
+Installed-Size: 559
+Filename: luci-i18n-autoreboot-ru_git-24.284.73535-ae453b8_all.ipk
+Size: 1310
+SHA256sum: e5867e7a15cda57bdfe012f1c541ef8e662b21d59a43f79ccb76df010ae8de5f
+Description:  Translation for luci-app-autoreboot - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
 Version: git-24.252.41075-d2f498a
@@ -689,6 +718,22 @@ Size: 1679
 SHA256sum: 18f005244caa391dd97e7978ed892115445998c43f0ea68329e564b14457a670
 Description:  Translation for luci-app-ttl - Русский (Russian)
 
+Package: luci-i18n-upnp-ru
+Version: git-24.281.39563-4c404d2
+Depends: libc, luci-app-upnp
+Source: feeds/routerich/luci-app-upnp
+SourceName: luci-i18n-upnp-ru
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1728298763
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: all
+Installed-Size: 1802
+Filename: luci-i18n-upnp-ru_git-24.281.39563-4c404d2_all.ipk
+Size: 2608
+SHA256sum: 7b88907c20fab8c2fdc258119b491b9db430314dcdcb53696cb5e71b65ca983f
+Description:  Translation for luci-app-upnp - Русский (Russian)
+
 Package: luci-i18n-vsftpd-ru
 Version: git-24.250.49664-12eb8d3
 Depends: libc, luci-app-vsftpd
@@ -761,6 +806,25 @@ Filename: luci-theme-routerich_1.0.2_all.ipk
 Size: 455070
 SHA256sum: 15552caad33d910e6f85bc6abd7b04a1526164032bccbc59a891cac2ac89eb18
 Description:  Routerich Theme
+
+Package: miniupnpd-nftables
+Version: 20240802-1
+Depends: libc, libcap, libmnl0, libuuid1, libnftnl11
+Conflicts: miniupnpd-iptables
+Provides: miniupnpd
+Source: feeds/routerich/miniupnpd
+SourceName: miniupnpd-nftables
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728298763
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 87539
+Filename: miniupnpd-nftables_20240802-1_aarch64_cortex-a53.ipk
+Size: 88331
+SHA256sum: f575b9865266216139d0797c7f45f1760e215a42cb3dede90b510890e5086fe2
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: modemband
 Version: 20240616
@@ -1093,51 +1157,51 @@ SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
 Description:  Signal information for 3G/LTE dongle
 
 Package: natflow-auth
-Version: 20240910
+Version: 20241002
 Depends: libc, kmod-natflow, ipset, lua-ipops
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow-auth
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1726690773
+SourceDateEpoch: 1728587816
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 3864
-Filename: natflow-auth_20240910_aarch64_cortex-a53.ipk
-Size: 4658
-SHA256sum: f2f2e11f4bd51cfc8b82c884ee40731aa01e7ae5c1aa59de62f753fcafac5315
+Filename: natflow-auth_20241002_aarch64_cortex-a53.ipk
+Size: 4655
+SHA256sum: 76acd8ba426b7d11594ba6e62379cab12d50c486c2b404d8800e31a2d574052a
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20240910
+Version: 20241002
 Depends: libc, natflow-auth, urllogger
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow-hostacl
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1726690773
+SourceDateEpoch: 1728587816
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1211
-Filename: natflow-hostacl_20240910_aarch64_cortex-a53.ipk
-Size: 2023
-SHA256sum: 9602d6105955af955a8fb508153b66ccbd0b17cb7724d58187b2d061cab35a66
+Filename: natflow-hostacl_20241002_aarch64_cortex-a53.ipk
+Size: 2019
+SHA256sum: 36da75cd17fffa6e1fff3dedadb62ece328b707f189d5dd5fef886da9d948c0e
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20240910
+Version: 20241002
 Depends: libc, ethtool, kmod-natflow
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1726690773
+SourceDateEpoch: 1728587816
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 988
-Filename: natflow_20240910_aarch64_cortex-a53.ipk
-Size: 1755
-SHA256sum: d46ccd3aec79744437c9c066ca14afcca206145f7f253649c862b52b8a6b0ad5
+Installed-Size: 989
+Filename: natflow_20241002_aarch64_cortex-a53.ipk
+Size: 1751
+SHA256sum: 6739aa845251de82e11f05f206c88e528975e31d8d7c71f0bc4332a83dab9a27
 Description:  Natflow init script
 
 Package: qbittorrent
@@ -1152,10 +1216,10 @@ Section: net
 SourceDateEpoch: 1725746492
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7889666
+Installed-Size: 7889625
 Filename: qbittorrent_4.6.6-1_aarch64_cortex-a53.ipk
-Size: 7884019
-SHA256sum: f7aa30fb65c0d54e1fb16968238d33a6bd18c7a98df5ec305bfc267777a518f4
+Size: 7883927
+SHA256sum: 98021085f2ceeeff4dfb8da8fbf7100481569df770477158f3782103318745c6
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1170,10 +1234,10 @@ SourceName: qt6-plugin-libqopensslbackend
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 118619
+Installed-Size: 118617
 Filename: qt6-plugin-libqopensslbackend_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 118836
-SHA256sum: 73b3c3a14abc1bdb2d26ab0fe19ace0e10a1cbc1c3403640668e45bcba1c9982
+Size: 118846
+SHA256sum: cc74ff0f800490dc174b58f015d5af448b2ce6ae6b0679834ab184cddff289c0
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
@@ -1184,10 +1248,10 @@ SourceName: qt6-plugin-libqsqlite
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 957367
+Installed-Size: 957366
 Filename: qt6-plugin-libqsqlite_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 957534
-SHA256sum: d297b5f5314bac9df71247bc3bff58636c940b2440657f049ddd6b5a131c97bf
+Size: 957533
+SHA256sum: 3302e64f9f443279e5ff0866c79fc44c4e14a34c63f86449a6289da2e935946a
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0
@@ -1202,10 +1266,10 @@ Section: libs
 SourceDateEpoch: 1725746492
 ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
-Installed-Size: 1366703
+Installed-Size: 1366698
 Filename: rblibtorrent2.0_2.0.10-1_aarch64_cortex-a53.ipk
-Size: 1363578
-SHA256sum: cef41e4182e62d117292f1230880b5cf3cd95926c1cbe83cf9b563ce5a4cfd53
+Size: 1363650
+SHA256sum: c8e95e6e2ca6e03ba63263331354bc2bc3067237b5f54e22bc9e5ad565f0e2cf
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -1279,13 +1343,13 @@ Depends: libc, libpthread, luci-base, luci-compat
 Source: feeds/routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1727180411
+SourceDateEpoch: 1728497116
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 25508
+Installed-Size: 25517
 Filename: youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
-Size: 26141
-SHA256sum: d29dda1fb7eb5ebe2383c459a30a32d72a03859417647dc3ed39badc3af2ecdd
+Size: 26154
+SHA256sum: cdaddbf57b657bae0aac1b53277228cdf73b5bc4cf039e773c487925a29e9b19
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
