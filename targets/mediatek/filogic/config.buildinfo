@@ -6,6 +6,7 @@ CONFIG_ALL_NONSHARED=y
 CONFIG_DEVEL=y
 CONFIG_CCACHE=y
 # CONFIG_FEED_routerich is not set
+CONFIG_IB=y
 CONFIG_IMAGEOPT=y
 CONFIG_LIBCURL_COOKIES=y
 CONFIG_LIBCURL_FILE=y
@@ -373,3 +374,4 @@ CONFIG_boost-compile-visibility-hidden=y
 CONFIG_boost-runtime-shared=y
 CONFIG_boost-static-and-shared-libs=y
 CONFIG_boost-variant-release=y
+# CONFIG_IB_STANDALONE is not set

@@ -7293,15 +7293,15 @@ SHA256sum: 6cf13eb01304dc1d13c50ab6512429fb41e36ff3f011d85c253b89c140014d13
 Description:  Stateless NAT46 translation kernel module
 
 Package: kmod-natflow
-Version: 5.15.167+20241002-1
+Version: 5.15.167+20241012-1
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 72801
-Filename: kmod-natflow_5.15.167+20241002-1_aarch64_cortex-a53.ipk
-Size: 73384
-SHA256sum: e1d7448793289c723bc9adc0a093b98979de7947123b33ea2f490147e97b311e
+Installed-Size: 72802
+Filename: kmod-natflow_5.15.167+20241012-1_aarch64_cortex-a53.ipk
+Size: 73448
+SHA256sum: 309bd59950929bbd67a4afc2148aee6beb50bee10a37974cb02117e783b863fa
 Description:  fast nat forward kmod
 
 Package: kmod-natsemi
