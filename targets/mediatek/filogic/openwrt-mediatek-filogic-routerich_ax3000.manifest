@@ -14,6 +14,7 @@ comgt-ncm - 0.32-35
 coreutils - 9.3-1
 coreutils-sha1sum - 9.3-1
 curl - 8.7.1-r1
+dbus - 1.13.18-12
 dnsmasq-full - 2.90-2
 dropbear - 2022.82-6
 e2fsprogs - 1.47.0-2
@@ -179,7 +180,9 @@ libcap - 2.69-1
 libcares - 1.27.0-1
 libcomerr0 - 1.47.0-2
 libcurl4 - 8.7.1-r1
+libdbus - 1.13.18-12
 libev - 4.33-2
+libexpat - 2.5.0-1
 libext2fs2 - 1.47.0-2
 libffi - 3.4.2-2
 libgcc1 - 12.3.0-4
@@ -198,7 +201,7 @@ liblucihttp-lua - 2023-03-15-9b5b683f-1
 liblucihttp-ucode - 2023-03-15-9b5b683f-1
 liblucihttp0 - 2023-03-15-9b5b683f-1
 libmbedtls12 - 2.28.9-1
-libmbim - 1.28.4-1
+libmbim - 1.31.6-d-1
 libminiupnpc - 2.2.3-1
 libmnl0 - 1.0.5-1
 libnatpmp1 - 20150609-3
@@ -216,7 +219,7 @@ libopenssl-legacy - 3.0.15-1
 libopenssl3 - 3.0.15-1
 libpcre2 - 10.42-1
 libpthread - 1.2.4-4
-libqmi - 1.32.4-1
+libqmi - 1.35.6-d-1
 libqrtr-glib - 1.2.2-3
 libreadline8 - 8.2-1
 librt - 1.2.4-4
@@ -238,6 +241,7 @@ libxtables12 - 1.8.8-2
 logd - 2022-08-13-4c7b720b-2
 lua - 5.1.5-11
 lua-bit32 - 5.3.0-1
+lua-cjson - 2.1.0-2
 luaposix - 35.1-1
 luci - git-23.051.66410-a505bb1
 luci-app-3ginfo-lite - 1.0.74-20240827
@@ -297,6 +301,7 @@ luci-proto-batman-adv - git-22.104.47289-0a762fd
 luci-proto-fm350 - git-24.255.44995-eddd63f
 luci-proto-ipv6 - git-24.086.45108-51aee90
 luci-proto-mbim - git-23.137.84224-37176dc
+luci-proto-modemmanager - unknown
 luci-proto-ncm - git-22.209.60806-049d876
 luci-proto-ppp - git-24.284.60835-e6cb537
 luci-proto-qmi - git-24.087.04037-98843bf
@@ -326,6 +331,7 @@ modeminfo-serial-tw - 0.4.2-6
 modeminfo-serial-xmm - 0.4.2-6
 modeminfo-serial-yuge - 0.4.2-6
 modeminfo-serial-zte - 0.4.2-6
+modemmanager - 1.23.12--20
 mtd - 26
 musl-fts - 1.2.7-1
 nano-full - 8.2-1
@@ -344,7 +350,7 @@ ppp-mod-pptp - 2.4.9.git-2021-01-04-4
 procd - 2023-06-25-2db83655-2
 procd-seccomp - 2023-06-25-2db83655-2
 procd-ujail - 2023-06-25-2db83655-2
-qmi-utils - 1.32.4-1
+qmi-utils - 1.35.6-d-1
 resolveip - 2
 rpcd - 2023-07-01-c07ab2f9-1
 rpcd-mod-file - 2023-07-01-c07ab2f9-1

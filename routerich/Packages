@@ -48,10 +48,10 @@ Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 6085864
+Installed-Size: 6087016
 Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
-Size: 6087800
-SHA256sum: 9734ba64608a8f8af202844199de917595fcb544835b8b1ae669cdd5d3fbc579
+Size: 6088957
+SHA256sum: fa81251070a077d5502f8928cc0aa2a08a500a905a737c1faca39b2b5fe20fec
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -124,6 +124,32 @@ Filename: libQt6Xml_6.7.2-1_aarch64_cortex-a53.ipk
 Size: 67509
 SHA256sum: d6a57e51807eeecbb55e917ff4a1d459b7aa3d08c7ba60e7650f55a62a65cdf1
 Description:  This package provides the Qt6 Xml v6.7.2 library.
+
+Package: libmbim
+Version: 1.31.6-d-1
+Depends: libc, glib2
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 180530
+Filename: libmbim_1.31.6-d-1_aarch64_cortex-a53.ipk
+Size: 180451
+SHA256sum: 4510a1c2028cfbc37413ae11a12b7b447669e7004e56a23b955d050385ca5272
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.
+
+Package: libqmi
+Version: 1.35.6-d-1
+Depends: libc, glib2, libmbim, libqrtr-glib
+License: LGPL-2.0-or-later
+Section: libs
+Architecture: aarch64_cortex-a53
+Installed-Size: 622105
+Filename: libqmi_1.35.6-d-1_aarch64_cortex-a53.ipk
+Size: 617471
+SHA256sum: cc764b8acc49a58b66abf7bb2e32d91c47fbb009daf90863012a6b31286e10a5
+Description:  Helper library talk to QMI enabled modems.
+ Add qmi-utils for extra utilities.
 
 Package: lua-ipops
 Version: 0.0.1-1
@@ -592,6 +618,18 @@ Size: 2190
 SHA256sum: 833925777908e5b3bf68f95b98536ecdcc9a8c57352d6d8b04f9cf4f99d81d0a
 Description:  Support for Fibocom FM350
 
+Package: luci-proto-modemmanager
+Version: unknown
+Depends: libc, modemmanager
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 4360
+Filename: luci-proto-modemmanager_unknown_all.ipk
+Size: 5177
+SHA256sum: 2dc4c18a26ac10934cc822ff7cd8195a29461c915c3deb5d30ecf2d784582c77
+Description:  Support for ModemManager
+
 Package: luci-proto-xmm
 Version: git-24.255.44995-eddd63f
 Depends: libc, xmm-modem
@@ -871,40 +909,54 @@ Size: 5233
 SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
 Description:  Signal information for 3G/LTE dongle
 
+Package: modemmanager
+Version: 1.23.12--20
+Depends: libc, glib2, dbus, ppp, lua-cjson, libmbim, libqmi, libqrtr-glib
+License: GPL-2.0-or-later
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 1313226
+Filename: modemmanager_1.23.12--20_aarch64_cortex-a53.ipk
+Size: 1293647
+SHA256sum: 3bb85bf4abd4e64c13cc6da642bf1b653fe2f214f5c409251b9c0cae8b3a47fb
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems. Add kernel modules for your modems as needed.
+ Select Utilities/usb-modeswitch if needed.
+
 Package: natflow-auth
-Version: 20241002
+Version: 20241012
 Depends: libc, kmod-natflow, ipset, lua-ipops
 License: GPL-2.0
 Section: opt
 Architecture: aarch64_cortex-a53
-Installed-Size: 3864
-Filename: natflow-auth_20241002_aarch64_cortex-a53.ipk
-Size: 4655
-SHA256sum: 76acd8ba426b7d11594ba6e62379cab12d50c486c2b404d8800e31a2d574052a
+Installed-Size: 3866
+Filename: natflow-auth_20241012_aarch64_cortex-a53.ipk
+Size: 4658
+SHA256sum: 90786755b9c73815c412c1304e1a5b361d1c7ad32c5a03b32144522efbfcdffe
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20241002
+Version: 20241012
 Depends: libc, natflow-auth, urllogger
 License: GPL-2.0
 Section: opt
 Architecture: aarch64_cortex-a53
-Installed-Size: 1211
-Filename: natflow-hostacl_20241002_aarch64_cortex-a53.ipk
-Size: 2019
-SHA256sum: 36da75cd17fffa6e1fff3dedadb62ece328b707f189d5dd5fef886da9d948c0e
+Installed-Size: 1212
+Filename: natflow-hostacl_20241012_aarch64_cortex-a53.ipk
+Size: 2012
+SHA256sum: e8c8a259ac6c3614fa7d76359b47166a704a206758a0d94a34ce8e2e7ada9617
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20241002
+Version: 20241012
 Depends: libc, ethtool, kmod-natflow
 License: GPL-2.0
 Section: net
 Architecture: aarch64_cortex-a53
 Installed-Size: 989
-Filename: natflow_20241002_aarch64_cortex-a53.ipk
-Size: 1751
-SHA256sum: 6739aa845251de82e11f05f206c88e528975e31d8d7c71f0bc4332a83dab9a27
+Filename: natflow_20241012_aarch64_cortex-a53.ipk
+Size: 1756
+SHA256sum: 234241e706f839b5dd92e443fcd49476f74b7cab1dd64411ac7bad9b8a0f9f43
 Description:  Natflow init script
 
 Package: qbittorrent
@@ -924,6 +976,18 @@ Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that use
  It aims to be a good alternative to all other bittorrent clients out
  there. qBittorrent is fast, stable and provides unicode support as
  well as many features.
+
+Package: qmi-utils
+Version: 1.35.6-d-1
+Depends: libc, libqmi
+License: GPL-2.0-or-later
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 150047
+Filename: qmi-utils_1.35.6-d-1_aarch64_cortex-a53.ipk
+Size: 145740
+SHA256sum: 83e5fa253a9a9340dc361cbf2ff11499aa0f725ab8d6b3d1cf7fd5b38065d47c
+Description:  Utilities to talk to QMI enabled modems
 
 Package: qt6-plugin-libqopensslbackend
 Version: 6.7.2-1
