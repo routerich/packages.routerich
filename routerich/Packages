@@ -36,10 +36,10 @@ Version: 1-1
 Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 341175
+Installed-Size: 341174
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 340520
-SHA256sum: bde1d17fb7701de3f5d16bf0ef664aa8d847e6b04d18a1c37966414d527791de
+Size: 340526
+SHA256sum: 170a56ef92f15687fc6044e33210fa40f6f5e6bf7baa0cd77640cc9496a38f45
 Description:  Base config
 
 Package: filebrowser
@@ -351,10 +351,10 @@ Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt, iptables-z
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2859
+Installed-Size: 2861
 Filename: luci-app-ttl_0.0.3-0_all.ipk
-Size: 3719
-SHA256sum: 2fb14c8da21a7cfaed6b56832580add446d4d1e06db904fad0f37134b7879b77
+Size: 3721
+SHA256sum: 25725c2966f691c5c8a0d23c075489ad0e195e837d31843aad955560a692512f
 Description:  Antitethering module for luci-app-firewall
 
 Package: luci-app-upnp
@@ -392,15 +392,16 @@ SHA256sum: f6ab81dc5047618473dab1655a6384df3af8a8d0407cf6050c14d4716e261202
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0.0-mediatek-1
-Depends: libc, youtubeUnblock
-Section: services
-Architecture: aarch64_cortex-a53
-Installed-Size: 3182
-Filename: luci-app-youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
-Size: 3952
-SHA256sum: bd2c261166243d236350714e1ebeb9ab2f5c43fa49ddc6b589f50e9118e661f6
-Description:  Bypasses Googlevideo detection systems that relies on SNI
+Version: 1.0
+Depends: libc, luci-base, luci-compat, luci-lua-runtime
+License: GPL
+Section: luci
+Architecture: all
+Installed-Size: 3506
+Filename: luci-app-youtubeUnblock_1.0_all.ipk
+Size: 4342
+SHA256sum: f41b66429b5112a69f93ce251325bf7f058d8a2ef1b817a1fff1bd5de486ee4d
+Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
 Version: git-24.246.71936-f2165eb
@@ -569,8 +570,8 @@ Section: luci
 Architecture: all
 Installed-Size: 912
 Filename: luci-i18n-ttl-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1679
-SHA256sum: 18f005244caa391dd97e7978ed892115445998c43f0ea68329e564b14457a670
+Size: 1677
+SHA256sum: 752bdd35ace077735de3f0afe4d1088e492eeb108f7c01d08731a0fa7f380b01
 Description:  Translation for luci-app-ttl - Русский (Russian)
 
 Package: luci-i18n-upnp-ru
@@ -642,14 +643,15 @@ SHA256sum: 7bfcc6889d1cfcff0d1dba3070b3148f09aa4bcaaa3ac4923e843a0c4e1a84b4
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.2
-Depends: libc, curl, jsonfilter, luci-lua-runtime
+Version: git-24.255.44995-eddd63f
+Depends: libc, luci-lua-runtime, luci-lua-runtime
+License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 454443
-Filename: luci-theme-routerich_1.0.2_all.ipk
-Size: 455070
-SHA256sum: 15552caad33d910e6f85bc6abd7b04a1526164032bccbc59a891cac2ac89eb18
+Installed-Size: 340982
+Filename: luci-theme-routerich_git-24.255.44995-eddd63f_all.ipk
+Size: 341550
+SHA256sum: 32c8b0b70fef92a040c13763d88c086be4231a1ae4fcf25caba4fb74011977ec
 Description:  Routerich Theme
 
 Package: miniupnpd-nftables
@@ -1075,14 +1077,14 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-1
-Depends: libc, libpthread, luci-base, luci-compat
+Version: 1.0.0-mediatek-2
+Depends: libc, libpthread
 Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 25517
-Filename: youtubeUnblock_1.0.0-mediatek-1_aarch64_cortex-a53.ipk
-Size: 26154
-SHA256sum: cdaddbf57b657bae0aac1b53277228cdf73b5bc4cf039e773c487925a29e9b19
+Installed-Size: 26911
+Filename: youtubeUnblock_1.0.0-mediatek-2_aarch64_cortex-a53.ipk
+Size: 27620
+SHA256sum: afb4e2ae63fa6e5c216a729bf6871374b8e076b96f34dafe37253f52a985ad51
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
