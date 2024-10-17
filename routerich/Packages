@@ -33,13 +33,13 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 
 Package: base-config-routerich
 Version: 1-1
-Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, iptables-zz-legacy, kmod-nf-nathelper-extra
+Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 341147
+Installed-Size: 341175
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 340537
-SHA256sum: a6ed8ed2d27a7525fb1e2555f3fb83a612ab72b942ba8e7712c1343924ac1743
+Size: 340520
+SHA256sum: bde1d17fb7701de3f5d16bf0ef664aa8d847e6b04d18a1c37966414d527791de
 Description:  Base config
 
 Package: filebrowser
@@ -131,10 +131,10 @@ Depends: libc, glib2
 License: LGPL-2.0-or-later
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 180530
+Installed-Size: 180528
 Filename: libmbim_1.31.6-d-1_aarch64_cortex-a53.ipk
-Size: 180451
-SHA256sum: 4510a1c2028cfbc37413ae11a12b7b447669e7004e56a23b955d050385ca5272
+Size: 180462
+SHA256sum: 850dbbdb3b264b1f24a46f3ab568b6429fbc6c256eb85931d892340e341572c9
 Description:  Helper library to talk to MBIM enabled modems.
  Add mbim-utils for extra utilities.
 
@@ -144,10 +144,10 @@ Depends: libc, glib2, libmbim, libqrtr-glib
 License: LGPL-2.0-or-later
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 622105
+Installed-Size: 622094
 Filename: libqmi_1.35.6-d-1_aarch64_cortex-a53.ipk
-Size: 617471
-SHA256sum: cc764b8acc49a58b66abf7bb2e32d91c47fbb009daf90863012a6b31286e10a5
+Size: 617539
+SHA256sum: 634f30f904f21c0e79177616e3e3a8ea4a1efe6dded662e06d2d42823d340cb3
 Description:  Helper library talk to QMI enabled modems.
  Add qmi-utils for extra utilities.
 
@@ -347,14 +347,14 @@ Description:  TelegramBot simple webUI
 
 Package: luci-app-ttl
 Version: 0.0.3-0
-Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt
+Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt, iptables-zz-legacy
 License: Apache-2.0
 Section: luci
 Architecture: all
 Installed-Size: 2859
 Filename: luci-app-ttl_0.0.3-0_all.ipk
-Size: 3720
-SHA256sum: 8ea61ab8881875c1bb972c6e93fdfea778fb38929f9412cc456a19e7690dcd9c
+Size: 3719
+SHA256sum: 2fb14c8da21a7cfaed6b56832580add446d4d1e06db904fad0f37134b7879b77
 Description:  Antitethering module for luci-app-firewall
 
 Package: luci-app-upnp
@@ -619,15 +619,15 @@ SHA256sum: 833925777908e5b3bf68f95b98536ecdcc9a8c57352d6d8b04f9cf4f99d81d0a
 Description:  Support for Fibocom FM350
 
 Package: luci-proto-modemmanager
-Version: unknown
+Version: git-24.291.43821-e263213
 Depends: libc, modemmanager
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4360
-Filename: luci-proto-modemmanager_unknown_all.ipk
-Size: 5177
-SHA256sum: 2dc4c18a26ac10934cc822ff7cd8195a29461c915c3deb5d30ecf2d784582c77
+Installed-Size: 4358
+Filename: luci-proto-modemmanager_git-24.291.43821-e263213_all.ipk
+Size: 5180
+SHA256sum: f34e7a6b08bdb3d0e59caf0aecafbaac8dda9c4b660ef2d036b6ca14f5b3f696
 Description:  Support for ModemManager
 
 Package: luci-proto-xmm
@@ -915,10 +915,10 @@ Depends: libc, glib2, dbus, ppp, lua-cjson, libmbim, libqmi, libqrtr-glib
 License: GPL-2.0-or-later
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 1313226
+Installed-Size: 1313166
 Filename: modemmanager_1.23.12--20_aarch64_cortex-a53.ipk
-Size: 1293647
-SHA256sum: 3bb85bf4abd4e64c13cc6da642bf1b653fe2f214f5c409251b9c0cae8b3a47fb
+Size: 1293292
+SHA256sum: b149d5b6a5b6ef64e10b4d51dc03475506aa549c83d5dfab0e16211dac02b7ca
 Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
  broadband modems. Add kernel modules for your modems as needed.
  Select Utilities/usb-modeswitch if needed.
@@ -983,10 +983,10 @@ Depends: libc, libqmi
 License: GPL-2.0-or-later
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 150047
+Installed-Size: 150048
 Filename: qmi-utils_1.35.6-d-1_aarch64_cortex-a53.ipk
-Size: 145740
-SHA256sum: 83e5fa253a9a9340dc361cbf2ff11499aa0f725ab8d6b3d1cf7fd5b38065d47c
+Size: 145793
+SHA256sum: 1d9e51842abbc109049a2b4a1ae58f7ba73087923f10670ab1d37ccbb1b125ca
 Description:  Utilities to talk to QMI enabled modems
 
 Package: qt6-plugin-libqopensslbackend
