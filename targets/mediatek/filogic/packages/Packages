@@ -989,10 +989,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 203843
+Installed-Size: 203862
 Filename: kmod-ath10k-smallbuffers_5.15.167+6.1.110-1-1_aarch64_cortex-a53.ipk
-Size: 202823
-SHA256sum: 86052678b3a6bc51f92f776448d9262ad1bd8b26d146b7931cddc9e44c5ccbdb
+Size: 202829
+SHA256sum: 4f5858366f7337a22fae54a1e9d83abe018f792162cb32fcf9f7f1609da2a585
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
@@ -1001,10 +1001,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 203830
+Installed-Size: 203853
 Filename: kmod-ath10k_5.15.167+6.1.110-1-1_aarch64_cortex-a53.ipk
-Size: 202829
-SHA256sum: dcf56bbb57ab2b98ae52cf89b4a82566055d4b725f7407f9e02933686c5d96d0
+Size: 202866
+SHA256sum: cd576501af1bc25f400971cd6ff34e8da28b724810362e62e54fffc927849e42
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.

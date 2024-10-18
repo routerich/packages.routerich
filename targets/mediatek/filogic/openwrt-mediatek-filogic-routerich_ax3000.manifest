@@ -34,7 +34,6 @@ internet-detector - 1.3.0-1
 ip-tiny - 6.3.0-1
 ipset - 7.17-1
 iptables-mod-ipopt - 1.8.8-2
-iptables-zz-legacy - 1.8.8-2
 iw - 5.19-1
 iwinfo - 2023-07-01-ca79f641-1
 jansson4 - 2.14-3
@@ -187,11 +186,7 @@ libext2fs2 - 1.47.0-2
 libffi - 3.4.2-2
 libgcc1 - 12.3.0-4
 libgmp10 - 6.2.1-1
-libip4tc2 - 1.8.8-2
-libip6tc2 - 1.8.8-2
 libipset13 - 7.17-1
-libiptext0 - 1.8.8-2
-libiptext6-0 - 1.8.8-2
 libiwinfo-data - 2023-07-01-ca79f641-1
 libiwinfo20230701 - 2023-07-01-ca79f641-1
 libjson-c5 - 0.16-3
@@ -395,8 +390,7 @@ wsdd2 - 2023-12-21-b676d8ac-1
 wwan - 2019-04-29-6
 xl2tpd - 1.3.18-1
 xmm-modem - 0.1.3-2
-xtables-legacy - 1.8.8-2
-youtubeUnblock - 1.0.0-mediatek-1
+youtubeUnblock - 1.0.0-mediatek-2
 zerotier - 1.14.0-1
 zlib - 1.2.13-1
 zram-swap - 32
