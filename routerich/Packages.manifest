@@ -1217,13 +1217,13 @@ SourceName: modemmanager
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1729168919
+SourceDateEpoch: 1729265931
 Maintainer: Nicholas Smith <nicholas@nbembedded.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1313166
+Installed-Size: 1313742
 Filename: modemmanager_1.23.12--20_aarch64_cortex-a53.ipk
-Size: 1293292
-SHA256sum: b149d5b6a5b6ef64e10b4d51dc03475506aa549c83d5dfab0e16211dac02b7ca
+Size: 1293473
+SHA256sum: 01ed027d7fd0b955ceba92083f3ee582843673f6b3190afebaf2449033dc2960
 Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
  broadband modems. Add kernel modules for your modems as needed.
  Select Utilities/usb-modeswitch if needed.
