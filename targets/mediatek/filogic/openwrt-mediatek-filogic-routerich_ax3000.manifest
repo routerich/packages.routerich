@@ -236,7 +236,6 @@ libxtables12 - 1.8.8-2
 logd - 2022-08-13-4c7b720b-2
 lua - 5.1.5-11
 lua-bit32 - 5.3.0-1
-lua-cjson - 2.1.0-2
 luaposix - 35.1-1
 luci - git-23.051.66410-a505bb1
 luci-app-3ginfo-lite - 1.0.74-20240827
@@ -296,7 +295,6 @@ luci-proto-batman-adv - git-22.104.47289-0a762fd
 luci-proto-fm350 - git-24.255.44995-eddd63f
 luci-proto-ipv6 - git-24.086.45108-51aee90
 luci-proto-mbim - git-23.137.84224-37176dc
-luci-proto-modemmanager - git-24.291.43821-e263213
 luci-proto-ncm - git-22.209.60806-049d876
 luci-proto-ppp - git-24.284.60835-e6cb537
 luci-proto-qmi - git-24.087.04037-98843bf
@@ -326,7 +324,6 @@ modeminfo-serial-tw - 0.4.2-6
 modeminfo-serial-xmm - 0.4.2-6
 modeminfo-serial-yuge - 0.4.2-6
 modeminfo-serial-zte - 0.4.2-6
-modemmanager - 1.23.12--20
 mtd - 26
 musl-fts - 1.2.7-1
 nano-full - 8.2-1

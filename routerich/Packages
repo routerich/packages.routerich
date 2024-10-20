@@ -68,6 +68,17 @@ Size: 3201
 SHA256sum: a5f0275ae1d444858e97c0564f9cc8ed63f3331d0d6e7feb95a3f5579e5547b4
 Description:  Simple connect to cellular for Fibocom FM350 module
 
+Package: internet-detector-mod-modem-restart
+Version: 1.3.0-1
+Depends: libc, internet-detector, modemmanager
+Section: net
+Architecture: all
+Installed-Size: 1060
+Filename: internet-detector-mod-modem-restart_1.3.0-1_all.ipk
+Size: 1822
+SHA256sum: dfd4d087562c77a3169a3f16ba755a530d5544a67457ecd636bd394e2f025420
+Description:  Support modem restart for internet detector.
+
 Package: internet-detector
 Version: 1.3.0-1
 Depends: libc, lua, luaposix, libuci-lua
@@ -1080,10 +1091,10 @@ Version: 1.0.0-mediatek-2
 Depends: libc, libpthread
 Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 26913
+Installed-Size: 26925
 Filename: youtubeUnblock_1.0.0-mediatek-2_aarch64_cortex-a53.ipk
-Size: 27626
-SHA256sum: 08a26bfa10a69d97d67f686b411a687be8e7fc1b00d1908297c9cfa43239eab1
+Size: 27635
+SHA256sum: e126ae9206c6afa7751b73af7b4010d6df00ced4196889d29913472eafec1e1f
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
