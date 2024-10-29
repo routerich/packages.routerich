@@ -179,10 +179,10 @@ Version: 1.0.74-20240827
 Depends: libc, sms-tool, comgt, kmod-usb-serial-option
 Section: luci
 Architecture: all
-Installed-Size: 111036
+Installed-Size: 111106
 Filename: luci-app-3ginfo-lite_1.0.74-20240827_all.ipk
-Size: 111335
-SHA256sum: 2f3d8f42031b411404d9605a8fa2c257955b25a70c2bb3cd71767e351db42b89
+Size: 111522
+SHA256sum: abbd983bc762eaafa028e306987222d27b4729b28a9a7e5abb73a55b092705cf
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
 Package: luci-app-access-control
@@ -368,6 +368,17 @@ Size: 3721
 SHA256sum: 25725c2966f691c5c8a0d23c075489ad0e195e837d31843aad955560a692512f
 Description:  Antitethering module for luci-app-firewall
 
+Package: luci-app-upnp-mtk-adjust
+Version: git-24.303.58947-cb1ee21
+Depends: libc, miniupnpd-mtk-adjust, rpcd-mod-ucode
+Section: luci
+Architecture: all
+Installed-Size: 4052
+Filename: luci-app-upnp-mtk-adjust_git-24.303.58947-cb1ee21_all.ipk
+Size: 4903
+SHA256sum: e4b69884693a6719dbee5983ed221669e079299f92bc893f280ba2477021178b
+Description:  Universal Plug & Play configuration module
+
 Package: luci-app-upnp
 Version: git-24.281.39563-4c404d2
 Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
@@ -432,8 +443,8 @@ Section: luci
 Architecture: all
 Installed-Size: 2547
 Filename: luci-i18n-3ginfo-lite-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 3291
-SHA256sum: 6d1d912a8873892a2cb4ef3ab2cd6f3f5a0f6a991066423c2f29efbaef6cee4d
+Size: 3296
+SHA256sum: 33c63568c24d82f421306c5821e0cb0676edc336c5ae89e47417bf143be3adc3
 Description:  Translation for luci-app-3ginfo-lite - Русский (Russian)
 
 Package: luci-i18n-access-control-ru
@@ -585,6 +596,17 @@ Size: 1677
 SHA256sum: 752bdd35ace077735de3f0afe4d1088e492eeb108f7c01d08731a0fa7f380b01
 Description:  Translation for luci-app-ttl - Русский (Russian)
 
+Package: luci-i18n-upnp-mtk-adjust-ru
+Version: git-24.303.58947-cb1ee21
+Depends: libc, luci-app-upnp-mtk-adjust
+Section: luci
+Architecture: all
+Installed-Size: 1788
+Filename: luci-i18n-upnp-mtk-adjust-ru_git-24.303.58947-cb1ee21_all.ipk
+Size: 2545
+SHA256sum: 51aeeebaccd0c9d0bfe1d0175fceaddc46592f90cf21e6fb93541e0cc52e94e2
+Description:  Translation for luci-app-upnp-mtk-adjust - Русский (Russian)
+
 Package: luci-i18n-upnp-ru
 Version: git-24.281.39563-4c404d2
 Depends: libc, luci-app-upnp
@@ -631,15 +653,15 @@ SHA256sum: 833925777908e5b3bf68f95b98536ecdcc9a8c57352d6d8b04f9cf4f99d81d0a
 Description:  Support for Fibocom FM350
 
 Package: luci-proto-modemmanager
-Version: git-24.291.43821-e263213
+Version: git-24.303.60133-b452ef4
 Depends: libc, modemmanager
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 4358
-Filename: luci-proto-modemmanager_git-24.291.43821-e263213_all.ipk
-Size: 5180
-SHA256sum: f34e7a6b08bdb3d0e59caf0aecafbaac8dda9c4b660ef2d036b6ca14f5b3f696
+Installed-Size: 4371
+Filename: luci-proto-modemmanager_git-24.303.60133-b452ef4_all.ipk
+Size: 5199
+SHA256sum: 8f9b82ba0bf490b56f779c479605d9d22484b3d5aaf453229f7ccb71337797db
 Description:  Support for ModemManager
 
 Package: luci-proto-xmm
@@ -663,6 +685,21 @@ Filename: luci-theme-routerich_1.0.2_all.ipk
 Size: 455070
 SHA256sum: 15552caad33d910e6f85bc6abd7b04a1526164032bccbc59a891cac2ac89eb18
 Description:  Routerich Theme
+
+Package: miniupnpd-mtk-adjust-nftables
+Version: 2.3.7-1
+Depends: libc, libcap-ng, libmnl0, libuuid1, libnftnl11
+Conflicts: miniupnpd-mtk-adjust-iptables
+Provides: miniupnpd-mtk-adjust
+License: BSD-3-Clause
+Section: MTK Properties
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd-mtk-adjust
+Architecture: aarch64_cortex-a53
+Installed-Size: 86669
+Filename: miniupnpd-mtk-adjust-nftables_2.3.7-1_aarch64_cortex-a53.ipk
+Size: 87517
+SHA256sum: 478fcd3b96959bf6c5c7e63f0d59abf0594224e24b6672428cfec69616db70c1
+Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: miniupnpd-nftables
 Version: 20240802-1
@@ -1038,6 +1075,17 @@ SHA256sum: c8e95e6e2ca6e03ba63263331354bc2bc3067237b5f54e22bc9e5ad565f0e2cf
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
+
+Package: sms-tool
+Version: 2024-07-25-fce2b931-1
+Depends: libc
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 9131
+Filename: sms-tool_2024-07-25-fce2b931-1_aarch64_cortex-a53.ipk
+Size: 9734
+SHA256sum: c243fc9cd023c85fe8f909a72e8298b8733096bb00bc45269ab368718c2cdfc0
+Description:  SMS Tool for 3G/4G/5G modem
 
 Package: telegrambot
 Version: 0.0.4-3
