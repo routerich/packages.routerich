@@ -55,6 +55,21 @@ Size: 340526
 SHA256sum: 170a56ef92f15687fc6044e33210fa40f6f5e6bf7baa0cd77640cc9496a38f45
 Description:  Base config
 
+Package: default-settings
+Version: 1
+Depends: libc, luci
+Source: feeds/routerich/default-settings
+SourceName: default-settings
+License: GPL-2.0-only
+Section: luci
+SourceDateEpoch: 1728436582
+Architecture: all
+Installed-Size: 1975
+Filename: default-settings_1_all.ipk
+Size: 2692
+SHA256sum: b3ee3c03b9cd5dadd9f55da1bcb324fe24a0c81beca0fc6e84b646f7cc8bf6bc
+Description:  LuCI support for Default Settings
+
 Package: filebrowser
 Version: 2.31.2-1
 Depends: libc
@@ -122,60 +137,60 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: libQt6Core
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Core
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 2817520
-Filename: libQt6Core_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 2810159
-SHA256sum: 905d57de02aa544cb7b4b37bfc400fe8b0c305faf8ac78eaf615a27346d004dd
-Description:  This package provides the Qt6 Core v6.7.2 library.
+Installed-Size: 2600190
+Filename: libQt6Core_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 2592959
+SHA256sum: 30c64805b10c4a878f82ddb279c248c14c4521a7f6ca675fed1470cc13000418
+Description:  This package provides the Qt6 Core v6.8.0 library.
 
 Package: libQt6Network
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Network
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 861186
-Filename: libQt6Network_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 860086
-SHA256sum: 2c4dd81e34ff099ba94e10c1879b289ec0ff492a585764cc98587ecea75dcdc0
-Description:  This package provides the Qt6 Network v6.7.2 library.
+Installed-Size: 912534
+Filename: libQt6Network_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 911643
+SHA256sum: c0ea54633c30b9484d93bba1b7755b12d13f7eaafa0afa8adeaf3f483f33cbd5
+Description:  This package provides the Qt6 Network v6.8.0 library.
 
 Package: libQt6Sql
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Sql
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 79717
-Filename: libQt6Sql_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 80133
-SHA256sum: 6549686c329e600edeaa7a78aae5e3444812164c0f4f968ce903b3da3fa202ee
-Description:  This package provides the Qt6 Sql v6.7.2 library.
+Installed-Size: 89525
+Filename: libQt6Sql_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 90048
+SHA256sum: bf75b2eca5edb014c0d236968082a80162e8ce1c16d98644ae15af17e524f305
+Description:  This package provides the Qt6 Sql v6.8.0 library.
 
 Package: libQt6Xml
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Xml
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 66788
-Filename: libQt6Xml_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 67509
-SHA256sum: d6a57e51807eeecbb55e917ff4a1d459b7aa3d08c7ba60e7650f55a62a65cdf1
-Description:  This package provides the Qt6 Xml v6.7.2 library.
+Installed-Size: 68885
+Filename: libQt6Xml_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 69670
+SHA256sum: dd7a05e0648b82d87cb8b74c26c8c7a6ef02d1fd47f8cbf94036c96732fd7639
+Description:  This package provides the Qt6 Xml v6.8.0 library.
 
 Package: libmbim
 Version: 1.31.6-d-1
@@ -291,17 +306,17 @@ Description:  LuCI JS interface for the atinout.
 
 Package: luci-app-autoreboot
 Version: 1.0
-Depends: libc, luci-compat, luci-lua-runtime
+Depends: libc, luci, luci-lua-runtime
 Source: feeds/routerich/luci-app-autoreboot
 SourceName: luci-app-autoreboot
 Section: luci
-SourceDateEpoch: 1728591935
+SourceDateEpoch: 1730224526
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1527
+Installed-Size: 1446
 Filename: luci-app-autoreboot_1.0_all.ipk
-Size: 2361
-SHA256sum: 8a4ad8d38f4c5554441ec4aaafd733d8189d0b2e04f5557f15d9fc48d75ea610
+Size: 2269
+SHA256sum: 94d6343e8edf89fe41f50f2355943e95358113425d287019b8e738e08acf1393
 Description:  LuCI support for Scheduled Reboot
 
 Package: luci-app-filebrowser-go
@@ -423,10 +438,10 @@ Section: luci
 SourceDateEpoch: 1725792876
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1749
+Installed-Size: 1821
 Filename: luci-app-qbittorrent_1.0.1_all.ipk
-Size: 2564
-SHA256sum: 693f4ed06c52f30326a2fa1073aaf3d5c1c09ff242849eaf65f61686c543af9e
+Size: 2639
+SHA256sum: 68d4a1d90e3230d01365aa0a8cbcdb60f95410a33ff0451356b046e0298d0f45
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-sms-tool-js
@@ -475,6 +490,22 @@ Filename: luci-app-telegrambot_0.1.0-3_all.ipk
 Size: 1865
 SHA256sum: b78a03cd4f41b729fc8daccecee9fab6262b976849a780c9658fc56cb23124a1
 Description:  TelegramBot simple webUI
+
+Package: luci-app-temp-status
+Version: 0.4.1-r1
+Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1725390771
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 2845
+Filename: luci-app-temp-status_0.4.1-r1_all.ipk
+Size: 3714
+SHA256sum: 7660e8b926ca2f6a627bd1fc245853e9b870d38a1dcc85c96f7a52c8df537b45
+Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-ttl
 Version: 0.0.3-0
@@ -631,12 +662,12 @@ Depends: libc, luci-app-autoreboot
 Source: feeds/routerich/luci-app-autoreboot
 SourceName: luci-i18n-autoreboot-ru
 Section: luci
-SourceDateEpoch: 1728591935
+SourceDateEpoch: 1730224526
 Architecture: all
-Installed-Size: 559
+Installed-Size: 557
 Filename: luci-i18n-autoreboot-ru_git-24.284.73535-ae453b8_all.ipk
-Size: 1310
-SHA256sum: e5867e7a15cda57bdfe012f1c541ef8e662b21d59a43f79ccb76df010ae8de5f
+Size: 1303
+SHA256sum: 9ccfa05256c67a381a823c6cb55ed924115a86911ec95267e2def23ee111923e
 Description:  Translation for luci-app-autoreboot - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
@@ -769,6 +800,21 @@ Filename: luci-i18n-telegrambot-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 1553
 SHA256sum: 5d74b651a7cf46a693e7d4ecc74a8910393fa617a3e13d62e61c4783f0c891cd
 Description:  Translation for luci-app-telegrambot - Русский (Russian)
+
+Package: luci-i18n-temp-status-ru
+Version: git-24.247.69171-f5f5fbc
+Depends: libc, luci-app-temp-status
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-i18n-temp-status-ru
+License: MIT
+Section: luci
+SourceDateEpoch: 1725390771
+Architecture: all
+Installed-Size: 552
+Filename: luci-i18n-temp-status-ru_git-24.247.69171-f5f5fbc_all.ipk
+Size: 1310
+SHA256sum: 4ba970d3371b469ef2c3deb3c75fa206829a6ef73d3fadb39d81c61b6b81c952
+Description:  Translation for luci-app-temp-status - Русский (Russian)
 
 Package: luci-i18n-ttl-ru
 Version: git-24.255.44995-eddd63f
@@ -1340,7 +1386,7 @@ SHA256sum: 234241e706f839b5dd92e443fcd49476f74b7cab1dd64411ac7bad9b8a0f9f43
 Description:  Natflow init script
 
 Package: qbittorrent
-Version: 4.6.6-1
+Version: 5.0.1-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
 Provides: qBittorrent
 Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
@@ -1351,10 +1397,10 @@ Section: net
 SourceDateEpoch: 1725746492
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7889625
-Filename: qbittorrent_4.6.6-1_aarch64_cortex-a53.ipk
-Size: 7883927
-SHA256sum: 98021085f2ceeeff4dfb8da8fbf7100481569df770477158f3782103318745c6
+Installed-Size: 7788308
+Filename: qbittorrent_5.0.1-1_aarch64_cortex-a53.ipk
+Size: 7782268
+SHA256sum: 4d1058345f8bb24786587d1a1b7d8cfd5cbf74af69e20643ee1f5209fce4c987
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1379,31 +1425,31 @@ SHA256sum: 1d9e51842abbc109049a2b4a1ae58f7ba73087923f10670ab1d37ccbb1b125ca
 Description:  Utilities to talk to QMI enabled modems
 
 Package: qt6-plugin-libqopensslbackend
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqopensslbackend
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 118617
-Filename: qt6-plugin-libqopensslbackend_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 118846
-SHA256sum: cc74ff0f800490dc174b58f015d5af448b2ce6ae6b0679834ab184cddff289c0
+Installed-Size: 119883
+Filename: qt6-plugin-libqopensslbackend_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 120133
+SHA256sum: 1b05f120a8fbaac1c93f68c1408f746cb4d0cb8d9980aa1807126ec92e2ba4a7
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
-Version: 6.7.2-1
+Version: 6.8.0-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqsqlite
 Section: libs
 SourceDateEpoch: 1725746492
 Architecture: aarch64_cortex-a53
-Installed-Size: 957366
-Filename: qt6-plugin-libqsqlite_6.7.2-1_aarch64_cortex-a53.ipk
-Size: 957533
-SHA256sum: 3302e64f9f443279e5ff0866c79fc44c4e14a34c63f86449a6289da2e935946a
+Installed-Size: 973874
+Filename: qt6-plugin-libqsqlite_6.8.0-1_aarch64_cortex-a53.ipk
+Size: 973682
+SHA256sum: 5efef2b75ffa505ad66c54821b7ebb454816e893d542439b386a4cb08299555d
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0

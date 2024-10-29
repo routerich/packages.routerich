@@ -25,15 +25,15 @@ SHA256sum: 55dabbf6ce1c49c361c8c3bd7ed5be869b93160ad7678e2bdeb99600ec29b220
 Description:  Mount autoconfig hotplug script.
 
 Package: base-files
-Version: 1-r24106-10cc5fcd00
-Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
+Version: 2-r24106-10cc5fcd00-2
+Depends: libc, base-config-routerich, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 License: GPL-2.0
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 54935
-Filename: base-files_1-r24106-10cc5fcd00_aarch64_cortex-a53.ipk
-Size: 55905
-SHA256sum: 698ab4c8311120d546f43d4547c7ae9a56546a582a156d631c4f974258a0dd3b
+Installed-Size: 54944
+Filename: base-files_2-r24106-10cc5fcd00-2_aarch64_cortex-a53.ipk
+Size: 55916
+SHA256sum: 51e6b9d53a2ab7b7624b8c981dbbe876e47b89713eebcee3885c195915ad46dc
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -1281,15 +1281,15 @@ SHA256sum: 3690a6888612a7be16c94fe8553e3d5674ad039976bedb66878553a4499abe89
 Description:  Kernel modules for Broadcom 44xx Ethernet adapters.
 
 Package: kmod-batman-adv
-Version: 5.15.167+2023.1-7
+Version: 5.15.167+2023.1-8
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-lib-crc16, kmod-lib-crc32c, kmod-cfg80211, batctl
 License: GPL-2.0-only MIT
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 104458
-Filename: kmod-batman-adv_5.15.167+2023.1-7_aarch64_cortex-a53.ipk
-Size: 105133
-SHA256sum: ef78eaab49c2649d281785f4d51555bc78d8d368972e6a7f1a515e512472af90
+Installed-Size: 104584
+Filename: kmod-batman-adv_5.15.167+2023.1-8_aarch64_cortex-a53.ipk
+Size: 105286
+SHA256sum: 3c67b9e762a1b9816c74f5c64a9300c03acd446772812253082eddea6f409341
 Description:  B.A.T.M.A.N. (better approach to mobile ad-hoc networking) is
  a routing protocol for multi-hop ad-hoc mesh networks. The
  networks may be wired or wireless. See
@@ -7130,10 +7130,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b)
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 769438
+Installed-Size: 715932
 Filename: kmod-mt7981-firmware_5.15.167+2024-04-03-1e336a85-1_aarch64_cortex-a53.ipk
-Size: 758939
-SHA256sum: 91de02dae95f1ad1b8895d4c9bb19d931bdbd7c828eecc502521e4a179594460
+Size: 710890
+SHA256sum: 8207ce245c6b75b02aa6cd9cabdee540579af4a8fa5db66c01983ed5ac9035f5
 Description:  MediaTek MT7981 firmware
 
 Package: kmod-mt7986-firmware
