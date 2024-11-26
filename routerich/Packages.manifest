@@ -1376,6 +1376,23 @@ Size: 1752
 SHA256sum: 1b6d15835d962d7aa48bcad2789bada38cedf66afdd03fdaa7f8050936a7fad3
 Description:  Natflow init script
 
+Package: opera-proxy
+Version: 1.6.0-1
+Depends: libc
+Source: feeds/routerich/opera-proxy
+SourceName: opera-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1728436582
+Maintainer: Romanov Danila <pervoku@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2349392
+Filename: opera-proxy_1.6.0-1_aarch64_cortex-a53.ipk
+Size: 2350603
+SHA256sum: 0b1fa0237b0a411bdbafd9f9321862a2a6d8fcd30f607a269457723b5c2948d6
+Description:  Opera Proxy client
+
 Package: qbittorrent
 Version: 5.0.2-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
