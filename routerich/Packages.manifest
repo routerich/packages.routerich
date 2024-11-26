@@ -47,12 +47,12 @@ Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-cry
 Source: feeds/routerich/base-config-routerich
 SourceName: base-config-routerich
 Section: config
-SourceDateEpoch: 1729171407
+SourceDateEpoch: 1732566078
 Architecture: aarch64_cortex-a53
-Installed-Size: 341174
+Installed-Size: 2216
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 340526
-SHA256sum: 170a56ef92f15687fc6044e33210fa40f6f5e6bf7baa0cd77640cc9496a38f45
+Size: 2961
+SHA256sum: f9ccfb270d31cd172a53b4f66a0bdaf0646cd0ea57b11da601dd942ca9854534
 Description:  Base config
 
 Package: default-settings
@@ -62,12 +62,12 @@ Source: feeds/routerich/default-settings
 SourceName: default-settings
 License: GPL-2.0-only
 Section: luci
-SourceDateEpoch: 1728436582
+SourceDateEpoch: 1730230718
 Architecture: all
-Installed-Size: 1975
+Installed-Size: 1973
 Filename: default-settings_1_all.ipk
-Size: 2692
-SHA256sum: b3ee3c03b9cd5dadd9f55da1bcb324fe24a0c81beca0fc6e84b646f7cc8bf6bc
+Size: 2691
+SHA256sum: 77f2a06ad95555e9143d7864ef05234d358176b5f71c61d43cc0169905595b02
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
@@ -142,12 +142,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Core
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 2600190
+Installed-Size: 2600199
 Filename: libQt6Core_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 2592959
-SHA256sum: 30c64805b10c4a878f82ddb279c248c14c4521a7f6ca675fed1470cc13000418
+Size: 2593118
+SHA256sum: 631b10ea3601fd8adc48f44b4fbda862a9420757bfdf7a1751494475d6ab03e1
 Description:  This package provides the Qt6 Core v6.8.0 library.
 
 Package: libQt6Network
@@ -156,12 +156,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Network
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 912534
+Installed-Size: 912532
 Filename: libQt6Network_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 911643
-SHA256sum: c0ea54633c30b9484d93bba1b7755b12d13f7eaafa0afa8adeaf3f483f33cbd5
+Size: 911616
+SHA256sum: fd6f485f246ac00ec9ad230e163dced2194f959c3490db4810ae4d3596c66080
 Description:  This package provides the Qt6 Network v6.8.0 library.
 
 Package: libQt6Sql
@@ -170,12 +170,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Sql
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 89525
+Installed-Size: 89526
 Filename: libQt6Sql_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 90048
-SHA256sum: bf75b2eca5edb014c0d236968082a80162e8ce1c16d98644ae15af17e524f305
+Size: 90056
+SHA256sum: 689b78c164c31882878e6d2f47661d2e7c8eb03399fa85046ab89692865d2d9a
 Description:  This package provides the Qt6 Sql v6.8.0 library.
 
 Package: libQt6Xml
@@ -184,12 +184,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Xml
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 68885
+Installed-Size: 68889
 Filename: libQt6Xml_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 69670
-SHA256sum: dd7a05e0648b82d87cb8b74c26c8c7a6ef02d1fd47f8cbf94036c96732fd7639
+Size: 69683
+SHA256sum: 5881cc73cf253113816ce288685522932db6f1f4b896441cc68c0fd559d5a215
 Description:  This package provides the Qt6 Xml v6.8.0 library.
 
 Package: libmbim
@@ -435,13 +435,13 @@ Depends: libc, qbittorrent
 Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1725792876
+SourceDateEpoch: 1730232020
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1821
+Installed-Size: 1816
 Filename: luci-app-qbittorrent_1.0.1_all.ipk
-Size: 2639
-SHA256sum: 68d4a1d90e3230d01365aa0a8cbcdb60f95410a33ff0451356b046e0298d0f45
+Size: 2637
+SHA256sum: fcbbc44fb4f255e149c8d8c1727b775f257bad2885040ba615fdf2a01102b8fc
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-sms-tool-js
@@ -600,18 +600,18 @@ SHA256sum: 6d740288f5c706dd0d4259713b8a504f92ae98e7d08b590ab6b68279ebf574d2
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
-Version: git-24.246.71936-f2165eb
+Version: git-24.330.73779-5c9cbb6
 Depends: libc, zerotier, jsonfilter, ucode
 Source: feeds/routerich/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
-SourceDateEpoch: 1725632861
+SourceDateEpoch: 1732566579
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 4235
-Filename: luci-app-zerotier_git-24.246.71936-f2165eb_all.ipk
-Size: 5061
-SHA256sum: b9f71757c8596410e0dcde5406f2db0291a56757c6118ab23cbcb1b7b0ff918e
+Installed-Size: 4610
+Filename: luci-app-zerotier_git-24.330.73779-5c9cbb6_all.ipk
+Size: 5444
+SHA256sum: 5425f4b88bb182aced8eac880fd9338f694e6cb5b72c0d55d4b7aca59fb495ad
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-3ginfo-lite-ru
@@ -749,12 +749,12 @@ Depends: libc, luci-app-qbittorrent
 Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-i18n-qbittorrent-ru
 Section: luci
-SourceDateEpoch: 1725792876
+SourceDateEpoch: 1730232020
 Architecture: all
-Installed-Size: 736
+Installed-Size: 738
 Filename: luci-i18n-qbittorrent-ru_git-24.252.08653-eff063a_all.ipk
-Size: 1493
-SHA256sum: dd8253f558fbda3e03fccb94d9a9c379968b1fb5e4d6e949442ca139e7b8346a
+Size: 1495
+SHA256sum: 76da6aca949e8054218b0c6294eddb0d65c4d255bcf248f1ab2158538a166b41
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-sms-tool-js-ru
@@ -881,12 +881,12 @@ Depends: libc, luci-app-zerotier
 Source: feeds/routerich/luci-app-zerotier
 SourceName: luci-i18n-zerotier-ru
 Section: luci
-SourceDateEpoch: 1725632861
+SourceDateEpoch: 1732566579
 Architecture: all
-Installed-Size: 1186
+Installed-Size: 1188
 Filename: luci-i18n-zerotier-ru_git-24.250.52061-702579b_all.ipk
-Size: 1932
-SHA256sum: febe1212fc426c51c5e205ca99a083689920b07bcad10995382906733d2686e1
+Size: 1947
+SHA256sum: c654ddd2025b9cb0f97b38f1749fab8fba274c39c745be7fc2426699c634f25d
 Description:  Translation for luci-app-zerotier - Русский (Russian)
 
 Package: luci-proto-fm350
@@ -994,399 +994,390 @@ Depends: libc, sms-tool
 Source: feeds/routerich/modem-4IceG/modemband
 SourceName: modemband
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565559
 Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
 Architecture: all
-Installed-Size: 6723
+Installed-Size: 6760
 Filename: modemband_20240616_all.ipk
-Size: 7504
-SHA256sum: 088cfa5e860533349e2d2ac9f0c08c21034318d9b2b83f7f9a9f0784bb13e6da
+Size: 7534
+SHA256sum: 7fe71a0385d4407d1027c3c9f504c37b1b1ccae5273b709dcb844bd93c744dbd
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-qmi
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, qmi-utils
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-qmi
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 3413
-Filename: modeminfo-qmi_0.4.2-6_all.ipk
-Size: 4162
-SHA256sum: 2d638aed7c74979482846a03de92fa9182fbefe8ac6b2ed7015ff361e43d9f5a
+Installed-Size: 3414
+Filename: modeminfo-qmi_0.4.2-7_all.ipk
+Size: 4167
+SHA256sum: 4c124668f34cac3c113c62d92b12989e9d7d0e74d6877aa7f5ccc1e8a03cbbff
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-dell
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1222
-Filename: modeminfo-serial-dell_0.4.2-6_all.ipk
-Size: 1994
-SHA256sum: 5e4759a7270001c66e2195b7301001c89c449675feca26e14d39760b93ecd016
+Installed-Size: 1220
+Filename: modeminfo-serial-dell_0.4.2-7_all.ipk
+Size: 1995
+SHA256sum: f4c0f237e4772c696bb25d6a60c155fab1a7d4566b9c90f62e0568b19ddb185c
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
-Version: 0.4.2-6
-Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Version: 0.4.2-7
+Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-fibocom
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1407
-Filename: modeminfo-serial-fibocom_0.4.2-6_all.ipk
-Size: 2187
-SHA256sum: ea799a13b96b06d8d558fe2a57dc0a18849d731e8344de1297dd61402445b4b2
-Description:  FIBOCOM NL668/678 serial addon for modeminfo
-
-Package: modeminfo-serial-fm350
-Version: 0.4.2-6
-Depends: libc, modeminfo, kmod-usb-acm, atinout
-Source: feeds/routerich/modemfeed/packages/net/modeminfo
-SourceName: modeminfo-serial-fm350
-Section: net
-SourceDateEpoch: 1726057795
-Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
-Architecture: all
-Installed-Size: 1323
-Filename: modeminfo-serial-fm350_0.4.2-6_all.ipk
-Size: 2102
-SHA256sum: 6be5bbd78f22fc0ac0bcab2f312d3a55f9a1dfd1f2d669aeca400f56b157c544
-Description:  FIBOCOM FM350 serial addon for modeminfo
+Installed-Size: 2138
+Filename: modeminfo-serial-fibocom_0.4.2-7_all.ipk
+Size: 2916
+SHA256sum: 635a42bc3125adff66d3f4c5fe077bbaa159df3e193f0f4ae04afa54b05094a1
+Description:  FIBOCOM NL668/678/FM150/FM190/FM350 serial addon for modeminfo
 
 Package: modeminfo-serial-gosun
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-gosun
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 959
-Filename: modeminfo-serial-gosun_0.4.2-6_all.ipk
-Size: 1731
-SHA256sum: 75280d8e696bcc0cd192aecb50d99c3af9b161fe2c1b0b5f17517eb3aac795e9
+Installed-Size: 957
+Filename: modeminfo-serial-gosun_0.4.2-7_all.ipk
+Size: 1728
+SHA256sum: 79bbcc5169affe2cc5bf59fe800a7377d0e268b4e8a7a16cc683546e87f34c23
 Description:  Gosuncnwelink GM510 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-huawei
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1335
-Filename: modeminfo-serial-huawei_0.4.2-6_all.ipk
-Size: 2112
-SHA256sum: 3e473898910bbf2f0ce48d72276127aafd38ab173e0400def8bda523bc468045
+Installed-Size: 1333
+Filename: modeminfo-serial-huawei_0.4.2-7_all.ipk
+Size: 2110
+SHA256sum: f0f29115ce4779e3a2c05b9102a93668bd7cb2e33a737caaf0c082e27907014d
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-meig
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-meig
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1258
-Filename: modeminfo-serial-meig_0.4.2-6_all.ipk
-Size: 2042
-SHA256sum: c638a0a4d0d5b917558d66a8825a96904f4be4a6b8d58ec4e877414123939b8a
+Filename: modeminfo-serial-meig_0.4.2-7_all.ipk
+Size: 2046
+SHA256sum: 8e49f41bd474a57c5d2bad7147c6a639a9f0bf402ab51a7bd4f71f5134a86542
 Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 
 Package: modeminfo-serial-mikrotik
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-mikrotik
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1430
-Filename: modeminfo-serial-mikrotik_0.4.2-6_all.ipk
-Size: 2210
-SHA256sum: 95e2bf17c1e12706ef66ac6776c602b34ece69c88185d8a9b43e8e0908f24954
+Installed-Size: 1428
+Filename: modeminfo-serial-mikrotik_0.4.2-7_all.ipk
+Size: 2207
+SHA256sum: 2df1485ef1069bdfbfc8336a6bda36f5cd32fdce067f2872f4391c1afd580e1e
 Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-quectel
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1356
-Filename: modeminfo-serial-quectel_0.4.2-6_all.ipk
-Size: 2131
-SHA256sum: 65ea62c64048cba70cb3deff098abb243bcdebf7a521ef8820a62aa9588a3d8e
+Filename: modeminfo-serial-quectel_0.4.2-7_all.ipk
+Size: 2137
+SHA256sum: 76bfb49320153cbd733fd2d388358406cf7dd44095bd5792bf94098931450807
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-sierra
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1194
-Filename: modeminfo-serial-sierra_0.4.2-6_all.ipk
-Size: 1972
-SHA256sum: 5bab34f072e2ff4dbf903a86db574597582739980d62fe77c28e372b713eb5de
+Installed-Size: 1195
+Filename: modeminfo-serial-sierra_0.4.2-7_all.ipk
+Size: 1973
+SHA256sum: c892d35beecdfc1d7144490c680d43460e9d54489a48b266b8b4351d10991f5f
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
-Package: modeminfo-serial-simcom-a7xxx
-Version: 0.4.2-6
-Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
-Source: feeds/routerich/modemfeed/packages/net/modeminfo
-SourceName: modeminfo-serial-simcom-a7xxx
-Section: net
-SourceDateEpoch: 1726057795
-Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
-Architecture: all
-Installed-Size: 1151
-Filename: modeminfo-serial-simcom-a7xxx_0.4.2-6_all.ipk
-Size: 1941
-SHA256sum: 7ac352de7db2b4beff8c7eb0fb56ea77be7d4aa0c4f4d3c43ea2936e7f30826e
-Description:  SIMCOM A7600/A7906 serial addon for modeminfo
-
 Package: modeminfo-serial-simcom
-Version: 0.4.2-6
-Depends: libc, modeminfo, kmod-usb-serial-option, atinout
+Version: 0.4.2-7
+Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-simcom
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1229
-Filename: modeminfo-serial-simcom_0.4.2-6_all.ipk
-Size: 2018
-SHA256sum: 77ba3669355ae045ece74f12e832cc09020ca08d4a59127a15b8014d338b2137
-Description:  SIMCOM SIM7600/SIM7906/SIM7912 serial addon for modeminfo
+Installed-Size: 1851
+Filename: modeminfo-serial-simcom_0.4.2-7_all.ipk
+Size: 2624
+SHA256sum: 18f0001d1f784f4f3952b26454cf3b74daa3d09c54a3ae17b3528cd59b826707
+Description:  SIMCOM SIM7600/SIM7906/SIM7912/A7600/A7906 serial addon for modeminfo
 
 Package: modeminfo-serial-styx
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-styx
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 931
-Filename: modeminfo-serial-styx_0.4.2-6_all.ipk
+Installed-Size: 929
+Filename: modeminfo-serial-styx_0.4.2-7_all.ipk
 Size: 1701
-SHA256sum: a8b79c67b35eb1c30618b184c56060afe556f46c8f3c3808e21df5d46a51e8ce
+SHA256sum: b45aed6b6befc3338f2edf238e1125163095ec470383cd9ec027706e36037241
 Description:  STYX MG8224 serial addon for modeminfo
 
 Package: modeminfo-serial-telit
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-telit
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1136
-Filename: modeminfo-serial-telit_0.4.2-6_all.ipk
-Size: 1930
-SHA256sum: b836375c82e4d1c46ed0545b686163fb92e5ff9e04d6e0dd818fadf494741e54
+Installed-Size: 1135
+Filename: modeminfo-serial-telit_0.4.2-7_all.ipk
+Size: 1924
+SHA256sum: b7cc5a3667dfb9c61d0c2f32e2104f83050537ca341b88e9a5a1db7bc638d08f
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-thales
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-thales
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1273
-Filename: modeminfo-serial-thales_0.4.2-6_all.ipk
-Size: 2057
-SHA256sum: 0c6f02fac49c03ac2b963c7d5d07b0957d33b06398d0468d8db6e7ea9cb991c5
+Installed-Size: 1270
+Filename: modeminfo-serial-thales_0.4.2-7_all.ipk
+Size: 2050
+SHA256sum: 8cc5dfabdbbe5367f5756187f323fc1718ba4f66b8b2b3d73b9e4ac44d404ae2
 Description:  Thales MV31-W T99W175 serial addon for modeminfo
 
 Package: modeminfo-serial-tw
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-tw
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 1011
-Filename: modeminfo-serial-tw_0.4.2-6_all.ipk
-Size: 1785
-SHA256sum: 7e9ac15437be84de08ccdbec6043e970482516d16f48e1ad38572945cc1e21d4
+Installed-Size: 1009
+Filename: modeminfo-serial-tw_0.4.2-7_all.ipk
+Size: 1782
+SHA256sum: 4a4363fd6f8e7d8f55d1afb7d47566e95667c910ba9cd8d91de41eee428fb5b2
 Description:  ThinkWill ML7820+ serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-xmm
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 1524
-Filename: modeminfo-serial-xmm_0.4.2-6_all.ipk
-Size: 2314
-SHA256sum: cf660308e430f2329846834f63671f3d9c117898213733ca52b4ccb77579ad25
+Filename: modeminfo-serial-xmm_0.4.2-7_all.ipk
+Size: 2318
+SHA256sum: 7115a6f8b4bb3a367432cd17c90f5674aaa4dc82ee7c8dcd9b3d5e329b3aac3f
 Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-serial-yuge
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-yuge
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 952
-Filename: modeminfo-serial-yuge_0.4.2-6_all.ipk
-Size: 1718
-SHA256sum: 8ea6ec106c2ebf88dfdc46e4ed0c1c4a808fb71136ad52a071446282943eb25c
+Installed-Size: 950
+Filename: modeminfo-serial-yuge_0.4.2-7_all.ipk
+Size: 1719
+SHA256sum: eec53bb78a07175b4b536a26ecce34c493de44db61ba7303afa131b3bd9ab9be
 Description:  Yuge CLM920 serial addon for modeminfo
 
 Package: modeminfo-serial-zte
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-serial-zte
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 897
-Filename: modeminfo-serial-zte_0.4.2-6_all.ipk
-Size: 1667
-SHA256sum: 9bdb7ef88c83a2aa4be905d4c7bb92398cf3c1b6e196da8eb293ac3f6754be29
+Installed-Size: 894
+Filename: modeminfo-serial-zte_0.4.2-7_all.ipk
+Size: 1669
+SHA256sum: f1598f0b64af37f9f94cdaaaecdea20f4f55addef8e8fd6164cd67ea17016332
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
 Package: modeminfo-telegram
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, modeminfo, telegrambot
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo-telegram
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 957
-Filename: modeminfo-telegram_0.4.2-6_all.ipk
-Size: 1704
-SHA256sum: f0913b6b807adb8234e4eb5aeef81ca9c482d37e25fd4f565305229e2bfbafd4
+Filename: modeminfo-telegram_0.4.2-7_all.ipk
+Size: 1694
+SHA256sum: d2d245332166fafcfa24d6d88d3311ff562769543c800d549898fef85515311b
 Description:  Plugin for telegrambot
 
 Package: modeminfo
-Version: 0.4.2-6
+Version: 0.4.2-7
 Depends: libc, comgt
 Source: feeds/routerich/modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1726057795
+SourceDateEpoch: 1732565594
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
-Installed-Size: 4475
-Filename: modeminfo_0.4.2-6_all.ipk
-Size: 5233
-SHA256sum: 139febb853f876b53447d62fb74f6217ee213a5b2a4a802172e3e18b1fe65a7a
+Installed-Size: 4477
+Filename: modeminfo_0.4.2-7_all.ipk
+Size: 5236
+SHA256sum: 63bc86610b9c9248a514295d0b0cd398f1df12604b8d77d7da3ddbb92906c7c3
 Description:  Signal information for 3G/LTE dongle
 
+Package: modemmanager-rpcd
+Version: 1.23.12-dev-21
+Depends: libc, modemmanager, lua-cjson
+Source: feeds/routerich/modemmanager
+SourceName: modemmanager-rpcd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1732566590
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1189
+Filename: modemmanager-rpcd_1.23.12-dev-21_aarch64_cortex-a53.ipk
+Size: 2090
+SHA256sum: dec22a3008efb75b3660636f63318cefa12373dc32f3f919510d99c65163fd06
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems.
+ 
+ This package enables an rpcd interface for getting information from
+ ModemManager using e.g. ubus.
+
 Package: modemmanager
-Version: 1.23.12--20
-Depends: libc, glib2, dbus, ppp, lua-cjson, libmbim, libqmi, libqrtr-glib
+Version: 1.23.12-dev-21
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi, libqrtr-glib
 Source: feeds/routerich/modemmanager
 SourceName: modemmanager
 License: GPL-2.0-or-later
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1729265931
+SourceDateEpoch: 1732566590
 Maintainer: Nicholas Smith <nicholas@nbembedded.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1313742
-Filename: modemmanager_1.23.12--20_aarch64_cortex-a53.ipk
-Size: 1293473
-SHA256sum: 01ed027d7fd0b955ceba92083f3ee582843673f6b3190afebaf2449033dc2960
+Installed-Size: 1315612
+Filename: modemmanager_1.23.12-dev-21_aarch64_cortex-a53.ipk
+Size: 1295276
+SHA256sum: f0006eb644f0cdb1be9792ad79f68d27469255312d1f292b248988391ad4483e
 Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
  broadband modems. Add kernel modules for your modems as needed.
  Select Utilities/usb-modeswitch if needed.
 
 Package: natflow-auth
-Version: 20241012
+Version: 20241125
 Depends: libc, kmod-natflow, ipset, lua-ipops
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow-auth
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1728752199
+SourceDateEpoch: 1732554041
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 3866
-Filename: natflow-auth_20241012_aarch64_cortex-a53.ipk
+Installed-Size: 3868
+Filename: natflow-auth_20241125_aarch64_cortex-a53.ipk
 Size: 4658
-SHA256sum: 90786755b9c73815c412c1304e1a5b361d1c7ad32c5a03b32144522efbfcdffe
+SHA256sum: a384ac7bfd80f43c32ffcfb94541bb378d2faf5314cdf9211cd3d10ef61e0d30
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20241012
+Version: 20241125
 Depends: libc, natflow-auth, urllogger
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow-hostacl
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1728752199
+SourceDateEpoch: 1732554041
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1212
-Filename: natflow-hostacl_20241012_aarch64_cortex-a53.ipk
-Size: 2012
-SHA256sum: e8c8a259ac6c3614fa7d76359b47166a704a206758a0d94a34ce8e2e7ada9617
+Installed-Size: 1211
+Filename: natflow-hostacl_20241125_aarch64_cortex-a53.ipk
+Size: 2015
+SHA256sum: b93aa948fb6ba815c84bd2e630f3a8a25351845abc430b76e99fc5578cb8a8b1
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20241012
+Version: 20241125
 Depends: libc, ethtool, kmod-natflow
 Source: feeds/routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1728752199
+SourceDateEpoch: 1732554041
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 989
-Filename: natflow_20241012_aarch64_cortex-a53.ipk
-Size: 1756
-SHA256sum: 234241e706f839b5dd92e443fcd49476f74b7cab1dd64411ac7bad9b8a0f9f43
+Filename: natflow_20241125_aarch64_cortex-a53.ipk
+Size: 1752
+SHA256sum: 1b6d15835d962d7aa48bcad2789bada38cedf66afdd03fdaa7f8050936a7fad3
 Description:  Natflow init script
 
 Package: qbittorrent
-Version: 5.0.1-1
+Version: 5.0.2-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
 Provides: qBittorrent
 Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
@@ -1394,13 +1385,13 @@ SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1732562059
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7788308
-Filename: qbittorrent_5.0.1-1_aarch64_cortex-a53.ipk
-Size: 7782268
-SHA256sum: 4d1058345f8bb24786587d1a1b7d8cfd5cbf74af69e20643ee1f5209fce4c987
+Installed-Size: 7808225
+Filename: qbittorrent_5.0.2-1_aarch64_cortex-a53.ipk
+Size: 7802288
+SHA256sum: 62f8637f87ee3daeec98208f0fce091b5bf6478ec7d60a7d11fa195bab61a19a
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1430,12 +1421,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqopensslbackend
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 119883
+Installed-Size: 119881
 Filename: qt6-plugin-libqopensslbackend_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 120133
-SHA256sum: 1b05f120a8fbaac1c93f68c1408f746cb4d0cb8d9980aa1807126ec92e2ba4a7
+Size: 120087
+SHA256sum: 0b208470a61388c0d821e1eedbaf7296a3673d71c8267c48902818e27c37264b
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
@@ -1444,12 +1435,12 @@ Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqsqlite
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 Architecture: aarch64_cortex-a53
-Installed-Size: 973874
+Installed-Size: 973875
 Filename: qt6-plugin-libqsqlite_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 973682
-SHA256sum: 5efef2b75ffa505ad66c54821b7ebb454816e893d542439b386a4cb08299555d
+Size: 973756
+SHA256sum: b604b66b8b25f8cbedf6df1f71d0e868ba1e167849d8ef7b86e2936a75cce0ef
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0
@@ -1461,13 +1452,13 @@ SourceName: rblibtorrent
 License: BSD
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1725746492
+SourceDateEpoch: 1730232020
 ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
-Installed-Size: 1366698
+Installed-Size: 1366702
 Filename: rblibtorrent2.0_2.0.10-1_aarch64_cortex-a53.ipk
-Size: 1363650
-SHA256sum: c8e95e6e2ca6e03ba63263331354bc2bc3067237b5f54e22bc9e5ad565f0e2cf
+Size: 1363638
+SHA256sum: a85d58086d076342ab07a64fe77f626ecbad433a94b776125bb478789d859d15
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
@@ -1565,19 +1556,19 @@ SHA256sum: e126ae9206c6afa7751b73af7b4010d6df00ced4196889d29913472eafec1e1f
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
-Version: 1.14.0-1
+Version: 1.14.1-1
 Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
 Source: feeds/routerich/zerotier
 SourceName: zerotier
 License: BSL 1.1
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1725307136
+SourceDateEpoch: 1732562502
 Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: aarch64_cortex-a53
-Installed-Size: 571421
-Filename: zerotier_1.14.0-1_aarch64_cortex-a53.ipk
-Size: 571130
-SHA256sum: 5ee8daec552b53c537c5b3731196117967952dd7cf2af5dcd562121599eaa7cf
+Installed-Size: 556007
+Filename: zerotier_1.14.1-1_aarch64_cortex-a53.ipk
+Size: 555828
+SHA256sum: 0ac1b6447d70cb962f13b0e989826e9433aea6e833dbbcb3e798a87c1e4862bc
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
