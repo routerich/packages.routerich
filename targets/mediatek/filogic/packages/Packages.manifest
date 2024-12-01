@@ -56,13 +56,13 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt76-connac
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1732991018
+SourceDateEpoch: 1733066584
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26648
+Installed-Size: 26659
 Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-2_aarch64_cortex-a53.ipk
-Size: 27456
-SHA256sum: 979d4cb61ab0b20eec0941974f7581f2e84a9cad1774f62db1131446ac434ef3
+Size: 27472
+SHA256sum: 5c514a825b8e0b821838a11c76b1a3583cd906deaa79ebbd0f8f695f0e72d7d9
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -72,30 +72,14 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt76-core
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1732991018
+SourceDateEpoch: 1733066584
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 43613
+Installed-Size: 43610
 Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-2_aarch64_cortex-a53.ipk
-Size: 44272
-SHA256sum: 75f20123a86fb976d9c88f0255d1d9c5e76ac5299c0ea71a9996f26ec3f8658d
+Size: 44280
+SHA256sum: 3098baf3b7bff3793bf9d74d17e62cbeccb2e7f0ec78bc5d45c5043c413eeb5c
 Description:  MediaTek MT76xx wireless driver
-
-Package: kmod-mt7915-firmware
-Version: 5.15.167+2024-04-03-1e336a85-1
-Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, kmod-mt7915e
-Source: feeds/base/kernel/mt76
-SourceName: kmod-mt7915-firmware
-License: GPLv2
-Section: kernel
-SourceDateEpoch: 1730230655
-Maintainer: Felix Fietkau <nbd@nbd.name>
-Architecture: aarch64_cortex-a53
-Installed-Size: 515666
-Filename: kmod-mt7915-firmware_5.15.167+2024-04-03-1e336a85-1_aarch64_cortex-a53.ipk
-Size: 512051
-SHA256sum: f58d520e14263990231e654100990a7f75bb029147f57686cba2a0f970892d70
-Description:  MediaTek MT7915 firmware
 
 Package: kmod-mt7915e
 Version: 5.15.167+2024-10-14-8dfead68-2
@@ -104,12 +88,12 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt7915e
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1732991018
+SourceDateEpoch: 1733066584
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 131543
+Installed-Size: 131544
 Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-2_aarch64_cortex-a53.ipk
-Size: 130391
-SHA256sum: 0aba532a693d3db7a90d09fd3692f43c10d364eabe2a5435082b406b222b07a1
+Size: 130396
+SHA256sum: 5c047d5cd449fd53402f9900c2fd8b28e20220ff4e423d0bb22dc10567cf2cb0
 Description:  MediaTek MT7915e wireless driver
 
