@@ -35,38 +35,38 @@ SHA256sum: 1f09b3a467928c7d82d35c8aea049db9ded6bf283d96cabc335bee81e837ccdf
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mt76-connac
-Version: 5.15.167+2024-10-14-8dfead68-3
+Version: 5.15.167+2024-10-14-8dfead68-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 26594
-Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-3_aarch64_cortex-a53.ipk
-Size: 27350
-SHA256sum: 0ec1b54793f760371bd0e6846158f8be5727bcb268c1c995ef0fdd9de3de5d4e
+Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-4_aarch64_cortex-a53.ipk
+Size: 27354
+SHA256sum: 968f3d99a8b3e11098e67c742ac8361404f9c11b5b021fd8e38f8d5011bd4aef
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
-Version: 5.15.167+2024-10-14-8dfead68-3
+Version: 5.15.167+2024-10-14-8dfead68-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 43613
-Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-3_aarch64_cortex-a53.ipk
-Size: 44283
-SHA256sum: 04d33466e18460e108a663022f2618adf75e096568524c777ed90995b3ff361b
+Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-4_aarch64_cortex-a53.ipk
+Size: 44279
+SHA256sum: b0c57cb1e22f19bc648bc8c8bb38707f3861a719388516aa25f5a34297eb2abf
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7915e
-Version: 5.15.167+2024-10-14-8dfead68-3
+Version: 5.15.167+2024-10-14-8dfead68-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 131537
-Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-3_aarch64_cortex-a53.ipk
-Size: 130345
-SHA256sum: b16c26051f05ee97787ec0e421dcb30f8b7b17dd16ef879979b1debfe43530e6
+Installed-Size: 131513
+Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-4_aarch64_cortex-a53.ipk
+Size: 130330
+SHA256sum: f6231fb85b6c8a9c64b4a69cf51d2dbd79d4cc946a246196722db5bce9e45d13
 Description:  MediaTek MT7915e wireless driver
 
