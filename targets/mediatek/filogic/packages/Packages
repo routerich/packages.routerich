@@ -1,101 +1,101 @@
 Package: hostapd-common
-Version: 2023-09-08-e5ccbfc6-8
+Version: 2023-09-08-e5ccbfc6-9
 Depends: libc
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: aarch64_cortex-a53
 Installed-Size: 16218
-Filename: hostapd-common_2023-09-08-e5ccbfc6-8_aarch64_cortex-a53.ipk
-Size: 17008
-SHA256sum: ba03f9f201c2658a18ed6022ce3894d8cc1bfd57a7f8d19110480374faa34ef2
+Filename: hostapd-common_2023-09-08-e5ccbfc6-9_aarch64_cortex-a53.ipk
+Size: 17003
+SHA256sum: 321d9c20504a71a9c8069dc5dbb1d1d0e797da559f7c121fb387306233f5dbe5
 Description:  hostapd/wpa_supplicant common support files
 
 Package: kmod-cfg80211
-Version: 5.15.167+6.1.110-1-5
+Version: 5.15.167+6.1.110-1-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), iw, iwinfo, wireless-regdb
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 174340
-Filename: kmod-cfg80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 174333
-SHA256sum: 4d0b896e276b1f4b843b88d03c464eaf9f246eeef563067671be1f3587bc6aaf
+Filename: kmod-cfg80211_5.15.167+6.1.110-1-4_aarch64_cortex-a53.ipk
+Size: 174336
+SHA256sum: a433455e5e7a5edd711a2e01f0d1b3346f54b7faa2338ef3da8dc9fd1c18ed42
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-mac80211-hwsim
-Version: 5.15.167+6.1.110-1-5
+Version: 5.15.167+6.1.110-1-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 25177
-Filename: kmod-mac80211-hwsim_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 25882
-SHA256sum: 9ef1c5c38a56ac2dd9f874b26b9f85f39af74f9887faf16ad6bfbd09956516dd
+Filename: kmod-mac80211-hwsim_5.15.167+6.1.110-1-4_aarch64_cortex-a53.ipk
+Size: 25881
+SHA256sum: a0ef4ee83870b2d6b0e18f4afc3736074bbec98cd45764e42354a440f6c9cea9
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
-Version: 5.15.167+6.1.110-1-5
+Version: 5.15.167+6.1.110-1-4
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-cfg80211, kmod-crypto-cmac, kmod-crypto-ccm, kmod-crypto-gcm, hostapd-common
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 328745
-Filename: kmod-mac80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 327524
-SHA256sum: 33124bfa9d3c9358f5039645ecbecbd26234aa98b0764fb0be32151775cc2e69
+Filename: kmod-mac80211_5.15.167+6.1.110-1-4_aarch64_cortex-a53.ipk
+Size: 327522
+SHA256sum: 4373c8bf01defecb1b4da6b7bebd863d8d8b9ae8435ba3d7c58bf2e0686f8def
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mt76-connac
-Version: 5.15.167+2024-10-14-8dfead68-7
+Version: 5.15.167+2024-10-14-8dfead68-8
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, kmod-mt76-core
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 26778
-Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-7_aarch64_cortex-a53.ipk
-Size: 27576
-SHA256sum: 97bdaf72266b14df34804f821ede29c59b530010bb049cf2a6a73e277c49281a
+Installed-Size: 26765
+Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-8_aarch64_cortex-a53.ipk
+Size: 27573
+SHA256sum: f7f6be9e85607dabb513ef3b98d4f7dcb8ba1dfc657b3bc8b17c70ae6107e776
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
-Version: 5.15.167+2024-10-14-8dfead68-7
+Version: 5.15.167+2024-10-14-8dfead68-8
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 43612
-Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-7_aarch64_cortex-a53.ipk
-Size: 44288
-SHA256sum: 42b44f506dd055af3b4ad427cbec47c2f3f4f01fcd637ce237a4fdfa03919f87
+Installed-Size: 43616
+Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-8_aarch64_cortex-a53.ipk
+Size: 44293
+SHA256sum: 1cc71dc3d885aa81f3ebd1e81532bcd8a69930e4dd9ef9d74d118555e0ccec37
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7915e
-Version: 5.15.167+2024-10-14-8dfead68-7
+Version: 5.15.167+2024-10-14-8dfead68-8
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, kmod-mt76-connac, kmod-hwmon-core, kmod-thermal
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 132310
-Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-7_aarch64_cortex-a53.ipk
-Size: 131161
-SHA256sum: e8eeb2aee25c5810641dba87d802b48d0320d04de18720e925eacf8e00677adb
+Installed-Size: 132258
+Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-8_aarch64_cortex-a53.ipk
+Size: 131082
+SHA256sum: fcff7c826a40ef3d2645f241b760e16826bbe17d3eba7d98d3055fa17bfc3d82
 Description:  MediaTek MT7915e wireless driver
 
 Package: wpad-openssl
-Version: 2023-09-08-e5ccbfc6-8
-Depends: hostapd-common (=2023-09-08-e5ccbfc6-8), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
+Version: 2023-09-08-e5ccbfc6-9
+Depends: hostapd-common (=2023-09-08-e5ccbfc6-9), libc, libnl-tiny1, hostapd-common, ucode, libubus20230605, libucode20230711, ucode-mod-fs, ucode-mod-nl80211, ucode-mod-rtnl, ucode-mod-ubus, ucode-mod-uloop, libblobmsg-json20230523, libopenssl3, libopenssl-legacy
 Conflicts: hostapd, hostapd-basic, hostapd-basic-openssl, hostapd-basic-wolfssl, hostapd-basic-mbedtls, hostapd-mini, hostapd-openssl, hostapd-wolfssl, hostapd-mbedtls, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini, wpad, wpad-mesh-openssl, wpad-mesh-wolfssl, wpad-mesh-mbedtls, wpad-basic, wpad-basic-openssl, wpad-basic-wolfssl, wpad-basic-mbedtls, wpad-mini
 Provides: hostapd, wpa-supplicant
 License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:w1.fi:hostapd
 Architecture: aarch64_cortex-a53
-Installed-Size: 792065
-Filename: wpad-openssl_2023-09-08-e5ccbfc6-8_aarch64_cortex-a53.ipk
-Size: 792222
-SHA256sum: d496ab1caf08c16d4e27e2ff3253e00acb684aeda67d823d5fe79c6266e7d509
+Installed-Size: 792110
+Filename: wpad-openssl_2023-09-08-e5ccbfc6-9_aarch64_cortex-a53.ipk
+Size: 792194
+SHA256sum: 9c04971448708bff05f3302ec2becbf1a3660ace620ee9b8e51bf58c5523bb4f
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator and Supplicant
 
