@@ -241,6 +241,17 @@ Size: 2269
 SHA256sum: 94d6343e8edf89fe41f50f2355943e95358113425d287019b8e738e08acf1393
 Description:  LuCI support for Scheduled Reboot
 
+Package: luci-app-cifs-mount
+Version: 1
+Depends: libc, kmod-fs-cifs, kmod-nls-utf8, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-misc, kmod-nls-base, luci-lua-runtime
+Section: luci
+Architecture: all
+Installed-Size: 1961
+Filename: luci-app-cifs-mount_1_all.ipk
+Size: 2834
+SHA256sum: df53d44a3d802d24edd73a3add0c7f422a4c0a0f8b5aea53bd4f868f0fef8ebb
+Description:  LuCI for SMB/CIFS Mount
+
 Package: luci-app-filebrowser-go
 Version: git-24.252.39226-c89d418
 Depends: libc, filebrowser
@@ -1142,13 +1153,13 @@ Description:  Telegram bot for router with firmware Lede/Openwrt.
 
 Package: uboot-routerich
 Version: 1-1
-Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum
+Depends: libc, kmod-mtd-rw
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 434735
+Installed-Size: 434727
 Filename: uboot-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 434234
-SHA256sum: c3ba1c18555a466b185d527c3783d80d547d0fc821767067eef8dea6ec94ec1d
+Size: 434294
+SHA256sum: cb79b5108bb4d7eb61adcf96c314a99b386ed196198e2c9c7fa5c5d68384660a
 Description:  Uboot upgrade
 
 Package: urllogger
