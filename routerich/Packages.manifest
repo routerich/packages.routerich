@@ -1384,13 +1384,13 @@ SourceName: opera-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1728436582
+SourceDateEpoch: 1732640912
 Maintainer: Romanov Danila <pervoku@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 2349392
+Installed-Size: 2349391
 Filename: opera-proxy_1.6.0-1_aarch64_cortex-a53.ipk
-Size: 2350603
-SHA256sum: 0b1fa0237b0a411bdbafd9f9321862a2a6d8fcd30f607a269457723b5c2948d6
+Size: 2350598
+SHA256sum: fb8c4686cde481db04330a7efcf828b4130f82c44b3e15926700108f0789858a
 Description:  Opera Proxy client
 
 Package: qbittorrent
@@ -1509,6 +1509,20 @@ Size: 6305
 SHA256sum: cf7327a9eb6bd0f457da9f4a45ef4d7409308398eb4356f5a241945d9df27cd5
 Description:  Telegram bot for router with firmware Lede/Openwrt.
 
+Package: uboot-routerich
+Version: 1-1
+Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum
+Source: feeds/routerich/uboot-routerich
+SourceName: uboot-routerich
+Section: config
+SourceDateEpoch: 1732984188
+Architecture: aarch64_cortex-a53
+Installed-Size: 434735
+Filename: uboot-routerich_1-1_aarch64_cortex-a53.ipk
+Size: 434234
+SHA256sum: c3ba1c18555a466b185d527c3783d80d547d0fc821767067eef8dea6ec94ec1d
+Description:  Uboot upgrade
+
 Package: urllogger
 Version: 0.0.1-1
 Depends: libc, kmod-natflow
@@ -1563,13 +1577,13 @@ Depends: libc, libpthread
 Source: feeds/routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1729285697
+SourceDateEpoch: 1732909943
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26925
+Installed-Size: 26922
 Filename: youtubeUnblock_1.0.0-mediatek-2_aarch64_cortex-a53.ipk
-Size: 27635
-SHA256sum: e126ae9206c6afa7751b73af7b4010d6df00ced4196889d29913472eafec1e1f
+Size: 27637
+SHA256sum: d6abf1164144961e3deb2549be306b288ab9a8b7892c034483a98a6b0616beed
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
