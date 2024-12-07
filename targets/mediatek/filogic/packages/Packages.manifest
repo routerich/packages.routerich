@@ -23,13 +23,13 @@ SourceName: kmod-cfg80211
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1733480239
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 174344
+Installed-Size: 174347
 Filename: kmod-cfg80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 174329
-SHA256sum: 6edd3c8f37c298c98a65876e57484649a33c286cbbab3f8f9085b523dfe27132
+Size: 174307
+SHA256sum: 7efa46baa182fef48af65085a6a62c21a01d930b257c2f75ab2685c34742204f
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-mac80211-hwsim
@@ -40,13 +40,13 @@ SourceName: kmod-mac80211-hwsim
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1733480239
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 25179
+Installed-Size: 25180
 Filename: kmod-mac80211-hwsim_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 25882
-SHA256sum: 18e28510476b35a4e3b2f67f8a21b58d614cf685ce36393e7843c16ca08f3afb
+Size: 25883
+SHA256sum: bb537de66f21d6430533e195bfb9d853ee39f66098724d2b98b6d4684ee7752d
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
@@ -57,13 +57,13 @@ SourceName: kmod-mac80211
 License: GPL-2.0-only
 LicenseFiles: COPYING
 Section: kernel
-SourceDateEpoch: 1733480239
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 328781
+Installed-Size: 328783
 Filename: kmod-mac80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 327594
-SHA256sum: 00df4b56d793c3ab8c34e277fb155bc096f7986ef2a9352cb8058348d78df606
+Size: 327555
+SHA256sum: b7557d529afe5d91e6b8ba25135b562871811aca5a94ee7bd26f465d8e39febd
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mt76-connac
@@ -73,13 +73,13 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt76-connac
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1733432112
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26604
+Installed-Size: 26605
 Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 27378
-SHA256sum: f9b8250ae63d06552d0b976e78f23ac1c38fff1165287edf0bee4fe4f32018c5
+Size: 27370
+SHA256sum: ca8e905060e1e491252be0b245c6ee6a6930068bc1eedae04b8bf257f9e297c9
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -89,13 +89,13 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt76-core
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1733432112
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 43607
+Installed-Size: 43608
 Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 44273
-SHA256sum: ed26a62f1026798faa42000e051fda5bdcebb3856ea4d4c48fa3b1aeaa33ec62
+Size: 44284
+SHA256sum: de9da878747696a0c603e73314f40e47cd6f9141dafc066c703fc8971fe138ce
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7915e
@@ -105,13 +105,13 @@ Source: feeds/base/kernel/mt76
 SourceName: kmod-mt7915e
 License: GPLv2
 Section: kernel
-SourceDateEpoch: 1733432112
+SourceDateEpoch: 1733483138
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 132442
+Installed-Size: 132494
 Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 131204
-SHA256sum: e7b76dfafc9ac783d975764d8581c8370f384cd433f0bffc05fcca26b608f18c
+Size: 131317
+SHA256sum: a5a4e0783814b0c9de92488e5abcf974bffded0fafc8bac79ff4b8797128210b
 Description:  MediaTek MT7915e wireless driver
 
 Package: wpad-openssl
