@@ -33,13 +33,13 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 
 Package: base-config-routerich
 Version: 1-1
-Depends: libc, kmod-mtd-rw, coreutils, coreutils-sha1sum, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
+Depends: libc, kmod-mtd-rw, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 2216
+Installed-Size: 2133
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 2961
-SHA256sum: f9ccfb270d31cd172a53b4f66a0bdaf0646cd0ea57b11da601dd942ca9854534
+Size: 2858
+SHA256sum: 64b998ead2f89a22233ab41e60c41a3a70ede068cc62a08c88aafa4585980315
 Description:  Base config
 
 Package: default-settings
@@ -48,10 +48,10 @@ Depends: libc, luci
 License: GPL-2.0-only
 Section: luci
 Architecture: all
-Installed-Size: 1973
+Installed-Size: 2136
 Filename: default-settings_1_all.ipk
-Size: 2691
-SHA256sum: 77f2a06ad95555e9143d7864ef05234d358176b5f71c61d43cc0169905595b02
+Size: 2816
+SHA256sum: 5e987593c563cfab0970749ec4586fd10bcc440334753443ea759bd84842c932
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
@@ -60,10 +60,10 @@ Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 6087016
+Installed-Size: 6086721
 Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
-Size: 6088957
-SHA256sum: fa81251070a077d5502f8928cc0aa2a08a500a905a737c1faca39b2b5fe20fec
+Size: 6088651
+SHA256sum: 8ffce0ad35df67a02f04cc40246fda4de33ca743b738442570c2df1846190170
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -246,10 +246,10 @@ Version: 1
 Depends: libc, kmod-fs-cifs, kmod-nls-utf8, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-misc, kmod-nls-base, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 1961
+Installed-Size: 1959
 Filename: luci-app-cifs-mount_1_all.ipk
 Size: 2834
-SHA256sum: df53d44a3d802d24edd73a3add0c7f422a4c0a0f8b5aea53bd4f868f0fef8ebb
+SHA256sum: a9b40da04913eff8a37955e75c721cb1540ab884a023ae42429a1acf348943a2
 Description:  LuCI for SMB/CIFS Mount
 
 Package: luci-app-filebrowser-go
@@ -742,10 +742,10 @@ License: BSD-3-Clause
 Section: MTK Properties
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd-mtk-adjust
 Architecture: aarch64_cortex-a53
-Installed-Size: 86669
+Installed-Size: 86670
 Filename: miniupnpd-mtk-adjust-nftables_2.3.7-1_aarch64_cortex-a53.ipk
-Size: 87517
-SHA256sum: 478fcd3b96959bf6c5c7e63f0d59abf0594224e24b6672428cfec69616db70c1
+Size: 87520
+SHA256sum: a7d5bf8f8f0fd138262d3a6c57993172535e1a96f9a78c4ebb152f144daf9a6c
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: miniupnpd-nftables
@@ -757,10 +757,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
-Installed-Size: 87539
+Installed-Size: 87540
 Filename: miniupnpd-nftables_20240802-1_aarch64_cortex-a53.ipk
-Size: 88331
-SHA256sum: f575b9865266216139d0797c7f45f1760e215a42cb3dede90b510890e5086fe2
+Size: 88327
+SHA256sum: 8f288a6f4872277f6ac4b3a42b9e0783b69fc3eee67696eb46674155c0275b07
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: modemband
