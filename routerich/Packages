@@ -48,10 +48,10 @@ Depends: libc, luci
 License: GPL-2.0-only
 Section: luci
 Architecture: all
-Installed-Size: 2136
+Installed-Size: 2078
 Filename: default-settings_1_all.ipk
-Size: 2816
-SHA256sum: 5e987593c563cfab0970749ec4586fd10bcc440334753443ea759bd84842c932
+Size: 2757
+SHA256sum: f4601b236e10df3ae942f1df7d567e34d265ee8bbd60996f51a41600ae48b2b0
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
@@ -246,10 +246,10 @@ Version: 1
 Depends: libc, kmod-fs-cifs, kmod-nls-utf8, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-misc, kmod-nls-base, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 1959
+Installed-Size: 1964
 Filename: luci-app-cifs-mount_1_all.ipk
-Size: 2834
-SHA256sum: a9b40da04913eff8a37955e75c721cb1540ab884a023ae42429a1acf348943a2
+Size: 2832
+SHA256sum: 759bf0dd32e416b42c529db1c0fabdfd29c312f6a6a6b62b46db11f1eb6c3795
 Description:  LuCI for SMB/CIFS Mount
 
 Package: luci-app-filebrowser-go
@@ -262,6 +262,18 @@ Filename: luci-app-filebrowser-go_git-24.252.39226-c89d418_all.ipk
 Size: 2420
 SHA256sum: 96c6b816e0a1379d73c21eb6c4da4a757244d7916635e2b665acd468d50c1e9e
 Description:  LuCI app for FileBrowser
+
+Package: luci-app-filemanager
+Version: git-24.354.46922-6eb0254
+Depends: libc, luci-base
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 23112
+Filename: luci-app-filemanager_git-24.354.46922-6eb0254_all.ipk
+Size: 23984
+SHA256sum: f95e62021435a6854a3ec956f7648ba4400ed46e0413e8fac4d396199e2a0a42
+Description:  LuCI File Manager module
 
 Package: luci-app-internet-detector
 Version: 1.3.0-r1
@@ -1156,10 +1168,10 @@ Version: 1-1
 Depends: libc, kmod-mtd-rw
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 434727
+Installed-Size: 434825
 Filename: uboot-routerich_1-1_aarch64_cortex-a53.ipk
-Size: 434294
-SHA256sum: cb79b5108bb4d7eb61adcf96c314a99b386ed196198e2c9c7fa5c5d68384660a
+Size: 434385
+SHA256sum: 03b08f5308e1acb7b347f0c1980029824217b4a240976b8ce8bbd132710dd085
 Description:  Uboot upgrade
 
 Package: urllogger
