@@ -155,25 +155,6 @@ Description:  installs: smb.service
  This package contains the service definition for announcing the
  Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
 
-Package: ksmbd-avahi-service
-Version: 3.5.3-20240407
-Depends: libc, avahi-daemon
-Source: feeds/routerich/ksmbd-tools
-SourceName: ksmbd-avahi-service
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1728436582
-Architecture: aarch64_cortex-a53
-Installed-Size: 350
-Filename: ksmbd-avahi-service_3.5.3-20240407_aarch64_cortex-a53.ipk
-Size: 1194
-SHA256sum: 1bbc0498257c5c0c6c1de34295c7ba32fb40b14b678ba84c03e1dbf28f4ef4d5
-Description:  installs: smb.service
- 
- This package contains the service definition for announcing the
- Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
-
 Package: ksmbd-hotplug-oot
 Version: 3.5.3.1-20240407
 Depends: libc, blockd
@@ -188,22 +169,6 @@ Installed-Size: 679
 Filename: ksmbd-hotplug-oot_3.5.3.1-20240407_aarch64_cortex-a53.ipk
 Size: 1440
 SHA256sum: ee659c02a429369428880267793779ac6a0c1a5b46a66fa5e8a7d3fd37bcc7b4
-Description:  Kernel SMB hotplug script for auto sharing
-
-Package: ksmbd-hotplug
-Version: 3.5.3-20240407
-Depends: libc, blockd
-Source: feeds/routerich/ksmbd-tools
-SourceName: ksmbd-hotplug
-License: GPL-2.0-or-later
-LicenseFiles: COPYING
-Section: net
-SourceDateEpoch: 1728436582
-Architecture: aarch64_cortex-a53
-Installed-Size: 679
-Filename: ksmbd-hotplug_3.5.3-20240407_aarch64_cortex-a53.ipk
-Size: 1439
-SHA256sum: e7284b94ca7c7e53d635010a3b78fa7ba733fd7e147ed21af43c541597284981
 Description:  Kernel SMB hotplug script for auto sharing
 
 Package: ksmbd-server-oot
