@@ -45,7 +45,7 @@ jsonfilter - 2024-01-23-594cfa86-1
 kernel - 5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b
 kmod-amneziawg - 5.15.167-1
 kmod-asn1-decoder - 5.15.167-1
-kmod-batman-adv - 5.15.167+2023.1-8
+kmod-batman-adv - 5.15.167+2023.1-9
 kmod-br-netfilter - 5.15.167-1
 kmod-cfg80211 - 5.15.167+6.1.110-1-5
 kmod-crypto-acompress - 5.15.167-1
@@ -175,7 +175,7 @@ kmod-usb-xhci-mtk - 5.15.167-1
 kmod-usb3 - 5.15.167-1
 kmod-wireguard - 5.15.167-1
 kmod-zram - 5.15.167-1
-ksmbd-server - 3.5.1-2
+ksmbd-server - 3.5.3-2
 libatomic1 - 12.3.0-4
 libattr - 2.5.1-1
 libblkid1 - 2.39-2
@@ -310,7 +310,7 @@ luci-proto-mbim - git-23.137.84224-37176dc
 luci-proto-ncm - git-22.209.60806-049d876
 luci-proto-ppp - git-24.330.77799-feba812
 luci-proto-qmi - git-24.087.04037-98843bf
-luci-proto-wireguard - git-24.330.77799-feba812
+luci-proto-wireguard - git-24.360.81926-f51671e
 luci-proto-xmm - git-24.255.44995-eddd63f
 luci-ssl - git-23.035.26083-7550ad6
 luci-theme-bootstrap - git-24.086.46634-1ffe078
