@@ -1062,16 +1062,34 @@ SHA256sum: 1b6d15835d962d7aa48bcad2789bada38cedf66afdd03fdaa7f8050936a7fad3
 Description:  Natflow init script
 
 Package: opera-proxy
-Version: 1.6.0-1
+Version: 1.7.0-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 2349391
-Filename: opera-proxy_1.6.0-1_aarch64_cortex-a53.ipk
-Size: 2350598
-SHA256sum: fb8c4686cde481db04330a7efcf828b4130f82c44b3e15926700108f0789858a
+Installed-Size: 2355965
+Filename: opera-proxy_1.7.0-1_aarch64_cortex-a53.ipk
+Size: 2357175
+SHA256sum: 1d94015e210d78a4a2d4a8631c7ef9d792983ae59ae4293926e9c50bb41ffa5b
 Description:  Opera Proxy client
+
+Package: p910nd
+Version: 0.97-15
+Depends: libc
+License: GPLv2
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 12358
+Filename: p910nd_0.97-15_aarch64_cortex-a53.ipk
+Size: 13291
+SHA256sum: 88ab7c02333c5d5c8d9b6b6aefb42c85b9ffdb74c82ac2912f3bc75e8605ffb5
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
 
 Package: qbittorrent
 Version: 5.0.2-1
