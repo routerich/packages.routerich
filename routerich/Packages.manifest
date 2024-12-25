@@ -81,10 +81,10 @@ Section: utils
 SourceDateEpoch: 1728066102
 Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6086721
+Installed-Size: 6086289
 Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
-Size: 6088651
-SHA256sum: 8ffce0ad35df67a02f04cc40246fda4de33ca743b738442570c2df1846190170
+Size: 6088223
+SHA256sum: a785c7909d636c6a72fdf2334e4e1dac9a8cd01e9157c4b16b05bd2a40724084
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -135,6 +135,95 @@ SHA256sum: 38e8cc0ab52cd8a4b49bb513bc35bc4ca0c501773fe1476a7133721e8225cef6
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
+
+Package: ksmbd-avahi-service-oot
+Version: 3.5.3.1-20240407
+Depends: libc, avahi-daemon
+Source: feeds/routerich/ksmbd-tools-oot
+SourceName: ksmbd-avahi-service-oot
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1728436582
+Architecture: aarch64_cortex-a53
+Installed-Size: 350
+Filename: ksmbd-avahi-service-oot_3.5.3.1-20240407_aarch64_cortex-a53.ipk
+Size: 1203
+SHA256sum: b02ab3db688143f835778c1ce721df1e209eee608453d10e55100d6bf4e3af05
+Description:  installs: smb.service
+ 
+ This package contains the service definition for announcing the
+ Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
+
+Package: ksmbd-avahi-service
+Version: 3.5.3-20240407
+Depends: libc, avahi-daemon
+Source: feeds/routerich/ksmbd-tools
+SourceName: ksmbd-avahi-service
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1728436582
+Architecture: aarch64_cortex-a53
+Installed-Size: 350
+Filename: ksmbd-avahi-service_3.5.3-20240407_aarch64_cortex-a53.ipk
+Size: 1194
+SHA256sum: 1bbc0498257c5c0c6c1de34295c7ba32fb40b14b678ba84c03e1dbf28f4ef4d5
+Description:  installs: smb.service
+ 
+ This package contains the service definition for announcing the
+ Ksmbd (smb/445) Daemon service via mDNS/DNS-SD.
+
+Package: ksmbd-hotplug-oot
+Version: 3.5.3.1-20240407
+Depends: libc, blockd
+Source: feeds/routerich/ksmbd-tools-oot
+SourceName: ksmbd-hotplug-oot
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1728436582
+Architecture: aarch64_cortex-a53
+Installed-Size: 679
+Filename: ksmbd-hotplug-oot_3.5.3.1-20240407_aarch64_cortex-a53.ipk
+Size: 1440
+SHA256sum: ee659c02a429369428880267793779ac6a0c1a5b46a66fa5e8a7d3fd37bcc7b4
+Description:  Kernel SMB hotplug script for auto sharing
+
+Package: ksmbd-hotplug
+Version: 3.5.3-20240407
+Depends: libc, blockd
+Source: feeds/routerich/ksmbd-tools
+SourceName: ksmbd-hotplug
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1728436582
+Architecture: aarch64_cortex-a53
+Installed-Size: 679
+Filename: ksmbd-hotplug_3.5.3-20240407_aarch64_cortex-a53.ipk
+Size: 1439
+SHA256sum: e7284b94ca7c7e53d635010a3b78fa7ba733fd7e147ed21af43c541597284981
+Description:  Kernel SMB hotplug script for auto sharing
+
+Package: ksmbd-server-oot
+Version: 3.5.3.1-20240407
+Depends: libc, kmod-fs-ksmbd-oot, libnl-core200, libnl-genl200
+Provides: ksmbd-server
+Source: feeds/routerich/ksmbd-tools-oot
+SourceName: ksmbd-server-oot
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1728436582
+Architecture: aarch64_cortex-a53
+Installed-Size: 128929
+Filename: ksmbd-server-oot_3.5.3.1-20240407_aarch64_cortex-a53.ipk
+Size: 127718
+SHA256sum: 97288bfd280f28fb960ee4c71ea08b35ce5a88586856e0799e851fbb9aa081b0
+Description:  installs: ksmbd.mountd
+ 
+ This provides the basic fileserver service and is the minimum needed to serve 'guest only' file shares or use a existing user database file ksmbdpwd.db.
 
 Package: libQt6Core
 Version: 6.8.0-1
@@ -475,6 +564,21 @@ Size: 2637
 SHA256sum: fcbbc44fb4f255e149c8d8c1727b775f257bad2885040ba615fdf2a01102b8fc
 Description:  LuCI support for qBittorrent
 
+Package: luci-app-ruantiblock
+Version: 2.1.2
+Depends: libc, ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
+Section: luci
+SourceDateEpoch: 1735140421
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 19252
+Filename: luci-app-ruantiblock_2.1.2_all.ipk
+Size: 20093
+SHA256sum: 217430323e0da333845c9f23bd0d35501bdd2d4751cb142fb0016af92005a260
+Description:  LuCI support for ruantiblock
+
 Package: luci-app-sms-tool-js
 Version: 2.0.24-20240827
 Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
@@ -787,6 +891,20 @@ Filename: luci-i18n-qbittorrent-ru_git-24.252.08653-eff063a_all.ipk
 Size: 1495
 SHA256sum: 76da6aca949e8054218b0c6294eddb0d65c4d255bcf248f1ab2158538a166b41
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
+
+Package: luci-i18n-ruantiblock-ru
+Version: git-24.334.78666-f21fa64
+Depends: libc, luci-app-ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-i18n-ruantiblock-ru
+Section: luci
+SourceDateEpoch: 1735140421
+Architecture: all
+Installed-Size: 5438
+Filename: luci-i18n-ruantiblock-ru_git-24.334.78666-f21fa64_all.ipk
+Size: 6197
+SHA256sum: e233ab11651e492c43c8981a73916bfe1a791968c0e497e1428b0bb18eb4d9ba
+Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-sms-tool-js-ru
 Version: git-24.255.44995-eddd63f
@@ -1534,6 +1652,36 @@ SHA256sum: a85d58086d076342ab07a64fe77f626ecbad433a94b776125bb478789d859d15
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
+
+Package: ruantiblock-mod-lua
+Version: 2.1.2-1
+Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
+Source: feeds/routerich/ruantiblock_openwrt/ruantiblock-mod-lua
+SourceName: ruantiblock-mod-lua
+Section: net
+SourceDateEpoch: 1735140421
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 8567
+Filename: ruantiblock-mod-lua_2.1.2-1_all.ipk
+Size: 9333
+SHA256sum: 91759dd64aafcebde0c2da8860a7a159d910fa933690e24b62766265bbc851b3
+Description:  Lua module for ruantiblock
+
+Package: ruantiblock
+Version: 2.1.2-1
+Depends: libc, dnsmasq-full, kmod-nft-tproxy
+Source: feeds/routerich/ruantiblock_openwrt/ruantiblock
+SourceName: ruantiblock
+Section: net
+SourceDateEpoch: 1735140421
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 20583
+Filename: ruantiblock_2.1.2-1_all.ipk
+Size: 21775
+SHA256sum: 3713c8d704b19847deb82f39b4f8aa203a2c263c10ca288b6d8008b8ca4b4046
+Description:  Ruantiblock
 
 Package: sms-tool
 Version: 2024-07-25-fce2b931-1
