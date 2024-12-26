@@ -3864,7 +3864,7 @@ Description:  Kernel module for JFS support
 Package: kmod-fs-ksmbd-oot
 Version: 5.15.167+20241224-1
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-nls-base, kmod-nls-utf8, kmod-crypto-md5, kmod-crypto-hmac, kmod-crypto-ecb, kmod-crypto-des, kmod-crypto-sha256, kmod-crypto-cmac, kmod-crypto-sha512, kmod-crypto-aead, kmod-crypto-ccm, kmod-crypto-gcm, kmod-asn1-decoder, kmod-oid-registry, kmod-fs-smbfs-common
-Provides: fs-ksmbd
+Provides: kmod-fs-ksmbd
 Source: feeds/routerich/ksmbd
 SourceName: kmod-fs-ksmbd-oot
 License: GPL-2.0-or-later
@@ -3875,8 +3875,8 @@ Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 117041
 Filename: kmod-fs-ksmbd-oot_5.15.167+20241224-1_aarch64_cortex-a53.ipk
-Size: 117244
-SHA256sum: 09c1a541012fe18790799d069cab2a5e3906b4055dbd1c7ddf3f2029568b547d
+Size: 117246
+SHA256sum: e54c15669ea5f2b040dc8e5039bf377f2841c692da377d77127286a43bde0b1f
 Description:  Ksmbd is an In-kernel SMBv(1)2/3 fileserver.
  It's an implementation of the SMB protocol in kernel space for sharing files and IPC services over network.
 

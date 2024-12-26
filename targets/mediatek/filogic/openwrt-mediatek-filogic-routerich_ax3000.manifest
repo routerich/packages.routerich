@@ -81,7 +81,7 @@ kmod-crypto-sha512 - 5.15.167-1
 kmod-crypto-user - 5.15.167-1
 kmod-fs-exfat - 5.15.167-1
 kmod-fs-ext4 - 5.15.167-1
-kmod-fs-ksmbd - 5.15.167-1
+kmod-fs-ksmbd-oot - 5.15.167+20241224-1
 kmod-fs-ntfs3 - 5.15.167-1
 kmod-fs-smbfs-common - 5.15.167-1
 kmod-fs-vfat - 5.15.167-1
