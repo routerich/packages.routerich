@@ -1273,14 +1273,14 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 1.0.0~254b363-r6
+Version: 1.0.0-mediatek-6
 Depends: libc, libpthread
 Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 27580
-Filename: youtubeUnblock_1.0.0~254b363-r6_aarch64_cortex-a53.ipk
-Size: 28317
-SHA256sum: d0aa4df62e8cc275e25ffa3464262842a76012e9fbbaadca6d16e5cdf8b1f810
+Installed-Size: 34556
+Filename: youtubeUnblock_1.0.0-mediatek-6_aarch64_cortex-a53.ipk
+Size: 35401
+SHA256sum: ea3b413129f6cea574d19bfd7db4fce92128909fbd1cfd403e6d5bef1c1fc388
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
