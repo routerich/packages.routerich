@@ -630,8 +630,8 @@ SHA256sum: f6ab81dc5047618473dab1655a6384df3af8a8d0407cf6050c14d4716e261202
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0
-Depends: libc, luci-base, luci-compat, luci-lua-runtime
+Version: 1.0-6
+Depends: libc, luci-base
 Source: feeds/routerich/luci-app-youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 License: GPL
@@ -639,10 +639,10 @@ Section: luci
 SourceDateEpoch: 1729191407
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 3507
-Filename: luci-app-youtubeUnblock_1.0_all.ipk
-Size: 4346
-SHA256sum: 6d740288f5c706dd0d4259713b8a504f92ae98e7d08b590ab6b68279ebf574d2
+Installed-Size: 6248
+Filename: luci-app-youtubeUnblock_1.0-6_all.ipk
+Size: 7122
+SHA256sum: ef90a168c28d7eedb6ee9049df952c08aae801714efc137674886d17d3cd7f6a
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -1686,7 +1686,7 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-2
+Version: 1.0.0~254b363-r6
 Depends: libc, libpthread
 Source: feeds/routerich/youtubeUnblock
 SourceName: youtubeUnblock
@@ -1694,10 +1694,10 @@ Section: services
 SourceDateEpoch: 1732909943
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26922
-Filename: youtubeUnblock_1.0.0-mediatek-2_aarch64_cortex-a53.ipk
-Size: 27637
-SHA256sum: d6abf1164144961e3deb2549be306b288ab9a8b7892c034483a98a6b0616beed
+Installed-Size: 27580
+Filename: youtubeUnblock_1.0.0~254b363-r6_aarch64_cortex-a53.ipk
+Size: 28317
+SHA256sum: d0aa4df62e8cc275e25ffa3464262842a76012e9fbbaadca6d16e5cdf8b1f810
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
