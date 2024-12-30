@@ -8,6 +8,11 @@ mt76-connac-lib.ko
 mt76.ko
 mt7915e.ko"
 
+grep -q 369cd3b56ad9cf95bd112cd6fe72ef5b /usr/lib/opkg/info/kernel.control || { 
+  echo "Kernel missmatch!" 
+  exit 1
+}
+
 for module in $modules
 do
   wget -O "$DIR/$module" "$URL/$module"
