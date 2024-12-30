@@ -17,3 +17,6 @@ for module in $modules
 do
   wget -O "$DIR/$module" "$URL/$module"
 done
+
+echo wed off
+echo mt7915e > /etc/modules.d/mt7915e
