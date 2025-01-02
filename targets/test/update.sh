@@ -19,7 +19,8 @@ do
   wget -O "$DIR/$module" "$URL/$module"
 done
 
-wget -O "/usr/sbin/wpad" "$URL/wpad"
+wget -O "/tmp/wpad" "$URL/wpad"
+cp -f /tmp/wpad /usr/sbin/wpad
 chmod +x /usr/sbin/wpad
 
 echo wed off
