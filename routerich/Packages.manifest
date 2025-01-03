@@ -137,60 +137,60 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: libQt6Core
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Core
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
-Installed-Size: 2600199
-Filename: libQt6Core_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 2593118
-SHA256sum: 631b10ea3601fd8adc48f44b4fbda862a9420757bfdf7a1751494475d6ab03e1
-Description:  This package provides the Qt6 Core v6.8.0 library.
+Installed-Size: 2605842
+Filename: libQt6Core_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 2598446
+SHA256sum: 993a2259ab4bd6f0741c60207f8dc283972e958525b7b0435413e8270aec8a4a
+Description:  This package provides the Qt6 Core v6.8.1 library.
 
 Package: libQt6Network
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Network
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
-Installed-Size: 912532
-Filename: libQt6Network_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 911616
-SHA256sum: fd6f485f246ac00ec9ad230e163dced2194f959c3490db4810ae4d3596c66080
-Description:  This package provides the Qt6 Network v6.8.0 library.
+Installed-Size: 912058
+Filename: libQt6Network_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 911210
+SHA256sum: 15a42be2bb223dc8d048735d391a5526cd3953ddfc2e532e551db2b8c7a2a7fb
+Description:  This package provides the Qt6 Network v6.8.1 library.
 
 Package: libQt6Sql
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Sql
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
-Installed-Size: 89526
-Filename: libQt6Sql_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 90056
-SHA256sum: 689b78c164c31882878e6d2f47661d2e7c8eb03399fa85046ab89692865d2d9a
-Description:  This package provides the Qt6 Sql v6.8.0 library.
+Installed-Size: 89588
+Filename: libQt6Sql_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 90106
+SHA256sum: 231434ef40bf0b34bde8b00ea114b2538730bff30c12d86022c9a97d47676f4a
+Description:  This package provides the Qt6 Sql v6.8.1 library.
 
 Package: libQt6Xml
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: libQt6Xml
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
-Installed-Size: 68889
-Filename: libQt6Xml_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 69683
-SHA256sum: 5881cc73cf253113816ce288685522932db6f1f4b896441cc68c0fd559d5a215
-Description:  This package provides the Qt6 Xml v6.8.0 library.
+Installed-Size: 68839
+Filename: libQt6Xml_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 69630
+SHA256sum: a5470cd6b184155f23c8cc45f3fea08764e33025730c6efb4a669925392e2491
+Description:  This package provides the Qt6 Xml v6.8.1 library.
 
 Package: libmbim
 Version: 1.31.6-d-1
@@ -350,19 +350,19 @@ SHA256sum: 96c6b816e0a1379d73c21eb6c4da4a757244d7916635e2b665acd468d50c1e9e
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-filemanager
-Version: git-24.354.46922-6eb0254
+Version: git-25.003.56909-8cfbc72
 Depends: libc, luci-base
 Source: feeds/routerich/luci-app-filemanager
 SourceName: luci-app-filemanager
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1734613322
+SourceDateEpoch: 1735919309
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 23112
-Filename: luci-app-filemanager_git-24.354.46922-6eb0254_all.ipk
-Size: 23984
-SHA256sum: f95e62021435a6854a3ec956f7648ba4400ed46e0413e8fac4d396199e2a0a42
+Installed-Size: 23604
+Filename: luci-app-filemanager_git-25.003.56909-8cfbc72_all.ipk
+Size: 24411
+SHA256sum: 6ee97fe70da670b01b68a23220e3afaf0a38d2c18f352a89789c1339dbba3525
 Description:  LuCI File Manager module
 
 Package: luci-app-internet-detector
@@ -636,13 +636,13 @@ Source: feeds/routerich/luci-app-youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 License: GPL
 Section: luci
-SourceDateEpoch: 1729191407
+SourceDateEpoch: 1735562442
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 6248
+Installed-Size: 6250
 Filename: luci-app-youtubeUnblock_1.0-6_all.ipk
-Size: 7122
-SHA256sum: ef90a168c28d7eedb6ee9049df952c08aae801714efc137674886d17d3cd7f6a
+Size: 7128
+SHA256sum: 9d65da079458bda3a5717b8825e410ee9b801cb6e6ef6a335c66ce08ceafa8e9
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -1453,6 +1453,22 @@ Size: 2357175
 SHA256sum: 1d94015e210d78a4a2d4a8631c7ef9d792983ae59ae4293926e9c50bb41ffa5b
 Description:  Opera Proxy client
 
+Package: p910nd-helper
+Version: 0.0.1-1
+Depends: libc
+Source: feeds/routerich/p910nd-helper
+SourceName: p910nd-helper
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1735563056
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1027735
+Filename: p910nd-helper_0.0.1-1_aarch64_cortex-a53.ipk
+Size: 1027667
+SHA256sum: da1329ad946b53e3edafbc2b0762f0be180d5ae62142afcf40b63d5d4d8f1be3
+Description:  p910nd printer firmware and helper
+
 Package: p910nd
 Version: 0.97-15
 Depends: libc
@@ -1478,7 +1494,7 @@ Description:  p910nd is a small daemon that copies any data received on
  default is port 9100 to /dev/lp0.
 
 Package: qbittorrent
-Version: 5.0.2-1
+Version: 5.0.3-1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
 Provides: qBittorrent
 Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
@@ -1486,13 +1502,13 @@ SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1732562059
+SourceDateEpoch: 1735919623
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7808225
-Filename: qbittorrent_5.0.2-1_aarch64_cortex-a53.ipk
-Size: 7802288
-SHA256sum: 62f8637f87ee3daeec98208f0fce091b5bf6478ec7d60a7d11fa195bab61a19a
+Installed-Size: 7822262
+Filename: qbittorrent_5.0.3-1_aarch64_cortex-a53.ipk
+Size: 7816242
+SHA256sum: 1b950f1070951c20c6ce3602200691651c96c4cbe81a3ec274eba07845c4d3fe
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1517,31 +1533,31 @@ SHA256sum: 1d9e51842abbc109049a2b4a1ae58f7ba73087923f10670ab1d37ccbb1b125ca
 Description:  Utilities to talk to QMI enabled modems
 
 Package: qt6-plugin-libqopensslbackend
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqopensslbackend
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
 Installed-Size: 119881
-Filename: qt6-plugin-libqopensslbackend_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 120087
-SHA256sum: 0b208470a61388c0d821e1eedbaf7296a3673d71c8267c48902818e27c37264b
+Filename: qt6-plugin-libqopensslbackend_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 120080
+SHA256sum: bd4609f421c3432ecad4c3b84eceed775c91fc5b1d23b5a3f60cb2d5b0481b89
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
-Version: 6.8.0-1
+Version: 6.8.1-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
 Source: feeds/routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6-plugin-libqsqlite
 Section: libs
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735919623
 Architecture: aarch64_cortex-a53
-Installed-Size: 973875
-Filename: qt6-plugin-libqsqlite_6.8.0-1_aarch64_cortex-a53.ipk
-Size: 973756
-SHA256sum: b604b66b8b25f8cbedf6df1f71d0e868ba1e167849d8ef7b86e2936a75cce0ef
+Installed-Size: 982149
+Filename: qt6-plugin-libqsqlite_6.8.1-1_aarch64_cortex-a53.ipk
+Size: 982107
+SHA256sum: 549e75d2542c9cf6a4b21969e1005eb1fdb0a73a0652c9cd093b89fe8e0c0622
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0
@@ -1691,13 +1707,13 @@ Depends: libc, libpthread
 Source: feeds/routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1732909943
+SourceDateEpoch: 1735562442
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 34556
 Filename: youtubeUnblock_1.0.0-mediatek-6_aarch64_cortex-a53.ipk
-Size: 35401
-SHA256sum: ea3b413129f6cea574d19bfd7db4fce92128909fbd1cfd403e6d5bef1c1fc388
+Size: 35391
+SHA256sum: 22827bd7a7341bf56a9a877dafc5d9bff1f8ab4d5edf4d353a5fb305eb2ce6ef
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
