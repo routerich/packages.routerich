@@ -25,16 +25,16 @@ SHA256sum: 55dabbf6ce1c49c361c8c3bd7ed5be869b93160ad7678e2bdeb99600ec29b220
 Description:  Mount autoconfig hotplug script.
 
 Package: base-files
-Version: 3-r24106-10cc5fcd00
+Version: 4-r24106-10cc5fcd00
 Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
 License: GPL-2.0
 Section: base
 Status: unknown hold not-installed
 Architecture: aarch64_cortex-a53
-Installed-Size: 54934
-Filename: base-files_3-r24106-10cc5fcd00_aarch64_cortex-a53.ipk
-Size: 55910
-SHA256sum: b072f73777f390aa4c34db3f813c86f9f0c4b922f4729727d9c2d3713fe7aca1
+Installed-Size: 54933
+Filename: base-files_4-r24106-10cc5fcd00_aarch64_cortex-a53.ipk
+Size: 55907
+SHA256sum: c2742b8db1879d5e7e574337f54e5aa2dfc9cb30f32220ca9c77353d4efc635a
 Description:  This package contains a base filesystem and system scripts for OpenWrt.
 
 Package: block-mount
@@ -794,10 +794,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 11904
+Installed-Size: 11903
 Filename: kmod-ar5523_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 12675
-SHA256sum: 61e5cc8aa038034277147460a3a9e91befd4f4f74543fa36b8122f27476c156e
+Size: 12681
+SHA256sum: bf5531f0e575afa2cea53b6965b40f48f002269606b3113fde1802399adab8df
 Description:  Driver for Atheros AR5523 USB sticks
 
 Package: kmod-arptables
@@ -990,10 +990,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 205693
+Installed-Size: 205694
 Filename: kmod-ath10k-smallbuffers_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 204653
-SHA256sum: f47dc3eaffd1ec7685e319baec951ef23e8c75740dc2ff5b36d89a8acd08ca7c
+Size: 204667
+SHA256sum: 86b307a49056f28a5a2ee1fb34d9bbc398e42db05838aebede2ef6a76844d27d
 Description:  Atheros 802.11ac wireless cards support (small buffers for low-RAM devices)
 
 Package: kmod-ath10k
@@ -1004,8 +1004,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 205753
 Filename: kmod-ath10k_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 204755
-SHA256sum: 17343e8494c083c105c40c92eafe35fdb39c791775885f7cf138a96c52c7bc25
+Size: 204747
+SHA256sum: 177f37b07a7f700b7d9564571aa6cd7ce42f5d2f1bdbe4c678e006e57dbb15d8
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11ac family of chipsets. For now only
  PCI is supported.
@@ -1016,10 +1016,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-qrtr-mhi, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 8164
+Installed-Size: 8163
 Filename: kmod-ath11k-pci_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
 Size: 9021
-SHA256sum: 71faf59948cac1352521fc118f2f0a10820a8704932a254582f87177242f9a20
+SHA256sum: 00f1ce488eae904cce701081f00d14573411e9647477853469edcc73debeb722
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets with PCI bus.
 
@@ -1029,10 +1029,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath, kmod-c
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 232889
+Installed-Size: 232892
 Filename: kmod-ath11k_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 229898
-SHA256sum: 712ceed4ce6ff49f4517f87065acac5f45aef045bb7082f14f162fbec9429cf6
+Size: 229981
+SHA256sum: 0a91bcd0a43c950f0ce0f180f7ed929019e12f7459668d589d0064964d5a9303
 Description:  This module adds support for Qualcomm Technologies 802.11ax family of
  chipsets.
 
@@ -1054,10 +1054,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 87085
+Installed-Size: 87084
 Filename: kmod-ath5k_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 87174
-SHA256sum: 40440cb78a1a0f34dc3285013e2a0c4461cbe608718051c5880303a8263d100a
+Size: 87160
+SHA256sum: bd19fb2f87b4168ba798d2f0b6344da19244ab2958078ca1e154cf7403067e6a
 Description:  This module adds support for wireless adapters based on
  Atheros 5xxx chipset.
 
@@ -1067,10 +1067,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mmc, kmod-a
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 8918
+Installed-Size: 8917
 Filename: kmod-ath6kl-sdio_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 9792
-SHA256sum: 463aa196b43ea750bc3b9c85a784d12b13f3e944b1d67ef6c04d071059a12970
+Size: 9785
+SHA256sum: a8073f16344370860ddc0df7d4d34017c721376778d14fd6c3c3631003926fa0
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR6003 and AR6004 family of chipsets.
 
@@ -1080,10 +1080,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-usb-core, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 6457
+Installed-Size: 6458
 Filename: kmod-ath6kl-usb_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 7330
-SHA256sum: 9b0f0d0cea967ee5f3635ca7b7d39937403016e0e0567375d1968c0ebd92db7e
+Size: 7334
+SHA256sum: 849e5e48612739e884d93c50875b67f2e3b21b4d07ecfce1908d5fcfbcbd0514
 Description:  This module adds support for wireless adapters based on the
  Atheros IEEE 802.11n AR6004 chipset.
 
@@ -1093,10 +1093,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 110305
+Installed-Size: 110304
 Filename: kmod-ath6kl_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 110259
-SHA256sum: 92f5994eeb6104ba7fe203646de873f601a0941f38ffa321e01da8a49033b6a7
+Size: 110258
+SHA256sum: aad9115ed51ff5bf518915714b62757039ad17ca0f075b28b52ce797b61510df
 Description:  Atheros FullMAC wireless devices (common code for ath6kl_sdio and ath6kl_usb)
 
 Package: kmod-ath9k-common
@@ -1107,8 +1107,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 121908
 Filename: kmod-ath9k-common_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 120187
-SHA256sum: b3ea7c0ff3a2694aab0f10411c79b0eb335260909b1e5af700354d0cf00e8288
+Size: 120127
+SHA256sum: ba1ad820c2ef9570c61e795e13a84a8aebbe974f550d371d21945462407d9f9a
 Description:  Atheros 802.11n wireless devices (common code for ath9k and ath9k_htc)
 
 Package: kmod-ath9k-htc
@@ -1119,8 +1119,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 37991
 Filename: kmod-ath9k-htc_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 38753
-SHA256sum: 00d65ad9564c53706cabfa8eb2ac7f581b17d71ddb5c53b0180ef102a427443e
+Size: 38777
+SHA256sum: 359688e8dbd0cfeaf2ada7cca6f21679078fe726e77c6be9721e96cc91efb42d
 Description:  This module adds support for wireless adapters based on
  Atheros USB AR9271 and AR7010 family of chipsets.
 
@@ -1132,8 +1132,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 63331
 Filename: kmod-ath9k_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 63752
-SHA256sum: e4b6c3246a711b033ff382db0f7b1627b6410afa185179d0b2a3606a90c07ae4
+Size: 63757
+SHA256sum: 38a0dc16f9811c519165f6cb05d2c32d985024cb156cbd9912ee003e96bb1117
 Description:  This module adds support for wireless adapters based on
  Atheros IEEE 802.11n AR5008 and AR9001 family of chipsets.
 
@@ -1143,10 +1143,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 12976
+Installed-Size: 12977
 Filename: kmod-ath_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 13735
-SHA256sum: 2d3b45fcb682e787b27aa81a9bbbdaf75a86cf9dda8e4beaaf5da77ab3bb9a98
+Size: 13740
+SHA256sum: 5ae3eb221493196ae76ac32550f7aa40d82bb01194e3d0fac96aa504e7105f25
 Description:  This module contains some common parts needed by Atheros Wireless drivers.
 
 Package: kmod-atl1
@@ -1263,10 +1263,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 285799
+Installed-Size: 285809
 Filename: kmod-b43_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 280942
-SHA256sum: e0eb2dc21e5f040c76c69e41b52c497942e04c0d8646acbfd6262d17171df155
+Size: 280983
+SHA256sum: 767fb9d62fd5372b43e19fc5c23991cd412a53dbff5e30c5d21ca9b72ce9d9f4
 Description:  Kernel module for Broadcom 43xx wireless support (mac80211 stack) new
 
 Package: kmod-b44
@@ -1424,10 +1424,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-cfg80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 116690
+Installed-Size: 116692
 Filename: kmod-brcmfmac_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 116814
-SHA256sum: 9c45c2a326c3c7eec91e993f8c0c92000db4b6c8efcdb091166dee15cd8778a8
+Size: 116803
+SHA256sum: b4f5774b05aa0c2fc7b900aaf3dfc625b366c00ea174ee7201e9ec59ad76eaae
 Description:  Kernel module for Broadcom IEEE802.11n USB Wireless cards
 
 Package: kmod-brcmsmac
@@ -1438,8 +1438,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 228551
 Filename: kmod-brcmsmac_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 224188
-SHA256sum: da79db6a13105daa2986394ba2fed17ba92af005d243eb0693fd2355a64b1f90
+Size: 224173
+SHA256sum: 7ad20990bc6b603c886de52707be1777d2a655b13308322279cf0ab7fa4524a5
 Description:  Kernel module for Broadcom IEEE802.11n PCIe Wireless cards
 
 Package: kmod-brcmutil
@@ -1450,8 +1450,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 4126
 Filename: kmod-brcmutil_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 4964
-SHA256sum: fe933d6f960e336c74b9a1644e1847739e243098510a0db1b6abdf6dffc9e3fc
+Size: 4959
+SHA256sum: 03652806ccdd14128fd1ca95dfaf11436ba9a600d26d132412d69f5b15cb9a96
 Description:  This module contains some common parts needed by Broadcom Wireless drivers brcmsmac and brcmfmac.
 
 Package: kmod-btmrvl
@@ -1706,10 +1706,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 51234
+Installed-Size: 51233
 Filename: kmod-carl9170_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 51706
-SHA256sum: e759823b9ff7ea8124cbccd87af331f852dcd38cf79b4dbfd9fdb7ac6fda1cf1
+Size: 51700
+SHA256sum: 6d62799152500958f73893dd4ec79c238cf444b797641a283778e3f58a620aec
 Description:  Driver for Atheros AR9170 USB sticks
 
 Package: kmod-cc2520
@@ -1742,10 +1742,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), iw, iwinfo, wire
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 174354
+Installed-Size: 174353
 Filename: kmod-cfg80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 174304
-SHA256sum: d0bf221359d3e8ac11f269d39a9dd34a40f57e4076e5783df8211257e5227971
+Size: 174326
+SHA256sum: 6cd609a5d5b1669ca40769f1dbfe00e40f5295b5c7b937d7049deba939b6b134
 Description:  cfg80211 is the Linux wireless LAN (802.11) configuration API.
 
 Package: kmod-chaoskey
@@ -2969,16 +2969,16 @@ SHA256sum: 5192a7352f91a61098a63a0c68e1fec90b5d25dd9d7682a1cc2f7abdbe7846e9
 Description:  Kernel module for JFS support
 
 Package: kmod-fs-ksmbd-oot
-Version: 5.15.167+20241224-1
+Version: 5.15.167+20241224-3
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-nls-base, kmod-nls-utf8, kmod-crypto-md5, kmod-crypto-hmac, kmod-crypto-ecb, kmod-crypto-des, kmod-crypto-sha256, kmod-crypto-cmac, kmod-crypto-sha512, kmod-crypto-aead, kmod-crypto-ccm, kmod-crypto-gcm, kmod-asn1-decoder, kmod-oid-registry, kmod-fs-smbfs-common
 Provides: kmod-fs-ksmbd
 License: GPL-2.0-or-later
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 117041
-Filename: kmod-fs-ksmbd-oot_5.15.167+20241224-1_aarch64_cortex-a53.ipk
-Size: 117246
-SHA256sum: e54c15669ea5f2b040dc8e5039bf377f2841c692da377d77127286a43bde0b1f
+Installed-Size: 117044
+Filename: kmod-fs-ksmbd-oot_5.15.167+20241224-3_aarch64_cortex-a53.ipk
+Size: 117258
+SHA256sum: f137a03297bc89e254419b6c280ac332b08e6283ed714c875951856fa874263c
 Description:  Ksmbd is an In-kernel SMBv(1)2/3 fileserver.
  It's an implementation of the SMB protocol in kernel space for sharing files and IPC services over network.
 
@@ -5664,8 +5664,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 355842
 Filename: kmod-iwlwifi_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 354474
-SHA256sum: 42b1c86b7114b7a1ae37be4fb0890175ab40fe7faac2650db29ec71eb545df3b
+Size: 354519
+SHA256sum: 70b7e2a69ca6002b12d2b2c5756278f0bae7ca72a64a9346aac58100a7a35dae
 Description:  iwlwifi kernel module for
  Intel Wireless WiFi Link 6250AGN Adapter
  Intel 6000 Series Wi-Fi Adapters (6200AGN and 6300AGN)
@@ -6285,10 +6285,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 25179
+Installed-Size: 25177
 Filename: kmod-mac80211-hwsim_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 25880
-SHA256sum: a28d54eb0ca1ffdd5056a508ec8aba36819cfbe64436251d728a3ff4da1170a4
+Size: 25883
+SHA256sum: 4526bada1889327b0b5086e7774989c51605759915480b5d5ad056901abda218
 Description:  mac80211 HW simulation device
 
 Package: kmod-mac80211
@@ -6297,10 +6297,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-cfg80211, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 329090
+Installed-Size: 329091
 Filename: kmod-mac80211_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 327806
-SHA256sum: 734abea9d7a618044420c263232544a68ce0e6a09ba6e97a302a341d94472d20
+Size: 327858
+SHA256sum: 38d0ab205404e50a94175e56dc6d40b432783832e244c1d6eade7f3d796350e4
 Description:  Generic IEEE 802.11 Networking Stack (mac80211)
 
 Package: kmod-mac802154
@@ -6689,10 +6689,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 26846
+Installed-Size: 26749
 Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 27660
-SHA256sum: 481e9c8e5434fdb8649c05c8b6046500308eeb18963c53386936ccfc4c454fad
+Size: 27560
+SHA256sum: 494ed8e1b97c8b787f8025dc53fc5eed80de051ef3d42fe5c067c62d607511e7
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -6701,10 +6701,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 43869
+Installed-Size: 44137
 Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 44574
-SHA256sum: 2466927dc2e3064f6486b7034007786321010b7bf14bd233f388abff0aae2334
+Size: 44794
+SHA256sum: 09e4487c9dd5916c2e82efd7cfe4d5486995a289979a9161dcabeaa6d2939879
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7915e
@@ -6713,10 +6713,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 132735
+Installed-Size: 132797
 Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 131491
-SHA256sum: c9039a97679bcd0ddc89f0be9be738363290a6991a6f330fc1328acece8c2503
+Size: 131580
+SHA256sum: 5cc8e97b8460ca756e2df19fd5750e3f3769fc87df1b8f9ea57fd69a03d7398d
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7981-firmware
@@ -6725,10 +6725,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b)
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 715926
+Installed-Size: 715924
 Filename: kmod-mt7981-firmware_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 710825
-SHA256sum: a74e5a42d05e22353e41946783c2105862be548d07f08461fe14d50e42ff547e
+Size: 710888
+SHA256sum: 4525124ddebb8fe4936b3b5a9e1a6f2b628a4a651ec606994b5a68e0d1f479ff
 Description:  MediaTek MT7981 firmware
 
 Package: kmod-mtd-rw
@@ -6809,10 +6809,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, m
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 156390
+Installed-Size: 156386
 Filename: kmod-mwifiex-pcie_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 156219
-SHA256sum: 94f6892b2ee70d5dfa997057f2e0dd279112e88964dc8b06c96606a0f582e098
+Size: 156205
+SHA256sum: a24c96b894a33447e3105f495ea0fda65131e4edc13df4351721a6ce9ff4f0bb
 Description:  Kernel modules for Marvell 802.11n/802.11ac PCIe Wireless cards
 
 Package: kmod-mwifiex-sdio
@@ -6821,10 +6821,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mmc, kmod-m
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 155191
+Installed-Size: 155192
 Filename: kmod-mwifiex-sdio_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 155035
-SHA256sum: 51981d3b486bf55c74305115a974bed8231037bc152e5d2bb4030cb42fa9b4c0
+Size: 155090
+SHA256sum: f3f6df3567ac5c2c457d63096e263e14de3f7e7255ab0f1f89d5fe55876a71ca
 Description:  Kernel modules for Marvell 802.11n/802.11ac SDIO Wireless cards
 
 Package: kmod-mwl8k
@@ -6835,8 +6835,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 26052
 Filename: kmod-mwl8k_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 26819
-SHA256sum: a4661186f31b0d57ecd74064036640c82f8d7a412126d49a845f16932b7dbc7e
+Size: 26814
+SHA256sum: 9ddb0ead32dd940190c4d576ce9fa975641ec10925bb73b7c264f750f0b41477
 Description:  Kernel modules for Marvell TOPDOG 802.11 Wireless cards
 
 Package: kmod-nat46
@@ -7843,10 +7843,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-ath9k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 2837
+Installed-Size: 2836
 Filename: kmod-owl-loader_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 3792
-SHA256sum: 3605b9494bde9fcf2fc0f15183981cd1c286a47b1c448893f54462f30ecbb5f9
+Size: 3795
+SHA256sum: 507fd958f29bd9b4401eae30669cdf42e47e64c56767fc3870ac723b6d050ecd
 Description:  Kernel module that helps to initialize certain Qualcomm
  Atheros' PCI(e) Wifi chips, which have the init data
  (which contains the PCI device ID for example) stored
@@ -8509,8 +8509,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 11428
 Filename: kmod-rsi91x-sdio_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 12204
-SHA256sum: 5029ec888c97447edfe13ecc5955dfdae9e5967986abdf220aa029079e39cabe
+Size: 12211
+SHA256sum: 801226d3ff926fab23a4b2416147a7366375c7f60fe5591fba2bfcfd5d6c0025
 Description:  Redpine Signals SDIO bus support
 
 Package: kmod-rsi91x-usb
@@ -8519,10 +8519,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-usb-core, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 6585
+Installed-Size: 6584
 Filename: kmod-rsi91x-usb_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 7431
-SHA256sum: de385157a2e7b814d173c2d52aafdd3f12f02994d88a016482115e13d17f51ed
+Size: 7438
+SHA256sum: 469d9ce02286b90d5400ccfee1879107f7e043060bc6d25beb7e19614d97a77a
 Description:  Redpine Signals USB bus support
 
 Package: kmod-rsi91x
@@ -8531,10 +8531,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, r
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 32288
+Installed-Size: 32291
 Filename: kmod-rsi91x_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 33026
-SHA256sum: 99ef6927ecbe07d457b046fc31483829c97185eb8a6103703781ca57bc1e9779
+Size: 33034
+SHA256sum: a837ee069319a8cf68f175b7bfebd32f805afdbe31338b0da10ebef82cb28dbd
 Description:  Redpine Signals Inc 91x WLAN driver support
 
 Package: kmod-rt2800-lib
@@ -8545,8 +8545,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 54195
 Filename: kmod-rt2800-lib_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 54749
-SHA256sum: 505d9c1117a9ee91782a032288816d5750df0ccbc344e910690511d8a6401bd7
+Size: 54747
+SHA256sum: 32f1194001ae33e6edb3a4b1d9e67b1e384c29aadc6720399216b43d3e8074ee
 Description:  Ralink Drivers for RT2x00 cards (rt2800 LIB)
 
 Package: kmod-rt2800-mmio
@@ -8555,10 +8555,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rt2800-lib,
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 5553
+Installed-Size: 5550
 Filename: kmod-rt2800-mmio_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 6371
-SHA256sum: e18f664711baa6988388f583d961d2e125ef2fcbeb0eaaa4dc9f3ce9249c7d41
+Size: 6370
+SHA256sum: aeac1e0ed4e2a2010e5322b4b521ecf93883e8a1a21649f93b7949acc537f3bf
 Description:  Ralink Drivers for RT2x00 cards (RT28xx/RT3xxx MMIO)
 
 Package: kmod-rt2800-pci
@@ -8569,8 +8569,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 4183
 Filename: kmod-rt2800-pci_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 5005
-SHA256sum: 3271fb66cbb2d2691e644f5a4f62285afb1902beaafb7f177cdc92e7a88c3313
+Size: 5011
+SHA256sum: de0a70b50f4125647b2b62a91029c3f16a00a049039fbc06ff9134f0622d4a9d
 Description:  Ralink Drivers for RT2x00 cards (RT2860 PCI)
 
 Package: kmod-rt2800-usb
@@ -8581,8 +8581,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 6907
 Filename: kmod-rt2800-usb_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 7766
-SHA256sum: 0b740b000b04a2a298539cb7e1d4d4a9d674122d714334769470610722ff2310
+Size: 7763
+SHA256sum: 8130748c087ee1cf4bb4213e8b1fcb3a230ab54ef9e8cf986b0ebe59441d0067
 Description:  Ralink Drivers for RT2x00 cards (RT2870 USB)
 
 Package: kmod-rt2x00-lib
@@ -8591,10 +8591,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 24784
+Installed-Size: 24786
 Filename: kmod-rt2x00-lib_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 25521
-SHA256sum: 269720141c19e67ed41384842238f899ce6c68cdcbe98c3863efa1d11cbc429f
+Size: 25527
+SHA256sum: 168db97cceaf6dac804cf633a6c47898373255fdb547531bb75b69a65a21391e
 Description:  Ralink Drivers for RT2x00 cards (LIB)
 
 Package: kmod-rt2x00-mmio
@@ -8603,10 +8603,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rt2x00-lib
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 2365
+Installed-Size: 2368
 Filename: kmod-rt2x00-mmio_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 3160
-SHA256sum: 50356e8bf65553011e64311ac7898ccbb34fac1a784b889f1e9bb0a0569276c7
+Size: 3168
+SHA256sum: f255478e71c632a1d15b4896ed1f79dd1e99bc06551ba86811c3eb565c895862
 Description:  Ralink Drivers for RT2x00 cards (MMIO)
 
 Package: kmod-rt2x00-pci
@@ -8615,10 +8615,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rt2x00-mmio
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 2001
+Installed-Size: 2000
 Filename: kmod-rt2x00-pci_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 2814
-SHA256sum: 37d43f0698f4b7ff31749869397d3344191f6e52ef492c70202b64f3b4c18aad
+Size: 2808
+SHA256sum: 6cd42301936a5f8d4075f8430eaf833329346a03ce7a3a60741f0310a73f77ad
 Description:  Ralink Drivers for RT2x00 cards (PCI)
 
 Package: kmod-rt2x00-usb
@@ -8629,8 +8629,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 6908
 Filename: kmod-rt2x00-usb_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 7755
-SHA256sum: e177f4dbc90137d0fd9a76847604e8aeb5d6122af943f5b7da806f82a8a511b2
+Size: 7751
+SHA256sum: 11ad8ee6c8a9072c400939e761429994e6ca886209b427f96abf2661c0f61a47
 Description:  Ralink Drivers for RT2x00 cards (USB)
 
 Package: kmod-rtc-ds1307
@@ -8775,8 +8775,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 18895
 Filename: kmod-rtl8192c-common_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 19707
-SHA256sum: 11b80e61c1fa959e75a1bdf7fee9dfa250d04aaf3217c2ae772eeeb1151f1483
+Size: 19713
+SHA256sum: bf966b8c646b25f75826b7fa439a5e0b16ce98f9e26ee2d45cb95f5a18bfdfdb
 Description:  Realtek RTL8192CE/RTL8192CU common support module
 
 Package: kmod-rtl8192ce
@@ -8787,8 +8787,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 23946
 Filename: kmod-rtl8192ce_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 24723
-SHA256sum: d32f78ac5dbd21e0075a96cc4b48684fde6d9914b948972747977f351538e1bf
+Size: 24730
+SHA256sum: c69da27cd1e1bbe7002aba3f158b6a1172afcf266b18cb5659d0a98393452c57
 Description:  Realtek RTL8192CE/RTL8188CE support
 
 Package: kmod-rtl8192cu
@@ -8797,10 +8797,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rtlwifi-usb
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 26290
+Installed-Size: 26288
 Filename: kmod-rtl8192cu_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 27009
-SHA256sum: aa0e122fd81a5a868b13b774139a0e3ef6350a509a45c85e823ac5aa8b8ef23e
+Size: 27013
+SHA256sum: b63f088eee0c50215b215e2c06228c0500224bf581fa1a07587b1fab7d36931e
 Description:  Realtek RTL8192CU/RTL8188CU support
 
 Package: kmod-rtl8192de
@@ -8809,10 +8809,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rtlwifi-pci
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 45512
+Installed-Size: 45514
 Filename: kmod-rtl8192de_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 46356
-SHA256sum: 0f51c9398cb4e1bda3fb606c63df2a7df8e4a2df5a7bced9f3015519af7fbece
+Size: 46362
+SHA256sum: 5f679f0fb03e109be71d3e3ffd484d34d910d7be7bfe9558b1446e066cafc611
 Description:  Realtek RTL8192DE/RTL8188DE support
 
 Package: kmod-rtl8192se
@@ -8821,10 +8821,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rtlwifi-pci
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 30167
+Installed-Size: 30165
 Filename: kmod-rtl8192se_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 30969
-SHA256sum: f0e1498ccc81eb5d75a1832a8eaf21e8225db59be25d55f6883c2a31dd9cc610
+Size: 30973
+SHA256sum: 2a77105c5eb2e7e72e5b4854559c54324f0432a4af850534a8a8ea84fccf43da
 Description:  Realtek RTL8192SE/RTL8191SE support
 
 Package: kmod-rtl8723bs
@@ -8835,8 +8835,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 211371
 Filename: kmod-rtl8723bs_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 209925
-SHA256sum: 5c4d251e6edb14dcb2922f7a55847a806a5cf068fc871740dda81623eace2684
+Size: 209915
+SHA256sum: 83f43ca06bce5ac7118c4271f4b05748490ed7a3fdd4f8dde1f910a5ac411124
 Description:  This option enables support for RTL8723BS SDIO drivers, such as the wifi found
  on the 1st gen Intel Compute Stick, the CHIP and many other Intel Atom and ARM
  based devices.
@@ -8860,10 +8860,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rtlwifi-btc
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 83732
+Installed-Size: 83729
 Filename: kmod-rtl8821ae_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 71405
-SHA256sum: 245441ba76b51ef48b651ff253cf6225e1b4badb770b7d0e9aff1eb847b10182
+Size: 71434
+SHA256sum: 9f7b9343553b0880d2fbcea302a38eefc1c0bc1631378ad78f4c30aa8fa5e13c
 Description:  Realtek RTL8821AE support
 
 Package: kmod-rtl8xxxu
@@ -8872,10 +8872,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-usb-core, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 44103
+Installed-Size: 44102
 Filename: kmod-rtl8xxxu_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 44972
-SHA256sum: 3aeac4309b12a35fad2608f3bc87626a857bec4ee3e59c283609da796f813af0
+Size: 45004
+SHA256sum: c84e9daa3edbddaead0146021c4615b8a3b17545741f5bde77b1cc348d90e643
 Description:  This is an alternative driver for various Realtek RTL8XXX
  parts written to utilize the Linux mac80211 stack.
  The driver is known to work with a number of RTL8723AU,
@@ -8904,10 +8904,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-rtlwifi
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 55379
+Installed-Size: 55378
 Filename: kmod-rtlwifi-btcoexist_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 56003
-SHA256sum: e07f52fe9bc8ba5a32e6355e31910a35cf6dd40fa9d2759bf05248c737d8b156
+Size: 56002
+SHA256sum: f21a8106422066b1327d781dc2ce862932368e5f86bf7b37f77db30fd5a3d399
 Description:  Realtek BT coexist support
 
 Package: kmod-rtlwifi-pci
@@ -8918,8 +8918,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 13250
 Filename: kmod-rtlwifi-pci_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 14083
-SHA256sum: 6630bfca0314a96f207004bfe6cfe6291748664c2cb8002f045744458fd88681
+Size: 14074
+SHA256sum: 6ee11dd5ace0375ff64e0ea2e2cb9fdfdf004a64b55957fe17f4d335c823821f
 Description:  Realtek common driver part (PCI support)
 
 Package: kmod-rtlwifi-usb
@@ -8928,10 +8928,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-usb-core, k
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 7445
+Installed-Size: 7443
 Filename: kmod-rtlwifi-usb_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 8289
-SHA256sum: 387ac7cfcee5d681bf5f2364a8b95fadad750ffd083bd94e6b80748af0b5cdda
+Size: 8295
+SHA256sum: 4171493e0b3d23fb744c2127ef84f6d7509b78523a23f6390ec06b608a1c5762
 Description:  Realtek common driver part (USB support)
 
 Package: kmod-rtlwifi
@@ -8942,8 +8942,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 35976
 Filename: kmod-rtlwifi_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 36690
-SHA256sum: 1831dfe46d19e43a0e3f209cd556fbffbb6f3d7c6ead8924ed1bdc9bfec2b250
+Size: 36702
+SHA256sum: 2d7d3edbfd5aad7b6f73b400d718625d2b41f4ce0ed1372466a4fa093d9759b6
 Description:  Realtek common driver part
 
 Package: kmod-rtw88
@@ -8952,10 +8952,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 194720
+Installed-Size: 194722
 Filename: kmod-rtw88_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 184650
-SHA256sum: 757276f6d926db5c2976b025fa1957ada71244e8bff5cd4cdbc3be4d7f4c3eba
+Size: 184702
+SHA256sum: 5a082bfceeb1f44004f3679f4d624946860b2a41a0f177e7ac42b63877e5acb0
 Description:  Realtek RTL8822BE/RTL8822CE/RTL8723DE
 
 Package: kmod-sched-act-ipt
@@ -11938,10 +11938,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, w
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 132187
+Installed-Size: 132186
 Filename: kmod-wil6210_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 131436
-SHA256sum: 422e9a4359eab0123755cdf1fc2e1a9a7dfec903a028daf77c72af6dc2eaab77
+Size: 131476
+SHA256sum: 2f77db5b2a89cee06c571323fbadd288448bb376f501b6a6db4fa1539abe7b77
 Description:  QCA/Wilocity 60g WiFi card wil6210 support
 
 Package: kmod-wireguard
@@ -11967,10 +11967,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-wlcore, wl1
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 17773
+Installed-Size: 17772
 Filename: kmod-wl12xx_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 17813
-SHA256sum: 24d7d7d487cef2ed93c5839a0216cc95fc435c65d45d27bfcec18c99b7082ed8
+Size: 17804
+SHA256sum: 5db471b23a2554a0512c52178a3da54a41ff6476e3c171ce0e559f0286a3a505
 Description:  Kernel modules for TI WL12xx
 
 Package: kmod-wl18xx
@@ -11981,8 +11981,8 @@ Section: kernel
 Architecture: aarch64_cortex-a53
 Installed-Size: 24309
 Filename: kmod-wl18xx_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 23822
-SHA256sum: a973e15e8d8142c639106806ea0d9ecb67a3052afa379fd5d7bcea228e06ec61
+Size: 23790
+SHA256sum: a0185aee8965d4a57c7ee458ede0b9a1343b22262a817bfc908cbdcd9a71e75d
 Description:  Kernel modules for TI WL18xx
 
 Package: kmod-wlcore
@@ -11991,10 +11991,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mmc, kmod-m
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 91029
+Installed-Size: 91030
 Filename: kmod-wlcore_5.15.167+6.1.110-1-5_aarch64_cortex-a53.ipk
-Size: 90930
-SHA256sum: 9d4ca46c597e2b0ecc09679a9ee17f93890963a5c9da47abd6a5b1ea9c25ae9c
+Size: 90918
+SHA256sum: 40c6798071b54b8255410c4735169e8b76f5bb5d04c7a4991e3b76a712a6845a
 Description:  This module contains some common parts needed by TI Wireless drivers.
 
 Package: kmod-wwan
