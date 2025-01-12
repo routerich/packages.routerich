@@ -466,13 +466,13 @@ Depends: libc, qbittorrent
 Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735922538
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1816
+Installed-Size: 1818
 Filename: luci-app-qbittorrent_1.0.1_all.ipk
-Size: 2637
-SHA256sum: fcbbc44fb4f255e149c8d8c1727b775f257bad2885040ba615fdf2a01102b8fc
+Size: 2642
+SHA256sum: 8f7f87b0310d661c1e5d40f0dc8dc3553a73de591ad45e4515abd4d4e22157e3
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
@@ -795,12 +795,12 @@ Depends: libc, luci-app-qbittorrent
 Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-i18n-qbittorrent-ru
 Section: luci
-SourceDateEpoch: 1730232020
+SourceDateEpoch: 1735922538
 Architecture: all
-Installed-Size: 738
+Installed-Size: 737
 Filename: luci-i18n-qbittorrent-ru_git-24.252.08653-eff063a_all.ipk
-Size: 1495
-SHA256sum: 76da6aca949e8054218b0c6294eddb0d65c4d255bcf248f1ab2158538a166b41
+Size: 1492
+SHA256sum: ae2f7fd1c7ae00c6c14b83c4662b99e9d3ff4ec064d015278e4b50dc79619423
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-ruantiblock-ru
@@ -1502,13 +1502,13 @@ SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1735919623
+SourceDateEpoch: 1735922538
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7822262
+Installed-Size: 7822294
 Filename: qbittorrent_5.0.3-1_aarch64_cortex-a53.ipk
 Size: 7816242
-SHA256sum: 1b950f1070951c20c6ce3602200691651c96c4cbe81a3ec274eba07845c4d3fe
+SHA256sum: e51902f49089fa0fc6859eee505fd19eb1eec970c20b964af8e1de9ae744a035
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
