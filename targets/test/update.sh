@@ -1,6 +1,6 @@
 #!/bin/sh
 
-URL="https://github.com/routerich/packages.routerich/raw/refs/heads/test_3012/targets/test"
+URL="https://github.com/routerich/packages.routerich/raw/refs/heads/test_1301/targets/test"
 DIR="/lib/modules/5.15.167"
 modules="batman-adv.ko
 cfg80211.ko
