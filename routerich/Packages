@@ -783,7 +783,7 @@ SHA256sum: a7d5bf8f8f0fd138262d3a6c57993172535e1a96f9a78c4ebb152f144daf9a6c
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: miniupnpd-nftables
-Version: 20240802-1
+Version: 20240802-2
 Depends: libc, libcap, libmnl0, libuuid1, libnftnl11
 Conflicts: miniupnpd-iptables
 Provides: miniupnpd
@@ -791,10 +791,10 @@ License: BSD-3-Clause
 Section: net
 CPE-ID: cpe:/a:miniupnp_project:miniupnpd
 Architecture: aarch64_cortex-a53
-Installed-Size: 87540
-Filename: miniupnpd-nftables_20240802-1_aarch64_cortex-a53.ipk
-Size: 88327
-SHA256sum: 8f288a6f4872277f6ac4b3a42b9e0783b69fc3eee67696eb46674155c0275b07
+Installed-Size: 87542
+Filename: miniupnpd-nftables_20240802-2_aarch64_cortex-a53.ipk
+Size: 88358
+SHA256sum: d5f1676ee0c65f868fc8b073edab02151a0351f2c3cf56393235340e4da56d45
 Description:  Lightweight UPnP IGD & PCP/NAT-PMP daemon (nftables)
 
 Package: modemband
@@ -1247,6 +1247,18 @@ Filename: uboot-routerich_1-1_aarch64_cortex-a53.ipk
 Size: 434385
 SHA256sum: 03b08f5308e1acb7b347f0c1980029824217b4a240976b8ce8bbd132710dd085
 Description:  Uboot upgrade
+
+Package: ufp
+Version: 2024-10-01-618a8d1e-1
+Depends: libc, ucode, ucode-mod-fs, ucode-mod-struct, libubox20230523, udhcpsnoop
+License: GPL-2.0
+Section: utils
+Architecture: aarch64_cortex-a53
+Installed-Size: 21423
+Filename: ufp_2024-10-01-618a8d1e-1_aarch64_cortex-a53.ipk
+Size: 22049
+SHA256sum: 22c9a1d8765d10f64650364cc7da78f359ccb180c05fb3eac8b89151e5c83553
+Description:  Device fingerprinting daemon
 
 Package: urllogger
 Version: 0.0.1-1
