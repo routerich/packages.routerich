@@ -1248,6 +1248,18 @@ Size: 434385
 SHA256sum: 03b08f5308e1acb7b347f0c1980029824217b4a240976b8ce8bbd132710dd085
 Description:  Uboot upgrade
 
+Package: udhcpsnoop
+Version: 2025-01-16
+Depends: libc, libubox20230523, libubus20230605, kmod-ifb, tc
+License: GPL-2.0
+Section: net
+Architecture: aarch64_cortex-a53
+Installed-Size: 7925
+Filename: udhcpsnoop_2025-01-16_aarch64_cortex-a53.ipk
+Size: 8602
+SHA256sum: 5016e3cc911f0d82acb0cd69fba4fde834c5e2cd6285b22efa0d752df012cb74
+Description:  DHCP Snooping Daemon
+
 Package: ufp
 Version: 2024-10-01-618a8d1e-1
 Depends: libc, ucode, ucode-mod-fs, ucode-mod-struct, libubox20230523, udhcpsnoop
