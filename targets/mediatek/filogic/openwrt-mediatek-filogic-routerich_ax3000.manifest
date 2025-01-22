@@ -26,7 +26,7 @@ fstools - 2023-02-28-bfe882d5-1
 fwtool - 2019-11-12-8f7fe925-1
 getrandom - 2022-08-13-4c7b720b-2
 glib2 - 2.74.7-1
-hostapd-common - 2023-09-08-e5ccbfc6-9
+hostapd-common - 2023-09-08-e5ccbfc6-8
 htop - 3.3.0-1
 https-dns-proxy - 2023.12.26-1
 internet-detector - 1.3.0-1
@@ -308,8 +308,8 @@ luci-proto-wireguard - git-24.360.81926-f51671e
 luci-proto-xmm - git-24.255.44995-eddd63f
 luci-ssl - git-23.035.26083-7550ad6
 luci-theme-bootstrap - git-24.086.46634-1ffe078
-luci-theme-routerich - 1.0.2
-miniupnpd-nftables - 20240802-1
+luci-theme-routerich - 1.0.3
+miniupnpd-nftables - 20240802-2
 modemband - 20240616
 modeminfo - 0.4.2-7
 modeminfo-qmi - 0.4.2-7
@@ -391,8 +391,8 @@ usb-modeswitch - 2022-02-24-3c8595a4-1
 usign - 2020-05-23-f1f65026-1
 vsftpd - 3.0.5-2
 wireguard-tools - 1.0.20210914-2
-wireless-regdb - 2024.07.04-1
-wpad-openssl - 2023-09-08-e5ccbfc6-9
+wireless-regdb - 2024.10.07-1
+wpad-openssl - 2023-09-08-e5ccbfc6-8
 wsdd2 - 2023-12-21-b676d8ac-1
 wwan - 2019-04-29-6
 xl2tpd - 1.3.18-1
