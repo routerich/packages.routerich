@@ -55,15 +55,15 @@ SHA256sum: f4601b236e10df3ae942f1df7d567e34d265ee8bbd60996f51a41600ae48b2b0
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
-Version: 2.31.2-1
+Version: 2.32.0-1
 Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 6086289
-Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
-Size: 6088223
-SHA256sum: a785c7909d636c6a72fdf2334e4e1dac9a8cd01e9157c4b16b05bd2a40724084
+Installed-Size: 3776720
+Filename: filebrowser_2.32.0-1_aarch64_cortex-a53.ipk
+Size: 3778359
+SHA256sum: e7caaa683cf8cfeead76ceaf7b993445739d3bb4bb06a7cb2fecde25f2be515d
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -105,48 +105,48 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: libQt6Core
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 2605842
-Filename: libQt6Core_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 2598446
-SHA256sum: 993a2259ab4bd6f0741c60207f8dc283972e958525b7b0435413e8270aec8a4a
-Description:  This package provides the Qt6 Core v6.8.1 library.
+Installed-Size: 2606992
+Filename: libQt6Core_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 2599391
+SHA256sum: 6e79a1fdd6fe08c1a27bb016cf72e876a71c29f63cb1783bdf329f1d99002a7b
+Description:  This package provides the Qt6 Core v6.8.2 library.
 
 Package: libQt6Network
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 912058
-Filename: libQt6Network_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 911210
-SHA256sum: 15a42be2bb223dc8d048735d391a5526cd3953ddfc2e532e551db2b8c7a2a7fb
-Description:  This package provides the Qt6 Network v6.8.1 library.
+Installed-Size: 912407
+Filename: libQt6Network_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 911466
+SHA256sum: 6c00ce8c3a657c0c0795c06e81039ff05317dec46650d9ad6abe88c18ee3b7e2
+Description:  This package provides the Qt6 Network v6.8.2 library.
 
 Package: libQt6Sql
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 89588
-Filename: libQt6Sql_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 90106
-SHA256sum: 231434ef40bf0b34bde8b00ea114b2538730bff30c12d86022c9a97d47676f4a
-Description:  This package provides the Qt6 Sql v6.8.1 library.
+Installed-Size: 89601
+Filename: libQt6Sql_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 90109
+SHA256sum: 4ca73d99ffa5e737afea0e98b0f62a5e7496d492c4fa81649b27fabddbc27175
+Description:  This package provides the Qt6 Sql v6.8.2 library.
 
 Package: libQt6Xml
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 68839
-Filename: libQt6Xml_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 69630
-SHA256sum: a5470cd6b184155f23c8cc45f3fea08764e33025730c6efb4a669925392e2491
-Description:  This package provides the Qt6 Xml v6.8.1 library.
+Installed-Size: 69980
+Filename: libQt6Xml_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 70731
+SHA256sum: be71bbfa1a2d700bc8c67aff557bd272e12782f6586ec54bd8f1235be76cca04
+Description:  This package provides the Qt6 Xml v6.8.2 library.
 
 Package: libmbim
 Version: 1.31.6-d-1
@@ -187,14 +187,14 @@ SHA256sum: 4d2b46fe7c532f2bd1b68a759ace3f0c7dd4617d465e94b50dea153cd95baa86
 Description:  lua ipops lib
 
 Package: luci-app-3ginfo-lite
-Version: 1.0.74-20240827
+Version: 1.0.74
 Depends: libc, sms-tool, comgt, kmod-usb-serial-option
 Section: luci
 Architecture: all
-Installed-Size: 111106
-Filename: luci-app-3ginfo-lite_1.0.74-20240827_all.ipk
-Size: 111522
-SHA256sum: abbd983bc762eaafa028e306987222d27b4729b28a9a7e5abb73a55b092705cf
+Installed-Size: 111102
+Filename: luci-app-3ginfo-lite_1.0.74_all.ipk
+Size: 111499
+SHA256sum: 13a57d6e481cb486c13c32e0170022b37aef03d29f19fd1a23603dd17b789953
 Description:  LuCI JS interface for the 3ginfo-lite. The package allows you to view the parameters of the mobile internet connection.
 
 Package: luci-app-access-control
@@ -220,14 +220,14 @@ SHA256sum: 952d8a62926739b664f9f29ca54497423be71ee74bb92f18be4812f86712a236
 Description:  Support for AmneziaWG VPN
 
 Package: luci-app-atinout
-Version: 0.1.0-1
+Version: 0.1.0
 Depends: libc, atinout
 Section: luci
 Architecture: all
 Installed-Size: 2937
-Filename: luci-app-atinout_0.1.0-1_all.ipk
-Size: 3760
-SHA256sum: 0973fda4c839e4959c19d045eb86094a41279625857ba09fceaf17be1b3354d4
+Filename: luci-app-atinout_0.1.0_all.ipk
+Size: 3759
+SHA256sum: 71626b8860f73a5bed7d6c7069edde4dfb84710d91d296c15e58c52472132de2
 Description:  LuCI JS interface for the atinout.
 
 Package: luci-app-autoreboot
@@ -299,38 +299,38 @@ SHA256sum: c15ad980f282f14f1b47682e09a930dc72fcbb9ffdb3185a21cd489180935197
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mmconfig
-Version: 0.1.0-1
+Version: 0.1.0
 Depends: libc, luci-proto-modemmanager, luci-app-modeminfo
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 2111
-Filename: luci-app-mmconfig_0.1.0-1_all.ipk
-Size: 2988
-SHA256sum: 93e0e68a46c729251cc53de534bd7d34ffa14ef7b0afab09279f15e18261f4c5
+Installed-Size: 2136
+Filename: luci-app-mmconfig_0.1.0_all.ipk
+Size: 3011
+SHA256sum: 1111deb61a8884effab816b337b0bed416c707f8fbe0cdbeed8cc75036a424cb
 Description:  Configrure modem bands via mmcli utility
 
 Package: luci-app-modemband
-Version: 1.0.25-20240519
+Version: 1.0.25
 Depends: libc, sms-tool, modemband
 Section: luci
 Architecture: all
-Installed-Size: 6763
-Filename: luci-app-modemband_1.0.25-20240519_all.ipk
-Size: 7683
-SHA256sum: ee56e433181e6acd7fcbace9e7eca38d6831b70fa461d5f7d47e2d52fefba77e
+Installed-Size: 6764
+Filename: luci-app-modemband_1.0.25_all.ipk
+Size: 7680
+SHA256sum: 4ff5507d0c763bf6fe92e0d22ba3eecd4f3664f8a0b418a3075d351df0fef310
 Description:  LuCI JS interface for the modemband. The package allows set LTE/5G bands for selected 4G/5G modems.
 
 Package: luci-app-modeminfo
-Version: 0.4.2-1
+Version: 0.4.2
 Depends: libc, modeminfo
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 5140
-Filename: luci-app-modeminfo_0.4.2-1_all.ipk
-Size: 5979
-SHA256sum: f9ac85ee6bd34233027d0b3c5cbdc326d3131126d08ac7713cf29f379feb9345
+Installed-Size: 5144
+Filename: luci-app-modeminfo_0.4.2_all.ipk
+Size: 5982
+SHA256sum: 10405424c6c129e6cd7b7e2bbab044104e84c66ad2f7f2346c514f50e922c5fc
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -357,49 +357,49 @@ SHA256sum: 8f7f87b0310d661c1e5d40f0dc8dc3553a73de591ad45e4515abd4d4e22157e3
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
-Version: 2.1.2
+Version: 2.1.3
 Depends: libc, ruantiblock
 Section: luci
 Architecture: all
-Installed-Size: 19252
-Filename: luci-app-ruantiblock_2.1.2_all.ipk
-Size: 20093
-SHA256sum: 217430323e0da333845c9f23bd0d35501bdd2d4751cb142fb0016af92005a260
+Installed-Size: 19179
+Filename: luci-app-ruantiblock_2.1.3_all.ipk
+Size: 20006
+SHA256sum: d1664bd5251cbaa3eb7987e3d593c142dbac2389a2be9bcbd358e0f08f0ec342
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-sms-tool-js
-Version: 2.0.24-20240827
+Version: 2.0.24
 Depends: libc, sms-tool, kmod-usb-serial, kmod-usb-serial-option, comgt
 Section: luci
 Architecture: all
-Installed-Size: 22883
-Filename: luci-app-sms-tool-js_2.0.24-20240827_all.ipk
+Installed-Size: 22884
+Filename: luci-app-sms-tool-js_2.0.24_all.ipk
 Size: 23870
-SHA256sum: 17f291ab9d8ce0fdec99d882bb267186cbddce32cf55c134031180296ed70826
+SHA256sum: ae2b244a0d8e87cf7c28daae84d275aeb1fb485e4059026e5521ca57dd060b22
 Description:  LuCI JS interface for the sms-tool. The user interface supports SMS / USSD Codes / AT Commands.
 
 Package: luci-app-smstools3
-Version: 0.1.0-3
+Version: 0.1.0
 Depends: libc, smstools3, iconv
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 7522
-Filename: luci-app-smstools3_0.1.0-3_all.ipk
+Installed-Size: 7526
+Filename: luci-app-smstools3_0.1.0_all.ipk
 Size: 8438
-SHA256sum: 7de12a55a1ceed14427403cd115528bd41f638cc5da5e8be1f261dd8f82f4bb4
+SHA256sum: beb47179788ff338dfc6950758ed5e0438dfa1daed75aecc398afe9a1429b890
 Description:  Web UI for smstools3
 
 Package: luci-app-telegrambot
-Version: 0.1.0-3
+Version: 0.1.0
 Depends: libc, telegrambot
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 992
-Filename: luci-app-telegrambot_0.1.0-3_all.ipk
-Size: 1865
-SHA256sum: b78a03cd4f41b729fc8daccecee9fab6262b976849a780c9658fc56cb23124a1
+Installed-Size: 995
+Filename: luci-app-telegrambot_0.1.0_all.ipk
+Size: 1859
+SHA256sum: 14fd6a4fb714ea15e21e357dcd16f734ae0f613689cd82793b4ba65cc0112097
 Description:  TelegramBot simple webUI
 
 Package: luci-app-temp-status
@@ -415,15 +415,15 @@ SHA256sum: 7660e8b926ca2f6a627bd1fc245853e9b870d38a1dcc85c96f7a52c8df537b45
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-ttl
-Version: 0.0.3-0
-Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt, iptables-zz-legacy
+Version: 0.0.3
+Depends: libc, luci-app-firewall, iptables-mod-ipopt, kmod-ipt-ipopt
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 2861
-Filename: luci-app-ttl_0.0.3-0_all.ipk
-Size: 3721
-SHA256sum: 25725c2966f691c5c8a0d23c075489ad0e195e837d31843aad955560a692512f
+Installed-Size: 2859
+Filename: luci-app-ttl_0.0.3_all.ipk
+Size: 3711
+SHA256sum: 5ffe35ff6d9f5ad68c5208302ad6c49473554763a4a87a87feedc1bd0fc5d7bc
 Description:  Antitethering module for luci-app-firewall
 
 Package: luci-app-upnp-mtk-adjust
@@ -472,15 +472,15 @@ SHA256sum: f6ab81dc5047618473dab1655a6384df3af8a8d0407cf6050c14d4716e261202
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0-6
+Version: 1.0-7
 Depends: libc, luci-base
 License: GPL
 Section: luci
 Architecture: all
-Installed-Size: 6250
-Filename: luci-app-youtubeUnblock_1.0-6_all.ipk
-Size: 7128
-SHA256sum: 9d65da079458bda3a5717b8825e410ee9b801cb6e6ef6a335c66ce08ceafa8e9
+Installed-Size: 6289
+Filename: luci-app-youtubeUnblock_1.0-7_all.ipk
+Size: 7168
+SHA256sum: 28cc920d3e96cd510c1f657f2166648a79134a49899c3d714ab684d9139fcae6
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -499,10 +499,10 @@ Version: git-24.255.44995-eddd63f
 Depends: libc, luci-app-3ginfo-lite
 Section: luci
 Architecture: all
-Installed-Size: 2547
+Installed-Size: 2546
 Filename: luci-i18n-3ginfo-lite-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 3296
-SHA256sum: 33c63568c24d82f421306c5821e0cb0676edc336c5ae89e47417bf143be3adc3
+Size: 3281
+SHA256sum: 0d2cf1ff4ab6cb50d512eb1fe4f772a7e2b1bf5c31d13768ea875e67885f5c3b
 Description:  Translation for luci-app-3ginfo-lite - Русский (Russian)
 
 Package: luci-i18n-access-control-ru
@@ -521,10 +521,10 @@ Version: git-24.255.44995-eddd63f
 Depends: libc, luci-app-atinout
 Section: luci
 Architecture: all
-Installed-Size: 927
+Installed-Size: 926
 Filename: luci-i18n-atinout-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1689
-SHA256sum: 79227c4c88e96567e1fdc7eda9230ec68f13c93236db033c2581e628d1ea00da
+Size: 1686
+SHA256sum: 831837b83610536cde8c7726490529e8962073cb89f5cdf35bfeb3cbd1ae7f41
 Description:  Translation for luci-app-atinout - Русский (Russian)
 
 Package: luci-i18n-autoreboot-ru
@@ -578,10 +578,10 @@ Depends: libc, luci-app-mmconfig
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 669
+Installed-Size: 666
 Filename: luci-i18n-mmconfig-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1439
-SHA256sum: 8d0ca5aa08b76eb869f7240b8c60be993d1ebd843d0f83e12ef6711444138ae1
+Size: 1434
+SHA256sum: 66283cb2c9321dd07eb4491b9036fcd001fd17004a7e0bf143d716b4352a932f
 Description:  Translation for luci-app-mmconfig - Русский (Russian)
 
 Package: luci-i18n-modeminfo-ru
@@ -590,10 +590,10 @@ Depends: libc, luci-app-modeminfo
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 1552
+Installed-Size: 1551
 Filename: luci-i18n-modeminfo-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 2329
-SHA256sum: cc518111dcade623b1df71e6c5d7db6cddc816be3534db6d9f1b4f888ff4edb8
+Size: 2332
+SHA256sum: 25d46a145db08ae0971dd4770e30085ce07d6154a95e5bbee1d2a456f54dfaa2
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -612,10 +612,10 @@ Version: git-24.334.78666-f21fa64
 Depends: libc, luci-app-ruantiblock
 Section: luci
 Architecture: all
-Installed-Size: 5438
+Installed-Size: 5435
 Filename: luci-i18n-ruantiblock-ru_git-24.334.78666-f21fa64_all.ipk
-Size: 6197
-SHA256sum: e233ab11651e492c43c8981a73916bfe1a791968c0e497e1428b0bb18eb4d9ba
+Size: 6191
+SHA256sum: 2395b4c8f137fd0eeaba7d4208649e036a916d927087362658dcfbda3145c831
 Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-sms-tool-js-ru
@@ -623,10 +623,10 @@ Version: git-24.255.44995-eddd63f
 Depends: libc, luci-app-sms-tool-js
 Section: luci
 Architecture: all
-Installed-Size: 4345
+Installed-Size: 4344
 Filename: luci-i18n-sms-tool-js-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 5108
-SHA256sum: 1aa6cb762bdc227458738e28dff20bb5b873255ffe15860bdc1740897f73e390
+SHA256sum: 83a931b3842ba59acf8a442a48a9494b24e3b75ff9fc65438a93857841644407
 Description:  Translation for luci-app-sms-tool-js - Русский (Russian)
 
 Package: luci-i18n-smstools3-ru
@@ -635,10 +635,10 @@ Depends: libc, luci-app-smstools3
 License: GPLv3
 Section: luci
 Architecture: all
-Installed-Size: 2529
+Installed-Size: 2527
 Filename: luci-i18n-smstools3-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 3279
-SHA256sum: 1e00610352eab2c39922760b65cff3641c50a63e25bff12f352922d5b539918a
+Size: 3278
+SHA256sum: 11be48287c5661cf5f0e3311855acc4bdcb45ee54fee03afac106271877ac574
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-telegrambot-ru
@@ -649,8 +649,8 @@ Section: luci
 Architecture: all
 Installed-Size: 784
 Filename: luci-i18n-telegrambot-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1553
-SHA256sum: 5d74b651a7cf46a693e7d4ecc74a8910393fa617a3e13d62e61c4783f0c891cd
+Size: 1551
+SHA256sum: a3a07fbcd50570824639e16b660b286a472a440e578bfb9e183ce5c4901be05c
 Description:  Translation for luci-app-telegrambot - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
@@ -671,10 +671,10 @@ Depends: libc, luci-app-ttl
 License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 912
+Installed-Size: 911
 Filename: luci-i18n-ttl-ru_git-24.255.44995-eddd63f_all.ipk
-Size: 1677
-SHA256sum: 752bdd35ace077735de3f0afe4d1088e492eeb108f7c01d08731a0fa7f380b01
+Size: 1689
+SHA256sum: 53047072c5461285d602cf0f8ac967d27858a92b65cdec12f4ba2e7a30400973
 Description:  Translation for luci-app-ttl - Русский (Russian)
 
 Package: luci-i18n-upnp-mtk-adjust-ru
@@ -809,212 +809,212 @@ SHA256sum: 7fe71a0385d4407d1027c3c9f504c37b1b1ccae5273b709dcb844bd93c744dbd
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-qmi
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, qmi-utils
 Section: net
 Architecture: all
 Installed-Size: 3414
-Filename: modeminfo-qmi_0.4.2-7_all.ipk
-Size: 4167
-SHA256sum: 4c124668f34cac3c113c62d92b12989e9d7d0e74d6877aa7f5ccc1e8a03cbbff
+Filename: modeminfo-qmi_0.4.2-8_all.ipk
+Size: 4162
+SHA256sum: 6a0ef9c821a4c77b2fa8700d4c94344f69f0c4862d3ad2c682379ec1902f87c7
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1220
-Filename: modeminfo-serial-dell_0.4.2-7_all.ipk
-Size: 1995
-SHA256sum: f4c0f237e4772c696bb25d6a60c155fab1a7d4566b9c90f62e0568b19ddb185c
+Installed-Size: 1221
+Filename: modeminfo-serial-dell_0.4.2-8_all.ipk
+Size: 1997
+SHA256sum: f3f3e5d887f7c61226e437a842335c4a914c94889765684f4e52b62343bee016
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 2138
-Filename: modeminfo-serial-fibocom_0.4.2-7_all.ipk
-Size: 2916
-SHA256sum: 635a42bc3125adff66d3f4c5fe077bbaa159df3e193f0f4ae04afa54b05094a1
+Installed-Size: 2137
+Filename: modeminfo-serial-fibocom_0.4.2-8_all.ipk
+Size: 2918
+SHA256sum: d8fb435259fb9f11d4830b0621f37fe86e4ae598332ded0f082630e140dd2d4b
 Description:  FIBOCOM NL668/678/FM150/FM190/FM350 serial addon for modeminfo
 
 Package: modeminfo-serial-gosun
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 957
-Filename: modeminfo-serial-gosun_0.4.2-7_all.ipk
-Size: 1728
-SHA256sum: 79bbcc5169affe2cc5bf59fe800a7377d0e268b4e8a7a16cc683546e87f34c23
+Installed-Size: 955
+Filename: modeminfo-serial-gosun_0.4.2-8_all.ipk
+Size: 1732
+SHA256sum: 1033622febcd537e16d0bd0febb458882f1568e9e650374e6c1fbab335fe57bf
 Description:  Gosuncnwelink GM510 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1333
-Filename: modeminfo-serial-huawei_0.4.2-7_all.ipk
-Size: 2110
-SHA256sum: f0f29115ce4779e3a2c05b9102a93668bd7cb2e33a737caaf0c082e27907014d
+Installed-Size: 1327
+Filename: modeminfo-serial-huawei_0.4.2-8_all.ipk
+Size: 2101
+SHA256sum: bcc5003a26358f0417b626427495b0d769e979bf91ca1c2b25d0e999d5a1ad26
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-meig
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1258
-Filename: modeminfo-serial-meig_0.4.2-7_all.ipk
-Size: 2046
-SHA256sum: 8e49f41bd474a57c5d2bad7147c6a639a9f0bf402ab51a7bd4f71f5134a86542
+Installed-Size: 1276
+Filename: modeminfo-serial-meig_0.4.2-8_all.ipk
+Size: 2065
+SHA256sum: ea86f46d96a4ca0af4ba31a013cda1737aee5fc27763139e5cd2344fb2be7543
 Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 
 Package: modeminfo-serial-mikrotik
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 1428
-Filename: modeminfo-serial-mikrotik_0.4.2-7_all.ipk
+Installed-Size: 1429
+Filename: modeminfo-serial-mikrotik_0.4.2-8_all.ipk
 Size: 2207
-SHA256sum: 2df1485ef1069bdfbfc8336a6bda36f5cd32fdce067f2872f4391c1afd580e1e
+SHA256sum: 463b344d2c37b81728e0ee63bc266cc9169b1dc6b02c6649cdc3f4fd335fcfa8
 Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
 Installed-Size: 1356
-Filename: modeminfo-serial-quectel_0.4.2-7_all.ipk
-Size: 2137
-SHA256sum: 76bfb49320153cbd733fd2d388358406cf7dd44095bd5792bf94098931450807
+Filename: modeminfo-serial-quectel_0.4.2-8_all.ipk
+Size: 2136
+SHA256sum: 503ac51dd06318be720a7fdcad7eee28c2074ce484d57a4d94ff6b4aa4560e9b
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-qualcomm, atinout
 Section: net
 Architecture: all
 Installed-Size: 1195
-Filename: modeminfo-serial-sierra_0.4.2-7_all.ipk
-Size: 1973
-SHA256sum: c892d35beecdfc1d7144490c680d43460e9d54489a48b266b8b4351d10991f5f
+Filename: modeminfo-serial-sierra_0.4.2-8_all.ipk
+Size: 1975
+SHA256sum: 023f74a80b484a382b0bf1344b9d1dc5c16819a8970c08b3a5b08b0f48ecaa36
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, atinout
 Section: net
 Architecture: all
 Installed-Size: 1851
-Filename: modeminfo-serial-simcom_0.4.2-7_all.ipk
+Filename: modeminfo-serial-simcom_0.4.2-8_all.ipk
 Size: 2624
-SHA256sum: 18f0001d1f784f4f3952b26454cf3b74daa3d09c54a3ae17b3528cd59b826707
+SHA256sum: 36e3c499f133261e1915d578092deb0bf0b295e420f65fcd63394c6af9a67c38
 Description:  SIMCOM SIM7600/SIM7906/SIM7912/A7600/A7906 serial addon for modeminfo
 
 Package: modeminfo-serial-styx
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
 Installed-Size: 929
-Filename: modeminfo-serial-styx_0.4.2-7_all.ipk
-Size: 1701
-SHA256sum: b45aed6b6befc3338f2edf238e1125163095ec470383cd9ec027706e36037241
+Filename: modeminfo-serial-styx_0.4.2-8_all.ipk
+Size: 1695
+SHA256sum: 74c6b64b7e5745b751c0d08b5913fed53fa4881cad3fa0fce301c295cf69324a
 Description:  STYX MG8224 serial addon for modeminfo
 
 Package: modeminfo-serial-telit
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1135
-Filename: modeminfo-serial-telit_0.4.2-7_all.ipk
-Size: 1924
-SHA256sum: b7cc5a3667dfb9c61d0c2f32e2104f83050537ca341b88e9a5a1db7bc638d08f
+Installed-Size: 1134
+Filename: modeminfo-serial-telit_0.4.2-8_all.ipk
+Size: 1922
+SHA256sum: acf7ea0722afdf8f81f892c0c86890a1d731b19322a3d6b6996a8409fb167f77
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-thales
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 1270
-Filename: modeminfo-serial-thales_0.4.2-7_all.ipk
-Size: 2050
-SHA256sum: 8cc5dfabdbbe5367f5756187f323fc1718ba4f66b8b2b3d73b9e4ac44d404ae2
+Installed-Size: 1271
+Filename: modeminfo-serial-thales_0.4.2-8_all.ipk
+Size: 2059
+SHA256sum: 571e432c5baafaf6b94b11470a9e22da9b95b5d5d095df6431eb2632187f5802
 Description:  Thales MV31-W T99W175 serial addon for modeminfo
 
 Package: modeminfo-serial-tw
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
 Installed-Size: 1009
-Filename: modeminfo-serial-tw_0.4.2-7_all.ipk
-Size: 1782
-SHA256sum: 4a4363fd6f8e7d8f55d1afb7d47566e95667c910ba9cd8d91de41eee428fb5b2
+Filename: modeminfo-serial-tw_0.4.2-8_all.ipk
+Size: 1785
+SHA256sum: d9564f7b82ef5ed474450cf264dc2be5c7bcc6993efa7cce9cc4640bcbd4b5b9
 Description:  ThinkWill ML7820+ serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-acm, atinout
 Section: net
 Architecture: all
-Installed-Size: 1524
-Filename: modeminfo-serial-xmm_0.4.2-7_all.ipk
-Size: 2318
-SHA256sum: 7115a6f8b4bb3a367432cd17c90f5674aaa4dc82ee7c8dcd9b3d5e329b3aac3f
+Installed-Size: 1572
+Filename: modeminfo-serial-xmm_0.4.2-8_all.ipk
+Size: 2361
+SHA256sum: 5300ba8389df287f5ddbb6e5ace765af85f8097ec68614b692339751778e537a
 Description:  FIBOCOM L850/L860 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-serial-yuge
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
-Installed-Size: 950
-Filename: modeminfo-serial-yuge_0.4.2-7_all.ipk
-Size: 1719
-SHA256sum: eec53bb78a07175b4b536a26ecce34c493de44db61ba7303afa131b3bd9ab9be
+Installed-Size: 951
+Filename: modeminfo-serial-yuge_0.4.2-8_all.ipk
+Size: 1721
+SHA256sum: 5bcf2cd9a2a4da9a9ecfac6b6ac6dcb3a7a2c0a3ebf8c91935788379ac250e2f
 Description:  Yuge CLM920 serial addon for modeminfo
 
 Package: modeminfo-serial-zte
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, kmod-usb-serial-option, atinout
 Section: net
 Architecture: all
 Installed-Size: 894
-Filename: modeminfo-serial-zte_0.4.2-7_all.ipk
-Size: 1669
-SHA256sum: f1598f0b64af37f9f94cdaaaecdea20f4f55addef8e8fd6164cd67ea17016332
+Filename: modeminfo-serial-zte_0.4.2-8_all.ipk
+Size: 1659
+SHA256sum: 9b097d4625784e7ae4ed1b884bae5dd8be21e94670379730fdecfc3ac3af3063
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
 Package: modeminfo-telegram
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, modeminfo, telegrambot
 Section: net
 Architecture: all
-Installed-Size: 957
-Filename: modeminfo-telegram_0.4.2-7_all.ipk
-Size: 1694
-SHA256sum: d2d245332166fafcfa24d6d88d3311ff562769543c800d549898fef85515311b
+Installed-Size: 956
+Filename: modeminfo-telegram_0.4.2-8_all.ipk
+Size: 1699
+SHA256sum: 66cc6f52fe2c51ec742f844ed618fdfec253a4547e22e1e1eed1f5283e417338
 Description:  Plugin for telegrambot
 
 Package: modeminfo
-Version: 0.4.2-7
+Version: 0.4.2-8
 Depends: libc, comgt
 Section: net
 Architecture: all
 Installed-Size: 4477
-Filename: modeminfo_0.4.2-7_all.ipk
+Filename: modeminfo_0.4.2-8_all.ipk
 Size: 5236
-SHA256sum: 63bc86610b9c9248a514295d0b0cd398f1df12604b8d77d7da3ddbb92906c7c3
+SHA256sum: 8b6bb9963800df882433de3a0ad2efe57cd14438fc04f61f8430cc936396bcb7
 Description:  Signal information for 3G/LTE dongle
 
 Package: modemmanager-rpcd
@@ -1084,15 +1084,15 @@ SHA256sum: 1b6d15835d962d7aa48bcad2789bada38cedf66afdd03fdaa7f8050936a7fad3
 Description:  Natflow init script
 
 Package: opera-proxy
-Version: 1.7.0-1
+Version: 1.8.0-1
 Depends: libc
 License: MIT
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 2355965
-Filename: opera-proxy_1.7.0-1_aarch64_cortex-a53.ipk
-Size: 2357175
-SHA256sum: 1d94015e210d78a4a2d4a8631c7ef9d792983ae59ae4293926e9c50bb41ffa5b
+Installed-Size: 2355743
+Filename: opera-proxy_1.8.0-1_aarch64_cortex-a53.ipk
+Size: 2356941
+SHA256sum: e4ef60ddbb3ca3b9ed130751d7ee75badf8ee24c579536f76c9a981a894e6d99
 Description:  Opera Proxy client
 
 Package: p910nd-helper
@@ -1133,10 +1133,10 @@ License: GPL-2.0+
 Section: net
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 7822294
+Installed-Size: 7822406
 Filename: qbittorrent_5.0.3-1_aarch64_cortex-a53.ipk
-Size: 7816242
-SHA256sum: e51902f49089fa0fc6859eee505fd19eb1eec970c20b964af8e1de9ae744a035
+Size: 7816174
+SHA256sum: ac5f78482aabb1be09f10e175739d7f3364da570b598b2a8e4b2933d00bc2aa9
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
@@ -1156,63 +1156,63 @@ SHA256sum: 1d9e51842abbc109049a2b4a1ae58f7ba73087923f10670ab1d37ccbb1b125ca
 Description:  Utilities to talk to QMI enabled modems
 
 Package: qt6-plugin-libqopensslbackend
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 119881
-Filename: qt6-plugin-libqopensslbackend_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 120080
-SHA256sum: bd4609f421c3432ecad4c3b84eceed775c91fc5b1d23b5a3f60cb2d5b0481b89
+Installed-Size: 119901
+Filename: qt6-plugin-libqopensslbackend_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 120109
+SHA256sum: ec9174fa32d7b5c44353dd906e98b883bb943d2fca2de434ca46b71079e187e7
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
-Version: 6.8.1-1
+Version: 6.8.2-1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
 Section: libs
 Architecture: aarch64_cortex-a53
-Installed-Size: 982149
-Filename: qt6-plugin-libqsqlite_6.8.1-1_aarch64_cortex-a53.ipk
-Size: 982107
-SHA256sum: 549e75d2542c9cf6a4b21969e1005eb1fdb0a73a0652c9cd093b89fe8e0c0622
+Installed-Size: 984428
+Filename: qt6-plugin-libqsqlite_6.8.2-1_aarch64_cortex-a53.ipk
+Size: 984434
+SHA256sum: 9548dcc506b8f17c526eb00268852423e2d7b07f3ed0d4f1de90c32022cd899f
 Description:  Qt6 Plugin libqsqlite
 
 Package: rblibtorrent2.0
-Version: 2.0.10-1
+Version: 2.0.11-1
 Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
 Provides: rblibtorrent
 License: BSD
 Section: libs
 ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
-Installed-Size: 1366702
-Filename: rblibtorrent2.0_2.0.10-1_aarch64_cortex-a53.ipk
-Size: 1363638
-SHA256sum: a85d58086d076342ab07a64fe77f626ecbad433a94b776125bb478789d859d15
+Installed-Size: 1368389
+Filename: rblibtorrent2.0_2.0.11-1_aarch64_cortex-a53.ipk
+Size: 1365640
+SHA256sum: 0a5f72113421bc6cc4e2ee2401de00539aff9c20204cd6d3bf5c9df6a45204d1
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
 
 Package: ruantiblock-mod-lua
-Version: 2.1.2-1
+Version: 2.1.3-1
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
 Section: net
 Architecture: all
-Installed-Size: 8567
-Filename: ruantiblock-mod-lua_2.1.2-1_all.ipk
-Size: 9333
-SHA256sum: 91759dd64aafcebde0c2da8860a7a159d910fa933690e24b62766265bbc851b3
+Installed-Size: 8904
+Filename: ruantiblock-mod-lua_2.1.3-1_all.ipk
+Size: 9677
+SHA256sum: 213605719a0520338f6affe6e2671b06115de3e34c5fb709186b4f8617d0cc1e
 Description:  Lua module for ruantiblock
 
 Package: ruantiblock
-Version: 2.1.2-1
+Version: 2.1.3-1
 Depends: libc, dnsmasq-full, kmod-nft-tproxy
 Section: net
 Architecture: all
-Installed-Size: 20583
-Filename: ruantiblock_2.1.2-1_all.ipk
-Size: 21775
-SHA256sum: 3713c8d704b19847deb82f39b4f8aa203a2c263c10ca288b6d8008b8ca4b4046
+Installed-Size: 20582
+Filename: ruantiblock_2.1.3-1_all.ipk
+Size: 21783
+SHA256sum: 83a9b025bbe3735cb4f6b8a3af51b1826a535e185606bd91258c2177c00aadd9
 Description:  Ruantiblock
 
 Package: sms-tool
@@ -1309,14 +1309,14 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-6
+Version: 1.0.0-mediatek-7
 Depends: libc, libpthread
 Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 34556
-Filename: youtubeUnblock_1.0.0-mediatek-6_aarch64_cortex-a53.ipk
-Size: 35391
-SHA256sum: 22827bd7a7341bf56a9a877dafc5d9bff1f8ab4d5edf4d353a5fb305eb2ce6ef
+Installed-Size: 34554
+Filename: youtubeUnblock_1.0.0-mediatek-7_aarch64_cortex-a53.ipk
+Size: 35389
+SHA256sum: 77006633b6d5cdbad3cba815ffb981016acc47defaff46711da98d35dc70606d
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
@@ -1325,9 +1325,9 @@ Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, l
 License: BSL 1.1
 Section: net
 Architecture: aarch64_cortex-a53
-Installed-Size: 556007
+Installed-Size: 556006
 Filename: zerotier_1.14.1-1_aarch64_cortex-a53.ipk
-Size: 555828
-SHA256sum: 0ac1b6447d70cb962f13b0e989826e9433aea6e833dbbcb3e798a87c1e4862bc
+Size: 555779
+SHA256sum: 202d4434290fe87367e986fa0a14d5bd57f3bc857277a9867bebf0aebfdc4dd4
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
