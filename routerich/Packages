@@ -55,15 +55,15 @@ SHA256sum: f4601b236e10df3ae942f1df7d567e34d265ee8bbd60996f51a41600ae48b2b0
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
-Version: 2.32.0-1
+Version: 2.31.2-1
 Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 3776720
-Filename: filebrowser_2.32.0-1_aarch64_cortex-a53.ipk
-Size: 3778359
-SHA256sum: e7caaa683cf8cfeead76ceaf7b993445739d3bb4bb06a7cb2fecde25f2be515d
+Installed-Size: 6086291
+Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
+Size: 6088227
+SHA256sum: 2ec92545f1a39d122d2f8bf16d72239d6a1374013df0d0ef9fc3874970670fbb
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
