@@ -19,7 +19,7 @@ dropbear - 2022.82-6
 e2fsprogs - 1.47.0-2
 eip197-mini-firmware - 20230804-1
 ethtool - 6.3-1
-filebrowser - 2.32.0-1
+filebrowser - 2.31.2-1
 firewall4 - 2024-05-21-4c01d1eb-1
 fm350-modem - 0.0.2-2
 fstools - 2023-02-28-bfe882d5-1
@@ -50,6 +50,7 @@ kmod-crypto-aead - 5.15.167-1
 kmod-crypto-arc4 - 5.15.167-1
 kmod-crypto-authenc - 5.15.167-1
 kmod-crypto-ccm - 5.15.167-1
+kmod-crypto-chacha20poly1305 - 5.15.167-1
 kmod-crypto-cmac - 5.15.167-1
 kmod-crypto-crc32c - 5.15.167-1
 kmod-crypto-ctr - 5.15.167-1
@@ -134,6 +135,7 @@ kmod-nls-cp437 - 5.15.167-1
 kmod-nls-iso8859-1 - 5.15.167-1
 kmod-nls-utf8 - 5.15.167-1
 kmod-oid-registry - 5.15.167-1
+kmod-ovpn-dco-v2 - 5.15.167+20240408-1
 kmod-phy-aquantia - 5.15.167-1
 kmod-ppp - 5.15.167-1
 kmod-pppoe - 5.15.167-1
@@ -177,6 +179,7 @@ libblkid1 - 2.39-2
 libblobmsg-json20230523 - 2023-05-23-75a3b870-1
 libc - 1.2.4-4
 libcap - 2.69-1
+libcap-ng - 0.8.3-2
 libcares - 1.27.0-1
 libcomerr0 - 1.47.0-2
 libcurl4 - 8.7.1-r1
@@ -198,6 +201,7 @@ liblua5.1.5 - 5.1.5-11
 liblucihttp-lua - 2023-03-15-9b5b683f-1
 liblucihttp-ucode - 2023-03-15-9b5b683f-1
 liblucihttp0 - 2023-03-15-9b5b683f-1
+liblz4-1 - 1.9.4-1
 liblzo2 - 2.10-4
 libmbedtls12 - 2.28.9-1
 libmbim - 1.31.6-d-1
@@ -255,7 +259,7 @@ luci-app-ksmbd - git-24.330.77799-feba812
 luci-app-log - 1.1.0-r5
 luci-app-modemband - 1.0.25
 luci-app-modeminfo - 0.4.2
-luci-app-openvpn - git-24.108.03100-3129664
+luci-app-openvpn - git-25.035.50829-cf85e3e
 luci-app-opkg - git-24.302.38724-3ded930
 luci-app-p910nd - git-24.326.64292-9f110c2
 luci-app-sms-tool-js - 2.0.24
@@ -277,7 +281,7 @@ luci-i18n-internet-detector-ru - git-24.247.69191-81986ba
 luci-i18n-ksmbd-ru - git-24.299.62926-38838ca
 luci-i18n-log-ru - git-24.246.71936-f2165eb
 luci-i18n-modeminfo-ru - git-24.255.44995-eddd63f
-luci-i18n-openvpn-ru - git-24.321.37380-2756dc1
+luci-i18n-openvpn-ru - git-25.035.50829-cf85e3e
 luci-i18n-opkg-ru - git-24.284.16626-fcbbc75
 luci-i18n-p910nd-ru - git-24.321.37380-2756dc1
 luci-i18n-sms-tool-js-ru - git-24.255.44995-eddd63f
@@ -339,7 +343,7 @@ nnn - 4.4-1
 ntfs3-mount - 10
 odhcp6c - 2023-05-12-bcd28363-20
 odhcpd-ipv6only - 2023-10-24-d8118f6e-1
-openvpn-openssl - 2.5.8-5
+openvpn-openssl - 2.6.13-dev-1
 openwrt-keyring - 2022-03-25-62471e69-2
 opkg - 2022-02-24-d038e5b6-2
 p910nd - 0.97-15

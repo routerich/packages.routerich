@@ -345,6 +345,18 @@ Size: 10624
 SHA256sum: 93a56a0be7a2c9df346a93f5adda8e94b4ea55c9e582766ba38634200c4177a2
 Description:  LuCI Support for natflow users.
 
+Package: luci-app-openvpn
+Version: git-25.035.50829-cf85e3e
+Depends: libc, luci-base, luci-compat, luci-lua-runtime
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 12045
+Filename: luci-app-openvpn_git-25.035.50829-cf85e3e_all.ipk
+Size: 12894
+SHA256sum: b20bb53ef22ebbd549021b4897ffa2b83df3e5cc4a90942b2ff523d356de9f16
+Description:  LuCI Support for OpenVPN
+
 Package: luci-app-qbittorrent
 Version: 1.0.1
 Depends: libc, qbittorrent
@@ -595,6 +607,18 @@ Filename: luci-i18n-modeminfo-ru_git-24.255.44995-eddd63f_all.ipk
 Size: 2332
 SHA256sum: 25d46a145db08ae0971dd4770e30085ce07d6154a95e5bbee1d2a456f54dfaa2
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
+
+Package: luci-i18n-openvpn-ru
+Version: git-25.035.50829-cf85e3e
+Depends: libc, luci-app-openvpn
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 7364
+Filename: luci-i18n-openvpn-ru_git-25.035.50829-cf85e3e_all.ipk
+Size: 8203
+SHA256sum: 7b5f337de6181f53bc1f02c06a5f6f8b0248c04388161fcf59e27489439d7c70
+Description:  Translation for luci-app-openvpn - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
 Version: git-24.252.08653-eff063a
@@ -1082,6 +1106,20 @@ Filename: natflow_20241125_aarch64_cortex-a53.ipk
 Size: 1752
 SHA256sum: 1b6d15835d962d7aa48bcad2789bada38cedf66afdd03fdaa7f8050936a7fad3
 Description:  Natflow init script
+
+Package: openvpn-openssl
+Version: 2.6.13-dev-1
+Depends: libc, kmod-tun, libcap-ng, liblzo2, liblz4-1, libnl-genl200, kmod-ovpn-dco-v2, libopenssl3
+Provides: openvpn, openvpn-crypto
+License: GPL-2.0
+Section: net
+CPE-ID: cpe:/a:openvpn:openvpn
+Architecture: aarch64_cortex-a53
+Installed-Size: 272926
+Filename: openvpn-openssl_2.6.13-dev-1_aarch64_cortex-a53.ipk
+Size: 272800
+SHA256sum: 2cff18288fcbe378fd590248ba823105f9b7c649742affb4bf6fb12c547dc021
+Description:  Open source VPN solution using OpenSSL
 
 Package: opera-proxy
 Version: 1.8.0-1

@@ -31,6 +31,22 @@ Size: 1586
 SHA256sum: 55dabbf6ce1c49c361c8c3bd7ed5be869b93160ad7678e2bdeb99600ec29b220
 Description:  Mount autoconfig hotplug script.
 
+Package: base-files
+Version: 4-r24106-10cc5fcd00
+Depends: libc, netifd, jsonfilter, usign, openwrt-keyring, ubi-utils, fstools, fwtool
+Source: feeds/base/base-files
+SourceName: base-files
+License: GPL-2.0
+Section: base
+SourceDateEpoch: 1735211985
+Status: unknown hold not-installed
+Architecture: aarch64_cortex-a53
+Installed-Size: 54933
+Filename: base-files_4-r24106-10cc5fcd00_aarch64_cortex-a53.ipk
+Size: 55907
+SHA256sum: c2742b8db1879d5e7e574337f54e5aa2dfc9cb30f32220ca9c77353d4efc635a
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
 Package: block-mount
 Version: 2023-02-28-bfe882d5-1
 Depends: libc, ubox, libubox20230523, libuci20130104, libblobmsg-json20230523, libjson-c5
@@ -8779,10 +8795,10 @@ Section: kernel
 SourceDateEpoch: 1737989388
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 26607
+Installed-Size: 26635
 Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 27376
-SHA256sum: 4fe9d9ab58519e3c6072bfda2021e23269004aa688578e81f126af102eb1192b
+Size: 27469
+SHA256sum: 5c233d268bee2b193a5a80528faebe0a611f5347ea5fb15bcbb719c87b54b963
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -8811,10 +8827,10 @@ Section: kernel
 SourceDateEpoch: 1737989388
 Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
-Installed-Size: 132895
+Installed-Size: 133065
 Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 131713
-SHA256sum: c94329e18a380d23a2620c52647d6087a6b6c0405c39a01ce32d2a3386386532
+Size: 131846
+SHA256sum: b68471905ac7e436e7d36cf5e2311a7811bb4c96e333e322744782acb93ad262
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7981-firmware
@@ -10285,6 +10301,23 @@ Filename: kmod-openvswitch_5.15.167+2.17.9-1_aarch64_cortex-a53.ipk
 Size: 70181
 SHA256sum: 10b3a5860ae6e5ae2803b63d9d7199e0448a1594f028702d467fdfed9579a3ce
 Description:  Open vSwitch kernel datapath (upstream)
+
+Package: kmod-ovpn-dco-v2
+Version: 5.15.167+20240408-1
+Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-crypto-aead, kmod-udptunnel4, kmod-udptunnel6
+Source: feeds/packages/kernel/ovpn-dco
+SourceName: kmod-ovpn-dco-v2
+License: GPL-2.0-only
+Section: kernel
+SourceDateEpoch: 1738678041
+Maintainer: Jianhui Zhao <zhaojh329@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 27258
+Filename: kmod-ovpn-dco-v2_5.15.167+20240408-1_aarch64_cortex-a53.ipk
+Size: 28079
+SHA256sum: ab2ac5c1fe4b1ba948815156e51a68504a135af79531683d51f14af511728fde
+Description:  This module enhances the performance of the OpenVPN userspace software
+ by offloading the data channel processing to kernelspace.
 
 Package: kmod-ovpn-dco
 Version: 5.15.167+2022-10-23-d1d53564-3
