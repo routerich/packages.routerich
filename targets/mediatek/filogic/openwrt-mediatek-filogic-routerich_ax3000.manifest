@@ -1,4 +1,4 @@
-amneziawg-tools - 1.0.20240213-1
+amneziawg-tools - 1.0.20241024-1
 atinout - 0.9.1
 automount - 10
 base-config-routerich - 1-1
@@ -40,7 +40,7 @@ jansson4 - 2.14-3
 jshn - 2023-05-23-75a3b870-1
 jsonfilter - 2024-01-23-594cfa86-1
 kernel - 5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b
-kmod-amneziawg - 5.15.167-1
+kmod-amneziawg - 5.15.167+1.0.20241119-1
 kmod-asn1-decoder - 5.15.167-1
 kmod-batman-adv - 5.15.167+2023.1-9
 kmod-br-netfilter - 5.15.167-1
@@ -62,7 +62,6 @@ kmod-crypto-gf128 - 5.15.167-1
 kmod-crypto-ghash - 5.15.167-1
 kmod-crypto-hash - 5.15.167-1
 kmod-crypto-hmac - 5.15.167-1
-kmod-crypto-hw-safexcel - 5.15.167-1
 kmod-crypto-kpp - 5.15.167-1
 kmod-crypto-lib-chacha20 - 5.15.167-1
 kmod-crypto-lib-chacha20poly1305 - 5.15.167-1
@@ -248,7 +247,7 @@ luaposix - 35.1-1
 luci - git-23.051.66410-a505bb1
 luci-app-3ginfo-lite - 1.0.74
 luci-app-access-control - 0.4.4
-luci-app-amneziawg - git-24.260.55527-cc627d3
+luci-app-amneziawg - 1.0.20250125
 luci-app-atinout - 0.1.0
 luci-app-filebrowser-go - git-24.252.39226-c89d418
 luci-app-filemanager - git-25.003.56909-8cfbc72
@@ -312,7 +311,7 @@ luci-proto-wireguard - git-24.360.81926-f51671e
 luci-proto-xmm - git-24.255.44995-eddd63f
 luci-ssl - git-23.035.26083-7550ad6
 luci-theme-bootstrap - git-24.086.46634-1ffe078
-luci-theme-routerich - 1.0.3
+luci-theme-routerich - 1.0.4
 miniupnpd-nftables - 20240802-2
 modemband - 20240616
 modeminfo - 0.4.2-8
@@ -401,7 +400,7 @@ wsdd2 - 2023-12-21-b676d8ac-1
 wwan - 2019-04-29-6
 xl2tpd - 1.3.18-1
 xmm-modem - 0.1.3-2
-youtubeUnblock - 1.0.0-mediatek-7
+youtubeUnblock - 1.0.0-mediatek-10
 zerotier - 1.14.1-1
 zlib - 1.2.13-1
 zram-swap - 32

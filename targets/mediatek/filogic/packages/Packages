@@ -765,14 +765,14 @@ SHA256sum: 7f72425063cb9bc382b12e492ae9a124a985f38e7287cae6f3b95bc884858158
 Description:  Qualcomm Atheros AR816x/AR817x PCI-E Ethernet Network Driver
 
 Package: kmod-amneziawg
-Version: 5.15.167-1
+Version: 5.15.167+1.0.20241119-1
 Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 36417
-Filename: kmod-amneziawg_5.15.167-1_aarch64_cortex-a53.ipk
-Size: 37146
-SHA256sum: f159a338b74a4324f223e3fc1b75352b87acdcca7d991cb8821885d04e6909f6
+Installed-Size: 38016
+Filename: kmod-amneziawg_5.15.167+1.0.20241119-1_aarch64_cortex-a53.ipk
+Size: 38804
+SHA256sum: 8e42c292af46a5c95382d5eae99f9d7a6b6a884fbf50d1ef80ec2ad8927fb7ee
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-aoe
@@ -6688,10 +6688,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 26635
+Installed-Size: 26773
 Filename: kmod-mt76-connac_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 27469
-SHA256sum: 5c233d268bee2b193a5a80528faebe0a611f5347ea5fb15bcbb719c87b54b963
+Size: 27587
+SHA256sum: ee3e1001b63143bec2e26aeb08367afbde74ef695c061c7ed8b0ee977ec9798a
 Description:  MediaTek MT7615/MT79xx wireless driver common code
 
 Package: kmod-mt76-core
@@ -6700,10 +6700,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 44051
+Installed-Size: 44052
 Filename: kmod-mt76-core_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 44720
-SHA256sum: 1bdd8cb3625c0833ccc5c608e10d57b2d6fad3976e229f7abf9ec60277288a11
+Size: 44712
+SHA256sum: 58787bf2579efec6e008b9aced6c2afab238aa695a53c8aba1d08a7a6563224b
 Description:  MediaTek MT76xx wireless driver
 
 Package: kmod-mt7915e
@@ -6712,10 +6712,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-mac80211, k
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 133065
+Installed-Size: 132921
 Filename: kmod-mt7915e_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 131846
-SHA256sum: b68471905ac7e436e7d36cf5e2311a7811bb4c96e333e322744782acb93ad262
+Size: 131725
+SHA256sum: fefae7d43029e576ec03b6efbb0e9b0f77877a9a11184b159e48653032124d9c
 Description:  MediaTek MT7915e wireless driver
 
 Package: kmod-mt7981-firmware
@@ -6724,10 +6724,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b)
 License: GPLv2
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 718426
+Installed-Size: 718433
 Filename: kmod-mt7981-firmware_5.15.167+2024-10-14-8dfead68-10_aarch64_cortex-a53.ipk
-Size: 713883
-SHA256sum: 52d7b24629fe2e7d854c979384ebee9cf3f45912470662063eda67cace20d850
+Size: 713907
+SHA256sum: bc2e847df8caad6491b81b25a7ab339c0e545fa41c60263bf73b963fe7ec4590
 Description:  MediaTek MT7981 firmware
 
 Package: kmod-mtd-rw
@@ -7021,10 +7021,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b)
 License: GPL-2.0
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 4117
+Installed-Size: 4124
 Filename: kmod-nf-deaf_5.15.167-1_aarch64_cortex-a53.ipk
-Size: 4887
-SHA256sum: 79ea9621e7afc6af920773090f44baa5d717eb59dcd9b7d1d22613a5fed8d6ff
+Size: 4889
+SHA256sum: 3ceacfff01a0af99e201d14f190c8f652f963efa036c9b2a1ad9c727a7a295f9
 Description:  Netfilter: Desynchronizing Evasion Against Filters
 
 Package: kmod-nf-dup-inet
@@ -7045,10 +7045,10 @@ Depends: kernel (=5.15.167-1-369cd3b56ad9cf95bd112cd6fe72ef5b), kmod-nf-conntrac
 License: GPL-2.0-only
 Section: kernel
 Architecture: aarch64_cortex-a53
-Installed-Size: 15562
+Installed-Size: 15620
 Filename: kmod-nf-flow_5.15.167-1_aarch64_cortex-a53.ipk
-Size: 16284
-SHA256sum: 39b59318c2e19a4597ee9101cf1e9401e9b38699fcb00630f7de7e64e69501d7
+Size: 16345
+SHA256sum: 6fdd4417d7e84670a91b1a3db26cd065f036c305c3830d0e2feb213b3672ed95
 Description:  Netfilter flowtable support
 
 Package: kmod-nf-ipt6

@@ -1,22 +1,18 @@
 Package: amneziawg-tools
-Version: 1.0.20240213-1
+Version: 1.0.20241024-1
 Depends: libc
 License: GPL-2.0
 Section: opt
 Architecture: aarch64_cortex-a53
-Installed-Size: 30098
-Filename: amneziawg-tools_1.0.20240213-1_aarch64_cortex-a53.ipk
-Size: 31076
-SHA256sum: a5c46ab94b4ab1e3ae0ba82eab14b844a15c581e8998ca5a90cf3d389090227b
-Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
- state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
- more useful than IPSec, while avoiding the massive headache. It intends to
- be considerably more performant than OpenVPN.  WireGuard is designed as a
- general purpose VPN for running on embedded interfaces and super computers
- alike, fit for many different circumstances. It uses UDP.
+Installed-Size: 30198
+Filename: amneziawg-tools_1.0.20241024-1_aarch64_cortex-a53.ipk
+Size: 30974
+SHA256sum: 2e4e64fb276bcb913be72b6bc31b435ac52326d0a2592a0b42186202565ccbf7
+Description:  Amnezia VPN — simple and free app to run a self-hosted VPN with
+ high privacy requirements.
  
- This package provides the userspace control program for WireGuard,
- `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+ This package provides the userspace control program for AmneziaWG,
+ `awg`, a netifd protocol helper, and a re-resolve watchdog script.
 
 Package: atinout
 Version: 0.9.1
@@ -36,10 +32,10 @@ Version: 1-1
 Depends: libc, kmod-mtd-rw, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
 Section: config
 Architecture: aarch64_cortex-a53
-Installed-Size: 2133
+Installed-Size: 2132
 Filename: base-config-routerich_1-1_aarch64_cortex-a53.ipk
 Size: 2858
-SHA256sum: 64b998ead2f89a22233ab41e60c41a3a70ede068cc62a08c88aafa4585980315
+SHA256sum: ea97d9dfd1deb7c1c30085a9119d0e9b8d5f495d1fdca7bba02dbdd698a50ff7
 Description:  Base config
 
 Package: default-settings
@@ -60,10 +56,10 @@ Depends: libc
 License: Apache-2.0
 Section: utils
 Architecture: aarch64_cortex-a53
-Installed-Size: 6086291
+Installed-Size: 6086286
 Filename: filebrowser_2.31.2-1_aarch64_cortex-a53.ipk
-Size: 6088227
-SHA256sum: 2ec92545f1a39d122d2f8bf16d72239d6a1374013df0d0ef9fc3874970670fbb
+Size: 6088220
+SHA256sum: 10d8ae644b237e7276e55eae16ffd23a47f7fc53c200acf61c2f6c87778d0ea3
 Description:  filebrowser provides a file managing interface within a specified directory
  and it can be used to upload, delete, preview, rename and edit your files.
  It allows the creation of multiple users and each user can have its own directory.
@@ -209,15 +205,16 @@ SHA256sum: d8abb7f6b2c661b412c012239dc7c31c331bffc662b105e1e8db1c07adc6adfd
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
-Version: git-24.260.55527-cc627d3
-Depends: libc, amneziawg-tools, ucode
+Version: 1.0.20250125
+Depends: libc, amneziawg-tools, ucode, luci-lib-uqr, resolveip
+License: Apache-2.0
 Section: luci
 Architecture: all
-Installed-Size: 10780
-Filename: luci-app-amneziawg_git-24.260.55527-cc627d3_all.ipk
-Size: 11651
-SHA256sum: 952d8a62926739b664f9f29ca54497423be71ee74bb92f18be4812f86712a236
-Description:  Support for AmneziaWG VPN
+Installed-Size: 11253
+Filename: luci-app-amneziawg_1.0.20250125_all.ipk
+Size: 12154
+SHA256sum: ee951160be4c9ed4428dfbdd6d23d54b0df20095bdcabb6da4bf486b13cc9c16
+Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-app-atinout
 Version: 0.1.0
@@ -339,10 +336,10 @@ Depends: libc, natflow-auth, luci-compat, tc-tiny
 License: GPLv3
 Section: opt
 Architecture: all
-Installed-Size: 9755
+Installed-Size: 9756
 Filename: luci-app-natflow-users_1.0.1-1_all.ipk
-Size: 10624
-SHA256sum: 93a56a0be7a2c9df346a93f5adda8e94b4ea55c9e582766ba38634200c4177a2
+Size: 10633
+SHA256sum: a55e6a10da307ad111fe37b4de75fda4b671702aa688944d6f6e2e87a3a862e5
 Description:  LuCI Support for natflow users.
 
 Package: luci-app-openvpn
@@ -484,15 +481,15 @@ SHA256sum: f6ab81dc5047618473dab1655a6384df3af8a8d0407cf6050c14d4716e261202
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0-7
+Version: 1.0-10
 Depends: libc, luci-base
 License: GPL
 Section: luci
 Architecture: all
-Installed-Size: 6289
-Filename: luci-app-youtubeUnblock_1.0-7_all.ipk
-Size: 7168
-SHA256sum: 28cc920d3e96cd510c1f657f2166648a79134a49899c3d714ab684d9139fcae6
+Installed-Size: 6287
+Filename: luci-app-youtubeUnblock_1.0-10_all.ipk
+Size: 7160
+SHA256sum: 32af99c2cef7ae98c716e76b67f871abe8a57bd4b562dcd26e8e37bb35709b4d
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -746,6 +743,18 @@ Size: 1947
 SHA256sum: c654ddd2025b9cb0f97b38f1749fab8fba274c39c745be7fc2426699c634f25d
 Description:  Translation for luci-app-zerotier - Русский (Russian)
 
+Package: luci-proto-amneziawg
+Version: 1.0.20250125
+Depends: libc, amneziawg-tools, ucode, luci-lib-uqr, resolveip
+License: Apache-2.0
+Section: luci
+Architecture: all
+Installed-Size: 11246
+Filename: luci-proto-amneziawg_1.0.20250125_all.ipk
+Size: 12149
+SHA256sum: 968784df8b4186dbd36a02649978c84726d8e09cc21a3c4b5cf01a1ca15e7112
+Description:  Provides support and Web UI for AmneziaWG VPN
+
 Package: luci-proto-fm350
 Version: git-24.255.44995-eddd63f
 Depends: libc, fm350-modem
@@ -781,14 +790,14 @@ SHA256sum: 7bfcc6889d1cfcff0d1dba3070b3148f09aa4bcaaa3ac4923e843a0c4e1a84b4
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.3
+Version: 1.0.4
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Section: luci
 Architecture: all
-Installed-Size: 458599
-Filename: luci-theme-routerich_1.0.3_all.ipk
-Size: 459223
-SHA256sum: 8225c3059aa991a6687bebe1a9c53d58b7ec5da7e70932a0dd084412a89cae54
+Installed-Size: 458607
+Filename: luci-theme-routerich_1.0.4_all.ipk
+Size: 458781
+SHA256sum: 29e483645f4f737b838b2167c6a0c45c04af8887f2075a29dc421461ff399571
 Description:  Routerich Theme
 
 Package: miniupnpd-mtk-adjust-nftables
@@ -1115,10 +1124,10 @@ License: GPL-2.0
 Section: net
 CPE-ID: cpe:/a:openvpn:openvpn
 Architecture: aarch64_cortex-a53
-Installed-Size: 272926
+Installed-Size: 272929
 Filename: openvpn-openssl_2.6.13-dev-1_aarch64_cortex-a53.ipk
-Size: 272800
-SHA256sum: 2cff18288fcbe378fd590248ba823105f9b7c649742affb4bf6fb12c547dc021
+Size: 272792
+SHA256sum: 4b3ee4d7d1a25fe9820090adb12f1f242c794c7277223e457af21f30691695c9
 Description:  Open source VPN solution using OpenSSL
 
 Package: opera-proxy
@@ -1347,14 +1356,14 @@ SHA256sum: 2dbd70a0ce1c3e309b3abb88d3f845016fd8144ae8193753a772addb09a38694
 Description:  Simple connect to cellular for Fibocom L850/L860 module (Intel XMM LTE-A 7360/7560)
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-7
+Version: 1.0.0-mediatek-10
 Depends: libc, libpthread
 Section: services
 Architecture: aarch64_cortex-a53
-Installed-Size: 34554
-Filename: youtubeUnblock_1.0.0-mediatek-7_aarch64_cortex-a53.ipk
-Size: 35389
-SHA256sum: 77006633b6d5cdbad3cba815ffb981016acc47defaff46711da98d35dc70606d
+Installed-Size: 34552
+Filename: youtubeUnblock_1.0.0-mediatek-10_aarch64_cortex-a53.ipk
+Size: 35398
+SHA256sum: 9132d7b751ff1d18e21a9aeebc29f977b0f965a2757a6d82ec95b2a3f3e03967
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier
