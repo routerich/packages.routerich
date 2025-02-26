@@ -1747,6 +1747,26 @@ Size: 22055
 SHA256sum: cd1385e7c3048aa23ed6395815b7469a5f954469fece7c8712ab0445ff9cc605
 Description:  Device fingerprinting daemon
 
+Package: upx
+Version: 5.0.0-1
+Depends: libc, libstdcpp6
+Source: feeds/routerich/upx
+SourceName: upx
+License: GPL-2.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: utils
+SourceDateEpoch: 1728436582
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 699148
+Filename: upx_5.0.0-1_aarch64_cortex-a53.ipk
+Size: 696822
+SHA256sum: 727534975a7b11f742fa34ead94b77c6f764bd183eb5afdb86fd93d0ad8ae78c
+Description:  UPX is an advanced executable file compressor. UPX will typically
+ reduce the file size of programs and DLLs by around 50%-70%, thus
+ reducing disk space, network load times, download times and
+ other distribution and storage costs.
+
 Package: urllogger
 Version: 0.0.1-1
 Depends: libc, kmod-natflow
