@@ -534,7 +534,7 @@ SHA256sum: d196d3651a2956e04d3144e3f2fa8c0755bfe4ebc98eaa0a8b36b94a789baaaa
 Description:  Universal Plug & Play configuration module
 
 Package: luci-app-upnp
-Version: 24.281.39563~4c404d2
+Version: 26.0.1-r1
 Depends: libc, luci-base, miniupnpd, rpcd-mod-ucode
 Source: feeds/routerich/luci-app-upnp
 SourceName: luci-app-upnp
@@ -545,9 +545,9 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-upnp_24.281.39563~4c404d2_all.ipk
-Size: 4702
-SHA256sum: 2906fdb7dd74480c6ec205deb922bcbb75874df04a035bca37a5a0fbcdbb9e76
+Filename: luci-app-upnp_26.0.1-r1_all.ipk
+Size: 5282
+SHA256sum: 386b9685a5e4f3dc5b79f0679d055b78d2389355bef17342ac02c3de5fa09a13
 Description:  Universal Plug and Play (UPnP IGD) & PCP/NAT-PMP configuration module
 
 Package: luci-app-vsftpd
@@ -869,10 +869,10 @@ Section: luci
 SourceDateEpoch: 1728298763
 Maintainer: Jo-Philipp Wich <jo@mein.io>
 Architecture: all
-Installed-Size: 10240
+Installed-Size: 20480
 Filename: luci-i18n-upnp-ru_24.281.39563~4c404d2_all.ipk
-Size: 2608
-SHA256sum: 3e7179bac79a531979794d98e9cdcac0e438b88c46ac6ea2cd64a183d0fe42fc
+Size: 2879
+SHA256sum: 588258a0cae6ac30df48664c2c3264f4a531705c882779fdd67aceeb43507c85
 Description:  Translation for luci-app-upnp - Русский (Russian)
 
 Package: luci-i18n-vsftpd-ru

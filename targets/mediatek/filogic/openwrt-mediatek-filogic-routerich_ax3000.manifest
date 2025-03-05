@@ -1,7 +1,7 @@
 amneziawg-tools - 1.0.20241024-r1
 atinout - 0.9.1
 automount - 10
-base-files - 1658~8c1296f157
+base-files - 1659~9836836302
 batctl-default - 2024.3-r1
 block-mount - 2024.07.14~408c2cc4-r1
 busybox - 1.36.1-r2
@@ -16,7 +16,7 @@ dnsmasq-full - 2.90-r4
 dropbear - 2024.86-r1
 e2fsprogs - 1.47.0-r2
 eip197-mini-firmware - 20241110-r1
-ethtool - 6.10-r1
+ethtool - 6.11-r1
 firewall4 - 2024.12.18~18fc0ead-r1
 fitblk - 2
 fstools - 2024.07.14~408c2cc4-r1
@@ -210,8 +210,8 @@ libnghttp2-14 - 1.63.0-r1
 libnl-core200 - 3.10.0-r1
 libnl-genl200 - 3.10.0-r1
 libnl-tiny1 - 2023.12.05~965c4bf4-r1
-libopenssl-conf - 3.0.15-r1
-libopenssl-legacy - 3.0.15-r1
+libopenssl-conf - 3.0.16-r1
+libopenssl-legacy - 3.0.16-r1
 libopenssl3 - 3.0.15-r1
 libpcre2 - 10.42-r1
 libpthread - 1.2.5-r4
@@ -244,6 +244,7 @@ luci-app-3ginfo-lite - 1.0.74-r20241111
 luci-app-access-control - 0.4.4-r1
 luci-app-amneziawg - 1.0.20250125-r1
 luci-app-atinout - 0.1.0-r1
+luci-app-autoreboot - 1.0.1-r1
 luci-app-filemanager - 25.062.67750~c03591c
 luci-app-firewall - 25.062.67750~c03591c
 luci-app-internet-detector - 1.4.3-r1
@@ -256,7 +257,7 @@ luci-app-p910nd - 25.062.67750~c03591c
 luci-app-package-manager - 25.062.67750~c03591c
 luci-app-sms-tool-js - 2.0.24-r20241111
 luci-app-ttyd - 25.062.67750~c03591c
-luci-app-upnp - 24.281.39563~4c404d2
+luci-app-upnp - 26.0.1-r1
 luci-app-vsftpd - 24.247.46290~8e5e6c3
 luci-app-wizard - 1.0.0-r1
 luci-app-zerotier - 24.330.73779~5c9cbb6
@@ -386,7 +387,7 @@ usign - 2020.05.23~f1f65026-r1
 vsftpd - 3.0.5-r6
 wifi-scripts - 1.0-r1
 wireguard-tools - 1.0.20210914-r4
-wireless-regdb - 2024.10.07-r1
+wireless-regdb - 2025.02.20-r1
 wpad-openssl - 2024.09.15~5ace39b0-r2
 wsdd2 - 2023.12.21~b676d8ac-r2
 wwan - 2019.04.29-r6
