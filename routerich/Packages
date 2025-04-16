@@ -60,12 +60,12 @@ Depends: libc, kmod-mtd-rw, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-qu
 Source: /home/santaclaus/feed.routerich/base-config-routerich
 SourceName: base-config-routerich
 Section: config
-SourceDateEpoch: 1744799409
+SourceDateEpoch: 1744812075
 Architecture: aarch64_cortex-a53
 Installed-Size: 20480
 Filename: base-config-routerich_1-r1_aarch64_cortex-a53.ipk
-Size: 2873
-SHA256sum: 56ae1d33f6c69116118d488100e4f64e15b0917479a1608f47a31690d3f708c0
+Size: 3050
+SHA256sum: b6852c7a8a04bb5d4c2f3232f70ee58fdc61e486e9cd4fe849d05ce3adec2ce8
 Description:  Base config
 
 Package: default-settings
@@ -75,12 +75,12 @@ Source: /home/santaclaus/feed.routerich/default-settings
 SourceName: default-settings
 License: GPL-2.0-only
 Section: luci
-SourceDateEpoch: 1744799409
+SourceDateEpoch: 1744812075
 Architecture: all
 Installed-Size: 20480
 Filename: default-settings_1_all.ipk
-Size: 2786
-SHA256sum: 9deceb7992e15e293aa2db89649ee7f24640c16575b9ada6724efd863c18387d
+Size: 2959
+SHA256sum: 4f129eecce9b323ef1bde89f5bee38e452da2ad06c52af33c0a9d323f76259b5
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
@@ -335,7 +335,7 @@ Description:  LuCI JS interface for for USSD commands
 Package: luci-app-vsftpd
 Version: 24.247.46290~8e5e6c3
 Depends: libc, vsftpd, luci-lua-runtime
-Source: feeds/routerich/luci-app-vsftpd
+Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
 SourceName: luci-app-vsftpd
 Section: luci
 SourceDateEpoch: 1725630464
@@ -344,8 +344,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-vsftpd_24.247.46290~8e5e6c3_all.ipk
-Size: 3912
-SHA256sum: 5112b67727e071575be4bff3f3e42e34b7ada9c1158202d37fe4c7418c91b7c3
+Size: 4358
+SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
@@ -381,8 +381,8 @@ Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
 Version: 24.330.73779~5c9cbb6
-Depends: libc, zerotier, jsonfilter, ucode
-Source: feeds/routerich/luci-app-zerotier
+Depends: libc, zerotier-lite, jsonfilter, ucode
+Source: /home/santaclaus/feed.routerich/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
 SourceDateEpoch: 1732566579
@@ -391,8 +391,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
 Filename: luci-app-zerotier_24.330.73779~5c9cbb6_all.ipk
-Size: 5469
-SHA256sum: 61f92ca7fcde8fd1c5de9170484ac2e6e267aaceffa91eb3de52ecf7e4de834e
+Size: 5488
+SHA256sum: 82c01d49ce380ee904fc7a6e49492f63aaed791f713e4ca9f5b7f9a93b44b5d5
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-access-control-ru
@@ -528,29 +528,29 @@ Description:  Translation for luci-app-ussd - Русский (Russian)
 Package: luci-i18n-vsftpd-ru
 Version: 24.250.49664~12eb8d3
 Depends: libc, luci-app-vsftpd
-Source: feeds/routerich/luci-app-vsftpd
+Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
 SourceName: luci-app-vsftpd
 Section: luci
 SourceDateEpoch: 1725630464
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-vsftpd-ru_24.250.49664~12eb8d3_all.ipk
-Size: 3084
-SHA256sum: 9e2d4b4fd3ff18bd495e8e3fa593345fdd7f9c14c889451b7105d194317fbf06
+Size: 3091
+SHA256sum: 183d49415820a5b98c55ed3235af58da4210a7d9ff8d03324da4f4d2ae4c130f
 Description:  Translation for luci-app-vsftpd - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
 Version: 24.250.52061~702579b
 Depends: libc, luci-app-zerotier
-Source: feeds/routerich/luci-app-zerotier
+Source: /home/santaclaus/feed.routerich/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
 SourceDateEpoch: 1732566579
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-zerotier-ru_24.250.52061~702579b_all.ipk
-Size: 1940
-SHA256sum: 0e4dfe0a545719b0caffeecba2f935fb8424b40fabedcf294b1dca3a01f98ca0
+Size: 1957
+SHA256sum: ba96b8d2eb5407ebbe19226b7721bdda92621f3ab63b483373a621f91e339e99
 Description:  Translation for luci-app-zerotier - Русский (Russian)
 
 Package: luci-proto-xmm
@@ -916,21 +916,21 @@ Size: 70858
 SHA256sum: 58cf2079972196fe0257d2216623dbecbedb9591ca61a3200774b5e984c57e83
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
-Package: zerotier
-Version: 1.14.1-r1
+Package: zerotier-lite
+Version: 1.14.1-r2
 Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
-Source: feeds/routerich/zerotier
-SourceName: zerotier
+Source: /home/santaclaus/feed.routerich/zerotier-lite
+SourceName: zerotier-lite
 License: BSL 1.1
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1738328701
+SourceDateEpoch: 1744562312
 URL: https://www.zerotier.com
 Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1259520
-Filename: zerotier_1.14.1-r1_aarch64_cortex-a53.ipk
-Size: 558060
-SHA256sum: 75d23499ddb0f0c6cb77b73b1b8304c43fafcb80344dfc05d549dc6b9b396a37
+Filename: zerotier-lite_1.14.1-r2_aarch64_cortex-a53.ipk
+Size: 558340
+SHA256sum: 5d33789c290e92d6727097603388d0a85858bfefc7e1b4e2d05b806099dceace
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
