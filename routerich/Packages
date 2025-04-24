@@ -49,13 +49,13 @@ Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1745438872
+SourceDateEpoch: 1745484480
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
 Filename: automodem_0.5.1-r1_all.ipk
 Size: 5857
-SHA256sum: 9c616f6bdcba5174c1f79ce16f0c0c4e7b6fead79253ce4ea0665bbae502b8d8
+SHA256sum: 4521426d9f10c33f211dfd2d2bcc16e79297c47510b3ae56628538f359733afb
 Description:  Automatic modem setup
 
 Package: automount
@@ -499,14 +499,14 @@ Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1743578460
+SourceDateEpoch: 1745484480
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-smstools3_0.1.1-r0_all.ipk
-Size: 9063
-SHA256sum: 696603328914fa3bacb55dc45348e88449831337eb735d49cd6a8a5c2fab09d6
+Size: 9066
+SHA256sum: 1c949db73371ab17d5bf4700f3e40e87619c296e0425a399895876e9eeca11f3
 Description:  Web UI for smstools3
 
 Package: luci-app-temp-status
@@ -741,12 +741,12 @@ Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1743578460
+SourceDateEpoch: 1745484480
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-smstools3-ru_25.092.26460~32cb0dd_all.ipk
-Size: 3167
-SHA256sum: fe2d42322b7f94f3d6b7bb474e59051a452c2fd62d38463aded30b5b8315aea1
+Size: 3172
+SHA256sum: 5a05aaaff09a87b3df249a502388a63a8f0fe1355f41753d03f2b7c8859b57e3
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
