@@ -44,18 +44,18 @@ Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: automodem
-Version: 0.5.3-r1
+Version: 0.5.4-r1
 Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1745527487
+SourceDateEpoch: 1745589804
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
-Filename: automodem_0.5.3-r1_all.ipk
-Size: 5855
-SHA256sum: 40d77c6903748042d52bfa1a2d89c87599a289a58a287c7b3d48dfd64b519fc2
+Filename: automodem_0.5.4-r1_all.ipk
+Size: 5867
+SHA256sum: 22887ab3b13f573f52f74c8d607cdb58702b800bfd6f36982fdf546a42022778
 Description:  Automatic modem setup
 
 Package: automount
@@ -493,20 +493,20 @@ SHA256sum: 2f61728048a9da457247ac3b9dd6ba5eadb4472456c516d0f48c0fb6a517ff60
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
-Version: 0.1.1-r0
+Version: 0.1.1-r1
 Depends: libc, smstools3, iconv, jq
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1745484480
+SourceDateEpoch: 1745589804
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-smstools3_0.1.1-r0_all.ipk
-Size: 9066
-SHA256sum: 1c949db73371ab17d5bf4700f3e40e87619c296e0425a399895876e9eeca11f3
+Filename: luci-app-smstools3_0.1.1-r1_all.ipk
+Size: 9074
+SHA256sum: da009defc6f991c8513052383e6b56d93bcf40738976a1f049e09926485b40aa
 Description:  Web UI for smstools3
 
 Package: luci-app-temp-status
@@ -741,12 +741,12 @@ Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1745484480
+SourceDateEpoch: 1745589804
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-smstools3-ru_25.092.26460~32cb0dd_all.ipk
-Size: 3172
-SHA256sum: 5a05aaaff09a87b3df249a502388a63a8f0fe1355f41753d03f2b7c8859b57e3
+Size: 3173
+SHA256sum: 3597408b722c4f1403d744f1a9eb8438718fd028bde8dc76db97464c36cd3bad
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
