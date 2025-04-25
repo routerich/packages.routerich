@@ -188,9 +188,9 @@ SHA256sum: 7882660494624c4d47bc8eab69aae4951847c4df5ff8eb9d665f44c63ab4906b
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
-Version: 6.6.79.20241125-r1
-Depends: kernel (=6.6.79~64778e1c2b538365693172ac9689f584-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-Source: feeds/routerich/natflow/package_new_natflow
+Version: 6.6.86.20241125-r1
+Depends: kernel (=6.6.86~6ace983a14b769f576fe9c4c7961bd89-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
@@ -198,9 +198,9 @@ SourceDateEpoch: 1732554041
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
-Filename: kmod-natflow_6.6.79.20241125-r1_aarch64_cortex-a53.ipk
-Size: 74396
-SHA256sum: 4062f04517d608d1061e74ee04a752764cb5ac475c63d1f4416c78f611c4b7f0
+Filename: kmod-natflow_6.6.86.20241125-r1_aarch64_cortex-a53.ipk
+Size: 74623
+SHA256sum: 88bb45a94aa6828fbd9e8a4bf0d10032869590f66fc65b956946ede96128548e
 Description:  fast nat forward kmod
 
 Package: libQt6Core
@@ -266,7 +266,7 @@ Description:  This package provides the Qt6 Xml v6.8.2 library.
 Package: lua-ipops
 Version: 0.0.1-r1
 Depends: libc, lua
-Source: feeds/routerich/natflow/lua-ipops
+Source: /home/santaclaus/feed.routerich/natflow/lua-ipops
 SourceName: lua-ipops
 License: GPL-2.0
 Section: opt
@@ -275,8 +275,8 @@ Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-ipops_0.0.1-r1_all.ipk
-Size: 3324
-SHA256sum: a404ba4450508563f80559e1081e23e253ec68dcaea5dee17a6b877296f5ec64
+Size: 3329
+SHA256sum: 93c01e58ac457c68b55128c84caad53cef20ec3ae8d861252992f4c365b76988
 Description:  lua ipops lib
 
 Package: luci-app-access-control
@@ -1127,7 +1127,7 @@ Description:  Signal information for 3G/LTE dongle
 Package: natflow-auth
 Version: 20241125
 Depends: libc, kmod-natflow, ipset, lua-ipops
-Source: feeds/routerich/natflow/package_new_natflow
+Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
@@ -1136,14 +1136,14 @@ Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
 Filename: natflow-auth_20241125_aarch64_cortex-a53.ipk
-Size: 4662
-SHA256sum: 9e0d57d4ee0b272201211df87761e36504e8e83792b248d417adcee55689270c
+Size: 4672
+SHA256sum: d41cc7ced6fdeb6dfe039856b81228693ab312530fa1caaaf7eff4d76674fbe7
 Description:  natflow auth init script
 
 Package: natflow-hostacl
 Version: 20241125
 Depends: libc, natflow-auth, urllogger
-Source: feeds/routerich/natflow/package_new_natflow
+Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
@@ -1152,14 +1152,14 @@ Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: natflow-hostacl_20241125_aarch64_cortex-a53.ipk
-Size: 2016
-SHA256sum: 8967cd7c6de70b83d2bbd84a60389a2fbca0fd8514d5a64f52da3f27adb47fc4
+Size: 2026
+SHA256sum: ef3324506ae925b4725003d5238b86db115de27e448abf97af8d9d8b1ddc7e36
 Description:  natflow hostacl init script
 
 Package: natflow
 Version: 20241125
 Depends: libc, ethtool, kmod-natflow
-Source: feeds/routerich/natflow/package_new_natflow
+Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
@@ -1168,8 +1168,8 @@ Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: natflow_20241125_aarch64_cortex-a53.ipk
-Size: 1755
-SHA256sum: 9b216f4a69af08fdbefd8e4b3b2798d82f4537e5d88a3064eae7ecdc9a5d8b07
+Size: 1760
+SHA256sum: 0c6ed922083e8a0d7e3b0253c3a40399494581b7e8ab73bcc3d81992958b37f4
 Description:  Natflow init script
 
 Package: ntfs3-mount
@@ -1367,7 +1367,7 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
 Package: urllogger
 Version: 0.0.1-r1
 Depends: libc, kmod-natflow
-Source: feeds/routerich/natflow/urllogger
+Source: /home/santaclaus/feed.routerich/natflow/urllogger
 SourceName: urllogger
 License: GPL-2.0
 Section: opt
@@ -1376,8 +1376,8 @@ Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: urllogger_0.0.1-r1_aarch64_cortex-a53.ipk
-Size: 2122
-SHA256sum: dd6b2d17d1859bb07e99a5e0e5f04ab604335a437ee3d9f2dc9375b22f05c06e
+Size: 2124
+SHA256sum: 620a2e74cb9fb94c1287efbd61213ee609a21289c96ff37aaeb9fbf3a75dd29f
 Description:  urllogger
 
 Package: xmm-modem
