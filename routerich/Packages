@@ -1147,13 +1147,13 @@ Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1732554041
+SourceDateEpoch: 1745620890
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: natflow-hostacl_20241125_aarch64_cortex-a53.ipk
-Size: 2026
-SHA256sum: ef3324506ae925b4725003d5238b86db115de27e448abf97af8d9d8b1ddc7e36
+Size: 2027
+SHA256sum: f8376dffb822b918c2f46bff4b9f785f47928f241021bda294b8a59977302b19
 Description:  natflow hostacl init script
 
 Package: natflow
