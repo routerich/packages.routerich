@@ -44,18 +44,18 @@ Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: automodem
-Version: 0.5.5-r1
+Version: 0.5.6-r1
 Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1745824929
+SourceDateEpoch: 1745847561
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
-Filename: automodem_0.5.5-r1_all.ipk
-Size: 5965
-SHA256sum: 637b831a34172941e2ff0996817fd9e281ef2dbf2021dc6ad67eabc4b34486dc
+Filename: automodem_0.5.6-r1_all.ipk
+Size: 5824
+SHA256sum: 89569e2b7a4dcee7aa4fb6dc324fc391ffcb611b3f08d992e7100c71d0bf4c18
 Description:  Automatic modem setup
 
 Package: automount
@@ -427,20 +427,20 @@ SHA256sum: 688c2a330705ad835b78ffb2ce075be9f4d8b137b135b37a4b51382de77f2725
 Description:  Configrure modem bands via mmcli utility
 
 Package: luci-app-modeminfo
-Version: 1.4.4-r2
+Version: 1.4.5-r1
 Depends: libc, modeminfo, luci-compat
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1745415037
+SourceDateEpoch: 1745849431
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 40960
-Filename: luci-app-modeminfo_1.4.4-r2_all.ipk
-Size: 6884
-SHA256sum: bc697c506783314c8b424ac5195e8d27de3dffd9cc197177b9d490eee36649a2
+Installed-Size: 51200
+Filename: luci-app-modeminfo_1.4.5-r1_all.ipk
+Size: 7954
+SHA256sum: 8362f4ef7fabc309d42ff7a7cb9f876a41a2b21ac12a2b894ae97fdb947bcbeb
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -692,18 +692,18 @@ SHA256sum: 8093848c42fe743d4779e65c753904830a6dbee155af49b44d833bc62a97754e
 Description:  Translation for luci-app-mmconfig - Русский (Russian)
 
 Package: luci-i18n-modeminfo-ru
-Version: 25.100.26887~5be75a5
+Version: 25.118.48417~2ff33ac
 Depends: libc, luci-app-modeminfo
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 License: GPLv3
 Section: luci
-SourceDateEpoch: 1745415037
+SourceDateEpoch: 1745849431
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-modeminfo-ru_25.100.26887~5be75a5_all.ipk
-Size: 2346
-SHA256sum: 97449fc415968d3105c9fd9eae25270e165288a25f73ba01c300bfdd46006156
+Filename: luci-i18n-modeminfo-ru_25.118.48417~2ff33ac_all.ipk
+Size: 2414
+SHA256sum: 43692ec404103c13ab9dfe307b50f83b170d6f3ca09671c20814e444e46ff977
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
