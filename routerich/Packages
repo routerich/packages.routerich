@@ -49,13 +49,13 @@ Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1747061918
+SourceDateEpoch: 1747082154
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
 Filename: automodem_1.0.0_all.ipk
-Size: 5971
-SHA256sum: 1ac702b35587987f592e14cf718a8a6b481ea409c7ed30bf717ed7880e88e061
+Size: 5974
+SHA256sum: 1acafaf0698c112a56575ef9bf342b462b58af01d3ae2e67748b4b728fe18d49
 Description:  Automatic modem setup
 
 Package: automount
@@ -545,14 +545,14 @@ Depends: libc
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
 SourceName: luci-app-ussd
 Section: luci
-SourceDateEpoch: 1747061918
+SourceDateEpoch: 1747082154
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-ussd_1.0.0-r1_all.ipk
-Size: 4180
-SHA256sum: cddd32a8b1d2e1751e52be53a95767d6b53bbf28fe91eceea4d91ca943efda66
+Size: 4191
+SHA256sum: 4ebce9aa54b431ea38913d4bb1d35bf4bea7461b2823d19b405b3b6385449b6f
 Description:  LuCI JS interface for for USSD commands
 
 Package: luci-app-vsftpd
@@ -794,12 +794,12 @@ Depends: libc, luci-app-ussd
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
 SourceName: luci-app-ussd
 Section: luci
-SourceDateEpoch: 1747061918
+SourceDateEpoch: 1747082154
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-ussd-ru_25.091.34280~15c8dc0_all.ipk
-Size: 1499
-SHA256sum: b8025fb5764118eadef00feb86bf0f97a407f86a9041e38d28c7bc7214b8e4e0
+Size: 1491
+SHA256sum: c08b7615fb71f79d383dec70c8ac4cfda3c7883e3a542e97144da31f050cfc1c
 Description:  Translation for luci-app-ussd - Русский (Russian)
 
 Package: luci-i18n-vsftpd-ru
