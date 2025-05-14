@@ -88,18 +88,18 @@ SHA256sum: be3e882e82523bce49834e2bfaa78a6014f801cb66cb9449fdff8a1e9aa8da61
 Description:  Base config
 
 Package: default-settings
-Version: 1
+Version: 2
 Depends: libc, luci, https-dns-proxy
 Source: /home/santaclaus/feed.routerich/default-settings
 SourceName: default-settings
 License: GPL-2.0-only
 Section: luci
-SourceDateEpoch: 1745325595
+SourceDateEpoch: 1747175075
 Architecture: all
-Installed-Size: 20480
-Filename: default-settings_1_all.ipk
-Size: 2994
-SHA256sum: 47c70ffe509b959639b81de6b742b6d65d2a8512ab911950b97a69e841fc1986
+Installed-Size: 10240
+Filename: default-settings_2_all.ipk
+Size: 2868
+SHA256sum: 08e3d95b3424dbcf0c24aa4f41b053ac8af3583cf28ae6656380bb04303bda1e
 Description:  LuCI support for Default Settings
 
 Package: filebrowser
@@ -572,17 +572,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.0.0-r1
-Depends: libc, luci-base, rpcd-mod-iwinfo, default-settings, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+Version: 1.0.1
+Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
 Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1744715471
+SourceDateEpoch: 1747235865
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-wizard_1.0.0-r1_all.ipk
-Size: 5207
-SHA256sum: 6aef4e97723f56f07fc095ff6bb86705d70347fd3396b0aae5537b2236575294
+Filename: luci-app-wizard_1.0.1_all.ipk
+Size: 4926
+SHA256sum: d31bd68199195f5d156f3fdc4880ed764636c8c024097f14281423734e5df35f
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -1299,6 +1299,20 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
 
+Package: routerich-defaults
+Version: 1.0.0
+Depends: libc
+Source: /home/santaclaus/feed.routerich/routerich-defaults
+SourceName: routerich-defaults
+Section: config
+SourceDateEpoch: 1747176569
+Architecture: all
+Installed-Size: 20480
+Filename: routerich-defaults_1.0.0_all.ipk
+Size: 2812
+SHA256sum: d57ca3be4e403d16d0c60c2d82b53640277b974889cff5062c196f903cbbe777
+Description:  Default settings by RouterRich
+
 Package: ruantiblock-mod-lua
 Version: 2.1.4-r1
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
@@ -1368,17 +1382,17 @@ SHA256sum: 2f4b9aa5ccdfff0c139bac6b14a889b137baa1a6573044a67054fdb9e173b9a2
 Description:  tun to socks proxy redirector written on golang
 
 Package: uboot-routerich
-Version: 1-r1
+Version: 1.0.1
 Depends: libc, kmod-mtd-rw
 Source: /home/santaclaus/feed.routerich/uboot-routerich
 SourceName: uboot-routerich
 Section: config
-SourceDateEpoch: 1734607449
-Architecture: aarch64_cortex-a53
+SourceDateEpoch: 1747167544
+Architecture: all
 Installed-Size: 952320
-Filename: uboot-routerich_1-r1_aarch64_cortex-a53.ipk
-Size: 434390
-SHA256sum: 2ff90249a0a234934c49f433ceef5b2eda38afe17e379a95e04cd8ef36704c81
+Filename: uboot-routerich_1.0.1_all.ipk
+Size: 434003
+SHA256sum: b09c88176ece6b40b046e25c3019976b48a9c9530b740186bf597c863c7beda7
 Description:  Uboot upgrade
 
 Package: upx
