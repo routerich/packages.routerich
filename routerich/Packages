@@ -442,19 +442,19 @@ SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
 Package: luci-app-modeminfo
-Version: 1.4.8-r1
+Version: 1.4.9-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1747061918
+SourceDateEpoch: 1747386971
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-modeminfo_1.4.8-r1_all.ipk
-Size: 8235
-SHA256sum: 8c5082e59aa3fdcaa87a2f118240fe7997f68cd8059e4bbeaed2375deb90133c
+Filename: luci-app-modeminfo_1.4.9-r1_all.ipk
+Size: 8242
+SHA256sum: 1a989dee2e6d7b1a643daa87c41a930b888ac0fc3501856ee5fe0f5557a4dcd2
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -723,12 +723,12 @@ Depends: libc, luci-app-modeminfo
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1747061918
+SourceDateEpoch: 1747386971
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_25.118.48417~2ff33ac_all.ipk
-Size: 2394
-SHA256sum: 7478536c0899929247c815385d9deec9724258585c53a418185cb0f2a56e2c01
+Size: 2390
+SHA256sum: d041c3f061c3e152499b4a279362f267c86558478473014cacf2406279533e5f
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1300,17 +1300,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.0.0
+Version: 1.0.1
 Depends: libc, kmod-mtd-rw, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1747255595
+SourceDateEpoch: 1747346553
 Architecture: all
 Installed-Size: 20480
-Filename: routerich-defaults_1.0.0_all.ipk
-Size: 2871
-SHA256sum: 4b17bc5fe4378ab9c0057c97e51348050ccf95f4b6232f3d4ef5438493941b06
+Filename: routerich-defaults_1.0.1_all.ipk
+Size: 3290
+SHA256sum: 3336bb65a2e8cfb1b1204877ea6fe796b81a517b659a6a08e0a06e38ffcd6048
 Description:  Default settings by RouterRich
 
 Package: ruantiblock-mod-lua
