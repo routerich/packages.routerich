@@ -522,6 +522,22 @@ Size: 9098
 SHA256sum: d5c56841293945d734a3ae17538d8449ab0e34b510f9fd901a29f665f48c5094
 Description:  Web UI for smstools3
 
+Package: luci-app-tailscale
+Version: 1.2.6-r1
+Depends: libc, tailscale-lite
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1748268176
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-tailscale_1.2.6-r1_all.ipk
+Size: 9853
+SHA256sum: 0b59aaf16c00f96b55c92995751baeac6dfc8f5a059431629376aff0545d03c8
+Description:  LuCI for Tailscale
+
 Package: luci-app-temp-status
 Version: 0.4.1-r1
 Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
@@ -772,6 +788,20 @@ Filename: luci-i18n-smstools3-ru_25.092.26460~32cb0dd_all.ipk
 Size: 3156
 SHA256sum: dbe21a67b66a840ed3f1e40f0426ac8c80a67e6faf0bff143f7ab8e3f37fb913
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
+
+Package: luci-i18n-tailscale-ru
+Version: 25.146.50576~a026bc8
+Depends: libc, luci-app-tailscale
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1748268176
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
+Size: 3229
+SHA256sum: 1ab167302196905cf6d4419da4b83b34b2f2119c11571bdffb6aeb4aa9bc92fa
+Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
 Version: 25.062.74067~1d17083
@@ -1362,6 +1392,27 @@ Filename: sms-tool_2023.09.21~1b6ca032-r1_aarch64_cortex-a53.ipk
 Size: 9713
 SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
+
+Package: tailscale-lite
+Version: 1.80.3-r1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+Source: /home/santaclaus/next/feed.routerich_next/tailscale-lite
+SourceName: tailscale-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1748261187
+URL: https://tailscale.com
+CPE-ID: cpe:/a:tailscale:tailscale
+Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23265280
+Filename: tailscale-lite_1.80.3-r1_aarch64_cortex-a53.ipk
+Size: 8926993
+SHA256sum: b1251fe18de18ded6958749121b1c8ff3e6edd670534d64e0fcdc632f20be633
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
 
 Package: tun2socks
 Version: 2.5.2-r250128~master-1
