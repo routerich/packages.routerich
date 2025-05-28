@@ -1242,12 +1242,12 @@ Depends: libc
 Source: /home/santaclaus/next/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1748361348
+SourceDateEpoch: 1748423123
 Architecture: all
 Installed-Size: 20480
 Filename: routerich-defaults_1.0.3_all.ipk
-Size: 3883
-SHA256sum: 840834b4d4a46b876e64be4ebee7471057db6b9f6b7f5a1aec1fc76e97bebc86
+Size: 3891
+SHA256sum: c5db495db78281e6b693b9f60b368a13e63aeada9fe76545b976a7e410c6119c
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
