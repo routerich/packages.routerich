@@ -528,14 +528,14 @@ Depends: libc, tailscale-lite
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1748268176
+SourceDateEpoch: 1748957562
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
 Filename: luci-app-tailscale_1.2.6-r1_all.ipk
-Size: 9853
-SHA256sum: 0b59aaf16c00f96b55c92995751baeac6dfc8f5a059431629376aff0545d03c8
+Size: 9875
+SHA256sum: 0dad590c4fe46dc6f4b8634f21895198b49819583a51c3586c6d9e811f8f6d72
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -795,12 +795,12 @@ Depends: libc, luci-app-tailscale
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1748268176
+SourceDateEpoch: 1748957562
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
-Size: 3229
-SHA256sum: 1ab167302196905cf6d4419da4b83b34b2f2119c11571bdffb6aeb4aa9bc92fa
+Size: 3230
+SHA256sum: 53e62a5b52a1cc162f5321c5ea9027c6e1a5f574af93c0b18cdbdc3224a68083
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
