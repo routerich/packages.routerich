@@ -144,17 +144,17 @@ SHA256sum: b648e0f0d498611d241c3a456eee6b06f7d2abd67cccf94073bde205cb7fef74
 Description:  fast nat forward kmod
 
 Package: ksmbd-rrplug
-Version: 1.0.0
-Depends: libc, ksmbd-server, smount
+Version: 1.0.1
+Depends: libc, ksmbd-server, ksmbd-avahi-service, smount
 Source: /home/santaclaus/next/feed.routerich_next/ksmbd-rrplug
 SourceName: ksmbd-rrplug
 Section: utils
-SourceDateEpoch: 1747608640
+SourceDateEpoch: 1749046677
 Architecture: all
 Installed-Size: 10240
-Filename: ksmbd-rrplug_1.0.0_all.ipk
-Size: 1220
-SHA256sum: 3ce7ab5e990655c46fd49fd85b520c58f68ff8bcbe2e26fc549db391601fe7df
+Filename: ksmbd-rrplug_1.0.1_all.ipk
+Size: 1236
+SHA256sum: cc17f1cdeb09eafd2a59cd4dca1bbf2699af70ddeae49a15ff2f0b33290e6c6c
 Description:  Auto-share ksmbd hotplug
 
 Package: libQt6Core
@@ -329,6 +329,22 @@ Filename: luci-app-internet-detector_1.4.3-r1_all.ipk
 Size: 9550
 SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
 Description:  LuCI support for internet-detector
+
+Package: luci-app-ledcontrol
+Version: 0.9.0-r1
+Depends: libc
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749135290
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-ledcontrol_0.9.0-r1_all.ipk
+Size: 3544
+SHA256sum: ca7c8376f23bcc44f802df90107ac94f331fe782aee1c7c6decd254af8cdc780
+Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
 Version: 1.2.0-r1
@@ -527,17 +543,17 @@ SHA256sum: 4ebce9aa54b431ea38913d4bb1d35bf4bea7461b2823d19b405b3b6385449b6f
 Description:  LuCI JS interface for for USSD commands
 
 Package: luci-app-wizard
-Version: 1.0.10
+Version: 1.0.11
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1748522839
+SourceDateEpoch: 1749029664
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-wizard_1.0.10_all.ipk
-Size: 6081
-SHA256sum: b8211270074121930012a5977bc714958707d59df3517b14ba7c33dd5db104e6
+Filename: luci-app-wizard_1.0.11_all.ipk
+Size: 6102
+SHA256sum: 7cafeff5563a70551b73737851e9b5e55c7536e199f776e0497dd07d653c0060
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -642,6 +658,20 @@ Filename: luci-i18n-internet-detector-ru_25.062.73240~edd4cd9_all.ipk
 Size: 5370
 SHA256sum: ac218307ff873011d902a18aca9d461315aa419ba65c565fe4384f3e1761c7d7
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-ledcontrol-ru
+Version: 25.156.52818~9ece8a9
+Depends: libc, luci-app-ledcontrol
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749135290
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ledcontrol-ru_25.156.52818~9ece8a9_all.ipk
+Size: 1478
+SHA256sum: fd7e2773442b6d3b919fbe341cedc477308a0b2bdec433308ca6f1ddde135c7d
+Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
 Version: 25.062.73304~83ca219
@@ -846,6 +876,22 @@ Filename: luci-proto-xmm_25.112.56602~ee9a34d_all.ipk
 Size: 2380
 SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
+
+Package: luci-theme-routerich-beta
+Version: 1.0.5-r20250529
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich-beta
+SourceName: luci-theme-routerich-beta
+Section: luci
+SourceDateEpoch: 1749040818
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 901120
+Filename: luci-theme-routerich-beta_1.0.5-r20250529_all.ipk
+Size: 445407
+SHA256sum: 87156dd26e7e34357c224575ad934860242d60818e3d565a56faea52771deb81
+Description:  Routerich-beta Theme
 
 Package: luci-theme-routerich
 Version: 1.0.5-r20250529
@@ -1287,17 +1333,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.0.7
+Version: 1.0.9
 Depends: libc
 Source: /home/santaclaus/next/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1748908943
+SourceDateEpoch: 1749064638
 Architecture: all
 Installed-Size: 40960
-Filename: routerich-defaults_1.0.7_all.ipk
-Size: 6424
-SHA256sum: e55401f8fc05c9d528704650bc3e62061eb97e7cf1008d971bbdc2294f5e9600
+Filename: routerich-defaults_1.0.9_all.ipk
+Size: 7123
+SHA256sum: ba793a632f341e3e027b390da4951df2d4f677aefbb01a6a50ace85869bf63e5
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -1333,17 +1379,17 @@ SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
 
 Package: smount
-Version: 1.0.0
-Depends: libc, kmod-usb-storage, block-mount, fdisk, hdparm, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
+Version: 1.0.1
+Depends: libc, kmod-usb-storage, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
 Source: /home/santaclaus/next/feed.routerich_next/smount
 SourceName: smount
 Section: utils
-SourceDateEpoch: 1747606874
+SourceDateEpoch: 1749032284
 Architecture: all
 Installed-Size: 10240
-Filename: smount_1.0.0_all.ipk
-Size: 1357
-SHA256sum: c2059036d6238dc2dff7b645fd88ee0157f766dc048c170a1795e145ffbccff9
+Filename: smount_1.0.1_all.ipk
+Size: 1361
+SHA256sum: a7bf5ac8fdab84a7e668da9a76eb1b31a50d975f0c1a3f304ab28641be05210d
 Description:  Auto-mount scripts
 
 Package: sms-tool

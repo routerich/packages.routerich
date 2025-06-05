@@ -392,6 +392,22 @@ Size: 9550
 SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
 Description:  LuCI support for internet-detector
 
+Package: luci-app-ledcontrol
+Version: 0.9.0-r1
+Depends: libc
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749135290
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-ledcontrol_0.9.0-r1_all.ipk
+Size: 3544
+SHA256sum: ca7c8376f23bcc44f802df90107ac94f331fe782aee1c7c6decd254af8cdc780
+Description:  Routerich Led Control app
+
 Package: luci-app-log-viewer
 Version: 1.2.0-r1
 Depends: libc
@@ -689,6 +705,20 @@ Filename: luci-i18n-internet-detector-ru_25.062.73240~edd4cd9_all.ipk
 Size: 5370
 SHA256sum: ac218307ff873011d902a18aca9d461315aa419ba65c565fe4384f3e1761c7d7
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-ledcontrol-ru
+Version: 25.156.52818~9ece8a9
+Depends: libc, luci-app-ledcontrol
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749135290
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ledcontrol-ru_25.156.52818~9ece8a9_all.ipk
+Size: 1478
+SHA256sum: fd7e2773442b6d3b919fbe341cedc477308a0b2bdec433308ca6f1ddde135c7d
+Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
 Version: 25.062.73304~83ca219
