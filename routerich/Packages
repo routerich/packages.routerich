@@ -393,19 +393,19 @@ SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
-Version: 0.9.0-r1
+Version: 0.9.1-r1
 Depends: libc
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1749135290
+SourceDateEpoch: 1749467995
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-ledcontrol_0.9.0-r1_all.ipk
-Size: 3544
-SHA256sum: ca7c8376f23bcc44f802df90107ac94f331fe782aee1c7c6decd254af8cdc780
+Filename: luci-app-ledcontrol_0.9.1-r1_all.ipk
+Size: 3572
+SHA256sum: b0d9136fdb7ca69925c6a0c7d867869fb52b905d7bfa87d1b599549963caeaa1
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
@@ -458,19 +458,19 @@ SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
 Package: luci-app-modeminfo
-Version: 1.5.1-r1
+Version: 1.5.2-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1748534980
+SourceDateEpoch: 1749472334
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-modeminfo_1.5.1-r1_all.ipk
-Size: 8528
-SHA256sum: 20eecdbf2c99beb419c6b689be7a381dc664d4800c664063ced94a11f38caf9d
+Filename: luci-app-modeminfo_1.5.2-r1_all.ipk
+Size: 8494
+SHA256sum: b90c8e8f07ae8715796ffae781dada040888b1a7c81795b8008fdb65d0dfbc4e
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -707,17 +707,17 @@ SHA256sum: ac218307ff873011d902a18aca9d461315aa419ba65c565fe4384f3e1761c7d7
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
-Version: 25.156.52818~9ece8a9
+Version: 25.160.39218~84c780c
 Depends: libc, luci-app-ledcontrol
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1749135290
+SourceDateEpoch: 1749467995
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ledcontrol-ru_25.156.52818~9ece8a9_all.ipk
-Size: 1478
-SHA256sum: fd7e2773442b6d3b919fbe341cedc477308a0b2bdec433308ca6f1ddde135c7d
+Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
+Size: 1491
+SHA256sum: 9fe7a135fe4c0c32fb33577f28eb16bf5fd8888f1c17ed31f3c8e673c51a137a
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
@@ -769,12 +769,12 @@ Depends: libc, luci-app-modeminfo
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1748534980
+SourceDateEpoch: 1749472334
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_25.143.59361~aa3c06c_all.ipk
-Size: 2409
-SHA256sum: ef2a15cfab0d4da1d34e9be4d5cb7f95b68718ddf710fd2dff71817ad444bad0
+Size: 2413
+SHA256sum: 3d15779839f292b1dfcd81cee7937b7345c2dc289f53f99eef8d003aebc3e864
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
