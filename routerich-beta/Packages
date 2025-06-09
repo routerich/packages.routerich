@@ -1333,17 +1333,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.1.1
+Version: 1.1.3
 Depends: libc
 Source: /home/santaclaus/next/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1749158366
+SourceDateEpoch: 1749368797
 Architecture: all
 Installed-Size: 40960
-Filename: routerich-defaults_1.1.1_all.ipk
-Size: 6908
-SHA256sum: afa1ffec4f0ddc40127d832cdc180c531dae176f55a85c36c3017d34b1451d59
+Filename: routerich-defaults_1.1.3_all.ipk
+Size: 6977
+SHA256sum: 7ff404d572c502432f7863217f67427cca0ca3bbb15c151473a5f2608ab2b3f9
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -1379,17 +1379,17 @@ SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
 
 Package: smount
-Version: 1.0.1
-Depends: libc, kmod-usb-storage, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
+Version: 1.0.2
+Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
 Source: /home/santaclaus/next/feed.routerich_next/smount
 SourceName: smount
 Section: utils
-SourceDateEpoch: 1749032284
+SourceDateEpoch: 1749462957
 Architecture: all
 Installed-Size: 10240
-Filename: smount_1.0.1_all.ipk
-Size: 1361
-SHA256sum: a7bf5ac8fdab84a7e668da9a76eb1b31a50d975f0c1a3f304ab28641be05210d
+Filename: smount_1.0.2_all.ipk
+Size: 1363
+SHA256sum: 3aa812cd83a8e97d200448e9051d5c169334ec8509b5c493b37ae6d7b00daaae
 Description:  Auto-mount scripts
 
 Package: sms-tool
