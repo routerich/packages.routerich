@@ -128,19 +128,19 @@ SHA256sum: 7882660494624c4d47bc8eab69aae4951847c4df5ff8eb9d665f44c63ab4906b
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
-Version: 6.6.86.20241125-r1
+Version: 6.6.86.20250607-r1
 Depends: kernel (=6.6.86~6ace983a14b769f576fe9c4c7961bd89-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
 Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1747647574
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 225280
-Filename: kmod-natflow_6.6.86.20241125-r1_aarch64_cortex-a53.ipk
-Size: 74622
-SHA256sum: b648e0f0d498611d241c3a456eee6b06f7d2abd67cccf94073bde205cb7fef74
+Installed-Size: 256000
+Filename: kmod-natflow_6.6.86.20250607-r1_aarch64_cortex-a53.ipk
+Size: 86207
+SHA256sum: 40867c62f5031d4c195906b37b1cd592aaffef833aa1fc23f4444c46ab2b6959
 Description:  fast nat forward kmod
 
 Package: ksmbd-rrplug
@@ -1176,51 +1176,51 @@ SHA256sum: fe46f82972f73d563aa5a517440e7c49a244b75a324e6ce746cd3dc8eafebaf9
 Description:  Signal information for 3G/LTE dongle
 
 Package: natflow-auth
-Version: 20241125
+Version: 20250607
 Depends: libc, kmod-natflow, ipset, lua-ipops
 Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1747647574
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
-Filename: natflow-auth_20241125_aarch64_cortex-a53.ipk
-Size: 4667
-SHA256sum: f95d24b98e397c7c3d15e9bc187e7e67e48f1b15f7349fcc0fc75cca5047c41a
+Filename: natflow-auth_20250607_aarch64_cortex-a53.ipk
+Size: 4678
+SHA256sum: 3742cfaa4bcb61a495607df81d5b36c8d477927ab51fba7ecdee14fb1a95130f
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20241125
+Version: 20250607
 Depends: libc, natflow-auth, urllogger
 Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1747647574
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow-hostacl_20241125_aarch64_cortex-a53.ipk
-Size: 2022
-SHA256sum: 0cd213fb4935254444ac9d9e29ac7ba0602423d145705f5df1a0798e7fb8bc93
+Filename: natflow-hostacl_20250607_aarch64_cortex-a53.ipk
+Size: 2023
+SHA256sum: 102819380cf157c341308d01136ecbeb4889eba6810e623ea4df1dc5a5710c61
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20241125
+Version: 20250607
 Depends: libc, ethtool, kmod-natflow
 Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1747647574
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow_20241125_aarch64_cortex-a53.ipk
-Size: 1762
-SHA256sum: 17070a720aa82c9d43a4d14c610b8fa1adbc4d7ce72cdc79d11de1cabb59107d
+Filename: natflow_20250607_aarch64_cortex-a53.ipk
+Size: 1791
+SHA256sum: c643dc954a210457938f7e34a51a4662b1c958d6a7be85dd8163986d8ac6b3e3
 Description:  Natflow init script
 
 Package: opera-proxy
@@ -1333,17 +1333,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.1.4
+Version: 1.1.6
 Depends: libc
 Source: /home/santaclaus/next/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1749544221
+SourceDateEpoch: 1749844959
 Architecture: all
 Installed-Size: 40960
-Filename: routerich-defaults_1.1.4_all.ipk
-Size: 6859
-SHA256sum: f7ad5c3f62543633638a8f044ae77f0afac6b4d98741bf43c3f27d02483a20c7
+Filename: routerich-defaults_1.1.6_all.ipk
+Size: 6905
+SHA256sum: b63c7e15c9a03a2b5a17dd73ff53eb2e56ddd3802d0af5ea68250938a38105ee
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua

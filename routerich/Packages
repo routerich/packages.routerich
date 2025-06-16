@@ -188,20 +188,34 @@ SHA256sum: 7882660494624c4d47bc8eab69aae4951847c4df5ff8eb9d665f44c63ab4906b
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
-Version: 6.6.86.20241125-r1
+Version: 6.6.86.20250607-r1
 Depends: kernel (=6.6.86~6ace983a14b769f576fe9c4c7961bd89-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
+Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1732554041
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 225280
-Filename: kmod-natflow_6.6.86.20241125-r1_aarch64_cortex-a53.ipk
-Size: 74623
-SHA256sum: 88bb45a94aa6828fbd9e8a4bf0d10032869590f66fc65b956946ede96128548e
+Installed-Size: 256000
+Filename: kmod-natflow_6.6.86.20250607-r1_aarch64_cortex-a53.ipk
+Size: 86207
+SHA256sum: 40867c62f5031d4c195906b37b1cd592aaffef833aa1fc23f4444c46ab2b6959
 Description:  fast nat forward kmod
+
+Package: ksmbd-rrplug
+Version: 1.0.1
+Depends: libc, ksmbd-server, ksmbd-avahi-service, smount
+Source: /home/santaclaus/next/feed.routerich_next/ksmbd-rrplug
+SourceName: ksmbd-rrplug
+Section: utils
+SourceDateEpoch: 1749046677
+Architecture: all
+Installed-Size: 10240
+Filename: ksmbd-rrplug_1.0.1_all.ipk
+Size: 1236
+SHA256sum: cc17f1cdeb09eafd2a59cd4dca1bbf2699af70ddeae49a15ff2f0b33290e6c6c
+Description:  Auto-share ksmbd hotplug
 
 Package: libQt6Core
 Version: 6.8.2-r1
@@ -266,34 +280,50 @@ Description:  This package provides the Qt6 Xml v6.8.2 library.
 Package: lua-ipops
 Version: 0.0.1-r1
 Depends: libc, lua
-Source: /home/santaclaus/feed.routerich/natflow/lua-ipops
+Source: /home/santaclaus/next/feed.routerich_next/lua-ipops
 SourceName: lua-ipops
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1726505763
+SourceDateEpoch: 1747647574
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: all
 Installed-Size: 20480
 Filename: lua-ipops_0.0.1-r1_all.ipk
-Size: 3329
-SHA256sum: 93c01e58ac457c68b55128c84caad53cef20ec3ae8d861252992f4c365b76988
+Size: 3325
+SHA256sum: 0a4035276e75cc794dd9c780d9ddf0e4e040fb220edecc143cf329428d35cab9
 Description:  lua ipops lib
 
 Package: luci-app-access-control
 Version: 0.4.4-r1
 Depends: libc, luci-compat, luci-lua-runtime
-Source: /home/santaclaus/feed.routerich/luci-app-access-control
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1744719973
+SourceDateEpoch: 1747656105
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-access-control_0.4.4-r1_all.ipk
-Size: 5072
-SHA256sum: 6f185ff46445c8e2575e90f52a3989c4dc47e0206c5a657fb8d565f436fc7f15
+Size: 5133
+SHA256sum: b89875de7d702fcae35434ead6d10b377455d2c33ba80b5d115bb8e88f57193b
 Description:  LuCI Internet Access Control
+
+Package: luci-app-amneziawg
+Version: 25.140.54227~3bd39b4
+Depends: libc, ucode
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-amneziawg
+SourceName: luci-app-amneziawg
+Section: luci
+SourceDateEpoch: 1747753427
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-amneziawg_25.140.54227~3bd39b4_all.ipk
+Size: 11806
+SHA256sum: b3cf7f509f4fce7b5d784a33fb0e3f7ebb7285f11156739a9b3d97eb22d032e3
+Description:  Support for AmneziaWG VPN
 
 Package: luci-app-amneziawg
 Version: 25.086.51674~d91b892
@@ -476,19 +506,36 @@ Description:  Information dashboard for 3G/LTE dongle
 Package: luci-app-natflow-users
 Version: 1.0.1-r1
 Depends: libc, natflow-auth, luci-compat, tc-tiny
-Source: feeds/routerich/natflow/luci-app-natflow-users
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-natflow-users
 SourceName: luci-app-natflow-users
 License: GPLv3
 LicenseFiles: LICENSE
 Section: opt
-SourceDateEpoch: 1739646107
+SourceDateEpoch: 1747647574
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: all
 Installed-Size: 71680
 Filename: luci-app-natflow-users_1.0.1-r1_all.ipk
-Size: 10629
-SHA256sum: 34afb115bd185b7c86e0d3c53676e3e841d151057b198345ac26c12a6b50d00f
+Size: 10644
+SHA256sum: 5962f75d7b5ae1089454e3855ce1a4953079d4205d59beff74642dd2909e3412
 Description:  LuCI Support for natflow users.
+
+Package: luci-app-podkop-0.2.5
+Version: 1.0.0-r1
+Depends: libc, luci-base, podkop-0.2.5
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
+SourceName: luci-app-podkop-0.2.5
+License: GPL-2.0-or-later
+Section: luci
+SourceDateEpoch: 1748597366
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-podkop-0.2.5_1.0.0-r1_all.ipk
+Size: 6039
+SHA256sum: cbd4b8b4f6d62e67e14c05773afed7706fc4f059da94dc4e599901ee96eb1087
+Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
 Version: 1.0.1-r1
@@ -604,17 +651,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.0.4
-Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
-Source: /home/santaclaus/feed.routerich/luci-app-wizard
+Version: 1.1.0
+Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1747306616
+SourceDateEpoch: 1749544221
 Architecture: all
-Installed-Size: 30720
-Filename: luci-app-wizard_1.0.4_all.ipk
-Size: 5026
-SHA256sum: d29c55262fc8177c2555792db8d6e02f26bc8e59f56f270684f3b36a8c6e91c9
+Installed-Size: 40960
+Filename: luci-app-wizard_1.1.0_all.ipk
+Size: 6104
+SHA256sum: e1ec6af25743e04cf68b9183b1615a71cd9eb327bf3a69ee8be00fccffdbc487
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -635,34 +682,48 @@ SHA256sum: b16b046e976de9e44ea077c0ebf9c76ea79a49f7118ef96437bcb45b94dfaea9
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
-Version: 24.330.73779~5c9cbb6
+Version: 25.139.41679~1cd31c7
 Depends: libc, zerotier-lite, jsonfilter, ucode
-Source: /home/santaclaus/feed.routerich/luci-app-zerotier
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
-SourceDateEpoch: 1732566579
+SourceDateEpoch: 1747654479
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-zerotier_24.330.73779~5c9cbb6_all.ipk
-Size: 5488
-SHA256sum: 82c01d49ce380ee904fc7a6e49492f63aaed791f713e4ca9f5b7f9a93b44b5d5
+Filename: luci-app-zerotier_25.139.41679~1cd31c7_all.ipk
+Size: 5490
+SHA256sum: 44b6e4a715389be5d2cad340b8f891f5841696deedddba78dfc13efb739de1bd
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-access-control-ru
-Version: 24.257.68090~39128d1
+Version: 25.139.43305~6262bf7
 Depends: libc, luci-app-access-control
-Source: feeds/routerich/luci-app-access-control
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1726266474
+SourceDateEpoch: 1747656105
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-access-control-ru_24.257.68090~39128d1_all.ipk
-Size: 1990
-SHA256sum: 1100e4348d724e3480f1205764ad205e1be642c796e1e1d56091b91d22a14d5e
+Filename: luci-i18n-access-control-ru_25.139.43305~6262bf7_all.ipk
+Size: 2002
+SHA256sum: 50a15144473af3bec23bc8e9fc75cf548bdd1572f7b279ad1ac20c0728bfce49
 Description:  Translation for luci-app-access-control - Русский (Russian)
+
+Package: luci-i18n-amneziawg-ru
+Version: 25.140.51674~ad3fae8
+Depends: libc, luci-app-amneziawg
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-amneziawg
+SourceName: luci-app-amneziawg
+Section: luci
+SourceDateEpoch: 1747753427
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-amneziawg-ru_25.140.51674~ad3fae8_all.ipk
+Size: 3012
+SHA256sum: f9b81996f498bd4c0d01408ed3bc8ca7e44a62a576f5acba802edba0cbb65b20
+Description:  Translation for luci-app-amneziawg - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
 Version: 25.092.26714~279ca85
@@ -777,6 +838,22 @@ Size: 2424
 SHA256sum: 416abd0086f69451a85f64dc218a686ad904512ff5def41b625144fa1943d3b8
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
+Package: luci-i18n-podkop-0.2.5-ru
+Version: 25.150.34166~a107e99
+Depends: libc, luci-app-podkop-0.2.5
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
+SourceName: luci-app-podkop-0.2.5
+License: GPL-2.0-or-later
+Section: luci
+SourceDateEpoch: 1748597366
+Maintainer: ITDog <podkop@itdog.info>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-podkop-0.2.5-ru_25.150.34166~a107e99_all.ipk
+Size: 4164
+SHA256sum: 416139ba3585d39a0f07fab6683fed51dee8ecb138861caa2e431002e5f5519c
+Description:  Translation for luci-app-podkop-0.2.5 - Русский (Russian)
+
 Package: luci-i18n-qbittorrent-ru
 Version: 24.252.08653~eff063a
 Depends: libc, luci-app-qbittorrent
@@ -877,17 +954,17 @@ SHA256sum: 183d49415820a5b98c55ed3235af58da4210a7d9ff8d03324da4f4d2ae4c130f
 Description:  Translation for luci-app-vsftpd - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
-Version: 24.250.52061~702579b
+Version: 25.139.41679~1cd31c7
 Depends: libc, luci-app-zerotier
-Source: /home/santaclaus/feed.routerich/luci-app-zerotier
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
-SourceDateEpoch: 1732566579
+SourceDateEpoch: 1747654479
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-zerotier-ru_24.250.52061~702579b_all.ipk
-Size: 1957
-SHA256sum: ba96b8d2eb5407ebbe19226b7721bdda92621f3ab63b483373a621f91e339e99
+Filename: luci-i18n-zerotier-ru_25.139.41679~1cd31c7_all.ipk
+Size: 1956
+SHA256sum: 148717c7cc27401863a4cf15f3d8ab80ab28b189dbd087ad9b51e2038de8f6af
 Description:  Translation for luci-app-zerotier - Русский (Russian)
 
 Package: luci-proto-tun2socks
@@ -923,19 +1000,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.4-r20230420
+Version: 1.0.5-r20250529
 Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: /home/santaclaus/feed.routerich/luci-theme-routerich
+Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1740251199
+SourceDateEpoch: 1748517490
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 911360
-Filename: luci-theme-routerich_1.0.4-r20230420_all.ipk
-Size: 459214
-SHA256sum: 29d975530f4b800e47152692750a1ff4e197516504e83107607783d1f0e651a6
+Filename: luci-theme-routerich_1.0.5-r20250529_all.ipk
+Size: 458723
+SHA256sum: a7acab619379d69ee0894fd372f8978965b280cee27a2699555a13e933ec72f4
 Description:  Routerich Theme
 
 Package: modemband
@@ -1205,51 +1282,51 @@ SHA256sum: fe46f82972f73d563aa5a517440e7c49a244b75a324e6ce746cd3dc8eafebaf9
 Description:  Signal information for 3G/LTE dongle
 
 Package: natflow-auth
-Version: 20241125
+Version: 20250607
 Depends: libc, kmod-natflow, ipset, lua-ipops
-Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
+Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1745620890
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
-Filename: natflow-auth_20241125_aarch64_cortex-a53.ipk
-Size: 4670
-SHA256sum: 4cc705d6a6bdf23ad65ce22f5f4830d29f3c56a2508481852e0e1b002b7296f1
+Filename: natflow-auth_20250607_aarch64_cortex-a53.ipk
+Size: 4678
+SHA256sum: 3742cfaa4bcb61a495607df81d5b36c8d477927ab51fba7ecdee14fb1a95130f
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20241125
+Version: 20250607
 Depends: libc, natflow-auth, urllogger
-Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
+Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1745620890
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow-hostacl_20241125_aarch64_cortex-a53.ipk
-Size: 2027
-SHA256sum: f8376dffb822b918c2f46bff4b9f785f47928f241021bda294b8a59977302b19
+Filename: natflow-hostacl_20250607_aarch64_cortex-a53.ipk
+Size: 2023
+SHA256sum: 102819380cf157c341308d01136ecbeb4889eba6810e623ea4df1dc5a5710c61
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20241125
+Version: 20250607
 Depends: libc, ethtool, kmod-natflow
-Source: /home/santaclaus/feed.routerich/natflow/package_new_natflow
+Source: /home/santaclaus/next/feed.routerich_next/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1745620890
+SourceDateEpoch: 1750021592
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow_20241125_aarch64_cortex-a53.ipk
-Size: 1776
-SHA256sum: 05d90229093279d8919cd08c2a9a41fee080cfef3311a1c515a9646bb1a6f6c9
+Filename: natflow_20250607_aarch64_cortex-a53.ipk
+Size: 1791
+SHA256sum: c643dc954a210457938f7e34a51a4662b1c958d6a7be85dd8163986d8ac6b3e3
 Description:  Natflow init script
 
 Package: ntfs3-mount
@@ -1284,6 +1361,23 @@ Filename: opera-proxy_1.8.0-r1_aarch64_cortex-a53.ipk
 Size: 2358808
 SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
 Description:  Opera Proxy client
+
+Package: podkop-0.2.5
+Version: 1.0.0-r1
+Depends: libc, dnsmasq-full, curl, jq, kmod-nft-tproxy, coreutils-base64
+Source: /home/santaclaus/next/feed.routerich_next/podkop-0.2.5
+SourceName: podkop-0.2.5
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1748597366
+URL: https://itdog.info
+Maintainer: ITDog <podkop@itdog.info>
+Architecture: all
+Installed-Size: 61440
+Filename: podkop-0.2.5_1.0.0-r1_all.ipk
+Size: 10345
+SHA256sum: 540caa8053e193335372379cc64b43d624eaea95f7f1ad358fb8faf8a697658b
+Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
 Version: 5.0.4-r1
@@ -1360,18 +1454,18 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.0.1
-Depends: libc, kmod-mtd-rw, kmod-lib-lz4, kmod-crypto-deflate, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack, kmod-nf-nathelper-extra
-Source: /home/santaclaus/feed.routerich/routerich-defaults
+Version: 1.1.6
+Depends: libc
+Source: /home/santaclaus/next/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1747346553
+SourceDateEpoch: 1749844959
 Architecture: all
-Installed-Size: 20480
-Filename: routerich-defaults_1.0.1_all.ipk
-Size: 3290
-SHA256sum: 3336bb65a2e8cfb1b1204877ea6fe796b81a517b659a6a08e0a06e38ffcd6048
-Description:  Default settings by RouterRich
+Installed-Size: 40960
+Filename: routerich-defaults_1.1.6_all.ipk
+Size: 6905
+SHA256sum: b63c7e15c9a03a2b5a17dd73ff53eb2e56ddd3802d0af5ea68250938a38105ee
+Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
 Version: 2.1.4-r1
@@ -1404,6 +1498,20 @@ Filename: ruantiblock_2.1.4-r2_all.ipk
 Size: 22013
 SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
+
+Package: smount
+Version: 1.0.2
+Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
+Source: /home/santaclaus/next/feed.routerich_next/smount
+SourceName: smount
+Section: utils
+SourceDateEpoch: 1749462957
+Architecture: all
+Installed-Size: 10240
+Filename: smount_1.0.2_all.ipk
+Size: 1363
+SHA256sum: 3aa812cd83a8e97d200448e9051d5c169334ec8509b5c493b37ae6d7b00daaae
+Description:  Auto-mount scripts
 
 Package: sms-tool
 Version: 2023.09.21~1b6ca032-r1
@@ -1465,15 +1573,15 @@ Description:  tun to socks proxy redirector written on golang
 Package: uboot-routerich
 Version: 1.0.1
 Depends: libc, kmod-mtd-rw
-Source: /home/santaclaus/feed.routerich/uboot-routerich
+Source: /home/santaclaus/next/feed.routerich_next/uboot-routerich
 SourceName: uboot-routerich
 Section: config
 SourceDateEpoch: 1747167544
 Architecture: all
 Installed-Size: 952320
 Filename: uboot-routerich_1.0.1_all.ipk
-Size: 434003
-SHA256sum: b09c88176ece6b40b046e25c3019976b48a9c9530b740186bf597c863c7beda7
+Size: 434007
+SHA256sum: 842291cc40838ac1ddc7f1f89cfc8a876effd119e48668cf3969b446e94e192e
 Description:  Uboot upgrade
 
 Package: upx
@@ -1500,17 +1608,17 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
 Package: urllogger
 Version: 0.0.1-r1
 Depends: libc, kmod-natflow
-Source: /home/santaclaus/feed.routerich/natflow/urllogger
+Source: /home/santaclaus/next/feed.routerich_next/urllogger
 SourceName: urllogger
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1726428592
+SourceDateEpoch: 1747647574
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
 Filename: urllogger_0.0.1-r1_aarch64_cortex-a53.ipk
-Size: 2124
-SHA256sum: 620a2e74cb9fb94c1287efbd61213ee609a21289c96ff37aaeb9fbf3a75dd29f
+Size: 2127
+SHA256sum: 71ab2e47a50910332b4d42169ef20f8d94620ae416a2025dad654ce0510af0d3
 Description:  urllogger
 
 Package: xmm-modem
@@ -1531,35 +1639,35 @@ Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
 
 Package: youtubeUnblock
 Version: 1.0.0-mediatek-10
-Depends: libc, libpthread
-Source: /home/santaclaus/feed.routerich/youtubeUnblock
+Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
+Source: /home/santaclaus/next/feed.routerich_next/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1740239891
+SourceDateEpoch: 1747583046
 URL: https://github.com/Waujito/youtubeUnblock
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: youtubeUnblock_1.0.0-mediatek-10_aarch64_cortex-a53.ipk
-Size: 70858
-SHA256sum: 58cf2079972196fe0257d2216623dbecbedb9591ca61a3200774b5e984c57e83
+Size: 70870
+SHA256sum: ea03b39c0feba26ee75762c4139b7481df9bdd60961327da8ea64496090e6dc0
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier-lite
 Version: 1.14.1-r2
 Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
-Source: /home/santaclaus/feed.routerich/zerotier-lite
+Source: /home/santaclaus/next/feed.routerich_next/zerotier-lite
 SourceName: zerotier-lite
 License: BSL 1.1
 LicenseFiles: LICENSE.txt
 Section: net
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1747647574
 URL: https://www.zerotier.com
 Maintainer: Moritz Warning <moritzwarning@web.de>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1259520
 Filename: zerotier-lite_1.14.1-r2_aarch64_cortex-a53.ipk
-Size: 558340
-SHA256sum: 5d33789c290e92d6727097603388d0a85858bfefc7e1b4e2d05b806099dceace
+Size: 1116643
+SHA256sum: 70663c4ce11d960266058eb6e0837f9b78e8538db4b1bca56894d24c032ec5ad
 Description:  ZeroTier creates a global provider-independent virtual private cloud network.
 
