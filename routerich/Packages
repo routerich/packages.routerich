@@ -204,17 +204,17 @@ SHA256sum: 40867c62f5031d4c195906b37b1cd592aaffef833aa1fc23f4444c46ab2b6959
 Description:  fast nat forward kmod
 
 Package: ksmbd-rrplug
-Version: 1.0.1
-Depends: libc, ksmbd-server, ksmbd-avahi-service, smount
+Version: 1.0.2
+Depends: libc, ksmbd-server, ksmbd-avahi-service, wsdd2, smount
 Source: /home/santaclaus/next/feed.routerich_next/ksmbd-rrplug
 SourceName: ksmbd-rrplug
 Section: utils
-SourceDateEpoch: 1749046677
+SourceDateEpoch: 1750171868
 Architecture: all
 Installed-Size: 10240
-Filename: ksmbd-rrplug_1.0.1_all.ipk
-Size: 1236
-SHA256sum: cc17f1cdeb09eafd2a59cd4dca1bbf2699af70ddeae49a15ff2f0b33290e6c6c
+Filename: ksmbd-rrplug_1.0.2_all.ipk
+Size: 1247
+SHA256sum: df41c725947d031a04032362ce1814104fc1f35dbcd3d23cfda0287f7a21e19b
 Description:  Auto-share ksmbd hotplug
 
 Package: libQt6Core
