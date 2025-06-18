@@ -543,17 +543,17 @@ SHA256sum: 4ebce9aa54b431ea38913d4bb1d35bf4bea7461b2823d19b405b3b6385449b6f
 Description:  LuCI JS interface for for USSD commands
 
 Package: luci-app-wizard
-Version: 1.1.0
+Version: 1.1.1
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
 Source: /home/santaclaus/next/feed.routerich_next/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1749544221
+SourceDateEpoch: 1750240273
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-wizard_1.1.0_all.ipk
-Size: 6104
-SHA256sum: e1ec6af25743e04cf68b9183b1615a71cd9eb327bf3a69ee8be00fccffdbc487
+Filename: luci-app-wizard_1.1.1_all.ipk
+Size: 6164
+SHA256sum: 1884cd40d156bfcac1a5c34a5b437b8ed64b82ceb26b2b9f3197a52ce7a05506
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
