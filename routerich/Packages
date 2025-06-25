@@ -1,0 +1,402 @@
+Package: internet-detector-mod-modem-restart
+Version: 1.4.3-r1
+Depends: libc, internet-detector, modemmanager
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector-mod-modem-restart
+SourceName: internet-detector-mod-modem-restart
+Section: net
+SourceDateEpoch: 1741033240
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 10240
+Filename: internet-detector-mod-modem-restart_1.4.3-r1_all.ipk
+Size: 1856
+SHA256sum: 8359c8ce50240ae4840c813bd39af9b32430c841a89f030044c2436d4bf94765
+Description:  Support modem restart for internet detector.
+
+Package: internet-detector
+Version: 1.4.3-r1
+Depends: libc, lua, luaposix, libuci-lua
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1741033240
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 71680
+Filename: internet-detector_1.4.3-r1_all.ipk
+Size: 12176
+SHA256sum: 8fc915cef425d307dc43a1669c44ebd5c0090b9240082c71c17ef09fbd146fc1
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
+
+Package: ksmbd-rrplug
+Version: 1.0.2
+Depends: libc, ksmbd-server, ksmbd-avahi-service, wsdd2, smount
+Source: /home/santaclaus/next/feed.routerich_next/ksmbd-rrplug
+SourceName: ksmbd-rrplug
+Section: utils
+SourceDateEpoch: 1750171868
+Architecture: all
+Installed-Size: 10240
+Filename: ksmbd-rrplug_1.0.2_all.ipk
+Size: 1247
+SHA256sum: df41c725947d031a04032362ce1814104fc1f35dbcd3d23cfda0287f7a21e19b
+Description:  Auto-share ksmbd hotplug
+
+Package: luci-app-access-control
+Version: 0.4.4-r1
+Depends: libc, luci-compat, luci-lua-runtime
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
+SourceName: luci-app-access-control
+Section: luci
+SourceDateEpoch: 1747656105
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-access-control_0.4.4-r1_all.ipk
+Size: 5133
+SHA256sum: b89875de7d702fcae35434ead6d10b377455d2c33ba80b5d115bb8e88f57193b
+Description:  LuCI Internet Access Control
+
+Package: luci-app-internet-detector
+Version: 1.4.3-r1
+Depends: libc, internet-detector
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1741033240
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-internet-detector_1.4.3-r1_all.ipk
+Size: 9550
+SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
+Description:  LuCI support for internet-detector
+
+Package: luci-app-ledcontrol
+Version: 0.9.1-r1
+Depends: libc
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749467995
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-ledcontrol_0.9.1-r1_all.ipk
+Size: 3572
+SHA256sum: b0d9136fdb7ca69925c6a0c7d867869fb52b905d7bfa87d1b599549963caeaa1
+Description:  Routerich Led Control app
+
+Package: luci-app-log-viewer
+Version: 1.2.0-r1
+Depends: libc
+Source: /home/santaclaus/feed.routerich/luci-app-log
+SourceName: luci-app-log-viewer
+License: MIT
+Section: luci
+SourceDateEpoch: 1741033304
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-log-viewer_1.2.0-r1_all.ipk
+Size: 9656
+SHA256sum: e525e55be7bbe5570dabfe56cda238abff071cc3c8b6d9b9acd83b7c66f29efe
+Description:  Advanced syslog and kernel log (tail, search, etc)
+
+Package: luci-app-podkop-0.2.5
+Version: 1.0.0-r1
+Depends: libc, luci-base, podkop-0.2.5
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
+SourceName: luci-app-podkop-0.2.5
+License: GPL-2.0-or-later
+Section: luci
+SourceDateEpoch: 1748597366
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-podkop-0.2.5_1.0.0-r1_all.ipk
+Size: 6039
+SHA256sum: cbd4b8b4f6d62e67e14c05773afed7706fc4f059da94dc4e599901ee96eb1087
+Description:  LuCI podkop app
+
+Package: luci-app-stubby
+Version: 0.9.1-r1
+Depends: libc, stubby, luci-base, nftables
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-stubby
+SourceName: luci-app-stubby
+Section: luci
+SourceDateEpoch: 1750669798
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-stubby_0.9.1-r1_all.ipk
+Size: 3318
+SHA256sum: d620c67b7901225e035a6c7adc8bb80244feda37fdf8a8a178b03cfbb5f76829
+Description:  LuCI Stubby
+
+Package: luci-app-wizard
+Version: 1.1.1
+Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-wizard
+SourceName: luci-app-wizard
+Section: opt
+SourceDateEpoch: 1750240273
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-wizard_1.1.1_all.ipk
+Size: 6164
+SHA256sum: 1884cd40d156bfcac1a5c34a5b437b8ed64b82ceb26b2b9f3197a52ce7a05506
+Description:  LuCI Support for wizard.
+
+Package: luci-app-zerotier
+Version: 25.139.41679~1cd31c7
+Depends: libc, zerotier-lite, jsonfilter, ucode
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1747654479
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-zerotier_25.139.41679~1cd31c7_all.ipk
+Size: 5490
+SHA256sum: 44b6e4a715389be5d2cad340b8f891f5841696deedddba78dfc13efb739de1bd
+Description:  LuCI for Zerotier
+
+Package: luci-i18n-access-control-ru
+Version: 25.139.43305~6262bf7
+Depends: libc, luci-app-access-control
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
+SourceName: luci-app-access-control
+Section: luci
+SourceDateEpoch: 1747656105
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-access-control-ru_25.139.43305~6262bf7_all.ipk
+Size: 2002
+SHA256sum: 50a15144473af3bec23bc8e9fc75cf548bdd1572f7b279ad1ac20c0728bfce49
+Description:  Translation for luci-app-access-control - Русский (Russian)
+
+Package: luci-i18n-internet-detector-ru
+Version: 25.062.73240~edd4cd9
+Depends: libc, luci-app-internet-detector
+Source: feeds/routerich/luci-app-internet-detector/luci-app-internet-detector
+SourceName: luci-app-internet-detector
+Section: luci
+SourceDateEpoch: 1741033240
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-internet-detector-ru_25.062.73240~edd4cd9_all.ipk
+Size: 5370
+SHA256sum: ac218307ff873011d902a18aca9d461315aa419ba65c565fe4384f3e1761c7d7
+Description:  Translation for luci-app-internet-detector - Русский (Russian)
+
+Package: luci-i18n-ledcontrol-ru
+Version: 25.160.39218~84c780c
+Depends: libc, luci-app-ledcontrol
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+SourceName: luci-app-ledcontrol
+Section: luci
+SourceDateEpoch: 1749467995
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
+Size: 1491
+SHA256sum: 9fe7a135fe4c0c32fb33577f28eb16bf5fd8888f1c17ed31f3c8e673c51a137a
+Description:  Translation for luci-app-ledcontrol - Русский (Russian)
+
+Package: luci-i18n-log-ru
+Version: 25.062.73304~83ca219
+Depends: libc, luci-app-log-viewer
+Source: feeds/routerich/luci-app-log
+SourceName: luci-app-log-viewer
+License: MIT
+Section: luci
+SourceDateEpoch: 1741033304
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-log-ru_25.062.73304~83ca219_all.ipk
+Size: 2023
+SHA256sum: c94967120fc8b132ea77ea2d58ee229ec1cf2a75f954ffdc74398ecb290d19b2
+Description:  Translation for luci-app-log-viewer - Русский (Russian)
+
+Package: luci-i18n-podkop-0.2.5-ru
+Version: 25.150.34166~a107e99
+Depends: libc, luci-app-podkop-0.2.5
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
+SourceName: luci-app-podkop-0.2.5
+License: GPL-2.0-or-later
+Section: luci
+SourceDateEpoch: 1748597366
+Maintainer: ITDog <podkop@itdog.info>
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-podkop-0.2.5-ru_25.150.34166~a107e99_all.ipk
+Size: 4164
+SHA256sum: 416139ba3585d39a0f07fab6683fed51dee8ecb138861caa2e431002e5f5519c
+Description:  Translation for luci-app-podkop-0.2.5 - Русский (Russian)
+
+Package: luci-i18n-stubby-ru
+Version: 25.171.67236~1ae1f52
+Depends: libc, luci-app-stubby
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-stubby
+SourceName: luci-app-stubby
+Section: luci
+SourceDateEpoch: 1750669798
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
+Size: 2021
+SHA256sum: 06bab4debe188c8e5a90dc8120d95dafdd50568724b20476bae3b5dfc9744e92
+Description:  Translation for luci-app-stubby - Русский (Russian)
+
+Package: luci-i18n-zerotier-ru
+Version: 25.139.41679~1cd31c7
+Depends: libc, luci-app-zerotier
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
+SourceName: luci-app-zerotier
+Section: luci
+SourceDateEpoch: 1747654479
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-zerotier-ru_25.139.41679~1cd31c7_all.ipk
+Size: 1956
+SHA256sum: 148717c7cc27401863a4cf15f3d8ab80ab28b189dbd087ad9b51e2038de8f6af
+Description:  Translation for luci-app-zerotier - Русский (Russian)
+
+Package: luci-theme-routerich-beta
+Version: 1.0.5-r20250529
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich-beta
+SourceName: luci-theme-routerich-beta
+Section: luci
+SourceDateEpoch: 1749040818
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 901120
+Filename: luci-theme-routerich-beta_1.0.5-r20250529_all.ipk
+Size: 445407
+SHA256sum: 87156dd26e7e34357c224575ad934860242d60818e3d565a56faea52771deb81
+Description:  Routerich-beta Theme
+
+Package: luci-theme-routerich
+Version: 1.0.5-r20250529
+Depends: libc, curl, jsonfilter, luci-lua-runtime
+Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich
+SourceName: luci-theme-routerich
+Section: luci
+SourceDateEpoch: 1748517490
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 911360
+Filename: luci-theme-routerich_1.0.5-r20250529_all.ipk
+Size: 458723
+SHA256sum: a7acab619379d69ee0894fd372f8978965b280cee27a2699555a13e933ec72f4
+Description:  Routerich Theme
+
+Package: podkop-0.2.5
+Version: 1.0.0-r1
+Depends: libc, dnsmasq-full, curl, jq, kmod-nft-tproxy, coreutils-base64
+Source: /home/santaclaus/next/feed.routerich_next/podkop-0.2.5
+SourceName: podkop-0.2.5
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1748597366
+URL: https://itdog.info
+Maintainer: ITDog <podkop@itdog.info>
+Architecture: all
+Installed-Size: 61440
+Filename: podkop-0.2.5_1.0.0-r1_all.ipk
+Size: 10345
+SHA256sum: 540caa8053e193335372379cc64b43d624eaea95f7f1ad358fb8faf8a697658b
+Description:  Domain routing. Use of VLESS, Shadowsocks technologies
+
+Package: routerich-defaults
+Version: 1.1.9
+Depends: libc
+Source: /home/santaclaus/feed.routerich_next/routerich-defaults
+SourceName: routerich-defaults
+Section: config
+SourceDateEpoch: 1750664228
+Architecture: all
+Installed-Size: 40960
+Filename: routerich-defaults_1.1.9_all.ipk
+Size: 7248
+SHA256sum: 53163d3539febafc917192309c50cebfbae032d0d58c35526cf3c97c88ee9cca
+Description:  Default settings by RouteRich
+
+Package: smount
+Version: 1.0.2
+Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
+Source: /home/santaclaus/next/feed.routerich_next/smount
+SourceName: smount
+Section: utils
+SourceDateEpoch: 1749462957
+Architecture: all
+Installed-Size: 10240
+Filename: smount_1.0.2_all.ipk
+Size: 1363
+SHA256sum: 3aa812cd83a8e97d200448e9051d5c169334ec8509b5c493b37ae6d7b00daaae
+Description:  Auto-mount scripts
+
+Package: uboot-routerich
+Version: 1.0.1
+Depends: libc, kmod-mtd-rw
+Source: /home/santaclaus/next/feed.routerich_next/uboot-routerich
+SourceName: uboot-routerich
+Section: config
+SourceDateEpoch: 1747167544
+Architecture: all
+Installed-Size: 952320
+Filename: uboot-routerich_1.0.1_all.ipk
+Size: 434007
+SHA256sum: 842291cc40838ac1ddc7f1f89cfc8a876effd119e48668cf3969b446e94e192e
+Description:  Uboot upgrade
+
+Package: youtubeUnblock
+Version: 1.0.0-mediatek-10
+Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
+Source: /home/santaclaus/next/feed.routerich_next/youtubeUnblock
+SourceName: youtubeUnblock
+Section: services
+SourceDateEpoch: 1747583046
+URL: https://github.com/Waujito/youtubeUnblock
+Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 225280
+Filename: youtubeUnblock_1.0.0-mediatek-10_aarch64_cortex-a53.ipk
+Size: 70870
+SHA256sum: ea03b39c0feba26ee75762c4139b7481df9bdd60961327da8ea64496090e6dc0
+Description:  Bypasses Googlevideo detection systems that relies on SNI
+
+Package: zerotier-lite
+Version: 1.14.1-r2
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
+Source: /home/santaclaus/next/feed.routerich_next/zerotier-lite
+SourceName: zerotier-lite
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1747647574
+URL: https://www.zerotier.com
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1259520
+Filename: zerotier-lite_1.14.1-r2_aarch64_cortex-a53.ipk
+Size: 558303
+SHA256sum: 4c2b266a45d7d0d32e52eebca849e740ff641133f23ce038c4eca5b2a1ba6fe5
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
