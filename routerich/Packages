@@ -345,6 +345,20 @@ Size: 2863
 SHA256sum: b3025712ee377b194d876957aba61add4cf94fc848b150f88ae8f82dd50ee34b
 Description:  LuCI for SMB/CIFS Mount
 
+Package: luci-app-dns-failsafe-proxy
+Version: 0.1.1
+Depends: libc
+Source: /home/santaclaus/feed.routerich_next/luci-app-dns-failsafe-proxy
+SourceName: luci-app-dns-failsafe-proxy
+Section: utils
+SourceDateEpoch: 1750886737
+Architecture: all
+Installed-Size: 696320
+Filename: luci-app-dns-failsafe-proxy_0.1.1_all.ipk
+Size: 669751
+SHA256sum: 505a24f181e730caf3e16e0dcfed5c2180c88d3e40165ec36292ba0f6cd02d0a
+Description:  LuCI dns-failsafe-proxy
+
 Package: luci-app-filebrowser-go
 Version: 24.252.39226~c89d418
 Depends: libc, filebrowser
@@ -1439,17 +1453,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.1.9
+Version: 1.2.0
 Depends: libc
 Source: /home/santaclaus/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1750664228
+SourceDateEpoch: 1750883222
 Architecture: all
 Installed-Size: 40960
-Filename: routerich-defaults_1.1.9_all.ipk
-Size: 7248
-SHA256sum: 53163d3539febafc917192309c50cebfbae032d0d58c35526cf3c97c88ee9cca
+Filename: routerich-defaults_1.2.0_all.ipk
+Size: 7284
+SHA256sum: 51c2c411f091c42ae79d6c5ad5425fab26b6b3ebd9a3eb1dec31879ff1be6190
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
