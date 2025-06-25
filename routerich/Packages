@@ -1,3 +1,115 @@
+Package: amneziawg-tools
+Version: 1.0.20240213-r3
+Depends: libc
+Source: /home/santaclaus/feed.routerich_next/amneziawg-tools
+SourceName: amneziawg-tools
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: opt
+SourceDateEpoch: 1750857212
+URL: https://www.wireguard.com
+Maintainer: Jason A. Donenfeld <Jason@zx2c4.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: amneziawg-tools_1.0.20240213-r3_aarch64_cortex-a53.ipk
+Size: 30918
+SHA256sum: 8bf5226496fff2ab8eb053104e4cc1efa4ff9da70b08bc4a2675dc8384642265
+Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
+ state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
+ more useful than IPSec, while avoiding the massive headache. It intends to
+ be considerably more performant than OpenVPN.  WireGuard is designed as a
+ general purpose VPN for running on embedded interfaces and super computers
+ alike, fit for many different circumstances. It uses UDP.
+ 
+ This package provides the userspace control program for WireGuard,
+ `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+
+Package: atinout
+Version: 0.9.1
+Depends: libc
+Source: feeds/modemfeed/packages/telephony/atinout
+SourceName: atinout
+License: GPLv2
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1737355480
+URL: http://atinout.sourceforge.net/
+Maintainer: Adrian Guenter <a@gntr.me>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: atinout_0.9.1_aarch64_cortex-a53.ipk
+Size: 4135
+SHA256sum: 2c189eba38a8e8859e8ec19ada27cb26913290e46e50566dce3d3b2eb513a7a0
+Description:  Atinout is a program that will execute AT commands in sequence and
+ capture the response from the modem.
+
+Package: automodem
+Version: 1.0.2
+Depends: libc
+Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
+SourceName: automodem
+Section: net
+SourceDateEpoch: 1748559750
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 51200
+Filename: automodem_1.0.2_all.ipk
+Size: 6027
+SHA256sum: 9129e74952bee0c1964af35455e001ce172933b8933144d94bfb93e6b5553497
+Description:  Automatic modem setup
+
+Package: automount
+Version: 10
+Depends: libc, block-mount, e2fsprogs, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs3-mount
+Source: /home/santaclaus/feed.routerich/automount
+SourceName: automount
+Section: opt
+SourceDateEpoch: 1725307136
+Maintainer: Lean
+Architecture: all
+Installed-Size: 10240
+Filename: automount_10_all.ipk
+Size: 1598
+SHA256sum: 7b8a786cfc084b271366d72e64253a1475b80a1a4b237e74bf354540db3b8eb6
+Description:  Mount autoconfig hotplug script.
+
+Package: filebrowser
+Version: 2.31.2-r1
+Depends: libc
+Source: feeds/routerich/filebrowser
+SourceName: filebrowser
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1739022578
+URL: https://github.com/filebrowser/filebrowser
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6103040
+Filename: filebrowser_2.31.2-r1_aarch64_cortex-a53.ipk
+Size: 6088350
+SHA256sum: 853c235676b5dfeb6da6b152435a193be1351c8edc106cdd681d6bb18232aa07
+Description:  filebrowser provides a file managing interface within a specified directory
+ and it can be used to upload, delete, preview, rename and edit your files.
+ It allows the creation of multiple users and each user can have its own directory.
+ It can be used as a standalone app or as a middleware.
+
+Package: internet-detector-mod-email
+Version: 1.4.3-r1
+Depends: libc, internet-detector, mailsend
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector-mod-email
+SourceName: internet-detector-mod-email
+Section: net
+SourceDateEpoch: 1741033240
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 10240
+Filename: internet-detector-mod-email_1.4.3-r1_all.ipk
+Size: 2633
+SHA256sum: 4e43b77a74958381257992be72250e156c748c3e1edf5e19dc875c7801fd9ac4
+Description:  Email support for internet-detector.
+
 Package: internet-detector-mod-modem-restart
 Version: 1.4.3-r1
 Depends: libc, internet-detector, modemmanager
@@ -32,6 +144,36 @@ Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
 
+Package: kmod-amneziawg
+Version: 6.6.93-r1
+Depends: kernel (=6.6.93~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
+Source: /home/santaclaus/feed.routerich_next/kmod-amneziawg
+SourceName: kmod-amneziawg
+Section: kernel
+SourceDateEpoch: 1747750033
+Architecture: aarch64_cortex-a53
+Installed-Size: 102400
+Filename: kmod-amneziawg_6.6.93-r1_aarch64_cortex-a53.ipk
+Size: 36662
+SHA256sum: a9c9930b96b3dc010a6a6adde6bfec813eff30fef46cec97ac4f3bddc814f01c
+Description:  AmneziaWG VPN Kernel Module
+
+Package: kmod-natflow
+Version: 6.6.93.20250607-r1
+Depends: kernel (=6.6.93~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
+Source: /home/santaclaus/feed.routerich_next/natflow
+SourceName: natflow
+License: GPL-2.0
+Section: kernel
+SourceDateEpoch: 1750021592
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 256000
+Filename: kmod-natflow_6.6.93.20250607-r1_aarch64_cortex-a53.ipk
+Size: 86195
+SHA256sum: 8bd9da271500ec9618226859e272246232f9f30d8d6f7f1d36d77b86753fe684
+Description:  fast nat forward kmod
+
 Package: ksmbd-rrplug
 Version: 1.0.2
 Depends: libc, ksmbd-server, ksmbd-avahi-service, wsdd2, smount
@@ -45,6 +187,82 @@ Filename: ksmbd-rrplug_1.0.2_all.ipk
 Size: 1247
 SHA256sum: df41c725947d031a04032362ce1814104fc1f35dbcd3d23cfda0287f7a21e19b
 Description:  Auto-share ksmbd hotplug
+
+Package: libQt6Core
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 6922240
+Filename: libQt6Core_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 2662036
+SHA256sum: b6fc4768df52a9e65c1e0656da83972917e63de742c76bbd8ece084a1e1437c3
+Description:  This package provides the Qt6 Core v6.8.2 library.
+
+Package: libQt6Network
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 2385920
+Filename: libQt6Network_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 921122
+SHA256sum: 8931b64230975d28d4d03b4b27bcc1c3cd20dc25830d112d4e1c3100794f43f6
+Description:  This package provides the Qt6 Network v6.8.2 library.
+
+Package: libQt6Sql
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 276480
+Filename: libQt6Sql_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 91106
+SHA256sum: 959edd7ff3000061c2203802e906aa496e1ea6ade9310c90d40b471358e0e915
+Description:  This package provides the Qt6 Sql v6.8.2 library.
+
+Package: libQt6Xml
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 204800
+Filename: libQt6Xml_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 71300
+SHA256sum: 9bc1fb4e752a8c2cea26de52979908ffd29eddfd15ff730eeb21feff0f3a844d
+Description:  This package provides the Qt6 Xml v6.8.2 library.
+
+Package: lua-ipops
+Version: 0.0.1-r1
+Depends: libc, lua
+Source: /home/santaclaus/feed.routerich_next/lua-ipops
+SourceName: lua-ipops
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1747647574
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: lua-ipops_0.0.1-r1_all.ipk
+Size: 3332
+SHA256sum: d730be3592a4bd86cf5137292ab7f0fe955670be65364bf551c3ae1317d8a576
+Description:  lua ipops lib
 
 Package: luci-app-access-control
 Version: 0.4.4-r1
@@ -61,6 +279,87 @@ Filename: luci-app-access-control_0.4.4-r1_all.ipk
 Size: 5133
 SHA256sum: b89875de7d702fcae35434ead6d10b377455d2c33ba80b5d115bb8e88f57193b
 Description:  LuCI Internet Access Control
+
+Package: luci-app-amneziawg
+Version: 25.140.54227~3bd39b4
+Depends: libc, ucode
+Source: /home/santaclaus/feed.routerich_next/luci-app-amneziawg
+SourceName: luci-app-amneziawg
+Section: luci
+SourceDateEpoch: 1747753427
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-amneziawg_25.140.54227~3bd39b4_all.ipk
+Size: 11803
+SHA256sum: d9fe6a82b96bdc4a7fd3c0a56b438de6ae8241bcf87ff034539e52f2619f6cb1
+Description:  Support for AmneziaWG VPN
+
+Package: luci-app-atinout
+Version: 1.0.0-r1
+Depends: libc, sms-tool
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-atinout
+SourceName: luci-app-atinout
+Section: luci
+SourceDateEpoch: 1747061918
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-atinout_1.0.0-r1_all.ipk
+Size: 3783
+SHA256sum: 5485cfe057058f8067c0a2cab18c2d63ca9b81f76f1c4fd3d4f0f7e9a10de415
+Description:  LuCI JS interface for the AT commands.
+
+Package: luci-app-autoreboot
+Version: 1.0.1-r1
+Depends: libc, busybox
+Source: feeds/routerich/luci-app-autoreboot
+SourceName: luci-app-autoreboot
+License: GPLv3
+LicenseFiles: LICENSE
+Section: opt
+SourceDateEpoch: 1741036389
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-autoreboot_1.0.1-r1_all.ipk
+Size: 2944
+SHA256sum: 6843d1b5559f55c70a1915a9eb327edea20550631ccfb87cc54f5b457a556a78
+Description:  LuCI Support for autoreboot.
+
+Package: luci-app-cifs-mount
+Version: 1-r8
+Depends: libc, kmod-fs-cifs, kmod-nls-utf8, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-misc, kmod-nls-base, luci-lua-runtime
+Source: feeds/routerich/luci-app-cifs-mount
+SourceName: luci-app-cifs-mount
+Section: luci
+SourceDateEpoch: 1734607608
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-cifs-mount_1-r8_all.ipk
+Size: 2863
+SHA256sum: b3025712ee377b194d876957aba61add4cf94fc848b150f88ae8f82dd50ee34b
+Description:  LuCI for SMB/CIFS Mount
+
+Package: luci-app-filebrowser-go
+Version: 24.252.39226~c89d418
+Depends: libc, filebrowser
+Source: feeds/routerich/luci-app-filebrowser-go
+SourceName: luci-app-filebrowser-go
+Section: luci
+SourceDateEpoch: 1725794675
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-filebrowser-go_24.252.39226~c89d418_all.ipk
+Size: 2441
+SHA256sum: 7bcb1092f99910c58cebbdd436142d3432b2ba0734da412943c776beefc78aab
+Description:  LuCI app for FileBrowser
 
 Package: luci-app-internet-detector
 Version: 1.4.3-r1
@@ -111,6 +410,71 @@ Size: 9656
 SHA256sum: e525e55be7bbe5570dabfe56cda238abff071cc3c8b6d9b9acd83b7c66f29efe
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
+Package: luci-app-mmconfig
+Version: 1.0.0-r1
+Depends: libc, luci-proto-modemmanager, luci-app-modeminfo
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-mmconfig
+SourceName: luci-app-mmconfig
+Section: luci
+SourceDateEpoch: 1747061918
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-mmconfig_1.0.0-r1_all.ipk
+Size: 3248
+SHA256sum: 6035b4c9c51d947ac36c09cc39540a1c9a4fae957be0ca09b01cbabd56ae6ea2
+Description:  Configrure modem bands via mmcli utility
+
+Package: luci-app-modemband
+Version: 1.0.0-r1
+Depends: libc, sms-tool, modemband
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1747064335
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-modemband_1.0.0-r1_all.ipk
+Size: 5467
+SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
+Description:  Configrure modem bands via atcommands
+
+Package: luci-app-modeminfo
+Version: 1.5.3-r1
+Depends: libc, modeminfo, luci-compat, sms-tool
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
+SourceName: luci-app-modeminfo
+Section: luci
+SourceDateEpoch: 1749509923
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-modeminfo_1.5.3-r1_all.ipk
+Size: 8498
+SHA256sum: f9e8e0a3f6f27a886f786d9c427c9e2b3cc5e2eb2f00724e0414c2866a04a971
+Description:  Information dashboard for 3G/LTE dongle
+
+Package: luci-app-natflow-users
+Version: 1.0.1-r1
+Depends: libc, natflow-auth, luci-compat, tc-tiny
+Source: /home/santaclaus/feed.routerich_next/luci-app-natflow-users
+SourceName: luci-app-natflow-users
+License: GPLv3
+LicenseFiles: LICENSE
+Section: opt
+SourceDateEpoch: 1747647574
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: all
+Installed-Size: 71680
+Filename: luci-app-natflow-users_1.0.1-r1_all.ipk
+Size: 10640
+SHA256sum: 35ccf06b0a2695fa390905ad43fdc2b5ea0208d3476a2b261ec6ca1c9a3c08ea
+Description:  LuCI Support for natflow users.
+
 Package: luci-app-podkop-0.2.5
 Version: 1.0.0-r1
 Depends: libc, luci-base, podkop-0.2.5
@@ -128,6 +492,54 @@ Size: 6039
 SHA256sum: cbd4b8b4f6d62e67e14c05773afed7706fc4f059da94dc4e599901ee96eb1087
 Description:  LuCI podkop app
 
+Package: luci-app-qbittorrent
+Version: 1.0.1-r1
+Depends: libc, qbittorrent
+Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+SourceDateEpoch: 1735922538
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-qbittorrent_1.0.1-r1_all.ipk
+Size: 2664
+SHA256sum: 9a43ec029c50622ee6591ce2df6510b491aeacba85516d9ecdcc719baf651538
+Description:  LuCI support for qBittorrent
+
+Package: luci-app-ruantiblock
+Version: 2.1.4-r1
+Depends: libc, ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
+Section: luci
+SourceDateEpoch: 1741033461
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 102400
+Filename: luci-app-ruantiblock_2.1.4-r1_all.ipk
+Size: 20207
+SHA256sum: 2f61728048a9da457247ac3b9dd6ba5eadb4472456c516d0f48c0fb6a517ff60
+Description:  LuCI support for ruantiblock
+
+Package: luci-app-smstools3
+Version: 1.0.2-r1
+Depends: libc, smstools3, iconv, jq
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
+SourceName: luci-app-smstools3
+Section: luci
+SourceDateEpoch: 1748549997
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-smstools3_1.0.2-r1_all.ipk
+Size: 9107
+SHA256sum: f7f4ab72957579ebd2e6469ee2f3f21a038285878c0a178629ba500bc371f63b
+Description:  Web UI for smstools3
+
 Package: luci-app-stubby
 Version: 0.9.1-r1
 Depends: libc, stubby, luci-base, nftables
@@ -144,6 +556,71 @@ Size: 3318
 SHA256sum: d620c67b7901225e035a6c7adc8bb80244feda37fdf8a8a178b03cfbb5f76829
 Description:  LuCI Stubby
 
+Package: luci-app-tailscale
+Version: 1.2.6-r1
+Depends: libc, tailscale-lite
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1748957562
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-tailscale_1.2.6-r1_all.ipk
+Size: 9875
+SHA256sum: 0dad590c4fe46dc6f4b8634f21895198b49819583a51c3586c6d9e811f8f6d72
+Description:  LuCI for Tailscale
+
+Package: luci-app-temp-status
+Version: 0.4.1-r1
+Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1741034067
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-temp-status_0.4.1-r1_all.ipk
+Size: 3734
+SHA256sum: 950f374618cf0d5d7b14e22e02afc96b04c3c1e3a3b852d63c4f4ab178c8a5f1
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-ussd
+Version: 1.0.0-r1
+Depends: libc
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
+SourceName: luci-app-ussd
+Section: luci
+SourceDateEpoch: 1747082154
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-ussd_1.0.0-r1_all.ipk
+Size: 4191
+SHA256sum: 4ebce9aa54b431ea38913d4bb1d35bf4bea7461b2823d19b405b3b6385449b6f
+Description:  LuCI JS interface for for USSD commands
+
+Package: luci-app-vsftpd
+Version: 24.247.46290~8e5e6c3
+Depends: libc, vsftpd, luci-lua-runtime
+Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
+SourceName: luci-app-vsftpd
+Section: luci
+SourceDateEpoch: 1725630464
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 30720
+Filename: luci-app-vsftpd_24.247.46290~8e5e6c3_all.ipk
+Size: 4358
+SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
+Description:  LuCI support for VSFTPD
+
 Package: luci-app-wizard
 Version: 1.1.1
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
@@ -157,6 +634,23 @@ Filename: luci-app-wizard_1.1.1_all.ipk
 Size: 6164
 SHA256sum: 1884cd40d156bfcac1a5c34a5b437b8ed64b82ceb26b2b9f3197a52ce7a05506
 Description:  LuCI Support for wizard.
+
+Package: luci-app-youtubeUnblock
+Version: 1.0-10
+Depends: libc, luci-base
+Source: feeds/routerich/luci-app-youtubeUnblock
+SourceName: luci-app-youtubeUnblock
+License: GPL
+Section: luci
+SourceDateEpoch: 1740239891
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-youtubeUnblock_1.0-10_all.ipk
+Size: 7181
+SHA256sum: b16b046e976de9e44ea077c0ebf9c76ea79a49f7118ef96437bcb45b94dfaea9
+Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
 Version: 25.139.41679~1cd31c7
@@ -187,6 +681,48 @@ Filename: luci-i18n-access-control-ru_25.139.43305~6262bf7_all.ipk
 Size: 2002
 SHA256sum: 50a15144473af3bec23bc8e9fc75cf548bdd1572f7b279ad1ac20c0728bfce49
 Description:  Translation for luci-app-access-control - Русский (Russian)
+
+Package: luci-i18n-amneziawg-ru
+Version: 25.140.51674~ad3fae8
+Depends: libc, luci-app-amneziawg
+Source: /home/santaclaus/feed.routerich_next/luci-app-amneziawg
+SourceName: luci-app-amneziawg
+Section: luci
+SourceDateEpoch: 1747753427
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-amneziawg-ru_25.140.51674~ad3fae8_all.ipk
+Size: 3015
+SHA256sum: 8f9df10e865d5d28d02461aeb1f6a4d64dde85dda5885b8f4aa3a20df3928caa
+Description:  Translation for luci-app-amneziawg - Русский (Russian)
+
+Package: luci-i18n-atinout-ru
+Version: 25.092.26714~279ca85
+Depends: libc, luci-app-atinout
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-atinout
+SourceName: luci-app-atinout
+Section: luci
+SourceDateEpoch: 1747061918
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-atinout-ru_25.092.26714~279ca85_all.ipk
+Size: 1602
+SHA256sum: 50a578a26243b47feb83cd7acb1e1d6daf408961e9d5d94fff054fcec6025775
+Description:  Translation for luci-app-atinout - Русский (Russian)
+
+Package: luci-i18n-filebrowser-go-ru
+Version: 24.252.41075~d2f498a
+Depends: libc, luci-app-filebrowser-go
+Source: feeds/routerich/luci-app-filebrowser-go
+SourceName: luci-app-filebrowser-go
+Section: luci
+SourceDateEpoch: 1725794675
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-filebrowser-go-ru_24.252.41075~d2f498a_all.ipk
+Size: 1631
+SHA256sum: 584f99aef3ab9ca4ee5bb92c45036709b7448b3d17fddbad4dd8fee7d0d482c9
+Description:  Translation for luci-app-filebrowser-go - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
 Version: 25.062.73240~edd4cd9
@@ -231,6 +767,48 @@ Size: 2023
 SHA256sum: c94967120fc8b132ea77ea2d58ee229ec1cf2a75f954ffdc74398ecb290d19b2
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
+Package: luci-i18n-mmconfig-ru
+Version: 25.086.27065~e8d41ba
+Depends: libc, luci-app-mmconfig
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-mmconfig
+SourceName: luci-app-mmconfig
+Section: luci
+SourceDateEpoch: 1747061918
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-mmconfig-ru_25.086.27065~e8d41ba_all.ipk
+Size: 1412
+SHA256sum: 9457519c2593c527aa22532925f71bd6d704f89350e297f8cc496bd37d35320c
+Description:  Translation for luci-app-mmconfig - Русский (Russian)
+
+Package: luci-i18n-modemband-ru
+Version: 25.132.56335~db23e9f
+Depends: libc, luci-app-modemband
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modemband
+SourceName: luci-app-modemband
+Section: luci
+SourceDateEpoch: 1747064335
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-modemband-ru_25.132.56335~db23e9f_all.ipk
+Size: 1873
+SHA256sum: 7d2f9f06d32f0c170e72baeb4fb79f49a08b0e1ad0a6d0f9543883e0dbce8695
+Description:  Translation for luci-app-modemband - Русский (Russian)
+
+Package: luci-i18n-modeminfo-ru
+Version: 25.160.82723~32311ec
+Depends: libc, luci-app-modeminfo
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
+SourceName: luci-app-modeminfo
+Section: luci
+SourceDateEpoch: 1749509923
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-modeminfo-ru_25.160.82723~32311ec_all.ipk
+Size: 2424
+SHA256sum: 416abd0086f69451a85f64dc218a686ad904512ff5def41b625144fa1943d3b8
+Description:  Translation for luci-app-modeminfo - Русский (Russian)
+
 Package: luci-i18n-podkop-0.2.5-ru
 Version: 25.150.34166~a107e99
 Depends: libc, luci-app-podkop-0.2.5
@@ -247,6 +825,48 @@ Size: 4164
 SHA256sum: 416139ba3585d39a0f07fab6683fed51dee8ecb138861caa2e431002e5f5519c
 Description:  Translation for luci-app-podkop-0.2.5 - Русский (Russian)
 
+Package: luci-i18n-qbittorrent-ru
+Version: 24.252.08653~eff063a
+Depends: libc, luci-app-qbittorrent
+Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
+SourceName: luci-app-qbittorrent
+Section: luci
+SourceDateEpoch: 1735922538
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-qbittorrent-ru_24.252.08653~eff063a_all.ipk
+Size: 1493
+SHA256sum: 3e72eb14b210faf11aa65df3d35e28caa586a35623132a1d51629e97772b01f4
+Description:  Translation for luci-app-qbittorrent - Русский (Russian)
+
+Package: luci-i18n-ruantiblock-ru
+Version: 24.334.78666~f21fa64
+Depends: libc, luci-app-ruantiblock
+Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
+Section: luci
+SourceDateEpoch: 1741033461
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-ruantiblock-ru_24.334.78666~f21fa64_all.ipk
+Size: 6187
+SHA256sum: 7cff6bec3e21e5abfb6bc1c41f77caf397a04bd53918b0d0546210f24c7cc615
+Description:  Translation for luci-app-ruantiblock - Русский (Russian)
+
+Package: luci-i18n-smstools3-ru
+Version: 25.092.26460~32cb0dd
+Depends: libc, luci-app-smstools3
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
+SourceName: luci-app-smstools3
+Section: luci
+SourceDateEpoch: 1748549997
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-smstools3-ru_25.092.26460~32cb0dd_all.ipk
+Size: 3156
+SHA256sum: 89e703163c4110df780a3d4f832563558875d4762676f6dfd9c6b8529cbb0f5a
+Description:  Translation for luci-app-smstools3 - Русский (Russian)
+
 Package: luci-i18n-stubby-ru
 Version: 25.171.67236~1ae1f52
 Depends: libc, luci-app-stubby
@@ -260,6 +880,63 @@ Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
 Size: 2021
 SHA256sum: 06bab4debe188c8e5a90dc8120d95dafdd50568724b20476bae3b5dfc9744e92
 Description:  Translation for luci-app-stubby - Русский (Russian)
+
+Package: luci-i18n-tailscale-ru
+Version: 25.146.50576~a026bc8
+Depends: libc, luci-app-tailscale
+Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+SourceName: luci-app-tailscale
+Section: luci
+SourceDateEpoch: 1748957562
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
+Size: 3230
+SHA256sum: 53e62a5b52a1cc162f5321c5ea9027c6e1a5f574af93c0b18cdbdc3224a68083
+Description:  Translation for luci-app-tailscale - Русский (Russian)
+
+Package: luci-i18n-temp-status-ru
+Version: 25.062.74067~1d17083
+Depends: libc, luci-app-temp-status
+Source: feeds/routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1741034067
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-temp-status-ru_25.062.74067~1d17083_all.ipk
+Size: 1307
+SHA256sum: e5bfd0658fd0518d09ce676934e71b73bd8f5b2185c606eb69aa675c32374f4b
+Description:  Translation for luci-app-temp-status - Русский (Russian)
+
+Package: luci-i18n-ussd-ru
+Version: 25.091.34280~15c8dc0
+Depends: libc, luci-app-ussd
+Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
+SourceName: luci-app-ussd
+Section: luci
+SourceDateEpoch: 1747082154
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-ussd-ru_25.091.34280~15c8dc0_all.ipk
+Size: 1491
+SHA256sum: c08b7615fb71f79d383dec70c8ac4cfda3c7883e3a542e97144da31f050cfc1c
+Description:  Translation for luci-app-ussd - Русский (Russian)
+
+Package: luci-i18n-vsftpd-ru
+Version: 24.250.49664~12eb8d3
+Depends: libc, luci-app-vsftpd
+Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
+SourceName: luci-app-vsftpd
+Section: luci
+SourceDateEpoch: 1725630464
+Architecture: all
+Installed-Size: 20480
+Filename: luci-i18n-vsftpd-ru_24.250.49664~12eb8d3_all.ipk
+Size: 3091
+SHA256sum: 183d49415820a5b98c55ed3235af58da4210a7d9ff8d03324da4f4d2ae4c130f
+Description:  Translation for luci-app-vsftpd - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
 Version: 25.139.41679~1cd31c7
@@ -275,21 +952,37 @@ Size: 1956
 SHA256sum: 148717c7cc27401863a4cf15f3d8ab80ab28b189dbd087ad9b51e2038de8f6af
 Description:  Translation for luci-app-zerotier - Русский (Russian)
 
-Package: luci-theme-routerich-beta
-Version: 1.0.5-r20250529
-Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich-beta
-SourceName: luci-theme-routerich-beta
+Package: luci-proto-tun2socks
+Version: 24.295.43713~4b245f8
+Depends: libc, tun2socks
+Source: feeds/routerich/modemfeed/luci/protocols/luci-proto-tun2socks
+SourceName: luci-proto-tun2socks
 Section: luci
-SourceDateEpoch: 1749040818
+SourceDateEpoch: 1729512513
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 901120
-Filename: luci-theme-routerich-beta_1.0.5-r20250529_all.ipk
-Size: 445407
-SHA256sum: 87156dd26e7e34357c224575ad934860242d60818e3d565a56faea52771deb81
-Description:  Routerich-beta Theme
+Installed-Size: 10240
+Filename: luci-proto-tun2socks_24.295.43713~4b245f8_all.ipk
+Size: 2477
+SHA256sum: 5087911b230efd4d85fcbd1b39e0e27c76bcc9e88967a0b22c7b6a7c84273fc1
+Description:  Support for tun2socks
+
+Package: luci-proto-xmm
+Version: 25.112.56602~ee9a34d
+Depends: libc, xmm-modem
+Source: /home/santaclaus/rr-modemfeed/luci/protocols/luci-proto-xmm
+SourceName: luci-proto-xmm
+Section: luci
+SourceDateEpoch: 1745336602
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 10240
+Filename: luci-proto-xmm_25.112.56602~ee9a34d_all.ipk
+Size: 2380
+SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
+Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
 Version: 1.0.5-r20250529
@@ -306,6 +999,353 @@ Filename: luci-theme-routerich_1.0.5-r20250529_all.ipk
 Size: 458723
 SHA256sum: a7acab619379d69ee0894fd372f8978965b280cee27a2699555a13e933ec72f4
 Description:  Routerich Theme
+
+Package: modemband
+Version: 1.0.0
+Depends: libc, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modemband
+SourceName: modemband
+Section: net
+SourceDateEpoch: 1747061918
+Architecture: all
+Installed-Size: 71680
+Filename: modemband_1.0.0_all.ipk
+Size: 7519
+SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
+Description:  Setting LTE/5G bands for selected modems
+
+Package: modeminfo-qmi
+Version: 1.0.6
+Depends: libc, modeminfo, qmi-utils
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 20480
+Filename: modeminfo-qmi_1.0.6_all.ipk
+Size: 4599
+SHA256sum: 40deef2dfca015da855ecb002675574fcd0b397909c3710a14206d37fc67dd3f
+Description:  QMI addon for modeminfo
+
+Package: modeminfo-serial-dell
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-dell_1.0.6_all.ipk
+Size: 1978
+SHA256sum: 10e9545d0e3b1431cf61b071fd5bb08838866b67f4ac561e6ce1886f45cc1d7e
+Description:  Dell DW5821e serial addon for modeminfo
+
+Package: modeminfo-serial-fibocom
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-fibocom_1.0.6_all.ipk
+Size: 2171
+SHA256sum: 750464da27e9d4d724d1a62c92ac81f2282616533d22876a9a770e1f6aa2ded0
+Description:  FIBOCOM NL668/678/FM150/FM190 serial addon for modeminfo
+
+Package: modeminfo-serial-gosun
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-gosun_1.0.6_all.ipk
+Size: 1700
+SHA256sum: f18f00a7e82e22c58ff05a9bedb39673f2a7d5683afa4fd5a62d8f1b2250f3ab
+Description:  Gosuncnwelink GM510 serial addon for modeminfo
+
+Package: modeminfo-serial-huawei
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-huawei_1.0.6_all.ipk
+Size: 2082
+SHA256sum: a7d3b853de3f23e5c1bc51c9ee1a53e31f8dadadcb368a4a06da5e5ae77e1f27
+Description:  HUAWEI serial addon for modeminfo
+
+Package: modeminfo-serial-meig
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-meig_1.0.6_all.ipk
+Size: 2035
+SHA256sum: c10fbdda6ec0f9f079dbeaae015efdf6e29998d3a8c94822612366bf4202a740
+Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
+
+Package: modeminfo-serial-mikrotik
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-acm, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-mikrotik_1.0.6_all.ipk
+Size: 2182
+SHA256sum: 0eeb5e330a3bcdcb1b3fce9b7db5494d1542d0eb7d1aa57a16acddbec692d244
+Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
+
+Package: modeminfo-serial-quectel
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-quectel_1.0.6_all.ipk
+Size: 2105
+SHA256sum: 7522eaf1d1bc8ce0c11166a0d148a3e79d5641d9aab622faab1e775568302855
+Description:  QUECTEL serial addon for modeminfo
+
+Package: modeminfo-serial-sierra
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-qualcomm, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-sierra_1.0.6_all.ipk
+Size: 1944
+SHA256sum: 953d7a7d3464d1b477a344be5536c33327d50c8473d1684577826e25a74d985d
+Description:  Sierra Wireless EM7455 serial addon for modeminfo
+
+Package: modeminfo-serial-simcom
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 20480
+Filename: modeminfo-serial-simcom_1.0.6_all.ipk
+Size: 2587
+SHA256sum: 0eb9da4ab7f1c8f87c9828d744e08aecf0c806725926b5102b0f95cf78259180
+Description:  SIMCOM SIM7600/SIM7906/SIM7912/A7600/A7906 serial addon for modeminfo
+
+Package: modeminfo-serial-styx
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-styx_1.0.6_all.ipk
+Size: 1662
+SHA256sum: 654fbf7dde9a45983948025b0b9ef1dd7ea81cca615610a2ccfc9fc1f069c3f3
+Description:  STYX MG8224 serial addon for modeminfo
+
+Package: modeminfo-serial-telit
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-telit_1.0.6_all.ipk
+Size: 1903
+SHA256sum: a83359d56f24fb4994801a353edd34266fc9895822c640e3828de43ddb9249c1
+Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
+
+Package: modeminfo-serial-thales
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-thales_1.0.6_all.ipk
+Size: 2029
+SHA256sum: df3115b002061cfc67494c69c6f53a9e5f2ea220950b95f9ec3628e1766eac63
+Description:  Thales MV31-W T99W175 serial addon for modeminfo
+
+Package: modeminfo-serial-tw
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-tw_1.0.6_all.ipk
+Size: 1758
+SHA256sum: 34de2ab34c06d2a89e61e7d8bd8c6d3e1954ca622abfbea76dd759875c4e6ae7
+Description:  ThinkWill ML7820+ serial addon for modeminfo
+
+Package: modeminfo-serial-xmm
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 20480
+Filename: modeminfo-serial-xmm_1.0.6_all.ipk
+Size: 3153
+SHA256sum: 0931970d0745932b3d50f0360686263c66edbc5d5edb2e83a75a370e5d81c60f
+Description:  FIBOCOM L850/L860/FM350 Intel XMM chips serial addon for modeminfo
+
+Package: modeminfo-serial-yuge
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-yuge_1.0.6_all.ipk
+Size: 1681
+SHA256sum: 27d298955479881d5912ad37665ea2bd7db326759e94690af68ff0f0a056fbfa
+Description:  Yuge CLM920 serial addon for modeminfo
+
+Package: modeminfo-serial-zte
+Version: 1.0.6
+Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-serial-zte_1.0.6_all.ipk
+Size: 1643
+SHA256sum: f9d50ff5db58c60d43a3df6337b6b428e976b45cf1a0f733f14a872b84a67676
+Description:  ZTE MF823/MF823D serial addon for modeminfo
+
+Package: modeminfo
+Version: 1.0.6
+Depends: libc, comgt
+Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1750764988
+Architecture: all
+Installed-Size: 30720
+Filename: modeminfo_1.0.6_all.ipk
+Size: 5896
+SHA256sum: 312e98bfa5e7c8848bdb8d5c50238df50cce5bccf5730ad2c7faf5a9e834d2bd
+Description:  Signal information for 3G/LTE dongle
+
+Package: natflow-auth
+Version: 20250607
+Depends: libc, kmod-natflow, ipset, lua-ipops
+Source: /home/santaclaus/feed.routerich_next/natflow
+SourceName: natflow
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1750021592
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30720
+Filename: natflow-auth_20250607_aarch64_cortex-a53.ipk
+Size: 4677
+SHA256sum: b05cd32efa710adad2d7cbcd45e6e29902c8a3d064a33b306f291eac48fedc81
+Description:  natflow auth init script
+
+Package: natflow-hostacl
+Version: 20250607
+Depends: libc, natflow-auth, urllogger
+Source: /home/santaclaus/feed.routerich_next/natflow
+SourceName: natflow
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1750021592
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: natflow-hostacl_20250607_aarch64_cortex-a53.ipk
+Size: 2022
+SHA256sum: b8f633d9a0fefbd6efd1c075f9c27ba3efd23bb58450052729b5afb807396105
+Description:  natflow hostacl init script
+
+Package: natflow
+Version: 20250607
+Depends: libc, ethtool, kmod-natflow
+Source: /home/santaclaus/feed.routerich_next/natflow
+SourceName: natflow
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1750021592
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: natflow_20250607_aarch64_cortex-a53.ipk
+Size: 1796
+SHA256sum: af9334c273ee19515e0eb08c4addcfc7d6ddd09a0007105108313312cb45efb0
+Description:  Natflow init script
+
+Package: ntfs3-mount
+Version: 10
+Depends: libc, kmod-fs-ntfs3
+Conflicts: ntfs-3g
+Source: /home/santaclaus/feed.routerich/automount
+SourceName: automount
+Section: utils
+SourceDateEpoch: 1725307136
+Architecture: all
+Installed-Size: 10240
+Filename: ntfs3-mount_10_all.ipk
+Size: 904
+SHA256sum: ab729399e60198f864f33f2edd5aad15fbcc36843e653b62e12862247925614c
+Description:  NTFS mount script for Paragon NTFS3 driver
+
+Package: opera-proxy
+Version: 1.8.0-r1
+Depends: libc
+Source: feeds/routerich/opera-proxy
+SourceName: opera-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1738330053
+URL: https://github.com/Snawoot/opera-proxy
+Maintainer: Romanov Danila <pervoku@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2365440
+Filename: opera-proxy_1.8.0-r1_aarch64_cortex-a53.ipk
+Size: 2358808
+SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
+Description:  Opera Proxy client
 
 Package: podkop-0.2.5
 Version: 1.0.0-r1
@@ -324,6 +1364,80 @@ Size: 10345
 SHA256sum: 540caa8053e193335372379cc64b43d624eaea95f7f1ad358fb8faf8a697658b
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
+Package: qbittorrent
+Version: 5.0.4-r1
+Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
+Provides: qBittorrent
+Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
+SourceName: qbittorrent
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1741034815
+URL: https://www.qbittorrent.org/
+CPE-ID: cpe:/a:qbittorrent:qbittorrent
+Architecture: aarch64_cortex-a53
+Installed-Size: 9205760
+Filename: qbittorrent_5.0.4-r1_aarch64_cortex-a53.ipk
+Size: 7830100
+SHA256sum: bd22b355fad21e56ae3e9aacc2e7c80241c684ad0465a1c668b477087a04eb2f
+Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
+ libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
+ It aims to be a good alternative to all other bittorrent clients out
+ there. qBittorrent is fast, stable and provides unicode support as
+ well as many features.
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: qt6-plugin-libqopensslbackend_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 121032
+SHA256sum: 98cf366f398e913a8c6d3b12fca7d663c47e742fc518cd0354f983596a28d14c
+Description:  Qt6 Plugin libqopensslbackend
+
+Package: qt6-plugin-libqsqlite
+Version: 6.8.2-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
+Source: feeds/routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1738330319
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 1996800
+Filename: qt6-plugin-libqsqlite_6.8.2-r1_aarch64_cortex-a53.ipk
+Size: 1001565
+SHA256sum: 3d1541a4585bf0d12ca2af9a627a03de77cb9505403be280633a03ccb8d08bc3
+Description:  Qt6 Plugin libqsqlite
+
+Package: rblibtorrent2.0
+Version: 2.0.11-r1
+Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
+Provides: rblibtorrent
+Source: feeds/routerich/openwrt-qBittorrent/rblibtorrent
+SourceName: rblibtorrent
+License: BSD
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1738330319
+URL: https://www.libtorrent.org
+ABIVersion: 2.0
+Architecture: aarch64_cortex-a53
+Installed-Size: 3809280
+Filename: rblibtorrent2.0_2.0.11-r1_aarch64_cortex-a53.ipk
+Size: 1390118
+SHA256sum: 98af011db5f0a89e1a5f30decc5b00e578eadd2e5666027088506f0f442c55d4
+Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
+ all the other bittorrent implementations around. It is a library and not a
+ full featured client, although it comes with a working example client.
+
 Package: routerich-defaults
 Version: 1.1.9
 Depends: libc
@@ -337,6 +1451,38 @@ Filename: routerich-defaults_1.1.9_all.ipk
 Size: 7248
 SHA256sum: 53163d3539febafc917192309c50cebfbae032d0d58c35526cf3c97c88ee9cca
 Description:  Default settings by RouteRich
+
+Package: ruantiblock-mod-lua
+Version: 2.1.4-r1
+Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
+Source: feeds/routerich/ruantiblock_openwrt/ruantiblock-mod-lua
+SourceName: ruantiblock-mod-lua
+Section: net
+SourceDateEpoch: 1741033461
+URL: https://github.com/gSpotx2f/ruantiblock_openwrt
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 51200
+Filename: ruantiblock-mod-lua_2.1.4-r1_all.ipk
+Size: 9694
+SHA256sum: 4c6267b687a95e9f487c9b7e01fb5b588a03633ca4ab54ad616e1e889ddbb594
+Description:  Lua module for ruantiblock
+
+Package: ruantiblock
+Version: 2.1.4-r2
+Depends: libc, dnsmasq-full, kmod-nft-tproxy
+Source: feeds/routerich/ruantiblock_openwrt/ruantiblock
+SourceName: ruantiblock
+Section: net
+SourceDateEpoch: 1741033461
+URL: https://github.com/gSpotx2f/ruantiblock_openwrt
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 133120
+Filename: ruantiblock_2.1.4-r2_all.ipk
+Size: 22013
+SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
+Description:  Ruantiblock
 
 Package: smount
 Version: 1.0.2
@@ -352,6 +1498,63 @@ Size: 1363
 SHA256sum: 3aa812cd83a8e97d200448e9051d5c169334ec8509b5c493b37ae6d7b00daaae
 Description:  Auto-mount scripts
 
+Package: sms-tool
+Version: 2023.09.21~1b6ca032-r1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1744534021
+URL: https://github.com/obsy/sms_tool
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 71680
+Filename: sms-tool_2023.09.21~1b6ca032-r1_aarch64_cortex-a53.ipk
+Size: 9713
+SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
+Description:  SMS Tool for 3G/4G modem
+
+Package: tailscale-lite
+Version: 1.80.3-r1
+Depends: libc, ca-bundle, kmod-tun
+Provides: tailscaled
+Source: /home/santaclaus/next/feed.routerich_next/tailscale-lite
+SourceName: tailscale-lite
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1748261187
+URL: https://tailscale.com
+CPE-ID: cpe:/a:tailscale:tailscale
+Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 23265280
+Filename: tailscale-lite_1.80.3-r1_aarch64_cortex-a53.ipk
+Size: 8926993
+SHA256sum: b1251fe18de18ded6958749121b1c8ff3e6edd670534d64e0fcdc632f20be633
+Description:  It creates a secure network between your servers, computers,
+ and cloud instances. Even when separated by firewalls or subnets.
+
+Package: tun2socks
+Version: 2.5.2-r250128~master-1
+Depends: libc, ca-bundle, kmod-tun, ip-full, coreutils-base64
+Source: feeds/routerich/modemfeed/packages/net/tun2socks
+SourceName: tun2socks
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1739701444
+URL: https://github.com/xjasonlyu/tun2socks
+Maintainer: Konstantine Shevlakov <shevlako@132lan.ru>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10004480
+Filename: tun2socks_2.5.2-r250128~master-1_aarch64_cortex-a53.ipk
+Size: 3806376
+SHA256sum: 2f4b9aa5ccdfff0c139bac6b14a889b137baa1a6573044a67054fdb9e173b9a2
+Description:  tun to socks proxy redirector written on golang
+
 Package: uboot-routerich
 Version: 1.0.1
 Depends: libc, kmod-mtd-rw
@@ -365,6 +1568,59 @@ Filename: uboot-routerich_1.0.1_all.ipk
 Size: 434007
 SHA256sum: 842291cc40838ac1ddc7f1f89cfc8a876effd119e48668cf3969b446e94e192e
 Description:  Uboot upgrade
+
+Package: upx
+Version: 5.0.0-r1
+Depends: libc, libstdcpp6
+Source: feeds/routerich/upx
+SourceName: upx
+License: GPL-2.0-or-later
+LicenseFiles: COPYING LICENSE
+Section: utils
+SourceDateEpoch: 1740604800
+URL: https://upx.github.io
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2232320
+Filename: upx_5.0.0-r1_aarch64_cortex-a53.ipk
+Size: 698464
+SHA256sum: 5af53fb7b0cc88d2a41a24eedcd3d7f4cc951c81346c9cae8d822bf226c85beb
+Description:  UPX is an advanced executable file compressor. UPX will typically
+ reduce the file size of programs and DLLs by around 50%-70%, thus
+ reducing disk space, network load times, download times and
+ other distribution and storage costs.
+
+Package: urllogger
+Version: 0.0.1-r1
+Depends: libc, kmod-natflow
+Source: /home/santaclaus/feed.routerich_next/urllogger
+SourceName: urllogger
+License: GPL-2.0
+Section: opt
+SourceDateEpoch: 1747647574
+Maintainer: Chen Minqiang <ptpt52@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10240
+Filename: urllogger_0.0.1-r1_aarch64_cortex-a53.ipk
+Size: 2124
+SHA256sum: daed2fc4ddc6515242de710bc488a567e5e9d3077a7fd4ded45c2acc4f89ac0d
+Description:  urllogger
+
+Package: xmm-modem
+Version: 0.1.5-r0
+Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-cdc-ncm, kmod-usb-net-rndis
+Source: /home/santaclaus/rr-modemfeed/packages/net/xmm-modem
+SourceName: xmm-modem
+Section: opt
+SourceDateEpoch: 1748532058
+Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
+Architecture: all
+Installed-Size: 30720
+Filename: xmm-modem_0.1.5-r0_all.ipk
+Size: 4037
+SHA256sum: a1ea015b2096bc91819e1d7b98190a8718b2b8165f8bfa23c70f6484898070d2
+Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
+ Intel XMM LTE-A 7360/7560 and MediaTek T700 chipsets
 
 Package: youtubeUnblock
 Version: 1.0.0-mediatek-10
