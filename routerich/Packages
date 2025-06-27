@@ -265,19 +265,19 @@ SHA256sum: d730be3592a4bd86cf5137292ab7f0fe955670be65364bf551c3ae1317d8a576
 Description:  lua ipops lib
 
 Package: luci-app-access-control
-Version: 0.4.4-r1
+Version: 0.4.5-r1
 Depends: libc, luci-compat, luci-lua-runtime
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
+Source: /home/santaclaus/feed.routerich_next/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1747656105
+SourceDateEpoch: 1751022200
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-access-control_0.4.4-r1_all.ipk
-Size: 5133
-SHA256sum: b89875de7d702fcae35434ead6d10b377455d2c33ba80b5d115bb8e88f57193b
+Filename: luci-app-access-control_0.4.5-r1_all.ipk
+Size: 5126
+SHA256sum: 5f3cb4543cc802aef938c68c0f9dd82cb6f485d7acc6edb900b2d9c5839a3ab3
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
@@ -346,17 +346,17 @@ SHA256sum: b3025712ee377b194d876957aba61add4cf94fc848b150f88ae8f82dd50ee34b
 Description:  LuCI for SMB/CIFS Mount
 
 Package: luci-app-dns-failsafe-proxy
-Version: 0.1.1
+Version: 0.2.1
 Depends: libc
 Source: /home/santaclaus/feed.routerich_next/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1750886737
+SourceDateEpoch: 1750961799
 Architecture: all
 Installed-Size: 696320
-Filename: luci-app-dns-failsafe-proxy_0.1.1_all.ipk
-Size: 669751
-SHA256sum: 505a24f181e730caf3e16e0dcfed5c2180c88d3e40165ec36292ba0f6cd02d0a
+Filename: luci-app-dns-failsafe-proxy_0.2.1_all.ipk
+Size: 670151
+SHA256sum: 183cc05cbf1810b9fb24c1477963cf7828e7f190ede8d21b2398c6b016afdc1a
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-filebrowser-go
@@ -685,15 +685,15 @@ Description:  LuCI for Zerotier
 Package: luci-i18n-access-control-ru
 Version: 25.139.43305~6262bf7
 Depends: libc, luci-app-access-control
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-access-control
+Source: /home/santaclaus/feed.routerich_next/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1747656105
+SourceDateEpoch: 1751022200
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-access-control-ru_25.139.43305~6262bf7_all.ipk
-Size: 2002
-SHA256sum: 50a15144473af3bec23bc8e9fc75cf548bdd1572f7b279ad1ac20c0728bfce49
+Size: 2004
+SHA256sum: ef7abadf45ab665ae2400dd9ae3535047c3a209f90742637d37909bdec38ea9c
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
