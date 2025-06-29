@@ -44,18 +44,18 @@ Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: automodem
-Version: 1.0.2
+Version: 1.0.3
 Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1748559750
+SourceDateEpoch: 1751196517
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
-Filename: automodem_1.0.2_all.ipk
-Size: 6027
-SHA256sum: 9129e74952bee0c1964af35455e001ce172933b8933144d94bfb93e6b5553497
+Filename: automodem_1.0.3_all.ipk
+Size: 5913
+SHA256sum: acdb6f851bb021e43316cb12819ebe1e34592b905693388502ac1cee544ada35
 Description:  Automatic modem setup
 
 Package: automount
@@ -457,19 +457,19 @@ SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
 Package: luci-app-modeminfo
-Version: 1.5.3-r1
+Version: 1.5.4-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1749509923
+SourceDateEpoch: 1751143746
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-modeminfo_1.5.3-r1_all.ipk
-Size: 8498
-SHA256sum: f9e8e0a3f6f27a886f786d9c427c9e2b3cc5e2eb2f00724e0414c2866a04a971
+Installed-Size: 61440
+Filename: luci-app-modeminfo_1.5.4-r1_all.ipk
+Size: 11608
+SHA256sum: 1a9cdadd7d1a35b9dbb3c4cf847fefdaa67cbf8fe076611820110cfe9d464540
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -815,12 +815,12 @@ Depends: libc, luci-app-modeminfo
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1749509923
+SourceDateEpoch: 1751143746
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_25.160.82723~32311ec_all.ipk
-Size: 2424
-SHA256sum: 416abd0086f69451a85f64dc218a686ad904512ff5def41b625144fa1943d3b8
+Size: 2423
+SHA256sum: f0f184841a2f113a5fbde68c0382904b59c91ff434b1bbf597123b1919f81223
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-0.2.5-ru
