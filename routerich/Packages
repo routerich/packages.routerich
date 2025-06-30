@@ -999,19 +999,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.5-r20250529
+Version: 1.0.6-r20250701
 Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: /home/santaclaus/next/feed.routerich_next/luci-theme-routerich
+Source: /home/santaclaus/feed.routerich_next/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1748517490
+SourceDateEpoch: 1751325416
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 911360
-Filename: luci-theme-routerich_1.0.5-r20250529_all.ipk
-Size: 458723
-SHA256sum: a7acab619379d69ee0894fd372f8978965b280cee27a2699555a13e933ec72f4
+Filename: luci-theme-routerich_1.0.6-r20250701_all.ipk
+Size: 459104
+SHA256sum: 7a8d03523c09501ef17fe3a360bead770d5128ca14de7f03be9d8e93bdc3e984
 Description:  Routerich Theme
 
 Package: modemband
