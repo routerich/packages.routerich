@@ -1085,12 +1085,12 @@ Depends: libc, modeminfo, qmi-utils
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1751537114
+SourceDateEpoch: 1751543069
 Architecture: all
 Installed-Size: 20480
 Filename: modeminfo-qmi_1.0.7_all.ipk
-Size: 4601
-SHA256sum: 825e28aa714e278d725af8898a2282bf936444749e3edfc92b6ae7fd9a58c94d
+Size: 4606
+SHA256sum: 99f7a3d33d0b09f63dab79793c089200b7e217bd868cad233a5bd4f84ca2f2be
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
