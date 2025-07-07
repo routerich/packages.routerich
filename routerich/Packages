@@ -427,19 +427,19 @@ SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
-Version: 0.9.1-r1
+Version: 0.9.2-r1
 Depends: libc
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+Source: /home/santaclaus/feed.routerich_next/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1749467995
+SourceDateEpoch: 1751757415
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-ledcontrol_0.9.1-r1_all.ipk
-Size: 3572
-SHA256sum: b0d9136fdb7ca69925c6a0c7d867869fb52b905d7bfa87d1b599549963caeaa1
+Filename: luci-app-ledcontrol_0.9.2-r1_all.ipk
+Size: 3631
+SHA256sum: bc3c23f0bfb0063af3b041990c67e171987382b72228eac09f7f6e34eae3ba8a
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
@@ -806,15 +806,15 @@ Description:  Translation for luci-app-internet-detector - Русский (Russi
 Package: luci-i18n-ledcontrol-ru
 Version: 25.160.39218~84c780c
 Depends: libc, luci-app-ledcontrol
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-ledcontrol
+Source: /home/santaclaus/feed.routerich_next/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1749467995
+SourceDateEpoch: 1751757415
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
 Size: 1491
-SHA256sum: 9fe7a135fe4c0c32fb33577f28eb16bf5fd8888f1c17ed31f3c8e673c51a137a
+SHA256sum: 02462447967a43fbf0a91528b51cb4f4dd492e6a9a1efc7d81088b8ccc68c697
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
@@ -1050,19 +1050,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.6-r20250701
+Version: 1.0.7-r20250707
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/feed.routerich_next/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1751325416
+SourceDateEpoch: 1751883044
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 911360
-Filename: luci-theme-routerich_1.0.6-r20250701_all.ipk
-Size: 459104
-SHA256sum: 7a8d03523c09501ef17fe3a360bead770d5128ca14de7f03be9d8e93bdc3e984
+Installed-Size: 931840
+Filename: luci-theme-routerich_1.0.7-r20250707_all.ipk
+Size: 462321
+SHA256sum: 259ddfd16dd44b679f08ae0dda1261d63db86d66790add0d110eab4b6e281d5a
 Description:  Routerich Theme
 
 Package: modemband
@@ -1504,17 +1504,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.2.0
+Version: 1.2.1
 Depends: libc
 Source: /home/santaclaus/feed.routerich_next/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1750883222
+SourceDateEpoch: 1751757384
 Architecture: all
-Installed-Size: 40960
-Filename: routerich-defaults_1.2.0_all.ipk
-Size: 7284
-SHA256sum: 51c2c411f091c42ae79d6c5ad5425fab26b6b3ebd9a3eb1dec31879ff1be6190
+Installed-Size: 51200
+Filename: routerich-defaults_1.2.1_all.ipk
+Size: 7442
+SHA256sum: b3c01f05cfd80b8d2158916654661de9da0693d4639c68640cd0b20d32a53128
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -1550,17 +1550,17 @@ SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
 
 Package: smount
-Version: 1.0.2
+Version: 1.0.3
 Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
-Source: /home/santaclaus/next/feed.routerich_next/smount
+Source: /home/santaclaus/feed.routerich_next/smount
 SourceName: smount
 Section: utils
-SourceDateEpoch: 1749462957
+SourceDateEpoch: 1751848805
 Architecture: all
 Installed-Size: 10240
-Filename: smount_1.0.2_all.ipk
-Size: 1363
-SHA256sum: 3aa812cd83a8e97d200448e9051d5c169334ec8509b5c493b37ae6d7b00daaae
+Filename: smount_1.0.3_all.ipk
+Size: 1610
+SHA256sum: ea240f7745dd77f5db1fb7c9d1caaadd0ac07d7b5df41c391c2930a47b76daa9
 Description:  Auto-mount scripts
 
 Package: sms-tool
