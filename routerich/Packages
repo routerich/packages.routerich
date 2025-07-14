@@ -1050,19 +1050,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.7-r20250708
+Version: 1.0.8-r20250711
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1751979926
+SourceDateEpoch: 1752492127
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 931840
-Filename: luci-theme-routerich_1.0.7-r20250708_all.ipk
-Size: 462480
-SHA256sum: e6747d5a9e607c2662c874da0e8b42e42ad276f1e2b1f8f69c9f453aaafefc27
+Installed-Size: 1269760
+Filename: luci-theme-routerich_1.0.8-r20250711_all.ipk
+Size: 510830
+SHA256sum: 7157539f2a8c23266c8cba84e2c72ef1baf739f3457a456fa99a1e707566ec04
 Description:  Routerich Theme
 
 Package: modemband
@@ -1520,17 +1520,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.2.2
+Version: 1.2.3
 Depends: libc
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1751924688
+SourceDateEpoch: 1752306905
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.2.2_all.ipk
-Size: 7461
-SHA256sum: 2986d402c3b770fd1269cac04f804be609b2480b5fec40910a899f8d705ae6c3
+Filename: routerich-defaults_1.2.3_all.ipk
+Size: 7465
+SHA256sum: a28fe707dc8ea4516a8b93bcd1f995c974d4575c1880026d291e640f0b1bf3bb
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
