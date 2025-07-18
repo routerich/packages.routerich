@@ -364,17 +364,17 @@ SHA256sum: b3025712ee377b194d876957aba61add4cf94fc848b150f88ae8f82dd50ee34b
 Description:  LuCI for SMB/CIFS Mount
 
 Package: luci-app-dns-failsafe-proxy
-Version: 0.2.2
+Version: 1.0.0
 Depends: libc
-Source: /home/santaclaus/feed.routerich_next/luci-app-dns-failsafe-proxy
+Source: /home/santaclaus/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1751493090
+SourceDateEpoch: 1752850251
 Architecture: all
-Installed-Size: 696320
-Filename: luci-app-dns-failsafe-proxy_0.2.2_all.ipk
-Size: 670149
-SHA256sum: c9e245353c990a14cfaa8b8742b9ed24fac7f54329a394e7d7794407020702ee
+Installed-Size: 92160
+Filename: luci-app-dns-failsafe-proxy_1.0.0_all.ipk
+Size: 7928
+SHA256sum: 764b6c526862abe9ab9d3a3bbf442caf4dc2159f3fe44b96c9d424bcc67da36b
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
