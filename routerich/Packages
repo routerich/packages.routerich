@@ -574,19 +574,19 @@ SHA256sum: 2f61728048a9da457247ac3b9dd6ba5eadb4472456c516d0f48c0fb6a517ff60
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
-Version: 1.0.3-r1
+Version: 1.0.4-r1
 Depends: libc, smstools3, iconv, jq
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 Section: luci
-SourceDateEpoch: 1751537224
+SourceDateEpoch: 1753091963
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-smstools3_1.0.3-r1_all.ipk
-Size: 9103
-SHA256sum: 2cadaf2c60135fbfeaf27dc1876f597fa7640aae2814cb676628bf2cdcf797ef
+Filename: luci-app-smstools3_1.0.4-r1_all.ipk
+Size: 9140
+SHA256sum: 25904d2f1b303e388183296622c8b9a5ab867602acaafc83464d61bf688bf069
 Description:  Web UI for smstools3
 
 Package: luci-app-stubby
