@@ -206,65 +206,155 @@ Size: 1247
 SHA256sum: df41c725947d031a04032362ce1814104fc1f35dbcd3d23cfda0287f7a21e19b
 Description:  Auto-share ksmbd hotplug
 
-Package: libQt6Core
-Version: 6.8.2-r1
-Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Package: libQt6Concurrent
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: libQt6Concurrent_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 8569
+SHA256sum: c81307d2a611537eca01cd1757d3522cefdbfd92f03bc2a246546e99115c2e11
+Description:  This package provides the Qt6 Concurrent v6.8.3 library.
+
+Package: libQt6Core
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 6922240
-Filename: libQt6Core_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 2662036
-SHA256sum: b6fc4768df52a9e65c1e0656da83972917e63de742c76bbd8ece084a1e1437c3
-Description:  This package provides the Qt6 Core v6.8.2 library.
+Filename: libQt6Core_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 2671686
+SHA256sum: 69e616a6bf48c4190a506a00337b8c58ba50d89e11bdd6a1a45d0e14e85738b4
+Description:  This package provides the Qt6 Core v6.8.3 library.
 
-Package: libQt6Network
-Version: 6.8.2-r1
-Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Package: libQt6DBus
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 1003520
+Filename: libQt6DBus_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 336939
+SHA256sum: 8c39d92a89dafd30816b2a73be87c4182afa0e865467dcb49be8ac55ac668c5b
+Description:  This package provides the Qt6 DBus v6.8.3 library.
+
+Package: libQt6Gui
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 7454720
+Filename: libQt6Gui_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 3022362
+SHA256sum: bedf6fb055a6ca916f20eefc7f0bc96a026f4d78ceb8ebee3af85eeffc8ea020
+Description:  This package provides the Qt6 Gui v6.8.3 library.
+
+Package: libQt6Network
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 2385920
-Filename: libQt6Network_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 921122
-SHA256sum: 8931b64230975d28d4d03b4b27bcc1c3cd20dc25830d112d4e1c3100794f43f6
-Description:  This package provides the Qt6 Network v6.8.2 library.
+Filename: libQt6Network_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 921736
+SHA256sum: 916cdd6e4cf14a3f0b6289e5186a97f806bf865e5e8824c72bd94e1dc39e35be
+Description:  This package provides the Qt6 Network v6.8.3 library.
 
-Package: libQt6Sql
-Version: 6.8.2-r1
-Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Package: libQt6PrintSupport
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Widgets
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: libQt6PrintSupport_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 168590
+SHA256sum: 5e6496e4dfeb061d3df0f583c762820da44b048ca26eda42719f031c9d019fa9
+Description:  This package provides the Qt6 PrintSupport v6.8.3 library.
+
+Package: libQt6Sql
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 276480
-Filename: libQt6Sql_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 91106
-SHA256sum: 959edd7ff3000061c2203802e906aa496e1ea6ade9310c90d40b471358e0e915
-Description:  This package provides the Qt6 Sql v6.8.2 library.
+Filename: libQt6Sql_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 91121
+SHA256sum: aa90be9c0491c32cff2f3d6438a647b2a0f71a4330153044a61becac7dd87658
+Description:  This package provides the Qt6 Sql v6.8.3 library.
 
-Package: libQt6Xml
-Version: 6.8.2-r1
+Package: libQt6Test
+Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 409600
+Filename: libQt6Test_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 152843
+SHA256sum: 2cd041385a50c808b98e5cb74a47c7b02677e4a53c33280df44c3ae3aea03e8b
+Description:  This package provides the Qt6 Test v6.8.3 library.
+
+Package: libQt6Widgets
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 8448000
+Filename: libQt6Widgets_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 3420900
+SHA256sum: b5fba627a89248179d710262a505854de25ce2c7608f518192092648bc87f0be
+Description:  This package provides the Qt6 Widgets v6.8.3 library.
+
+Package: libQt6Xml
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 204800
-Filename: libQt6Xml_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 71300
-SHA256sum: 9bc1fb4e752a8c2cea26de52979908ffd29eddfd15ff730eeb21feff0f3a844d
-Description:  This package provides the Qt6 Xml v6.8.2 library.
+Filename: libQt6Xml_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 71446
+SHA256sum: d09539ff5ae2f51dfefb8d8721c352d8182b9e4b398954dc5b925cc8f1d64420
+Description:  This package provides the Qt6 Xml v6.8.3 library.
 
 Package: lua-ipops
 Version: 0.0.1-r1
@@ -544,17 +634,17 @@ Description:  LuCI podkop app
 Package: luci-app-qbittorrent
 Version: 1.0.1-r1
 Depends: libc, qbittorrent
-Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1735922538
+SourceDateEpoch: 1753719027
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-qbittorrent_1.0.1-r1_all.ipk
-Size: 2664
-SHA256sum: 9a43ec029c50622ee6591ce2df6510b491aeacba85516d9ecdcc719baf651538
+Size: 2683
+SHA256sum: 1cd915783bc778b25de86e33551c5a36b00eac1e2301033455531690937f7b5c
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
@@ -891,17 +981,17 @@ SHA256sum: 416139ba3585d39a0f07fab6683fed51dee8ecb138861caa2e431002e5f5519c
 Description:  Translation for luci-app-podkop-0.2.5 - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
-Version: 24.252.08653~eff063a
+Version: 25.209.58227~6e95037
 Depends: libc, luci-app-qbittorrent
-Source: feeds/routerich/openwrt-qBittorrent/luci-app-qbittorrent
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
-SourceDateEpoch: 1735922538
+SourceDateEpoch: 1753719027
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-qbittorrent-ru_24.252.08653~eff063a_all.ipk
-Size: 1493
-SHA256sum: 3e72eb14b210faf11aa65df3d35e28caa586a35623132a1d51629e97772b01f4
+Filename: luci-i18n-qbittorrent-ru_25.209.58227~6e95037_all.ipk
+Size: 1500
+SHA256sum: 2c0b1a4d2ffd38fa09f75309714aeadd748c28f6d426ac7406e5d78817c24337
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-ruantiblock-ru
@@ -1446,75 +1536,165 @@ SHA256sum: 540caa8053e193335372379cc64b43d624eaea95f7f1ad358fb8faf8a697658b
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
-Version: 5.0.4-r1
+Version: 5.1.2-r1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
 Provides: qBittorrent
-Source: feeds/routerich/openwrt-qBittorrent/qbittorrent
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qbittorrent
 SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
 Section: net
-SourceDateEpoch: 1741034815
+SourceDateEpoch: 1753721548
 URL: https://www.qbittorrent.org/
 CPE-ID: cpe:/a:qbittorrent:qbittorrent
 Architecture: aarch64_cortex-a53
-Installed-Size: 9205760
-Filename: qbittorrent_5.0.4-r1_aarch64_cortex-a53.ipk
-Size: 7830100
-SHA256sum: bd22b355fad21e56ae3e9aacc2e7c80241c684ad0465a1c668b477087a04eb2f
+Installed-Size: 9400320
+Filename: qbittorrent_5.1.2-r1_aarch64_cortex-a53.ipk
+Size: 8018004
+SHA256sum: 7504b54688e69043ff586f5e3dc5e9894be486b5c6e61f6613c65e8665c75b8e
 Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that uses
  libtorrent (sometimes called libtorrent-rasterbar) by Arvid Norberg.
  It aims to be a good alternative to all other bittorrent clients out
  there. qBittorrent is fast, stable and provides unicode support as
  well as many features.
 
-Package: qt6-plugin-libqopensslbackend
-Version: 6.8.2-r1
+Package: qt6-plugin-libqcertonlybackend
+Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: qt6-plugin-libqcertonlybackend_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 39389
+SHA256sum: 6ed6bbeb9ec98fa8d6c3f1e037f0b2424ef70454941d3eaaeef291de8375957f
+Description:  Qt6 Plugin libqcertonlybackend
+
+Package: qt6-plugin-libqminimal
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 81920
+Filename: qt6-plugin-libqminimal_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 10761
+SHA256sum: 150e2377c5d8a417cd172eea95fc923cc5dd9cc193079d16badb4f23a75e7e5c
+Description:  Qt6 Plugin libqminimal
+
+Package: qt6-plugin-libqnetworkmanager
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libQt6Network
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: qt6-plugin-libqnetworkmanager_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 28837
+SHA256sum: d33ed69d0771611abff0fb62e45fc4b084cfb3e4720c8460a261b8a96dc2c3f1
+Description:  Qt6 Plugin libqnetworkmanager
+
+Package: qt6-plugin-libqoffscreen
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: qt6-plugin-libqoffscreen_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 40097
+SHA256sum: ffd88dcf5fb9817e72944cc45231c3dd4351e1a62d9a9b6339c0a165f91f112a
+Description:  Qt6 Plugin libqoffscreen
+
+Package: qt6-plugin-libqopensslbackend
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 409600
-Filename: qt6-plugin-libqopensslbackend_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 121032
-SHA256sum: 98cf366f398e913a8c6d3b12fca7d663c47e742fc518cd0354f983596a28d14c
+Filename: qt6-plugin-libqopensslbackend_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 121045
+SHA256sum: 2473635970a34aa6982251c4e9839f743793cfc1f956203384a11a40ace3adb3
 Description:  Qt6 Plugin libqopensslbackend
 
 Package: qt6-plugin-libqsqlite
-Version: 6.8.2-r1
+Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
-Source: feeds/routerich/openwrt-qBittorrent/qt6base
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
 URL: http://qt-project.org
 Architecture: aarch64_cortex-a53
 Installed-Size: 1996800
-Filename: qt6-plugin-libqsqlite_6.8.2-r1_aarch64_cortex-a53.ipk
-Size: 1001565
-SHA256sum: 3d1541a4585bf0d12ca2af9a627a03de77cb9505403be280633a03ccb8d08bc3
+Filename: qt6-plugin-libqsqlite_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 1001787
+SHA256sum: f389a06b0b13f4ed3da9bb74c98e381b105c284d1719e9fa4249636f15318ee2
 Description:  Qt6 Plugin libqsqlite
+
+Package: qt6-plugin-libqtuiotouchplugin
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui, libQt6Network
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: qt6-plugin-libqtuiotouchplugin_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 37609
+SHA256sum: ab0b1b0af752bda52069dfb3aa8836065f3c213eabcb066e21babc4c55cec085
+Description:  Qt6 Plugin libqtuiotouchplugin
+
+Package: qt6-plugin-libqxdgdesktopportal
+Version: 6.8.3-r1
+Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
+SourceName: qt6base
+Section: libs
+SourceDateEpoch: 1753719027
+URL: http://qt-project.org
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: qt6-plugin-libqxdgdesktopportal_6.8.3-r1_aarch64_cortex-a53.ipk
+Size: 46746
+SHA256sum: a97b978107c2dc5bc01afac3a1296fbd71b3837936f169435c07847387d666f7
+Description:  Qt6 Plugin libqxdgdesktopportal
 
 Package: rblibtorrent2.0
 Version: 2.0.11-r1
 Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
 Provides: rblibtorrent
-Source: feeds/routerich/openwrt-qBittorrent/rblibtorrent
+Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/rblibtorrent
 SourceName: rblibtorrent
 License: BSD
 LicenseFiles: COPYING
 Section: libs
-SourceDateEpoch: 1738330319
+SourceDateEpoch: 1753719027
 URL: https://www.libtorrent.org
 ABIVersion: 2.0
 Architecture: aarch64_cortex-a53
 Installed-Size: 3809280
 Filename: rblibtorrent2.0_2.0.11-r1_aarch64_cortex-a53.ipk
-Size: 1390118
-SHA256sum: 98af011db5f0a89e1a5f30decc5b00e578eadd2e5666027088506f0f442c55d4
+Size: 1389908
+SHA256sum: beb7320b8f064cf289f14650952c0b38474a509118a32fbcfbab0c33ef8731e3
 Description:  Rasterbar libtorrent is a C++ library that aims to be a good alternative to
  all the other bittorrent implementations around. It is a library and not a
  full featured client, although it comes with a working example client.
