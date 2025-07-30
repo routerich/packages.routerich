@@ -680,19 +680,19 @@ SHA256sum: 25904d2f1b303e388183296622c8b9a5ab867602acaafc83464d61bf688bf069
 Description:  Web UI for smstools3
 
 Package: luci-app-stubby
-Version: 0.9.2-r1
+Version: 0.9.3-r1
 Depends: libc, stubby, luci-base, nftables
 Source: /home/santaclaus/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1753361716
+SourceDateEpoch: 1753867207
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.2-r1_all.ipk
-Size: 3263
-SHA256sum: a5d2b4b2d69820c275901199f1114bfc499ecba25f95c431a0dc1dac341c1da0
+Filename: luci-app-stubby_0.9.3-r1_all.ipk
+Size: 3259
+SHA256sum: 39e884a868e1f12bbc82b58a814bc488529c77a009021944fa211b37cb978356
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -1028,12 +1028,12 @@ Depends: libc, luci-app-stubby
 Source: /home/santaclaus/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1753361716
+SourceDateEpoch: 1753867207
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
-Size: 2017
-SHA256sum: 924ea2242e6b2149b0087e9aa38cda9bde67141d62a9df6fc358769b4dd1bae7
+Size: 2013
+SHA256sum: 27cd51b417110123fe66b30120569f904285ffc682b1a152a3fd276158445d9d
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
