@@ -73,6 +73,22 @@ Size: 1598
 SHA256sum: 7b8a786cfc084b271366d72e64253a1475b80a1a4b237e74bf354540db3b8eb6
 Description:  Mount autoconfig hotplug script.
 
+Package: bridger
+Version: 2024.04.22~40b1c5b6
+Depends: libc, libbpf1, libubox20240329, libubus20250102, libnl-tiny1, kmod-sched-core, kmod-sched-flower, kmod-sched-bpf, kmod-sched-act-vlan
+Source: feeds/base/network/services/bridger
+SourceName: bridger
+License: GPL-2.0
+Section: utils
+SourceDateEpoch: 1713776572
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: bridger_2024.04.22~40b1c5b6_aarch64_cortex-a53.ipk
+Size: 19623
+SHA256sum: fe416060acb990d2876c173c50690ce37f1f384d3d363b2cc5a19314d80b26fb
+Description:  Bridge forwarding accelerator
+
 Package: doh-proxy
 Version: 2025.07.01-r1
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
@@ -761,17 +777,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.1.1
+Version: 1.2.2
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-wizard
+Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1750240273
+SourceDateEpoch: 1753882872
 Architecture: all
-Installed-Size: 40960
-Filename: luci-app-wizard_1.1.1_all.ipk
-Size: 6164
-SHA256sum: 1884cd40d156bfcac1a5c34a5b437b8ed64b82ceb26b2b9f3197a52ce7a05506
+Installed-Size: 51200
+Filename: luci-app-wizard_1.2.2_all.ipk
+Size: 7736
+SHA256sum: dc7c1b79b8452f9d41e43bdd5272dba0edb0e19424e21559f6b924ac188c4e80
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
