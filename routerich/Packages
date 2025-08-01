@@ -475,12 +475,12 @@ Depends: libc
 Source: /home/santaclaus/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1753693734
+SourceDateEpoch: 1754061593
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-dns-failsafe-proxy_1.0.4_all.ipk
-Size: 8720
-SHA256sum: 6d7f596ea760fd00b578c1f5fa906a4b3b0d7229fbbb7cbf811984c805f54a96
+Size: 8808
+SHA256sum: 6c4d64c46de4b51ef91ef4f5695c0e95a99578e293d5aec36d0d033a95f3e859
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
@@ -533,19 +533,19 @@ SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
-Version: 0.9.2-r1
+Version: 0.9.4-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich_next/luci-app-ledcontrol
+Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1751757415
+SourceDateEpoch: 1754061523
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-ledcontrol_0.9.2-r1_all.ipk
-Size: 3631
-SHA256sum: bc3c23f0bfb0063af3b041990c67e171987382b72228eac09f7f6e34eae3ba8a
+Filename: luci-app-ledcontrol_0.9.4-r1_all.ipk
+Size: 3735
+SHA256sum: 4b4743859943630b9b06a2944671a41a694b0539821cff222f27c72784f9bd55
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
@@ -777,17 +777,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.2.2
+Version: 1.2.3
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
 Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1753882872
+SourceDateEpoch: 1753957186
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-wizard_1.2.2_all.ipk
-Size: 7736
-SHA256sum: dc7c1b79b8452f9d41e43bdd5272dba0edb0e19424e21559f6b924ac188c4e80
+Filename: luci-app-wizard_1.2.3_all.ipk
+Size: 7753
+SHA256sum: 9b68ffc3b465b6a1e6b10fc02eb4a737c42ed574e9f92cca68ec4b7f731b7e2f
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -912,15 +912,15 @@ Description:  Translation for luci-app-internet-detector - Русский (Russi
 Package: luci-i18n-ledcontrol-ru
 Version: 25.160.39218~84c780c
 Depends: libc, luci-app-ledcontrol
-Source: /home/santaclaus/feed.routerich_next/luci-app-ledcontrol
+Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1751757415
+SourceDateEpoch: 1754061523
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
-Size: 1491
-SHA256sum: 02462447967a43fbf0a91528b51cb4f4dd492e6a9a1efc7d81088b8ccc68c697
+Size: 1487
+SHA256sum: 038430abe4beb2ca6282a1f6ed2d0aef70c8de6033168213272fb4818eb95613
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
@@ -1156,19 +1156,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.8-r20250711
+Version: 1.0.9-r20250730
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1752492127
+SourceDateEpoch: 1753967943
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1269760
-Filename: luci-theme-routerich_1.0.8-r20250711_all.ipk
-Size: 510830
-SHA256sum: 7157539f2a8c23266c8cba84e2c72ef1baf739f3457a456fa99a1e707566ec04
+Filename: luci-theme-routerich_1.0.9-r20250730_all.ipk
+Size: 510366
+SHA256sum: 8b7b84243e63f3c932076ce800da9d418d38ec4df52d6c31d341534f2bf23428
 Description:  Routerich Theme
 
 Package: modemband
