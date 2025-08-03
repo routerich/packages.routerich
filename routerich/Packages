@@ -44,18 +44,18 @@ Description:  Atinout is a program that will execute AT commands in sequence and
  capture the response from the modem.
 
 Package: automodem
-Version: 1.0.6
+Version: 1.0.7
 Depends: libc
 Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754228410
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
-Filename: automodem_1.0.6_all.ipk
-Size: 6017
-SHA256sum: 79b98830adacfd5dce7a72e929eb8393dab85025e5247b307feaa8f1f810bc6c
+Filename: automodem_1.0.7_all.ipk
+Size: 6062
+SHA256sum: 59a3721c906e572cb1549debc7046b638a058d676318011c89b6bd9fb8538cdc
 Description:  Automatic modem setup
 
 Package: automount
@@ -1186,255 +1186,255 @@ SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-qmi
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, qmi-utils
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 20480
-Filename: modeminfo-qmi_1.0.9_all.ipk
-Size: 4604
-SHA256sum: 030d3956bc526b4e25c8d5dfb5f5627516d3a912c6c795a70742b468a0da1442
+Filename: modeminfo-qmi_1.1.0_all.ipk
+Size: 4669
+SHA256sum: 8bacc5b24a3d82475c0c67b40a78118acfd37aa9bd24942d02d8819b87ed9d09
 Description:  QMI addon for modeminfo
 
 Package: modeminfo-serial-dell
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-dell_1.0.9_all.ipk
-Size: 1981
-SHA256sum: abb3d852c58e06fcd0ed548501919431569f076a35bb6a67d20b5894ff68f1fc
+Filename: modeminfo-serial-dell_1.1.0_all.ipk
+Size: 1975
+SHA256sum: cb47a8cd5252d77c51214f6e479e33a04b857a934fba46e98ab696ed50a5cfad
 Description:  Dell DW5821e serial addon for modeminfo
 
 Package: modeminfo-serial-fibocom
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-fibocom_1.0.9_all.ipk
-Size: 2171
-SHA256sum: d450fc0dda8cb7a87e0bf17926d6143b08d590f2e8968c8fb5a6327149692fe0
+Filename: modeminfo-serial-fibocom_1.1.0_all.ipk
+Size: 2168
+SHA256sum: 8ee6fb0b3bbb4ba9d0d118a8dd51b1924275f96788a9caf338dedb3757f1c5f7
 Description:  FIBOCOM NL668/678/FM150/FM190 serial addon for modeminfo
 
 Package: modeminfo-serial-gosun
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-gosun_1.0.9_all.ipk
-Size: 1696
-SHA256sum: e60806b24f11a0c866af0fed88ccc4a34d80b9a9d9ceb195c9ed1cb918a24491
+Filename: modeminfo-serial-gosun_1.1.0_all.ipk
+Size: 1695
+SHA256sum: 1bf02868fe8cb64233a5330a7b9e059c5117567d2f442c4537454cc77bc41284
 Description:  Gosuncnwelink GM510 serial addon for modeminfo
 
 Package: modeminfo-serial-huawei
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-huawei_1.0.9_all.ipk
-Size: 2072
-SHA256sum: f8187242265a860c20d3bd4a07c850ed260072ae2a77a41635dbfe3118420054
+Filename: modeminfo-serial-huawei_1.1.0_all.ipk
+Size: 2071
+SHA256sum: cea9e8dc4e56e55ac2aed01b9fa0d79fa5becb9bf9a99a6bd5ca4ce2d1bd4310
 Description:  HUAWEI serial addon for modeminfo
 
 Package: modeminfo-serial-meig
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-meig_1.0.9_all.ipk
-Size: 2038
-SHA256sum: 2c67393083d8a8b6f4212512ac3357da64fd29f6b7082774340459bf3e657d75
+Filename: modeminfo-serial-meig_1.1.0_all.ipk
+Size: 2032
+SHA256sum: bb3502183e43c0be34ba9bd029f8f28b68dd9b6ec6726f9dd8335b827478016c
 Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 
 Package: modeminfo-serial-mikrotik
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-acm, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-mikrotik_1.0.9_all.ipk
-Size: 2188
-SHA256sum: 258ccc39e936ad52d612da464fa3a92db51323e30859f35123c7469201bf2744
+Filename: modeminfo-serial-mikrotik_1.1.0_all.ipk
+Size: 2180
+SHA256sum: a9822c4bdfbfcf7d182088649a84fbe9ffb876d336004f8c46e9ea77c3795612
 Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 
 Package: modeminfo-serial-quectel
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-quectel_1.0.9_all.ipk
-Size: 2109
-SHA256sum: fb5e4bf4461d8feeca94c6627a30d467bac0d0eda8e9604d9cccf5452ce5cc5a
+Filename: modeminfo-serial-quectel_1.1.0_all.ipk
+Size: 2103
+SHA256sum: f0424e72388e4bd6ec48d4f772a6b8b2944f239ce0cdecb74eaf76473880ad2b
 Description:  QUECTEL serial addon for modeminfo
 
 Package: modeminfo-serial-sierra
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-qualcomm, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-sierra_1.0.9_all.ipk
+Filename: modeminfo-serial-sierra_1.1.0_all.ipk
 Size: 1951
-SHA256sum: 907f0c0362ae0f0bb4037d414a145602783975d29738bc4f5538fda58ac5a59d
+SHA256sum: 7e17fb7211e61bc9e647b6d5eeb82c56955de11a7de0228eb5c77b0f17942460
 Description:  Sierra Wireless EM7455 serial addon for modeminfo
 
 Package: modeminfo-serial-simcom
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 20480
-Filename: modeminfo-serial-simcom_1.0.9_all.ipk
-Size: 2594
-SHA256sum: 8f632e18eecb60a0d9c548e69980064630bc03c225073ee7d69279939e80d27d
+Filename: modeminfo-serial-simcom_1.1.0_all.ipk
+Size: 2588
+SHA256sum: a4db307366a4360011fce161dfe5d309fac1f238b5f69b1c9230ed954f23632b
 Description:  SIMCOM SIM7600/SIM7906/SIM7912/A7600/A7906 serial addon for modeminfo
 
 Package: modeminfo-serial-styx
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-styx_1.0.9_all.ipk
-Size: 1673
-SHA256sum: d6c48ac88e9630790ed9ca5d8461db0a507fb36444290030203fb6c21c7ba4c4
+Filename: modeminfo-serial-styx_1.1.0_all.ipk
+Size: 1672
+SHA256sum: be736ddad7168b2e065c1fe97376d7c1c04a6c62d904c05de925e7486c53b25c
 Description:  STYX MG8224 serial addon for modeminfo
 
 Package: modeminfo-serial-telit
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-telit_1.0.9_all.ipk
-Size: 1901
-SHA256sum: af6f06c2cb8c0b237eafe94fac49b6aa610314a05a2201b25a91ca7a75b55317
+Filename: modeminfo-serial-telit_1.1.0_all.ipk
+Size: 1905
+SHA256sum: d728a2b5163f98553d396f9146848ddddb745f8e9122d2cc7eb0ec0e0d0e9a56
 Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 
 Package: modeminfo-serial-thales
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-thales_1.0.9_all.ipk
-Size: 2028
-SHA256sum: 0fdd105f1dcb7cb2c77495abe52b37b338503a911e993a4e4795a6ed55d5d0cd
+Filename: modeminfo-serial-thales_1.1.0_all.ipk
+Size: 2025
+SHA256sum: d200bce8efde110e7a17e335abf682a8af5e4e8638697960b2dda17dce00831c
 Description:  Thales MV31-W T99W175 serial addon for modeminfo
 
 Package: modeminfo-serial-tw
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-tw_1.0.9_all.ipk
-Size: 1760
-SHA256sum: 219731cd01783a2f29acabf2c2430ebd013934114fdc783fa5c6f78fc06e8a8b
+Filename: modeminfo-serial-tw_1.1.0_all.ipk
+Size: 1755
+SHA256sum: eef2dc5b169739d32aa82c3ce439b1357bd63929e9cbb769d17513a00b35b3a1
 Description:  ThinkWill ML7820+ serial addon for modeminfo
 
 Package: modeminfo-serial-xmm
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 20480
-Filename: modeminfo-serial-xmm_1.0.9_all.ipk
-Size: 3155
-SHA256sum: d67515ee9e7dac0aaec939f34fc37653fa23c96a03573f4d164b90246c131da8
+Filename: modeminfo-serial-xmm_1.1.0_all.ipk
+Size: 3150
+SHA256sum: 899accd50d7d4d1e45fa1d6f467cf33066f8daa7c94253c878eef0dd40532be1
 Description:  FIBOCOM L850/L860/FM350 Intel XMM chips serial addon for modeminfo
 
 Package: modeminfo-serial-yuge
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-yuge_1.0.9_all.ipk
-Size: 1687
-SHA256sum: 4d3edd817f04e2903f50589238b46e8bcadacbb8b776cad089b1b3639e99dd16
+Filename: modeminfo-serial-yuge_1.1.0_all.ipk
+Size: 1679
+SHA256sum: 86bcb50c309bf1b336ac8f1c068f5abdbda0aded0140660e3649017e8f865fb9
 Description:  Yuge CLM920 serial addon for modeminfo
 
 Package: modeminfo-serial-zte
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-serial-zte_1.0.9_all.ipk
-Size: 1639
-SHA256sum: 0ccec38f9f66b60483e6486532ba2b411510877591a7998c52c37cbc70fd46b0
+Filename: modeminfo-serial-zte_1.1.0_all.ipk
+Size: 1629
+SHA256sum: 13a385226c18923e4fe515641f3e39db763988ff6a8f3486b0a938a514971eb0
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
 Package: modeminfo
-Version: 1.0.9
+Version: 1.1.0
 Depends: libc, comgt
 Source: /home/santaclaus/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
-SourceDateEpoch: 1753349974
+SourceDateEpoch: 1754211213
 Architecture: all
 Installed-Size: 30720
-Filename: modeminfo_1.0.9_all.ipk
-Size: 5928
-SHA256sum: a4ade356c976cf7ca79f29d69aac6a1e6f12ceee5bea201176c6ea6ed8c883b0
+Filename: modeminfo_1.1.0_all.ipk
+Size: 5920
+SHA256sum: 32f01237c5a9af22b21629e54b2b5bb917f101675f1eeb4267db57f51db0095b
 Description:  Signal information for 3G/LTE dongle
 
 Package: natflow-auth
@@ -1870,18 +1870,18 @@ SHA256sum: daed2fc4ddc6515242de710bc488a567e5e9d3077a7fd4ded45c2acc4f89ac0d
 Description:  urllogger
 
 Package: xmm-modem
-Version: 0.1.5-r0
+Version: 0.1.5-r1
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-cdc-ncm, kmod-usb-net-rndis
 Source: /home/santaclaus/rr-modemfeed/packages/net/xmm-modem
 SourceName: xmm-modem
 Section: opt
-SourceDateEpoch: 1748532058
+SourceDateEpoch: 1754211168
 Maintainer: Konstantine Shevlakov <shevlakov@132lan.ru>
 Architecture: all
 Installed-Size: 30720
-Filename: xmm-modem_0.1.5-r0_all.ipk
-Size: 4037
-SHA256sum: a1ea015b2096bc91819e1d7b98190a8718b2b8165f8bfa23c70f6484898070d2
+Filename: xmm-modem_0.1.5-r1_all.ipk
+Size: 4142
+SHA256sum: 88d47c1cf83c36ea83b8d1617a1380603a199c0308ffb023a3c2ebb2e164b243
 Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
  Intel XMM LTE-A 7360/7560 and MediaTek T700 chipsets
 

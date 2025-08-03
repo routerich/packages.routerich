@@ -1,14 +1,14 @@
 Package: routerich-defaults
-Version: 1.2.6
+Version: 1.3.0
 Depends: libc
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1753824204
+SourceDateEpoch: 1754226988
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.2.6_all.ipk
-Size: 7849
-SHA256sum: 7226b7e53bd7aa9135b97f1acfa46c211b4d0c575161b396a9fd1b7226ab6ecb
+Filename: routerich-defaults_1.3.0_all.ipk
+Size: 8549
+SHA256sum: 898ac46799a18e725db6d707128858e55ed25f3a660b90c2ed75616bb1996497
 Description:  Default settings by RouteRich
 
