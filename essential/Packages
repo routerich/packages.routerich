@@ -4,11 +4,11 @@ Depends: libc
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1754226988
+SourceDateEpoch: 1754329133
 Architecture: all
 Installed-Size: 51200
 Filename: routerich-defaults_1.3.0_all.ipk
 Size: 8549
-SHA256sum: 898ac46799a18e725db6d707128858e55ed25f3a660b90c2ed75616bb1996497
+SHA256sum: 49cba5ef5dbbdcb4f42b1f59f06d4ef01db432928fafedcd996aee5bcbfcda5c
 Description:  Default settings by RouteRich
 
