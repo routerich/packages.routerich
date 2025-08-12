@@ -712,19 +712,19 @@ SHA256sum: 39e884a868e1f12bbc82b58a814bc488529c77a009021944fa211b37cb978356
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
-Version: 1.2.6-r1
+Version: 1.2.6-r2
 Depends: libc, tailscale-lite
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+Source: /home/santaclaus/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1748957562
+SourceDateEpoch: 1755022319
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-tailscale_1.2.6-r1_all.ipk
-Size: 9875
-SHA256sum: 0dad590c4fe46dc6f4b8634f21895198b49819583a51c3586c6d9e811f8f6d72
+Filename: luci-app-tailscale_1.2.6-r2_all.ipk
+Size: 9867
+SHA256sum: 87d52e60d9317de8de000be85efeda0d77624fdb5c73bb55a7a47c84ff9a6279
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -1055,15 +1055,15 @@ Description:  Translation for luci-app-stubby - Русский (Russian)
 Package: luci-i18n-tailscale-ru
 Version: 25.146.50576~a026bc8
 Depends: libc, luci-app-tailscale
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-tailscale
+Source: /home/santaclaus/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1748957562
+SourceDateEpoch: 1755022319
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
-Size: 3230
-SHA256sum: 53e62a5b52a1cc162f5321c5ea9027c6e1a5f574af93c0b18cdbdc3224a68083
+Size: 3223
+SHA256sum: 676ad21eba9f8e0ef09b220202e5e50733a55ba7f1a45e7d48a6f7c2845eb5e1
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
@@ -1798,7 +1798,7 @@ Package: tailscale-lite
 Version: 1.80.3-r1
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
-Source: /home/santaclaus/next/feed.routerich_next/tailscale-lite
+Source: /home/santaclaus/feed.routerich/tailscale-lite
 SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
@@ -1810,8 +1810,8 @@ Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.
 Architecture: aarch64_cortex-a53
 Installed-Size: 23265280
 Filename: tailscale-lite_1.80.3-r1_aarch64_cortex-a53.ipk
-Size: 8926993
-SHA256sum: b1251fe18de18ded6958749121b1c8ff3e6edd670534d64e0fcdc632f20be633
+Size: 8926977
+SHA256sum: d0f8c70907d3ec893559e52adfe3f3b7455c98e46fd5b5c1e761c27195be4523
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
