@@ -695,6 +695,21 @@ Size: 9140
 SHA256sum: 25904d2f1b303e388183296622c8b9a5ab867602acaafc83464d61bf688bf069
 Description:  Web UI for smstools3
 
+Package: luci-app-ssclash
+Version: 2.8.2-1
+Depends: libc, luci-base
+Source: package/luci-app-ssclash
+SourceName: luci-app-ssclash
+Section: luci
+SourceDateEpoch: 1721081658
+Maintainer: ZeroChaos <dev@null.la>
+Architecture: all
+Installed-Size: 1561722
+Filename: luci-app-ssclash_2.8.2-1_all.ipk
+Size: 1557913
+SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
+Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
+
 Package: luci-app-stubby
 Version: 0.9.3-r1
 Depends: libc, stubby, luci-base, nftables
