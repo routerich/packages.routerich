@@ -1950,14 +1950,14 @@ Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntra
 Source: /home/santaclaus/feed.routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1755184716
+SourceDateEpoch: 1755207714
 URL: https://github.com/Waujito/youtubeUnblock
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
 Filename: youtubeUnblock_1.1.0~473af29-r1_aarch64_cortex-a53.ipk
-Size: 71111
-SHA256sum: bd8ef67491d50415932fb90268ad82fd7f788b26b7a8dc631a16c01696d0eab4
+Size: 71559
+SHA256sum: 5a28c5420d579a6c730feef1ccba17e9803e399b3a05d48a206157a87e138471
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier-lite
