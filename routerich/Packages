@@ -806,20 +806,20 @@ SHA256sum: 50d15e66131fd31c8c49cb1696146318c6e2f6be69206c9b5eb52f320869ef4e
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0-10
+Version: 25.226.54593~493cd77
 Depends: libc, luci-base
-Source: feeds/routerich/luci-app-youtubeUnblock
+Source: /home/santaclaus/feed.routerich/luci-app-youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 License: GPL
 Section: luci
-SourceDateEpoch: 1740239891
+SourceDateEpoch: 1755184193
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-youtubeUnblock_1.0-10_all.ipk
-Size: 7181
-SHA256sum: b16b046e976de9e44ea077c0ebf9c76ea79a49f7118ef96437bcb45b94dfaea9
+Filename: luci-app-youtubeUnblock_25.226.54593~493cd77_all.ipk
+Size: 7384
+SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -1945,19 +1945,19 @@ Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
  Intel XMM LTE-A 7360/7560 and MediaTek T700 chipsets
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-10
+Version: 1.1.0~473af29-r1
 Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
-Source: /home/santaclaus/next/feed.routerich_next/youtubeUnblock
+Source: /home/santaclaus/feed.routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1747583046
+SourceDateEpoch: 1755184716
 URL: https://github.com/Waujito/youtubeUnblock
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
-Filename: youtubeUnblock_1.0.0-mediatek-10_aarch64_cortex-a53.ipk
-Size: 70870
-SHA256sum: ea03b39c0feba26ee75762c4139b7481df9bdd60961327da8ea64496090e6dc0
+Filename: youtubeUnblock_1.1.0~473af29-r1_aarch64_cortex-a53.ipk
+Size: 71111
+SHA256sum: bd8ef67491d50415932fb90268ad82fd7f788b26b7a8dc631a16c01696d0eab4
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier-lite
