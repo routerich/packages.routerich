@@ -557,20 +557,20 @@ SHA256sum: 1884cd40d156bfcac1a5c34a5b437b8ed64b82ceb26b2b9f3197a52ce7a05506
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
-Version: 1.0-10
+Version: 25.226.54593~493cd77
 Depends: libc, luci-base
-Source: feeds/routerich/luci-app-youtubeUnblock
+Source: /home/santaclaus/feed.routerich/luci-app-youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 License: GPL
 Section: luci
-SourceDateEpoch: 1740239891
+SourceDateEpoch: 1755184193
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-youtubeUnblock_1.0-10_all.ipk
-Size: 7181
-SHA256sum: b16b046e976de9e44ea077c0ebf9c76ea79a49f7118ef96437bcb45b94dfaea9
+Filename: luci-app-youtubeUnblock_25.226.54593~493cd77_all.ipk
+Size: 7384
+SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zerotier
@@ -1224,21 +1224,18 @@ SHA256sum: c643dc954a210457938f7e34a51a4662b1c958d6a7be85dd8163986d8ac6b3e3
 Description:  Natflow init script
 
 Package: opera-proxy
-Version: 1.8.0-r1
+Version: 1.10.0-r1
 Depends: libc
-Source: feeds/routerich/opera-proxy
+Source: /home/santaclaus/feed.routerich/opera-proxy
 SourceName: opera-proxy
-License: MIT
-LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1738330053
+SourceDateEpoch: 1755176971
 URL: https://github.com/Snawoot/opera-proxy
-Maintainer: Romanov Danila <pervoku@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 2365440
-Filename: opera-proxy_1.8.0-r1_aarch64_cortex-a53.ipk
-Size: 2358808
-SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
+Installed-Size: 1904640
+Filename: opera-proxy_1.10.0-r1_aarch64_cortex-a53.ipk
+Size: 1895362
+SHA256sum: b6c7423bac45741cd38abbf904f7f7e3c18a4798ffc5f0ef938586abd313609d
 Description:  Opera Proxy client
 
 Package: podkop-0.2.5
@@ -1517,19 +1514,19 @@ Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
  Intel XMM LTE-A 7360/7560 and MediaTek T700 chipsets
 
 Package: youtubeUnblock
-Version: 1.0.0-mediatek-10
+Version: 1.1.0~473af29-r2
 Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
-Source: /home/santaclaus/next/feed.routerich_next/youtubeUnblock
+Source: /home/santaclaus/feed.routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1747583046
+SourceDateEpoch: 1755246931
 URL: https://github.com/Waujito/youtubeUnblock
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
-Filename: youtubeUnblock_1.0.0-mediatek-10_aarch64_cortex-a53.ipk
-Size: 70870
-SHA256sum: ea03b39c0feba26ee75762c4139b7481df9bdd60961327da8ea64496090e6dc0
+Filename: youtubeUnblock_1.1.0~473af29-r2_aarch64_cortex-a53.ipk
+Size: 71562
+SHA256sum: 04ffe8e2e8d1ca757d73cb5b82114313c54bb93ebe86714c1e597d75fc8b6e30
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zerotier-lite
