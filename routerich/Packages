@@ -792,17 +792,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.2.6
-Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd
+Version: 1.2.7
+Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra
 Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1755000590
+SourceDateEpoch: 1755642082
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-wizard_1.2.6_all.ipk
-Size: 8215
-SHA256sum: 50d15e66131fd31c8c49cb1696146318c6e2f6be69206c9b5eb52f320869ef4e
+Filename: luci-app-wizard_1.2.7_all.ipk
+Size: 8777
+SHA256sum: 03abae0b8609be2f78ffc2164a55aeb5c155f25dca65f31119ac5d4345a898c1
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -1187,18 +1187,18 @@ SHA256sum: 195721d250ac23fbcf91911e1de265715f3e2cdd96ddc47b55c84b0df116e5bf
 Description:  Routerich Theme
 
 Package: mesh-button
-Version: 1.0.1-r1
-Depends: libc, hostapd-utils, luci-app-wizard, curl
+Version: 1.0.2-r1
+Depends: libc, hostapd-utils, luci-app-wizard, curl, jq
 Source: /home/santaclaus/feed.routerich/mesh-button
 SourceName: mesh-button
 Section: utils
-SourceDateEpoch: 1754989009
+SourceDateEpoch: 1755636830
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 30720
-Filename: mesh-button_1.0.1-r1_all.ipk
-Size: 6254
-SHA256sum: 1964228310df3226969d76b2d0245f937025977c5d0aa9951c52c71461fcbac9
+Filename: mesh-button_1.0.2-r1_all.ipk
+Size: 6426
+SHA256sum: c5af8f460435a1b37b5777176887ad894edbb438ee4472dbe0f847476154278a
 Description:  Adds Mesh and WPS control functionality to the mesh button
 
 Package: modemband
