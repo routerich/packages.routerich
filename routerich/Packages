@@ -1187,18 +1187,18 @@ SHA256sum: 195721d250ac23fbcf91911e1de265715f3e2cdd96ddc47b55c84b0df116e5bf
 Description:  Routerich Theme
 
 Package: mesh-button
-Version: 1.0.2-r1
+Version: 1.0.3-r1
 Depends: libc, hostapd-utils, luci-app-wizard, curl, jq
 Source: /home/santaclaus/feed.routerich/mesh-button
 SourceName: mesh-button
 Section: utils
-SourceDateEpoch: 1755636830
+SourceDateEpoch: 1755946861
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
-Installed-Size: 30720
-Filename: mesh-button_1.0.2-r1_all.ipk
-Size: 6426
-SHA256sum: c5af8f460435a1b37b5777176887ad894edbb438ee4472dbe0f847476154278a
+Installed-Size: 40960
+Filename: mesh-button_1.0.3-r1_all.ipk
+Size: 6787
+SHA256sum: 0db58205097749bc48da4c1d31052c152f6e82fc8eef0f5cc61173441d5bd376
 Description:  Adds Mesh and WPS control functionality to the mesh button
 
 Package: modemband
