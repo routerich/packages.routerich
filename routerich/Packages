@@ -549,20 +549,20 @@ SHA256sum: 77248c4df1e1cef7567ffb8bf8529659d593b2eb6866075554b5a334b1cfd90e
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
-Version: 1.2.0-r1
-Depends: libc
+Version: 1.5.0-r1
+Depends: libc, ucode, ucode-mod-fs
 Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1741033304
+SourceDateEpoch: 1757694240
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-log-viewer_1.2.0-r1_all.ipk
-Size: 9656
-SHA256sum: e525e55be7bbe5570dabfe56cda238abff071cc3c8b6d9b9acd83b7c66f29efe
+Installed-Size: 61440
+Filename: luci-app-log-viewer_1.5.0-r1_all.ipk
+Size: 10603
+SHA256sum: 4eb2cca075e3610f928aa867e7f2d32e126633daa904bb065c5b28e7303f8b36
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mmconfig
@@ -939,18 +939,18 @@ SHA256sum: c447e1a97e2da77b4475e9d435d1ff39a971ebf0e4c6dbf997beb3fbeb904153
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
-Version: 25.062.73304~83ca219
+Version: 25.255.59040~fb8131b
 Depends: libc, luci-app-log-viewer
-Source: feeds/routerich/luci-app-log
+Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1741033304
+SourceDateEpoch: 1757694240
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-log-ru_25.062.73304~83ca219_all.ipk
-Size: 2023
-SHA256sum: c94967120fc8b132ea77ea2d58ee229ec1cf2a75f954ffdc74398ecb290d19b2
+Filename: luci-i18n-log-ru_25.255.59040~fb8131b_all.ipk
+Size: 2169
+SHA256sum: 11317463a4d2f72772ad6c1121397c5f5f113ed4121698b0c684a1411ca7ec4a
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-mmconfig-ru
