@@ -1783,12 +1783,12 @@ Depends: libc
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1758695756
+SourceDateEpoch: 1758696691
 Architecture: all
 Installed-Size: 51200
 Filename: routerich-defaults_1.3.7_all.ipk
-Size: 8497
-SHA256sum: 16626c62a6334dbfdf10dc43fd10277bc7a9e3e33759fc1d1981b65d2ab7ccf7
+Size: 8521
+SHA256sum: 099f955619df4d1d52eb8f2dfd88bfff3149ac7ec48c9724e79c084d5308e094
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
