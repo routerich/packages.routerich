@@ -792,17 +792,17 @@ SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
 Package: luci-app-wizard
-Version: 1.2.8
+Version: 1.2.9
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra
 Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1756115049
+SourceDateEpoch: 1759167284
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-wizard_1.2.8_all.ipk
-Size: 8780
-SHA256sum: 76b8f8a35a0bedcb9013d48a1a2dcd9091ded73b01dad32a9bcad29bbb7c4711
+Filename: luci-app-wizard_1.2.9_all.ipk
+Size: 8814
+SHA256sum: 904c1ccf8480e144d80d9ae5d16542c80d06a9de1b6600db1763bc0f0f1a5c92
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
