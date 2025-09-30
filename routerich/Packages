@@ -1,28 +1,24 @@
 Package: amneziawg-tools
-Version: 1.0.20240213-r3
+Version: 1.0.20250903-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich/amneziawg-tools
+Source: /home/santaclaus/temp/amneziawg-openwrt/amneziawg-tools
 SourceName: amneziawg-tools
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: opt
-SourceDateEpoch: 1750857212
-URL: https://www.wireguard.com
-Maintainer: Jason A. Donenfeld <Jason@zx2c4.com>
+SourceDateEpoch: 1759218991
+URL: https://amnezia.org/
+Maintainer: Amnezia Admin <admin@amnezia.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
-Filename: amneziawg-tools_1.0.20240213-r3_aarch64_cortex-a53.ipk
-Size: 30913
-SHA256sum: c2cb6aff811c37a92e7034bd12a6dce96e17bed3e802dbe289c710bb7af2d07e
-Description:  WireGuard is a novel VPN that runs inside the Linux Kernel and utilizes
- state-of-the-art cryptography. It aims to be faster, simpler, leaner, and
- more useful than IPSec, while avoiding the massive headache. It intends to
- be considerably more performant than OpenVPN.  WireGuard is designed as a
- general purpose VPN for running on embedded interfaces and super computers
- alike, fit for many different circumstances. It uses UDP.
+Filename: amneziawg-tools_1.0.20250903-r1_aarch64_cortex-a53.ipk
+Size: 33515
+SHA256sum: fc92032b2aefe53f8a113fcbfd464bf8a63edabd9eb64290215f5f1771aed4e0
+Description:  Amnezia VPN — simple and free app to run a self-hosted VPN with
+ high privacy requirements.
  
- This package provides the userspace control program for WireGuard,
- `wg(8)`, a netifd protocol helper, and a re-resolve watchdog script.
+ This package provides the userspace control program for AmneziaWG,
+ `awg`, a netifd protocol helper, and a re-resolve watchdog script.
 
 Package: atinout
 Version: 0.9.1
@@ -179,17 +175,17 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: kmod-amneziawg
-Version: 6.6.104-r1
+Version: 6.6.104.1.0.20250924-r1
 Depends: kernel (=6.6.104~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
-Source: /home/santaclaus/feed.routerich/kmod-amneziawg
+Source: /home/santaclaus/temp/amneziawg-openwrt/kmod-amneziawg
 SourceName: kmod-amneziawg
 Section: kernel
-SourceDateEpoch: 1747750033
+SourceDateEpoch: 1759136012
 Architecture: aarch64_cortex-a53
-Installed-Size: 102400
-Filename: kmod-amneziawg_6.6.104-r1_aarch64_cortex-a53.ipk
-Size: 36677
-SHA256sum: 1ee8995a11396f4da6750ae657dd8446a7c3db0b1371b816ceafc759bb8c8549
+Installed-Size: 122880
+Filename: kmod-amneziawg_6.6.104.1.0.20250924-r1_aarch64_cortex-a53.ipk
+Size: 40766
+SHA256sum: 3a5b7dc35ff48ec095618082589f2d05b0646e5051e3bf0a6accc913db0580ac
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
@@ -405,20 +401,20 @@ SHA256sum: 5f3cb4543cc802aef938c68c0f9dd82cb6f485d7acc6edb900b2d9c5839a3ab3
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
-Version: 25.216.29269~bf58a69
-Depends: libc, ucode
-Source: /home/santaclaus/feed.routerich/luci-app-amneziawg
+Version: 2.0.5-r1
+Depends: libc, ucode, amneziawg-tools, qrencode, luci-lib-uqr, resolveip
+Source: /home/santaclaus/temp/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1754294869
+SourceDateEpoch: 1759229665
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-amneziawg_25.216.29269~bf58a69_all.ipk
-Size: 11816
-SHA256sum: 33071a3c7a1c88b7cf0ecd45e24700290daa2ba81ca52657a1b90cbba8497b08
-Description:  Support for AmneziaWG VPN
+Installed-Size: 102400
+Filename: luci-app-amneziawg_2.0.5-r1_all.ipk
+Size: 29961
+SHA256sum: 0d14089dc6472b50afab878cc40204d85069a75faa34f96d16f452eb369a1a45
+Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-app-atinout
 Version: 1.0.0-r1
@@ -870,17 +866,17 @@ SHA256sum: ef7abadf45ab665ae2400dd9ae3535047c3a209f90742637d37909bdec38ea9c
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
-Version: 25.140.51674~ad3fae8
+Version: 25.273.39265~a4ea36f
 Depends: libc, luci-app-amneziawg
-Source: /home/santaclaus/feed.routerich/luci-app-amneziawg
+Source: /home/santaclaus/temp/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1754294869
+SourceDateEpoch: 1759229665
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-amneziawg-ru_25.140.51674~ad3fae8_all.ipk
-Size: 3021
-SHA256sum: 1a7cb0548f3370abc4a625ee495c6cc7b82304ab1e507dfd9928018fbe1e6b25
+Filename: luci-i18n-amneziawg-ru_25.273.39265~a4ea36f_all.ipk
+Size: 4038
+SHA256sum: d7c932757c500ffb4a2908b5db69343502d6781c7f0cdef56a2012d9632e9424
 Description:  Translation for luci-app-amneziawg - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
@@ -1188,19 +1184,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.1-r20250803
+Version: 1.0.9.2-r20250803
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1754234310
+SourceDateEpoch: 1759223131
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1269760
-Filename: luci-theme-routerich_1.0.9.1-r20250803_all.ipk
-Size: 510923
-SHA256sum: 195721d250ac23fbcf91911e1de265715f3e2cdd96ddc47b55c84b0df116e5bf
+Installed-Size: 1310720
+Filename: luci-theme-routerich_1.0.9.2-r20250803_all.ipk
+Size: 525279
+SHA256sum: 5d12b1b13e30dfcf029716828ad188098616108f212536d67cdb25185e15cdbe
 Description:  Routerich Theme
 
 Package: mesh-button
