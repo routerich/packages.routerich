@@ -1820,17 +1820,17 @@ SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
 
 Package: smount
-Version: 1.0.3
+Version: 1.0.4
 Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
-Source: /home/santaclaus/feed.routerich_next/smount
+Source: /home/santaclaus/feed.routerich/smount
 SourceName: smount
 Section: utils
-SourceDateEpoch: 1751848805
+SourceDateEpoch: 1759400348
 Architecture: all
 Installed-Size: 10240
-Filename: smount_1.0.3_all.ipk
-Size: 1610
-SHA256sum: ea240f7745dd77f5db1fb7c9d1caaadd0ac07d7b5df41c391c2930a47b76daa9
+Filename: smount_1.0.4_all.ipk
+Size: 1609
+SHA256sum: 647e9948983ce2b70425e9f4f1795e76f97c06ffc6a5c5b87757936f5783ab72
 Description:  Auto-mount scripts
 
 Package: sms-tool
