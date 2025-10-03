@@ -1774,17 +1774,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.3.7
+Version: 1.3.8
 Depends: libc
 Source: /home/santaclaus/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1758698004
+SourceDateEpoch: 1759532900
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.3.7_all.ipk
-Size: 8525
-SHA256sum: 5d84434f3bffce31f252a46c9af7802a33c63f0d27857728b92e2ac7a2c4a53f
+Filename: routerich-defaults_1.3.8_all.ipk
+Size: 8537
+SHA256sum: fada873f5ba7913cc845123489f9674dac474db257dadd59c3ff3de6f43b1258
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
