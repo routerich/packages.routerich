@@ -626,21 +626,21 @@ Size: 10637
 SHA256sum: 131d0fca5ac5f4b3a690ff4cc7c1cc10cb8080a9988d322c3f06f93cddca103a
 Description:  LuCI Support for natflow users.
 
-Package: luci-app-podkop-0.2.5
-Version: 1.0.0-r1
-Depends: libc, luci-base, podkop-0.2.5
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
-SourceName: luci-app-podkop-0.2.5
+Package: luci-app-podkop
+Version: v0.5.8-r1
+Depends: libc, luci-base, podkop
+Source: feeds/base/feeds/luci/luci-app-podkop
+SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
-SourceDateEpoch: 1748597366
+SourceDateEpoch: 1744562312
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 40960
-Filename: luci-app-podkop-0.2.5_1.0.0-r1_all.ipk
-Size: 6039
-SHA256sum: cbd4b8b4f6d62e67e14c05773afed7706fc4f059da94dc4e599901ee96eb1087
+Installed-Size: 81920
+Filename: luci-app-podkop_v0.5.8-r1_all.ipk
+Size: 14666
+SHA256sum: 798ace661b98f13c89c131870fefcb6e5a00aacdb5a971c5b43cd5c39068aa28
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1008,21 +1008,21 @@ Size: 2433
 SHA256sum: 2d0136342ef31481182ca12751f51c082296060fcbe32bd17c631ed9f8a99510
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
-Package: luci-i18n-podkop-0.2.5-ru
-Version: 25.150.34166~a107e99
-Depends: libc, luci-app-podkop-0.2.5
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-podkop-0.2.5
-SourceName: luci-app-podkop-0.2.5
+Package: luci-i18n-podkop-ru
+Version: 0.251003.40361
+Depends: libc, luci-app-podkop
+Source: feeds/base/feeds/luci/luci-app-podkop
+SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
-SourceDateEpoch: 1748597366
+SourceDateEpoch: 1744562312
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-podkop-0.2.5-ru_25.150.34166~a107e99_all.ipk
-Size: 4164
-SHA256sum: 416139ba3585d39a0f07fab6683fed51dee8ecb138861caa2e431002e5f5519c
-Description:  Translation for luci-app-podkop-0.2.5 - Русский (Russian)
+Installed-Size: 30720
+Filename: luci-i18n-podkop-ru_0.5.8.ipk
+Size: 6555
+SHA256sum: bf962f45cd5bdc4dbd0da73121232d7f7899f212a93c659c7adc03a156507e80
+Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
 Version: 25.209.58227~6e95037
@@ -1592,21 +1592,22 @@ Size: 2358808
 SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
 Description:  Opera Proxy client
 
-Package: podkop-0.2.5
-Version: 1.0.0-r1
-Depends: libc, dnsmasq-full, curl, jq, kmod-nft-tproxy, coreutils-base64
-Source: /home/santaclaus/next/feed.routerich_next/podkop-0.2.5
-SourceName: podkop-0.2.5
+Package: podkop
+Version: v0.5.8-r1
+Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
+Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
+Source: feeds/base/feeds/utilites/podkop
+SourceName: podkop
 License: GPL-2.0-or-later
 Section: net
-SourceDateEpoch: 1748597366
-URL: https://itdog.info
+SourceDateEpoch: 1744562312
+URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 61440
-Filename: podkop-0.2.5_1.0.0-r1_all.ipk
-Size: 10345
-SHA256sum: 540caa8053e193335372379cc64b43d624eaea95f7f1ad358fb8faf8a697658b
+Installed-Size: 174080
+Filename: podkop_v0.5.8-r1_all.ipk
+Size: 29905
+SHA256sum: 83c43d7ce4195a251f729c5c140967e6a55da922ca5c097315a529dce9642311
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
