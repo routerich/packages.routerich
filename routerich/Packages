@@ -189,19 +189,19 @@ SHA256sum: 3a5b7dc35ff48ec095618082589f2d05b0646e5051e3bf0a6accc913db0580ac
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
-Version: 6.6.104.20250607-r1
+Version: 6.6.104.20250921-r1
 Depends: kernel (=6.6.104~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
 Source: /home/santaclaus/feed.routerich/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
-SourceDateEpoch: 1750021592
+SourceDateEpoch: 1759776828
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 256000
-Filename: kmod-natflow_6.6.104.20250607-r1_aarch64_cortex-a53.ipk
-Size: 86201
-SHA256sum: ca2d4ede9597668879b2925fcbdda908c94af5d35b3e1410225e05511e0186a4
+Filename: kmod-natflow_6.6.104.20250921-r1_aarch64_cortex-a53.ipk
+Size: 85510
+SHA256sum: 7690a792d99345ee2b9311e19e91b2b35a09c88fb17d09299740a65c7622a539
 Description:  fast nat forward kmod
 
 Package: ksmbd-rrplug
@@ -1481,51 +1481,51 @@ SHA256sum: 7eec09abef6f7a475a4f13bf664f021c5f060e58891b834fd3e6ff74ac9e7e19
 Description:  Signal information for 3G/LTE dongle
 
 Package: natflow-auth
-Version: 20250607
+Version: 20250921
 Depends: libc, kmod-natflow, ipset, lua-ipops
 Source: /home/santaclaus/feed.routerich/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1750021592
+SourceDateEpoch: 1759776828
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 30720
-Filename: natflow-auth_20250607_aarch64_cortex-a53.ipk
-Size: 4672
-SHA256sum: eef97a1f77fc18af57e65d997846376f0cff44d145a57fb5949b54357dba75b6
+Filename: natflow-auth_20250921_aarch64_cortex-a53.ipk
+Size: 4676
+SHA256sum: 4ff04dadc2d185242c7e9578d58326b36a711060d796fcc4ad634637f655c13d
 Description:  natflow auth init script
 
 Package: natflow-hostacl
-Version: 20250607
+Version: 20250921
 Depends: libc, natflow-auth, urllogger
 Source: /home/santaclaus/feed.routerich/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1750021592
+SourceDateEpoch: 1759776828
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow-hostacl_20250607_aarch64_cortex-a53.ipk
-Size: 2015
-SHA256sum: 347a5f2abb1c680dfa75cce66cdb9be58ab107c8714b8225be6590c79b47ac43
+Filename: natflow-hostacl_20250921_aarch64_cortex-a53.ipk
+Size: 2018
+SHA256sum: aea79c46205c1a02ea81a3a28efb7996f80d238a58b819c0346babc34fea91f5
 Description:  natflow hostacl init script
 
 Package: natflow
-Version: 20250607
+Version: 20250921
 Depends: libc, ethtool, kmod-natflow
 Source: /home/santaclaus/feed.routerich/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: net
-SourceDateEpoch: 1750021592
+SourceDateEpoch: 1759776828
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: natflow_20250607_aarch64_cortex-a53.ipk
-Size: 1789
-SHA256sum: fbe83d8f74b5a415a36ae05ee3ca82cd9be3a9db5c15a20a20c6757aaf9c0e6a
+Filename: natflow_20250921_aarch64_cortex-a53.ipk
+Size: 1780
+SHA256sum: 17322412c2d046e94537fdc6cb6ae385be8a11f5bc50ab98d7c22114056b04ac
 Description:  Natflow init script
 
 Package: ntfs3-mount
