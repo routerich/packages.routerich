@@ -627,7 +627,7 @@ SHA256sum: 131d0fca5ac5f4b3a690ff4cc7c1cc10cb8080a9988d322c3f06f93cddca103a
 Description:  LuCI Support for natflow users.
 
 Package: luci-app-podkop
-Version: v0.5.8-r1
+Version: v0.5.6-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -637,10 +637,10 @@ SourceDateEpoch: 1744562312
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 81920
-Filename: luci-app-podkop_v0.5.8-r1_all.ipk
-Size: 14666
-SHA256sum: 798ace661b98f13c89c131870fefcb6e5a00aacdb5a971c5b43cd5c39068aa28
+Installed-Size: 71680
+Filename: luci-app-podkop_v0.5.6-r1_all.ipk
+Size: 14468
+SHA256sum: e45d847c890fd8002cc7b2a37400a0185e6fca4d0c80e77ff92e8c1861b728d9
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1009,7 +1009,7 @@ SHA256sum: 2d0136342ef31481182ca12751f51c082296060fcbe32bd17c631ed9f8a99510
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251003.40361
+Version: 0.250918.29665
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1019,9 +1019,9 @@ SourceDateEpoch: 1744562312
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru_0.5.8.ipk
-Size: 6555
-SHA256sum: bf962f45cd5bdc4dbd0da73121232d7f7899f212a93c659c7adc03a156507e80
+Filename: luci-i18n-podkop-ru_0.5.6.ipk
+Size: 8166
+SHA256sum: 54d0f9f1c3302c51aab461e10d337d94dcbfe1dba3df3e3e95b0dea473838feb
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1205,13 +1205,13 @@ Depends: libc, hostapd-utils, luci-app-wizard, curl, jq
 Source: /home/santaclaus/feed.routerich/mesh-button
 SourceName: mesh-button
 Section: utils
-SourceDateEpoch: 1756115049
+SourceDateEpoch: 1759849866
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 40960
 Filename: mesh-button_1.0.3-r2_all.ipk
-Size: 6791
-SHA256sum: 9ae0b06b8ae5c3dbc09c4dd9c5d426f517b7f2bcee675fc322bd4bfb2cfff5e9
+Size: 6803
+SHA256sum: 7ef05ab27845608e11e514ef35575719684439185a1caf0c62304c78cc2cd53d
 Description:  Adds Mesh and WPS control functionality to the mesh button
 
 Package: modemband
@@ -1593,7 +1593,7 @@ SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.5.8-r1
+Version: v0.5.6-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilites/podkop
@@ -1604,10 +1604,10 @@ SourceDateEpoch: 1744562312
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 174080
-Filename: podkop_v0.5.8-r1_all.ipk
-Size: 29905
-SHA256sum: 83c43d7ce4195a251f729c5c140967e6a55da922ca5c097315a529dce9642311
+Installed-Size: 163840
+Filename: podkop_v0.5.6-r1_all.ipk
+Size: 29216
+SHA256sum: 29e8e619d07ead66698b26d3ce6b4cd9a0294e4e9891fcf275a8d11495998281
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
