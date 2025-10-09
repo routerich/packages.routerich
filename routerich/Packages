@@ -561,20 +561,20 @@ SHA256sum: 77248c4df1e1cef7567ffb8bf8529659d593b2eb6866075554b5a334b1cfd90e
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
-Version: 1.5.0-r1
+Version: 1.5.0-r2
 Depends: libc, ucode, ucode-mod-fs
 Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1757694240
+SourceDateEpoch: 1760011941
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-log-viewer_1.5.0-r1_all.ipk
-Size: 10603
-SHA256sum: 4eb2cca075e3610f928aa867e7f2d32e126633daa904bb065c5b28e7303f8b36
+Filename: luci-app-log-viewer_1.5.0-r2_all.ipk
+Size: 10628
+SHA256sum: c7a9db6dbc7e543e5277b618e789c943914abfcd65449d24b3abe393330b64d4
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mmconfig
@@ -769,6 +769,23 @@ Installed-Size: 20480
 Filename: luci-app-temp-status_0.4.1-r1_all.ipk
 Size: 3734
 SHA256sum: 950f374618cf0d5d7b14e22e02afc96b04c3c1e3a3b852d63c4f4ab178c8a5f1
+Description:  Temperature sensors data for the LuCI status page
+
+Package: luci-app-temp-status
+Version: 0.7.1-r2
+Depends: libc, ucode, ucode-mod-fs
+Source: /home/santaclaus/feed.routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1760012050
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-temp-status_0.7.1-r2_all.ipk
+Size: 8197
+SHA256sum: a6ea3a01f6caef799999273b24c23eaee37c70efe8bce7812af3e802f893a2c0
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-ussd
@@ -974,12 +991,12 @@ Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1757694240
+SourceDateEpoch: 1760011941
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-log-ru_25.255.59040~fb8131b_all.ipk
 Size: 2169
-SHA256sum: 11317463a4d2f72772ad6c1121397c5f5f113ed4121698b0c684a1411ca7ec4a
+SHA256sum: 172405324d5cb73ce2a187ee5d03bb8aa2c1154c559c2c1928ece5ee89810290
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-mmconfig-ru
@@ -1123,6 +1140,21 @@ Installed-Size: 10240
 Filename: luci-i18n-temp-status-ru_25.062.74067~1d17083_all.ipk
 Size: 1307
 SHA256sum: e5bfd0658fd0518d09ce676934e71b73bd8f5b2185c606eb69aa675c32374f4b
+Description:  Translation for luci-app-temp-status - Русский (Russian)
+
+Package: luci-i18n-temp-status-ru
+Version: 25.282.44050~a4e8acf
+Depends: libc, luci-app-temp-status
+Source: /home/santaclaus/feed.routerich/luci-app-temp-status
+SourceName: luci-app-temp-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1760012050
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-temp-status-ru_25.282.44050~a4e8acf_all.ipk
+Size: 1570
+SHA256sum: fafc9bfc835c1ba45d4e2a2e07349ac5fc25e68a6d0efda71c8c9a04bf68f70c
 Description:  Translation for luci-app-temp-status - Русский (Russian)
 
 Package: luci-i18n-ussd-ru
