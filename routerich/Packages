@@ -125,51 +125,67 @@ Description:  filebrowser provides a file managing interface within a specified 
  It can be used as a standalone app or as a middleware.
 
 Package: internet-detector-mod-email
-Version: 1.4.3-r1
+Version: 1.6.7-r1
 Depends: libc, internet-detector, mailsend
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector-mod-email
+Source: /home/santaclaus/feed.routerich/internet-detector-mod-email
 SourceName: internet-detector-mod-email
 Section: net
-SourceDateEpoch: 1741033240
+SourceDateEpoch: 1759938851
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 10240
-Filename: internet-detector-mod-email_1.4.3-r1_all.ipk
-Size: 2633
-SHA256sum: 4e43b77a74958381257992be72250e156c748c3e1edf5e19dc875c7801fd9ac4
+Installed-Size: 20480
+Filename: internet-detector-mod-email_1.6.7-r1_all.ipk
+Size: 2860
+SHA256sum: 7ee04a45634acccbea797ae5035947c8e535a2ade7401ed0ade43c6e450c90df
 Description:  Email support for internet-detector.
 
 Package: internet-detector-mod-modem-restart
-Version: 1.4.3-r1
+Version: 1.6.7-r1
 Depends: libc, internet-detector, modemmanager
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector-mod-modem-restart
+Source: /home/santaclaus/feed.routerich/internet-detector-mod-modem-restart
 SourceName: internet-detector-mod-modem-restart
 Section: net
-SourceDateEpoch: 1741033240
+SourceDateEpoch: 1759938851
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
 Installed-Size: 10240
-Filename: internet-detector-mod-modem-restart_1.4.3-r1_all.ipk
-Size: 1856
-SHA256sum: 8359c8ce50240ae4840c813bd39af9b32430c841a89f030044c2436d4bf94765
+Filename: internet-detector-mod-modem-restart_1.6.7-r1_all.ipk
+Size: 2198
+SHA256sum: f0c4c3a3420f3500cc0eb931dd1450a6b6d2424bd4e56bbebe60d6dde82c3190
 Description:  Support modem restart for internet detector.
 
-Package: internet-detector
-Version: 1.4.3-r1
-Depends: libc, lua, luaposix, libuci-lua
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/internet-detector
-SourceName: internet-detector
+Package: internet-detector-mod-telegram
+Version: 1.6.7-r1
+Depends: libc, internet-detector, curl
+Source: /home/santaclaus/feed.routerich/internet-detector-mod-telegram
+SourceName: internet-detector-mod-telegram
 Section: net
-SourceDateEpoch: 1741033240
+SourceDateEpoch: 1759938851
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 71680
-Filename: internet-detector_1.4.3-r1_all.ipk
-Size: 12176
-SHA256sum: 8fc915cef425d307dc43a1669c44ebd5c0090b9240082c71c17ef09fbd146fc1
+Installed-Size: 20480
+Filename: internet-detector-mod-telegram_1.6.7-r1_all.ipk
+Size: 3202
+SHA256sum: 11478a3abddee35513245ab1138a2a009e59ac254d7d873d7dba797c4cb0cf40
+Description:  Telegram messenger support for internet-detector.
+
+Package: internet-detector
+Version: 1.6.7-r1
+Depends: libc, lua, luaposix, libuci-lua
+Source: /home/santaclaus/feed.routerich/internet-detector
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1759938155
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 81920
+Filename: internet-detector_1.6.7-r1_all.ipk
+Size: 15433
+SHA256sum: 78b2552f24714aa54d804a95ae61eb60311db4615ff291d0759fe84481de5794
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -513,19 +529,19 @@ SHA256sum: 7bcb1092f99910c58cebbdd436142d3432b2ba0734da412943c776beefc78aab
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-internet-detector
-Version: 1.4.3-r1
+Version: 1.6.7-r1
 Depends: libc, internet-detector
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector/luci-app-internet-detector
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1741033240
+SourceDateEpoch: 1759938155
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-internet-detector_1.4.3-r1_all.ipk
-Size: 9550
-SHA256sum: 66fa7b2b6156e19078f93b90137e2fc4c295f3eb538e24ae2c1d4ac937f61c9d
+Installed-Size: 61440
+Filename: luci-app-internet-detector_1.6.7-r1_all.ipk
+Size: 12589
+SHA256sum: a2854bffe8bf00cc7eceba160315a83f9d5f21e4ffb1f2aa7c27e11920d097bd
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
@@ -545,20 +561,20 @@ SHA256sum: 77248c4df1e1cef7567ffb8bf8529659d593b2eb6866075554b5a334b1cfd90e
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
-Version: 1.5.0-r1
+Version: 1.5.0-r2
 Depends: libc, ucode, ucode-mod-fs
 Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1757694240
+SourceDateEpoch: 1760011941
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
-Filename: luci-app-log-viewer_1.5.0-r1_all.ipk
-Size: 10603
-SHA256sum: 4eb2cca075e3610f928aa867e7f2d32e126633daa904bb065c5b28e7303f8b36
+Filename: luci-app-log-viewer_1.5.0-r2_all.ipk
+Size: 10628
+SHA256sum: c7a9db6dbc7e543e5277b618e789c943914abfcd65449d24b3abe393330b64d4
 Description:  Advanced syslog and kernel log (tail, search, etc)
 
 Package: luci-app-mmconfig
@@ -594,19 +610,19 @@ SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
 Package: luci-app-modeminfo
-Version: 1.5.5-r1
+Version: 1.5.6-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1751548273
+SourceDateEpoch: 1759939317
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-modeminfo_1.5.5-r1_all.ipk
-Size: 10893
-SHA256sum: bed802a2818e40ca30f9433ae9abadda151ecaf7334f488c1c414bc694c14d6d
+Filename: luci-app-modeminfo_1.5.6-r1_all.ipk
+Size: 10894
+SHA256sum: 35c02214f134ed44d74f5873528fda1465fa43a6bbd3ed0ac5a4b88bf97cbaa6
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -627,7 +643,7 @@ SHA256sum: 35ccf06b0a2695fa390905ad43fdc2b5ea0208d3476a2b261ec6ca1c9a3c08ea
 Description:  LuCI Support for natflow users.
 
 Package: luci-app-podkop
-Version: v0.5.8-r1
+Version: v0.5.6-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -637,10 +653,10 @@ SourceDateEpoch: 1744562312
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 81920
-Filename: luci-app-podkop_v0.5.8-r1_all.ipk
-Size: 14666
-SHA256sum: 798ace661b98f13c89c131870fefcb6e5a00aacdb5a971c5b43cd5c39068aa28
+Installed-Size: 71680
+Filename: luci-app-podkop_v0.5.6-r1_all.ipk
+Size: 14468
+SHA256sum: e45d847c890fd8002cc7b2a37400a0185e6fca4d0c80e77ff92e8c1861b728d9
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -739,20 +755,20 @@ SHA256sum: 87d52e60d9317de8de000be85efeda0d77624fdb5c73bb55a7a47c84ff9a6279
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
-Version: 0.4.1-r1
-Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
-Source: feeds/routerich/luci-app-temp-status
+Version: 0.7.1-r2
+Depends: libc, ucode, ucode-mod-fs
+Source: /home/santaclaus/feed.routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
-SourceDateEpoch: 1741034067
+SourceDateEpoch: 1760012050
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 20480
-Filename: luci-app-temp-status_0.4.1-r1_all.ipk
-Size: 3734
-SHA256sum: 950f374618cf0d5d7b14e22e02afc96b04c3c1e3a3b852d63c4f4ab178c8a5f1
+Installed-Size: 40960
+Filename: luci-app-temp-status_0.7.1-r2_all.ipk
+Size: 8197
+SHA256sum: a6ea3a01f6caef799999273b24c23eaee37c70efe8bce7812af3e802f893a2c0
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-ussd
@@ -924,17 +940,17 @@ SHA256sum: 584f99aef3ab9ca4ee5bb92c45036709b7448b3d17fddbad4dd8fee7d0d482c9
 Description:  Translation for luci-app-filebrowser-go - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
-Version: 25.062.73240~edd4cd9
+Version: 25.281.56555~1de3191
 Depends: libc, luci-app-internet-detector
-Source: feeds/routerich/luci-app-internet-detector/luci-app-internet-detector
+Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1741033240
+SourceDateEpoch: 1759938155
 Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-internet-detector-ru_25.062.73240~edd4cd9_all.ipk
-Size: 5370
-SHA256sum: ac218307ff873011d902a18aca9d461315aa419ba65c565fe4384f3e1761c7d7
+Installed-Size: 30720
+Filename: luci-i18n-internet-detector-ru_25.281.56555~1de3191_all.ipk
+Size: 6600
+SHA256sum: 2d31d9a9a22d595bab2752fe2ed6403dd95d15477c798ceac4f83e70a4d2682c
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
@@ -958,12 +974,12 @@ Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
-SourceDateEpoch: 1757694240
+SourceDateEpoch: 1760011941
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-log-ru_25.255.59040~fb8131b_all.ipk
 Size: 2169
-SHA256sum: 11317463a4d2f72772ad6c1121397c5f5f113ed4121698b0c684a1411ca7ec4a
+SHA256sum: 172405324d5cb73ce2a187ee5d03bb8aa2c1154c559c2c1928ece5ee89810290
 Description:  Translation for luci-app-log-viewer - Русский (Russian)
 
 Package: luci-i18n-mmconfig-ru
@@ -1000,16 +1016,16 @@ Depends: libc, luci-app-modeminfo
 Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1751548273
+SourceDateEpoch: 1759939317
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_25.184.46721~77e26c0_all.ipk
-Size: 2433
-SHA256sum: 2d0136342ef31481182ca12751f51c082296060fcbe32bd17c631ed9f8a99510
+Size: 2438
+SHA256sum: 588fb2758803c6d2650ecc88b5412a01ed02fe518869e5d429e644cf91e8a623
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251003.40361
+Version: 0.250918.29665
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1019,9 +1035,9 @@ SourceDateEpoch: 1744562312
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru_0.5.8.ipk
-Size: 6555
-SHA256sum: bf962f45cd5bdc4dbd0da73121232d7f7899f212a93c659c7adc03a156507e80
+Filename: luci-i18n-podkop-ru_0.5.6.ipk
+Size: 8166
+SHA256sum: 54d0f9f1c3302c51aab461e10d337d94dcbfe1dba3df3e3e95b0dea473838feb
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1095,18 +1111,18 @@ SHA256sum: 676ad21eba9f8e0ef09b220202e5e50733a55ba7f1a45e7d48a6f7c2845eb5e1
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
-Version: 25.062.74067~1d17083
+Version: 25.282.44050~a4e8acf
 Depends: libc, luci-app-temp-status
-Source: feeds/routerich/luci-app-temp-status
+Source: /home/santaclaus/feed.routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
-SourceDateEpoch: 1741034067
+SourceDateEpoch: 1760012050
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-temp-status-ru_25.062.74067~1d17083_all.ipk
-Size: 1307
-SHA256sum: e5bfd0658fd0518d09ce676934e71b73bd8f5b2185c606eb69aa675c32374f4b
+Filename: luci-i18n-temp-status-ru_25.282.44050~a4e8acf_all.ipk
+Size: 1570
+SHA256sum: fafc9bfc835c1ba45d4e2a2e07349ac5fc25e68a6d0efda71c8c9a04bf68f70c
 Description:  Translation for luci-app-temp-status - Русский (Russian)
 
 Package: luci-i18n-ussd-ru
@@ -1184,19 +1200,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.1-r20250803
+Version: 1.0.9.3-r20251008
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1754234310
+SourceDateEpoch: 1759918376
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1269760
-Filename: luci-theme-routerich_1.0.9.1-r20250803_all.ipk
-Size: 510923
-SHA256sum: 195721d250ac23fbcf91911e1de265715f3e2cdd96ddc47b55c84b0df116e5bf
+Installed-Size: 1310720
+Filename: luci-theme-routerich_1.0.9.3-r20251008_all.ipk
+Size: 525202
+SHA256sum: 865724ed3d3ddd6a06225123da8ebe495032b01bb8e709ac8886cd626e8b29a7
 Description:  Routerich Theme
 
 Package: mesh-button
@@ -1205,13 +1221,13 @@ Depends: libc, hostapd-utils, luci-app-wizard, curl, jq
 Source: /home/santaclaus/feed.routerich/mesh-button
 SourceName: mesh-button
 Section: utils
-SourceDateEpoch: 1756115049
+SourceDateEpoch: 1759849866
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 40960
 Filename: mesh-button_1.0.3-r2_all.ipk
-Size: 6791
-SHA256sum: 9ae0b06b8ae5c3dbc09c4dd9c5d426f517b7f2bcee675fc322bd4bfb2cfff5e9
+Size: 6803
+SHA256sum: 7ef05ab27845608e11e514ef35575719684439185a1caf0c62304c78cc2cd53d
 Description:  Adds Mesh and WPS control functionality to the mesh button
 
 Package: modemband
@@ -1560,40 +1576,22 @@ Description:  Speedtest CLI brings the trusted technology and global server netw
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
 
 Package: opera-proxy
-Version: 1.10.0-r1
+Version: 1.12.0-r1
 Depends: libc
 Source: /home/santaclaus/feed.routerich/opera-proxy
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1755176971
+SourceDateEpoch: 1760178596
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 1904640
-Filename: opera-proxy_1.10.0-r1_aarch64_cortex-a53.ipk
-Size: 1895362
-SHA256sum: b6c7423bac45741cd38abbf904f7f7e3c18a4798ffc5f0ef938586abd313609d
-Description:  Opera Proxy client
-
-Package: opera-proxy
-Version: 1.8.0-r1
-Depends: libc
-Source: feeds/routerich/opera-proxy
-SourceName: opera-proxy
-License: MIT
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1738330053
-URL: https://github.com/Snawoot/opera-proxy
-Maintainer: Romanov Danila <pervoku@gmail.com>
-Architecture: aarch64_cortex-a53
-Installed-Size: 2365440
-Filename: opera-proxy_1.8.0-r1_aarch64_cortex-a53.ipk
-Size: 2358808
-SHA256sum: 955624ba442903eeaaa36b37c5c95886dd3098529e24e58f3cba434de9b51b27
+Installed-Size: 1935360
+Filename: opera-proxy_1.12.0-r1_aarch64_cortex-a53.ipk
+Size: 1923679
+SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.5.8-r1
+Version: v0.5.6-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilites/podkop
@@ -1604,10 +1602,10 @@ SourceDateEpoch: 1744562312
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 174080
-Filename: podkop_v0.5.8-r1_all.ipk
-Size: 29905
-SHA256sum: 83c43d7ce4195a251f729c5c140967e6a55da922ca5c097315a529dce9642311
+Installed-Size: 163840
+Filename: podkop_v0.5.6-r1_all.ipk
+Size: 29216
+SHA256sum: 29e8e619d07ead66698b26d3ce6b4cd9a0294e4e9891fcf275a8d11495998281
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
