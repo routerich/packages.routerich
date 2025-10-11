@@ -723,19 +723,19 @@ SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
 Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
 
 Package: luci-app-stubby
-Version: 0.9.3-r1
+Version: 0.9.4-r1
 Depends: libc, stubby, luci-base, nftables
 Source: /home/santaclaus/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1753867207
+SourceDateEpoch: 1760187620
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.3-r1_all.ipk
-Size: 3259
-SHA256sum: 39e884a868e1f12bbc82b58a814bc488529c77a009021944fa211b37cb978356
+Filename: luci-app-stubby_0.9.4-r1_all.ipk
+Size: 3275
+SHA256sum: b02c9f5b54198237293bcd360fc04b04a523aaeeed0fc8df5833279cde3f5a19
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -1105,12 +1105,12 @@ Depends: libc, luci-app-stubby
 Source: /home/santaclaus/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1753867207
+SourceDateEpoch: 1760187620
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
-Size: 2013
-SHA256sum: 27cd51b417110123fe66b30120569f904285ffc682b1a152a3fd276158445d9d
+Size: 2021
+SHA256sum: 64f470fbc3ebe85868bb335e71800a9ae2b8b987b7dc3a0b539cc942c5094c8f
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
