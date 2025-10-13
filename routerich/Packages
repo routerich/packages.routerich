@@ -1,7 +1,7 @@
 Package: amneziawg-tools
 Version: 1.0.20250903-r1
 Depends: libc
-Source: /home/santaclaus/temp/amneziawg-openwrt/amneziawg-tools
+Source: /home/santaclaus/amneziawg-openwrt/amneziawg-tools
 SourceName: amneziawg-tools
 License: GPL-2.0
 LicenseFiles: COPYING
@@ -12,8 +12,8 @@ Maintainer: Amnezia Admin <admin@amnezia.org>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: amneziawg-tools_1.0.20250903-r1_aarch64_cortex-a53.ipk
-Size: 33515
-SHA256sum: fc92032b2aefe53f8a113fcbfd464bf8a63edabd9eb64290215f5f1771aed4e0
+Size: 33517
+SHA256sum: 457fe653de511ab52dae2fbea127f706f8289ed9509e501ab9868bc855b9fa2c
 Description:  Amnezia VPN — simple and free app to run a self-hosted VPN with
  high privacy requirements.
  
@@ -191,17 +191,17 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: kmod-amneziawg
-Version: 6.6.104.1.0.20250924-r1
+Version: 6.6.104.1.0.20251005-r1
 Depends: kernel (=6.6.104~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
-Source: /home/santaclaus/temp/amneziawg-openwrt/kmod-amneziawg
+Source: /home/santaclaus/amneziawg-openwrt/kmod-amneziawg
 SourceName: kmod-amneziawg
 Section: kernel
-SourceDateEpoch: 1759136012
+SourceDateEpoch: 1760214133
 Architecture: aarch64_cortex-a53
 Installed-Size: 122880
-Filename: kmod-amneziawg_6.6.104.1.0.20250924-r1_aarch64_cortex-a53.ipk
-Size: 40766
-SHA256sum: 3a5b7dc35ff48ec095618082589f2d05b0646e5051e3bf0a6accc913db0580ac
+Filename: kmod-amneziawg_6.6.104.1.0.20251005-r1_aarch64_cortex-a53.ipk
+Size: 40782
+SHA256sum: 618141effb5ac65c8f02da2184df83080b22a64a6aec45fa5d4e8c44bddd3ba7
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
@@ -419,7 +419,7 @@ Description:  LuCI Internet Access Control
 Package: luci-app-amneziawg
 Version: 2.0.5-r1
 Depends: libc, ucode, amneziawg-tools, qrencode, luci-lib-uqr, resolveip
-Source: /home/santaclaus/temp/amneziawg-openwrt/luci-app-amneziawg
+Source: /home/santaclaus/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
 SourceDateEpoch: 1759229665
@@ -428,8 +428,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
 Filename: luci-app-amneziawg_2.0.5-r1_all.ipk
-Size: 29961
-SHA256sum: 0d14089dc6472b50afab878cc40204d85069a75faa34f96d16f452eb369a1a45
+Size: 29955
+SHA256sum: 6f1c5e191a74cc2e7e1a60bff0f8bc49507d27ff32770b4530daa392eb404976
 Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-app-atinout
@@ -739,19 +739,19 @@ SHA256sum: b02c9f5b54198237293bcd360fc04b04a523aaeeed0fc8df5833279cde3f5a19
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
-Version: 1.2.6-r2
+Version: 1.2.6-r3
 Depends: libc, tailscale-lite
 Source: /home/santaclaus/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1755022319
+SourceDateEpoch: 1760313714
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-tailscale_1.2.6-r2_all.ipk
-Size: 9867
-SHA256sum: 87d52e60d9317de8de000be85efeda0d77624fdb5c73bb55a7a47c84ff9a6279
+Filename: luci-app-tailscale_1.2.6-r3_all.ipk
+Size: 10019
+SHA256sum: 6ed8e2d9ed8bcac5eb18b4d9d10749bf3fb8669a20dbfcac8bd5fd00c15a7ae1
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -901,15 +901,15 @@ Description:  Translation for luci-app-access-control - Русский (Russian)
 Package: luci-i18n-amneziawg-ru
 Version: 25.273.39265~a4ea36f
 Depends: libc, luci-app-amneziawg
-Source: /home/santaclaus/temp/amneziawg-openwrt/luci-app-amneziawg
+Source: /home/santaclaus/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
 SourceDateEpoch: 1759229665
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-amneziawg-ru_25.273.39265~a4ea36f_all.ipk
-Size: 4038
-SHA256sum: d7c932757c500ffb4a2908b5db69343502d6781c7f0cdef56a2012d9632e9424
+Size: 4044
+SHA256sum: fb83a37664deea967ce961795b7d71a4c016f979c769b4bdd307282bce9abca6
 Description:  Translation for luci-app-amneziawg - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
@@ -1119,12 +1119,12 @@ Depends: libc, luci-app-tailscale
 Source: /home/santaclaus/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1755022319
+SourceDateEpoch: 1760313714
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
-Size: 3223
-SHA256sum: 676ad21eba9f8e0ef09b220202e5e50733a55ba7f1a45e7d48a6f7c2845eb5e1
+Size: 3229
+SHA256sum: 44ccf56a627f256d5704e58a5deed6852aef1ad030992644ad544fa8782018b7
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
@@ -1883,7 +1883,7 @@ SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
 
 Package: tailscale-lite
-Version: 1.86.2-r1
+Version: 1.88.3-r1
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
 Source: /home/santaclaus/feed.routerich/tailscale-lite
@@ -1891,15 +1891,15 @@ SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1757689238
+SourceDateEpoch: 1760298734
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6021120
-Filename: tailscale-lite_1.86.2-r1_aarch64_cortex-a53.ipk
-Size: 6013708
-SHA256sum: e55805cadb98156a896c7d32618c63a7890a139fd156c8dd07aa239a89b7c843
+Installed-Size: 5652480
+Filename: tailscale-lite_1.88.3-r1_aarch64_cortex-a53.ipk
+Size: 5639631
+SHA256sum: a22acf7b3d1c17bc53f9f8c152f3fb6398ee25ab12f9626535889ed071809b64
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
