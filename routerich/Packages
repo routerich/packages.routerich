@@ -1925,19 +1925,19 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
  other distribution and storage costs.
 
 Package: urllogger
-Version: 0.0.1-r1
+Version: 0.0.1-r2
 Depends: libc, kmod-natflow
-Source: /home/santaclaus/feed.routerich_next/urllogger
+Source: /home/santaclaus/feed.routerich/urllogger
 SourceName: urllogger
 License: GPL-2.0
 Section: opt
-SourceDateEpoch: 1747647574
+SourceDateEpoch: 1760630421
 Maintainer: Chen Minqiang <ptpt52@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 10240
-Filename: urllogger_0.0.1-r1_aarch64_cortex-a53.ipk
-Size: 2124
-SHA256sum: daed2fc4ddc6515242de710bc488a567e5e9d3077a7fd4ded45c2acc4f89ac0d
+Filename: urllogger_0.0.1-r2_aarch64_cortex-a53.ipk
+Size: 2325
+SHA256sum: 914505ec0721f2ac5942b1d67b6208c7317e3cc60c409950eec937350aa68d8f
 Description:  urllogger
 
 Package: xmm-modem
