@@ -401,19 +401,17 @@ SHA256sum: 4e76c82026f144d73e483e3497ab6e6bffa61884bd18555359796c11fca773b7
 Description:  lua ipops lib
 
 Package: luci-app-access-control
-Version: 0.4.5-r1
-Depends: libc, luci-compat, luci-lua-runtime
-Source: /home/santaclaus/feed.routerich_next/luci-app-access-control
+Version: 0.4.6-r1
+Depends: libc, luci-compat
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
-Section: luci
-SourceDateEpoch: 1751022200
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+Section: utils
+SourceDateEpoch: 1761055284
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-access-control_0.4.5-r1_all.ipk
-Size: 5126
-SHA256sum: 5f3cb4543cc802aef938c68c0f9dd82cb6f485d7acc6edb900b2d9c5839a3ab3
+Filename: luci-app-access-control_0.4.6-r1_all.ipk
+Size: 4975
+SHA256sum: e21aa74b1abd896bb3f9237d1e2689e8ded8e1d0679d3c2fa5946631c1a348e0
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
@@ -885,17 +883,17 @@ SHA256sum: 44b6e4a715389be5d2cad340b8f891f5841696deedddba78dfc13efb739de1bd
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-access-control-ru
-Version: 25.139.43305~6262bf7
+Version: 25.294.50484~ec56ebc
 Depends: libc, luci-app-access-control
-Source: /home/santaclaus/feed.routerich_next/luci-app-access-control
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1751022200
+SourceDateEpoch: 1761055284
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-access-control-ru_25.139.43305~6262bf7_all.ipk
-Size: 2004
-SHA256sum: ef7abadf45ab665ae2400dd9ae3535047c3a209f90742637d37909bdec38ea9c
+Filename: luci-i18n-access-control-ru_25.294.50484~ec56ebc_all.ipk
+Size: 1990
+SHA256sum: 872e082b5aa79e2af7d2bb22562da4e7334e2cb928068cb2cf8182873964729b
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
