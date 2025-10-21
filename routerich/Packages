@@ -69,6 +69,22 @@ Size: 1598
 SHA256sum: 7b8a786cfc084b271366d72e64253a1475b80a1a4b237e74bf354540db3b8eb6
 Description:  Mount autoconfig hotplug script.
 
+Package: bandix
+Version: 0.6.0-r1
+Depends: libc
+Source: /root/app/VsCodeProjects/openwrt-packages-custom/openwrt-bandix/openwrt-bandix
+SourceName: bandix
+License: Apache-2.0
+Section: net
+SourceDateEpoch: 1760889742
+Maintainer: timsaya
+Architecture: aarch64_cortex-a53
+Installed-Size: 1914880
+Filename: bandix_0.6.0-r1_aarch64_cortex-a53.ipk
+Size: 899985
+SHA256sum: c3713fa913782493b6df67611fca1f14bfe320f4cbc85689d58e4d5de1f268e1
+Description:  Bandix core service for network traffic monitoring
+
 Package: bridger
 Version: 2024.04.22~40b1c5b6
 Depends: libc, libbpf1, libubox20240329, libubus20250102, libnl-tiny1, kmod-sched-core, kmod-sched-flower, kmod-sched-bpf, kmod-sched-act-vlan
@@ -462,6 +478,23 @@ Filename: luci-app-autoreboot_1.0.1-r1_all.ipk
 Size: 2954
 SHA256sum: 411f4fe820d6359a3a6c48155258553a14b9197b581989fb84db4add7a1d11f5
 Description:  LuCI Support for autoreboot.
+
+Package: luci-app-bandix
+Version: 0.6.2-r1
+Depends: libc, luci-base, luci-lib-jsonc, curl, bandix
+Source: /root/app/VsCodeProjects/openwrt-packages-custom/luci-app-bandix/luci-app-bandix
+SourceName: luci-app-bandix
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1761057617
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 174080
+Filename: luci-app-bandix_0.6.2-r1_all.ipk
+Size: 36364
+SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
+Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-cifs-mount
 Version: 1-r8
