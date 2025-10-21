@@ -643,20 +643,20 @@ SHA256sum: 35ccf06b0a2695fa390905ad43fdc2b5ea0208d3476a2b261ec6ca1c9a3c08ea
 Description:  LuCI Support for natflow users.
 
 Package: luci-app-podkop
-Version: v0.5.6-r1
+Version: v0.6.2-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1758316778
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 71680
-Filename: luci-app-podkop_v0.5.6-r1_all.ipk
-Size: 14468
-SHA256sum: e45d847c890fd8002cc7b2a37400a0185e6fca4d0c80e77ff92e8c1861b728d9
+Installed-Size: 143360
+Filename: luci-app-podkop-v0.6.2-r1-all.ipk
+Size: 28353
+SHA256sum: 2e785fd9c337709252c6edca6b8dbea81e7159ee3cf999cb630b4545a0b9fec8
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1025,19 +1025,19 @@ SHA256sum: 588fb2758803c6d2650ecc88b5412a01ed02fe518869e5d429e644cf91e8a623
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.250918.29665
+Version: 0.251010.42464
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1758316778
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru_0.5.6.ipk
-Size: 8166
-SHA256sum: 54d0f9f1c3302c51aab461e10d337d94dcbfe1dba3df3e3e95b0dea473838feb
+Filename: luci-i18n-podkop-ru-0.6.2.ipk
+Size: 7108
+SHA256sum: 1f9611bc6dc2a4bd9f03ddf6a00b7de37f96483898bebf15b61d3678adb22c41
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1591,21 +1591,21 @@ SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.5.6-r1
+Version: v0.6.2-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
-Source: feeds/base/feeds/utilites/podkop
+Source: feeds/base/feeds/utilities/podkop
 SourceName: podkop
 License: GPL-2.0-or-later
 Section: net
-SourceDateEpoch: 1744562312
+SourceDateEpoch: 1758316778
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 163840
-Filename: podkop_v0.5.6-r1_all.ipk
-Size: 29216
-SHA256sum: 29e8e619d07ead66698b26d3ce6b4cd9a0294e4e9891fcf275a8d11495998281
+Installed-Size: 174080
+Filename: podkop-v0.6.2-r1-all.ipk
+Size: 30080
+SHA256sum: 61fba269e292746c71bba55f2019b944a430d5a98b578e769c1059b61827a22b
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
