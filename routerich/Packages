@@ -406,12 +406,12 @@ Depends: libc, luci-compat
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: utils
-SourceDateEpoch: 1761055284
+SourceDateEpoch: 1761055978
 Architecture: all
 Installed-Size: 30720
 Filename: luci-app-access-control_0.4.6-r1_all.ipk
-Size: 4975
-SHA256sum: e21aa74b1abd896bb3f9237d1e2689e8ded8e1d0679d3c2fa5946631c1a348e0
+Size: 4974
+SHA256sum: 9c4d38381fcbef2879367d110d0e87abbdfb98145ee9daecc9ef32c57a281a54
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
@@ -479,6 +479,23 @@ Size: 2863
 SHA256sum: b3025712ee377b194d876957aba61add4cf94fc848b150f88ae8f82dd50ee34b
 Description:  LuCI for SMB/CIFS Mount
 
+Package: luci-app-cpu-status
+Version: 0.6.1-r1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1761056338
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 40960
+Filename: luci-app-cpu-status_0.6.1-r1_all.ipk
+Size: 6553
+SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
+Description:  CPU utilization info for the LuCI status page
+
 Package: luci-app-dns-failsafe-proxy
 Version: 1.0.4
 Depends: libc
@@ -525,6 +542,23 @@ Filename: luci-app-filebrowser-go_24.252.39226~c89d418_all.ipk
 Size: 2441
 SHA256sum: 7bcb1092f99910c58cebbdd436142d3432b2ba0734da412943c776beefc78aab
 Description:  LuCI app for FileBrowser
+
+Package: luci-app-interfaces-statistics
+Version: 0.4.1-r1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-interfaces-statistics
+SourceName: luci-app-interfaces-statistics
+License: MIT
+Section: luci
+SourceDateEpoch: 1761056338
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-interfaces-statistics_0.4.1-r1_all.ipk
+Size: 2962
+SHA256sum: 229a22874eca5d5f8227ec7c76ea148008f52fe6a49601ad153f9b549119a751
+Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
 Version: 1.6.7-r1
@@ -883,17 +917,17 @@ SHA256sum: 44b6e4a715389be5d2cad340b8f891f5841696deedddba78dfc13efb739de1bd
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-access-control-ru
-Version: 25.294.50484~ec56ebc
+Version: 25.294.51178~a5e7275
 Depends: libc, luci-app-access-control
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1761055284
+SourceDateEpoch: 1761055978
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-access-control-ru_25.294.50484~ec56ebc_all.ipk
-Size: 1990
-SHA256sum: 872e082b5aa79e2af7d2bb22562da4e7334e2cb928068cb2cf8182873964729b
+Filename: luci-i18n-access-control-ru_25.294.51178~a5e7275_all.ipk
+Size: 1987
+SHA256sum: ada753cd5d1ab8bf82eba59646f7c98f9701eac74e48dd95195921a7de646fe0
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
@@ -924,6 +958,21 @@ Size: 1602
 SHA256sum: 50a578a26243b47feb83cd7acb1e1d6daf408961e9d5d94fff054fcec6025775
 Description:  Translation for luci-app-atinout - Русский (Russian)
 
+Package: luci-i18n-cpu-status-ru
+Version: 25.294.51538~b574723
+Depends: libc, luci-app-cpu-status
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-cpu-status
+SourceName: luci-app-cpu-status
+License: MIT
+Section: luci
+SourceDateEpoch: 1761056338
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-cpu-status-ru_25.294.51538~b574723_all.ipk
+Size: 1614
+SHA256sum: 6f3cf852609111f705018573ec00ba1de6336bbd1636daa83006a4450eee6f7d
+Description:  Translation for luci-app-cpu-status - Русский (Russian)
+
 Package: luci-i18n-doh-proxy-ru
 Version: 25.184.36164~152d511
 Depends: libc, luci-app-doh-proxy
@@ -953,6 +1002,21 @@ Filename: luci-i18n-filebrowser-go-ru_24.252.41075~d2f498a_all.ipk
 Size: 1631
 SHA256sum: 584f99aef3ab9ca4ee5bb92c45036709b7448b3d17fddbad4dd8fee7d0d482c9
 Description:  Translation for luci-app-filebrowser-go - Русский (Russian)
+
+Package: luci-i18n-interfaces-statistics-ru
+Version: 25.294.51538~b574723
+Depends: libc, luci-app-interfaces-statistics
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-interfaces-statistics
+SourceName: luci-app-interfaces-statistics
+License: MIT
+Section: luci
+SourceDateEpoch: 1761056338
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-interfaces-statistics-ru_25.294.51538~b574723_all.ipk
+Size: 1498
+SHA256sum: 9889999e2b84a7e3a5d8482395c142540200ccd0f9050f3de0cedd53fc493d0a
+Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
 Version: 25.281.56555~1de3191
