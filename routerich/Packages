@@ -89,7 +89,7 @@ Package: doh-proxy
 Version: 2025.07.01-r1
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
-Source: /home/santaclaus/feed.routerich_next/doh-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/doh-proxy
 SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
@@ -99,8 +99,8 @@ Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: doh-proxy_2025.07.01-r1_aarch64_cortex-a53.ipk
-Size: 24253
-SHA256sum: 5709eaa2aa5e6699cca3ac3f232e6ffaed64119b9e5462a0aff10e07af4b19a6
+Size: 24263
+SHA256sum: 62b4badee3a39df9c6788d39847d20a7da02078797c6a6c7c11b9de61e890ff4
 Description:  Dns_over_https_Proxy
 
 Package: filebrowser
@@ -481,17 +481,17 @@ SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
 Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-block-users
-Version: 1.0.0-r1
+Version: 1.0.0-r2
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users
 SourceName: luci-app-block-users
 Section: utils
-SourceDateEpoch: 1761043701
+SourceDateEpoch: 1761175639
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-block-users_1.0.0-r1_all.ipk
-Size: 7047
-SHA256sum: 3a50de368de3ccf1f37bea263a46058698983adf0c5a08c8ebbe82038321542e
+Installed-Size: 40960
+Filename: luci-app-block-users_1.0.0-r2_all.ipk
+Size: 6859
+SHA256sum: a5ceb3a506d88f43fe4bafa2b227933c828e713cf5afa62feed0c8fb15f8561b
 Description:  LuCI Web Filtering
 
 Package: luci-app-cifs-mount
@@ -542,20 +542,20 @@ SHA256sum: 6c4d64c46de4b51ef91ef4f5695c0e95a99578e293d5aec36d0d033a95f3e859
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r1
+Version: 2025.07.01-r2
 Depends: libc, luci-base, doh-proxy
-Source: /home/santaclaus/feed.routerich_next/luci-app-doh-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1751536964
+SourceDateEpoch: 1761175165
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r1_all.ipk
-Size: 12018
-SHA256sum: 13e9479f2a7e9329ae29926bb3f54324d058f753a85f30889fae6a1593954c82
+Filename: luci-app-doh-proxy_2025.07.01-r2_all.ipk
+Size: 11711
+SHA256sum: 37fe16c61f9f3b3f3f307cca51885bbcc0a07418fcbf121ce32afb3c9a29f8a2
 Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-filebrowser-go
@@ -1018,17 +1018,17 @@ Description:  Translation for luci-app-cpu-status - Русский (Russian)
 Package: luci-i18n-doh-proxy-ru
 Version: 25.184.36164~152d511
 Depends: libc, luci-app-doh-proxy
-Source: /home/santaclaus/feed.routerich_next/luci-app-doh-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1751536964
+SourceDateEpoch: 1761175165
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-doh-proxy-ru_25.184.36164~152d511_all.ipk
-Size: 4050
-SHA256sum: d1b4105c7ea895f71f5d289e452de8730f9f25cebd86baa28fb3b6d61c7553b2
+Size: 4069
+SHA256sum: 32753b2094105a0aa168626448f9db028ee873aee2e008be99543a2ecb8cfa19
 Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
