@@ -124,68 +124,20 @@ Description:  filebrowser provides a file managing interface within a specified 
  It allows the creation of multiple users and each user can have its own directory.
  It can be used as a standalone app or as a middleware.
 
-Package: internet-detector-mod-email
-Version: 1.6.7-r1
-Depends: libc, internet-detector, mailsend
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-email
-SourceName: internet-detector-mod-email
-Section: net
-SourceDateEpoch: 1759938851
-URL: https://github.com/gSpotx2f/luci-app-internet-detector
-Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
-Architecture: all
-Installed-Size: 20480
-Filename: internet-detector-mod-email_1.6.7-r1_all.ipk
-Size: 2860
-SHA256sum: 7ee04a45634acccbea797ae5035947c8e535a2ade7401ed0ade43c6e450c90df
-Description:  Email support for internet-detector.
-
-Package: internet-detector-mod-modem-restart
-Version: 1.6.7-r1
-Depends: libc, internet-detector, modemmanager
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-modem-restart
-SourceName: internet-detector-mod-modem-restart
-Section: net
-SourceDateEpoch: 1759938851
-URL: https://github.com/gSpotx2f/luci-app-internet-detector
-Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
-Architecture: all
-Installed-Size: 10240
-Filename: internet-detector-mod-modem-restart_1.6.7-r1_all.ipk
-Size: 2198
-SHA256sum: f0c4c3a3420f3500cc0eb931dd1450a6b6d2424bd4e56bbebe60d6dde82c3190
-Description:  Support modem restart for internet detector.
-
-Package: internet-detector-mod-telegram
-Version: 1.6.7-r1
-Depends: libc, internet-detector, curl
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-telegram
-SourceName: internet-detector-mod-telegram
-Section: net
-SourceDateEpoch: 1759938851
-URL: https://github.com/gSpotx2f/luci-app-internet-detector
-Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
-Architecture: all
-Installed-Size: 20480
-Filename: internet-detector-mod-telegram_1.6.7-r1_all.ipk
-Size: 3202
-SHA256sum: 11478a3abddee35513245ab1138a2a009e59ac254d7d873d7dba797c4cb0cf40
-Description:  Telegram messenger support for internet-detector.
-
 Package: internet-detector
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, lua, luaposix, libuci-lua
-Source: /home/santaclaus/feed.routerich/internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector
 SourceName: internet-detector
 Section: net
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309748
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 81920
-Filename: internet-detector_1.6.7-r1_all.ipk
-Size: 15433
-SHA256sum: 78b2552f24714aa54d804a95ae61eb60311db4615ff291d0759fe84481de5794
+Installed-Size: 92160
+Filename: internet-detector_1.7.0-r1_all.ipk
+Size: 16326
+SHA256sum: 04f6fc3d90e150cf2a0026de88ed8c0967d2e09551fd5718e0d3264565f4d77c
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -620,19 +572,19 @@ SHA256sum: 229a22874eca5d5f8227ec7c76ea148008f52fe6a49601ad153f9b549119a751
 Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, internet-detector
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309850
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 61440
-Filename: luci-app-internet-detector_1.6.7-r1_all.ipk
-Size: 12589
-SHA256sum: a2854bffe8bf00cc7eceba160315a83f9d5f21e4ffb1f2aa7c27e11920d097bd
+Installed-Size: 71680
+Filename: luci-app-internet-detector_1.7.0-r1_all.ipk
+Size: 12929
+SHA256sum: 62b23b344d862be21d2b7c9ee05f0e9d0ccdedd5080c1f20dece041ab8ad5b0e
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
@@ -1075,17 +1027,17 @@ SHA256sum: 9889999e2b84a7e3a5d8482395c142540200ccd0f9050f3de0cedd53fc493d0a
 Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
-Version: 25.281.56555~1de3191
+Version: 25.297.45850~091b257
 Depends: libc, luci-app-internet-detector
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309850
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-internet-detector-ru_25.281.56555~1de3191_all.ipk
-Size: 6600
-SHA256sum: 2d31d9a9a22d595bab2752fe2ed6403dd95d15477c798ceac4f83e70a4d2682c
+Filename: luci-i18n-internet-detector-ru_25.297.45850~091b257_all.ipk
+Size: 6744
+SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
@@ -1937,23 +1889,23 @@ SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
 
 Package: tailscale-lite
-Version: 1.88.3-r1
+Version: 1.90.1-r3
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
-Source: /home/santaclaus/feed.routerich/tailscale-lite
+Source: /home/santaclaus/sdk/repositories/feed.routerich/tailscale-lite
 SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1760298734
+SourceDateEpoch: 1761318617
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 5652480
-Filename: tailscale-lite_1.88.3-r1_aarch64_cortex-a53.ipk
-Size: 5639631
-SHA256sum: a22acf7b3d1c17bc53f9f8c152f3fb6398ee25ab12f9626535889ed071809b64
+Installed-Size: 6144000
+Filename: tailscale-lite_1.90.1-r3_aarch64_cortex-a53.ipk
+Size: 6139902
+SHA256sum: e1ce41fe106ad04f55ec3d2adce6c0534fc7d1726fd3a297ce35c5bc176b6f59
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
