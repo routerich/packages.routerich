@@ -480,6 +480,20 @@ Size: 36364
 SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
 Description:  LuCI Bandix app for network traffic monitoring
 
+Package: luci-app-block-users-addon
+Version: 1.0.0-r1
+Depends: libc, luci-app-block-users
+Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users-addon
+SourceName: luci-app-block-users-addon
+Section: utils
+SourceDateEpoch: 1761299512
+Architecture: all
+Installed-Size: 10240
+Filename: luci-app-block-users-addon_1.0.0-r1_all.ipk
+Size: 1997
+SHA256sum: 978cd82a53a44dc4c6065ee09adf9aa1d3cb5e659f8a9f2bead45ed57b402887
+Description:  LuCI Web Filtering Status Include Addon
+
 Package: luci-app-block-users
 Version: 1.0.0-r2
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
