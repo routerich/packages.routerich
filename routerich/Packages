@@ -542,17 +542,17 @@ SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dns-failsafe-proxy
-Version: 1.0.4
+Version: 1.0.5
 Depends: libc
-Source: /home/santaclaus/feed.routerich/luci-app-dns-failsafe-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1754061593
+SourceDateEpoch: 1761308647
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-dns-failsafe-proxy_1.0.4_all.ipk
-Size: 8808
-SHA256sum: 6c4d64c46de4b51ef91ef4f5695c0e95a99578e293d5aec36d0d033a95f3e859
+Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
+Size: 8829
+SHA256sum: 1f1bd1b852de3f88deccb6aa3a28a51e812fe15bea59441ebd5ca52a9507bb71
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
@@ -797,19 +797,19 @@ SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
 Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
 
 Package: luci-app-stubby
-Version: 0.9.4-r1
+Version: 0.9.5-r1
 Depends: libc, stubby, luci-base, nftables
-Source: /home/santaclaus/feed.routerich/luci-app-stubby
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1760187620
+SourceDateEpoch: 1761307927
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.4-r1_all.ipk
-Size: 3275
-SHA256sum: b02c9f5b54198237293bcd360fc04b04a523aaeeed0fc8df5833279cde3f5a19
+Filename: luci-app-stubby_0.9.5-r1_all.ipk
+Size: 3276
+SHA256sum: 2c87d3648c07559deeb39f78459ceec4af66a867c9f6543edcab56175232ed16
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -1218,17 +1218,17 @@ SHA256sum: ee9d8c751f5fc343ca4e949b13ca1a6f14175083b19c258d62ee375795d90f64
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
-Version: 25.171.67236~1ae1f52
+Version: 25.297.43927~8c8536e
 Depends: libc, luci-app-stubby
-Source: /home/santaclaus/feed.routerich/luci-app-stubby
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1760187620
+SourceDateEpoch: 1761307927
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
-Size: 2021
-SHA256sum: 64f470fbc3ebe85868bb335e71800a9ae2b8b987b7dc3a0b539cc942c5094c8f
+Filename: luci-i18n-stubby-ru_25.297.43927~8c8536e_all.ipk
+Size: 2049
+SHA256sum: 7850546e587783853e67a9f604f1d67f114d42a30da10537b59ed79f274508ed
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
