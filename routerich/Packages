@@ -486,12 +486,12 @@ Depends: libc, luci-app-block-users
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users-addon
 SourceName: luci-app-block-users-addon
 Section: utils
-SourceDateEpoch: 1761299512
+SourceDateEpoch: 1761300335
 Architecture: all
 Installed-Size: 10240
 Filename: luci-app-block-users-addon_1.0.0-r1_all.ipk
-Size: 1997
-SHA256sum: 978cd82a53a44dc4c6065ee09adf9aa1d3cb5e659f8a9f2bead45ed57b402887
+Size: 2067
+SHA256sum: e140131b8a75cc6bb1cea9a72bf6732d87fc6d3a22defa24b38559a573129ba9
 Description:  LuCI Web Filtering Status Include Addon
 
 Package: luci-app-block-users
