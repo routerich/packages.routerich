@@ -508,20 +508,20 @@ SHA256sum: 1f1bd1b852de3f88deccb6aa3a28a51e812fe15bea59441ebd5ca52a9507bb71
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r2
+Version: 2025.07.01-r3
 Depends: libc, luci-base, doh-proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761175165
+SourceDateEpoch: 1761420402
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r2_all.ipk
-Size: 11711
-SHA256sum: 37fe16c61f9f3b3f3f307cca51885bbcc0a07418fcbf121ce32afb3c9a29f8a2
+Filename: luci-app-doh-proxy_2025.07.01-r3_all.ipk
+Size: 11812
+SHA256sum: ef03a9884fc03779037837f01bc7460afc02b0116448cd20457344e342f5dc0f
 Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-filebrowser-go
@@ -1002,13 +1002,13 @@ Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761175165
+SourceDateEpoch: 1761420402
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-doh-proxy-ru_25.184.36164~152d511_all.ipk
-Size: 4069
-SHA256sum: 32753b2094105a0aa168626448f9db028ee873aee2e008be99543a2ecb8cfa19
+Size: 4072
+SHA256sum: 2a07a3ccb629f5fff5ac81eca5d1c8817a619065aa56a80d16cba5352609fdfb
 Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
@@ -1854,17 +1854,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.4.0
+Version: 1.4.1
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761210582
+SourceDateEpoch: 1761420369
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.4.0_all.ipk
-Size: 8699
-SHA256sum: af1209776e960028360b47fddc59f56601c46ca98ee62d9d8220ec8e467785bb
+Filename: routerich-defaults_1.4.1_all.ipk
+Size: 8695
+SHA256sum: d4cb7ff5dcc43824cd3556203786d6cc2c3628327f82d44f742e636aaa1a413f
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
