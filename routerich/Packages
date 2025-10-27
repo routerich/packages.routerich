@@ -499,12 +499,12 @@ Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1761308647
+SourceDateEpoch: 1761554082
 Architecture: all
 Installed-Size: 92160
 Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
-Size: 8829
-SHA256sum: 1f1bd1b852de3f88deccb6aa3a28a51e812fe15bea59441ebd5ca52a9507bb71
+Size: 8879
+SHA256sum: 00ba081897d477d7bb2be5ebf5d4d0a10bb43dd4618dab06aedaef1c06c334a8
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
