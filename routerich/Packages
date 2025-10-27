@@ -101,24 +101,6 @@ Size: 19658
 SHA256sum: 2c6260f17994c56471595390805471dd5d9b0cfc1aa1cfc9b556919f332873c6
 Description:  Bridge forwarding accelerator
 
-Package: doh-proxy
-Version: 2025.07.01-r1
-Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
-Conflicts: https_dns_proxy
-Source: /home/santaclaus/feed.routerich_next/doh-proxy
-SourceName: doh-proxy
-License: MIT
-LicenseFiles: LICENSE
-Section: net
-SourceDateEpoch: 1751494965
-Maintainer: Stan Grishin <stangri@melmac.ca>
-Architecture: aarch64_cortex-a53
-Installed-Size: 92160
-Filename: doh-proxy_2025.07.01-r1_aarch64_cortex-a53.ipk
-Size: 24253
-SHA256sum: 5709eaa2aa5e6699cca3ac3f232e6ffaed64119b9e5462a0aff10e07af4b19a6
-Description:  Dns_over_https_Proxy
-
 Package: filebrowser
 Version: 2.31.2-r1
 Depends: libc
@@ -141,67 +123,67 @@ Description:  filebrowser provides a file managing interface within a specified 
  It can be used as a standalone app or as a middleware.
 
 Package: internet-detector-mod-email
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, internet-detector, mailsend
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-email
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-email
 SourceName: internet-detector-mod-email
 Section: net
-SourceDateEpoch: 1759938851
+SourceDateEpoch: 1761309917
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
 Installed-Size: 20480
-Filename: internet-detector-mod-email_1.6.7-r1_all.ipk
-Size: 2860
-SHA256sum: 7ee04a45634acccbea797ae5035947c8e535a2ade7401ed0ade43c6e450c90df
+Filename: internet-detector-mod-email_1.7.0-r1_all.ipk
+Size: 2873
+SHA256sum: afd0e13bee8c22f75ad5a599f80bd071545d45bd1e55cd016b8834116761d35b
 Description:  Email support for internet-detector.
 
 Package: internet-detector-mod-modem-restart
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, internet-detector, modemmanager
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-modem-restart
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-modem-restart
 SourceName: internet-detector-mod-modem-restart
 Section: net
-SourceDateEpoch: 1759938851
+SourceDateEpoch: 1761309917
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
 Installed-Size: 10240
-Filename: internet-detector-mod-modem-restart_1.6.7-r1_all.ipk
-Size: 2198
-SHA256sum: f0c4c3a3420f3500cc0eb931dd1450a6b6d2424bd4e56bbebe60d6dde82c3190
+Filename: internet-detector-mod-modem-restart_1.7.0-r1_all.ipk
+Size: 2215
+SHA256sum: 5e2b473999498fc309336cca4f2e3d6d947c00b2061d5f83c1fc3ac5af198465
 Description:  Support modem restart for internet detector.
 
 Package: internet-detector-mod-telegram
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, internet-detector, curl
-Source: /home/santaclaus/feed.routerich/internet-detector-mod-telegram
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-telegram
 SourceName: internet-detector-mod-telegram
 Section: net
-SourceDateEpoch: 1759938851
+SourceDateEpoch: 1761309917
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
 Installed-Size: 20480
-Filename: internet-detector-mod-telegram_1.6.7-r1_all.ipk
-Size: 3202
-SHA256sum: 11478a3abddee35513245ab1138a2a009e59ac254d7d873d7dba797c4cb0cf40
+Filename: internet-detector-mod-telegram_1.7.0-r1_all.ipk
+Size: 3219
+SHA256sum: 218bf902fca96e2b07ac8a52ee432ef6d2e044f0e9dcc9370427c735c97519c8
 Description:  Telegram messenger support for internet-detector.
 
 Package: internet-detector
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, lua, luaposix, libuci-lua
-Source: /home/santaclaus/feed.routerich/internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector
 SourceName: internet-detector
 Section: net
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309748
 URL: https://github.com/gSpotx2f/luci-app-internet-detector
 Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
 Architecture: all
-Installed-Size: 81920
-Filename: internet-detector_1.6.7-r1_all.ipk
-Size: 15433
-SHA256sum: 78b2552f24714aa54d804a95ae61eb60311db4615ff291d0759fe84481de5794
+Installed-Size: 92160
+Filename: internet-detector_1.7.0-r1_all.ipk
+Size: 16326
+SHA256sum: 04f6fc3d90e150cf2a0026de88ed8c0967d2e09551fd5718e0d3264565f4d77c
 Description:  Internet-detector is a small daemon
  for checking Internet availability.
  Written in Lua using the luaposix library.
@@ -530,17 +512,17 @@ SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dns-failsafe-proxy
-Version: 1.0.4
+Version: 1.0.5
 Depends: libc
-Source: /home/santaclaus/feed.routerich/luci-app-dns-failsafe-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1754061593
+SourceDateEpoch: 1761554082
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-dns-failsafe-proxy_1.0.4_all.ipk
-Size: 8808
-SHA256sum: 6c4d64c46de4b51ef91ef4f5695c0e95a99578e293d5aec36d0d033a95f3e859
+Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
+Size: 8879
+SHA256sum: 00ba081897d477d7bb2be5ebf5d4d0a10bb43dd4618dab06aedaef1c06c334a8
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
@@ -558,6 +540,23 @@ Installed-Size: 92160
 Filename: luci-app-doh-proxy_2025.07.01-r1_all.ipk
 Size: 12018
 SHA256sum: 13e9479f2a7e9329ae29926bb3f54324d058f753a85f30889fae6a1593954c82
+Description:  Provides Web UI for DoH Proxy
+
+Package: luci-app-doh-proxy
+Version: 2025.07.01-r3
+Depends: libc, luci-base, doh-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
+SourceName: luci-app-doh-proxy
+License: AGPL-3.0-or-later
+Section: luci
+SourceDateEpoch: 1761420402
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
+Architecture: all
+Installed-Size: 92160
+Filename: luci-app-doh-proxy_2025.07.01-r3_all.ipk
+Size: 11812
+SHA256sum: ef03a9884fc03779037837f01bc7460afc02b0116448cd20457344e342f5dc0f
 Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-filebrowser-go
@@ -594,19 +593,19 @@ SHA256sum: 229a22874eca5d5f8227ec7c76ea148008f52fe6a49601ad153f9b549119a751
 Description:  Network interfaces statistics
 
 Package: luci-app-internet-detector
-Version: 1.6.7-r1
+Version: 1.7.0-r1
 Depends: libc, internet-detector
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309850
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 61440
-Filename: luci-app-internet-detector_1.6.7-r1_all.ipk
-Size: 12589
-SHA256sum: a2854bffe8bf00cc7eceba160315a83f9d5f21e4ffb1f2aa7c27e11920d097bd
+Installed-Size: 71680
+Filename: luci-app-internet-detector_1.7.0-r1_all.ipk
+Size: 12929
+SHA256sum: 62b23b344d862be21d2b7c9ee05f0e9d0ccdedd5080c1f20dece041ab8ad5b0e
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
@@ -674,20 +673,34 @@ Size: 5467
 SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
+Package: luci-app-modeminfo-mqtt
+Version: 1.1-r3
+Depends: libc, modeminfo-mqtt
+Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/luci-app-modeminfo-mqtt
+SourceName: luci-app-modeminfo-mqtt
+Section: utils
+SourceDateEpoch: 1761416059
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-modeminfo-mqtt_1.1-r3_all.ipk
+Size: 2149
+SHA256sum: f86a89d1cc60c37bd962bbc15a3c60ef77eff456ec40f4671885dd809f8fa9c1
+Description:  LuCI Add-on for ModemInfo: collects modem readings and publishes them to an MQTT server. Supports automatic discovery in Home Assistant.
+
 Package: luci-app-modeminfo
-Version: 1.5.6-r1
+Version: 1.5.7-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
+Source: /home/santaclaus/sdk/repositories/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1759939317
+SourceDateEpoch: 1761413983
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-modeminfo_1.5.6-r1_all.ipk
-Size: 10894
-SHA256sum: 35c02214f134ed44d74f5873528fda1465fa43a6bbd3ed0ac5a4b88bf97cbaa6
+Filename: luci-app-modeminfo_1.5.7-r1_all.ipk
+Size: 10900
+SHA256sum: e524d9ec3121e3d9fcc072e84253132a9e1d7d6632604d0df81502f47526dac4
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-natflow-users
@@ -788,19 +801,19 @@ SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
 Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
 
 Package: luci-app-stubby
-Version: 0.9.4-r1
+Version: 0.9.5-r1
 Depends: libc, stubby, luci-base, nftables
-Source: /home/santaclaus/feed.routerich/luci-app-stubby
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1760187620
+SourceDateEpoch: 1761307927
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.4-r1_all.ipk
-Size: 3275
-SHA256sum: b02c9f5b54198237293bcd360fc04b04a523aaeeed0fc8df5833279cde3f5a19
+Filename: luci-app-stubby_0.9.5-r1_all.ipk
+Size: 3276
+SHA256sum: 2c87d3648c07559deeb39f78459ceec4af66a867c9f6543edcab56175232ed16
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -1009,17 +1022,17 @@ Description:  Translation for luci-app-cpu-status - Русский (Russian)
 Package: luci-i18n-doh-proxy-ru
 Version: 25.184.36164~152d511
 Depends: libc, luci-app-doh-proxy
-Source: /home/santaclaus/feed.routerich_next/luci-app-doh-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1751536964
+SourceDateEpoch: 1761420402
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-doh-proxy-ru_25.184.36164~152d511_all.ipk
-Size: 4050
-SHA256sum: d1b4105c7ea895f71f5d289e452de8730f9f25cebd86baa28fb3b6d61c7553b2
+Size: 4072
+SHA256sum: 2a07a3ccb629f5fff5ac81eca5d1c8817a619065aa56a80d16cba5352609fdfb
 Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
@@ -1052,17 +1065,17 @@ SHA256sum: 9889999e2b84a7e3a5d8482395c142540200ccd0f9050f3de0cedd53fc493d0a
 Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
-Version: 25.281.56555~1de3191
+Version: 25.297.45850~091b257
 Depends: libc, luci-app-internet-detector
-Source: /home/santaclaus/feed.routerich/luci-app-internet-detector
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1759938155
+SourceDateEpoch: 1761309850
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-internet-detector-ru_25.281.56555~1de3191_all.ipk
-Size: 6600
-SHA256sum: 2d31d9a9a22d595bab2752fe2ed6403dd95d15477c798ceac4f83e70a4d2682c
+Filename: luci-i18n-internet-detector-ru_25.297.45850~091b257_all.ipk
+Size: 6744
+SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
@@ -1122,18 +1135,32 @@ Size: 1873
 SHA256sum: 7d2f9f06d32f0c170e72baeb4fb79f49a08b0e1ad0a6d0f9543883e0dbce8695
 Description:  Translation for luci-app-modemband - Русский (Russian)
 
+Package: luci-i18n-modeminfo-mqtt-ru
+Version: 25.298.65286~160e144
+Depends: libc, luci-app-modeminfo-mqtt
+Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/luci-app-modeminfo-mqtt
+SourceName: luci-app-modeminfo-mqtt
+Section: luci
+SourceDateEpoch: 1761416059
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-modeminfo-mqtt-ru_25.298.65286~160e144_all.ipk
+Size: 1672
+SHA256sum: c0a5997d4c4b61a33686ead9373fe884c76bf1b76fa9eabd629bb2757c719c13
+Description:  Translation for luci-app-modeminfo-mqtt - Русский (Russian)
+
 Package: luci-i18n-modeminfo-ru
 Version: 25.184.46721~77e26c0
 Depends: libc, luci-app-modeminfo
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modeminfo
+Source: /home/santaclaus/sdk/repositories/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1759939317
+SourceDateEpoch: 1761413983
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_25.184.46721~77e26c0_all.ipk
-Size: 2438
-SHA256sum: 588fb2758803c6d2650ecc88b5412a01ed02fe518869e5d429e644cf91e8a623
+Size: 2445
+SHA256sum: 63532d0c5a01561da5427aecc67410cf61cea2a771f82c828235d916cbb14a82
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
@@ -1195,17 +1222,17 @@ SHA256sum: ee9d8c751f5fc343ca4e949b13ca1a6f14175083b19c258d62ee375795d90f64
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
-Version: 25.171.67236~1ae1f52
+Version: 25.297.43927~8c8536e
 Depends: libc, luci-app-stubby
-Source: /home/santaclaus/feed.routerich/luci-app-stubby
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1760187620
+SourceDateEpoch: 1761307927
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-stubby-ru_25.171.67236~1ae1f52_all.ipk
-Size: 2021
-SHA256sum: 64f470fbc3ebe85868bb335e71800a9ae2b8b987b7dc3a0b539cc942c5094c8f
+Filename: luci-i18n-stubby-ru_25.297.43927~8c8536e_all.ipk
+Size: 2049
+SHA256sum: 7850546e587783853e67a9f604f1d67f114d42a30da10537b59ed79f274508ed
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
@@ -1327,19 +1354,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.3-r20251008
+Version: 1.0.9.4-r20251024
 Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: /home/santaclaus/feed.routerich/luci-theme-routerich
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1759918376
+SourceDateEpoch: 1761383531
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1310720
-Filename: luci-theme-routerich_1.0.9.3-r20251008_all.ipk
-Size: 525202
-SHA256sum: 865724ed3d3ddd6a06225123da8ebe495032b01bb8e709ac8886cd626e8b29a7
+Installed-Size: 1320960
+Filename: luci-theme-routerich_1.0.9.4-r20251024_all.ipk
+Size: 526090
+SHA256sum: 7633b6c3fb40cacc5c0bf64005818e5ab9b11ac071e19b677bf6a2109664095c
 Description:  Routerich Theme
 
 Package: mesh-button
@@ -1370,6 +1397,21 @@ Filename: modemband_1.0.0_all.ipk
 Size: 7519
 SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
+
+Package: modeminfo-mqtt
+Version: 1.1-r3
+Depends: libc, modeminfo, mosquitto-client-ssl, jsonfilter
+Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/modeminfo-mqtt
+SourceName: modeminfo-mqtt
+Section: utils
+SourceDateEpoch: 1761416059
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: modeminfo-mqtt_1.1-r3_all.ipk
+Size: 3425
+SHA256sum: c36cb568d50e69c5753df79d3ac9f2947535358424389732e7d7455d41c15258
+Description:  Add-on for ModemInfo: collects modem readings and publishes them to an MQTT server. Supports automatic discovery in Home Assistant.
 
 Package: modeminfo-qmi
 Version: 1.1.1
@@ -1900,17 +1942,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.4.0
+Version: 1.4.1
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761210582
+SourceDateEpoch: 1761420369
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.4.0_all.ipk
-Size: 8699
-SHA256sum: af1209776e960028360b47fddc59f56601c46ca98ee62d9d8220ec8e467785bb
+Filename: routerich-defaults_1.4.1_all.ipk
+Size: 8695
+SHA256sum: d4cb7ff5dcc43824cd3556203786d6cc2c3628327f82d44f742e636aaa1a413f
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -1978,23 +2020,23 @@ SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
 
 Package: tailscale-lite
-Version: 1.88.3-r1
+Version: 1.90.1-r3
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
-Source: /home/santaclaus/feed.routerich/tailscale-lite
+Source: /home/santaclaus/sdk/repositories/feed.routerich/tailscale-lite
 SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1760298734
+SourceDateEpoch: 1761318617
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 5652480
-Filename: tailscale-lite_1.88.3-r1_aarch64_cortex-a53.ipk
-Size: 5639631
-SHA256sum: a22acf7b3d1c17bc53f9f8c152f3fb6398ee25ab12f9626535889ed071809b64
+Installed-Size: 6144000
+Filename: tailscale-lite_1.90.1-r3_aarch64_cortex-a53.ipk
+Size: 6139902
+SHA256sum: e1ce41fe106ad04f55ec3d2adce6c0534fc7d1726fd3a297ce35c5bc176b6f59
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
