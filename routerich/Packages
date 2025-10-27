@@ -124,6 +124,54 @@ Description:  filebrowser provides a file managing interface within a specified 
  It allows the creation of multiple users and each user can have its own directory.
  It can be used as a standalone app or as a middleware.
 
+Package: internet-detector-mod-email
+Version: 1.7.0-r1
+Depends: libc, internet-detector, mailsend
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-email
+SourceName: internet-detector-mod-email
+Section: net
+SourceDateEpoch: 1761309917
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 20480
+Filename: internet-detector-mod-email_1.7.0-r1_all.ipk
+Size: 2873
+SHA256sum: afd0e13bee8c22f75ad5a599f80bd071545d45bd1e55cd016b8834116761d35b
+Description:  Email support for internet-detector.
+
+Package: internet-detector-mod-modem-restart
+Version: 1.7.0-r1
+Depends: libc, internet-detector, modemmanager
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-modem-restart
+SourceName: internet-detector-mod-modem-restart
+Section: net
+SourceDateEpoch: 1761309917
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 10240
+Filename: internet-detector-mod-modem-restart_1.7.0-r1_all.ipk
+Size: 2215
+SHA256sum: 5e2b473999498fc309336cca4f2e3d6d947c00b2061d5f83c1fc3ac5af198465
+Description:  Support modem restart for internet detector.
+
+Package: internet-detector-mod-telegram
+Version: 1.7.0-r1
+Depends: libc, internet-detector, curl
+Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-telegram
+SourceName: internet-detector-mod-telegram
+Section: net
+SourceDateEpoch: 1761309917
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 20480
+Filename: internet-detector-mod-telegram_1.7.0-r1_all.ipk
+Size: 3219
+SHA256sum: 218bf902fca96e2b07ac8a52ee432ef6d2e044f0e9dcc9370427c735c97519c8
+Description:  Telegram messenger support for internet-detector.
+
 Package: internet-detector
 Version: 1.7.0-r1
 Depends: libc, lua, luaposix, libuci-lua
