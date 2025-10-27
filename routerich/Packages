@@ -101,6 +101,24 @@ Size: 19658
 SHA256sum: 2c6260f17994c56471595390805471dd5d9b0cfc1aa1cfc9b556919f332873c6
 Description:  Bridge forwarding accelerator
 
+Package: doh-proxy
+Version: 2025.07.01-r1
+Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
+Conflicts: https_dns_proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/doh-proxy
+SourceName: doh-proxy
+License: MIT
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1751494965
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 92160
+Filename: doh-proxy_2025.07.01-r1_aarch64_cortex-a53.ipk
+Size: 24263
+SHA256sum: 62b4badee3a39df9c6788d39847d20a7da02078797c6a6c7c11b9de61e890ff4
+Description:  Dns_over_https_Proxy
+
 Package: filebrowser
 Version: 2.31.2-r1
 Depends: libc
@@ -524,23 +542,6 @@ Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
 Size: 8879
 SHA256sum: 00ba081897d477d7bb2be5ebf5d4d0a10bb43dd4618dab06aedaef1c06c334a8
 Description:  LuCI dns-failsafe-proxy
-
-Package: luci-app-doh-proxy
-Version: 2025.07.01-r1
-Depends: libc, luci-base, doh-proxy
-Source: /home/santaclaus/feed.routerich_next/luci-app-doh-proxy
-SourceName: luci-app-doh-proxy
-License: AGPL-3.0-or-later
-Section: luci
-SourceDateEpoch: 1751536964
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
-Architecture: all
-Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r1_all.ipk
-Size: 12018
-SHA256sum: 13e9479f2a7e9329ae29926bb3f54324d058f753a85f30889fae6a1593954c82
-Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-doh-proxy
 Version: 2025.07.01-r3
