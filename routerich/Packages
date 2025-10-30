@@ -401,17 +401,17 @@ SHA256sum: a63bd8f11bc42de4ca2e9382d70a113cf755713686c02e9fd3686ace3d5f7719
 Description:  lua ipops lib
 
 Package: luci-app-access-control
-Version: 0.4.6-r1
+Version: 0.4.7-r1
 Depends: libc, luci-compat
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: utils
-SourceDateEpoch: 1761055978
+SourceDateEpoch: 1761838070
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-access-control_0.4.6-r1_all.ipk
-Size: 4974
-SHA256sum: 9c4d38381fcbef2879367d110d0e87abbdfb98145ee9daecc9ef32c57a281a54
+Filename: luci-app-access-control_0.4.7-r1_all.ipk
+Size: 4975
+SHA256sum: 34bab2a1f6c8fb6793a5cd75699bfae5971725f7c8938f61050567e2c1d46108
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
@@ -495,17 +495,17 @@ SHA256sum: e140131b8a75cc6bb1cea9a72bf6732d87fc6d3a22defa24b38559a573129ba9
 Description:  LuCI Web Filtering Status Include Addon
 
 Package: luci-app-block-users
-Version: 1.0.0-r2
+Version: 1.0.0-r4
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users
 SourceName: luci-app-block-users
 Section: utils
-SourceDateEpoch: 1761175639
+SourceDateEpoch: 1761838032
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-block-users_1.0.0-r2_all.ipk
-Size: 6859
-SHA256sum: a5ceb3a506d88f43fe4bafa2b227933c828e713cf5afa62feed0c8fb15f8561b
+Filename: luci-app-block-users_1.0.0-r4_all.ipk
+Size: 6905
+SHA256sum: b07e2d4152784625dc520f7dac865ea161238d1ced23deacb1bdd660abef3003
 Description:  LuCI Web Filtering
 
 Package: luci-app-cifs-mount
@@ -542,34 +542,34 @@ SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dns-failsafe-proxy
-Version: 1.0.5
+Version: 1.0.6
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1761554082
+SourceDateEpoch: 1761835702
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
-Size: 8879
-SHA256sum: 00ba081897d477d7bb2be5ebf5d4d0a10bb43dd4618dab06aedaef1c06c334a8
+Filename: luci-app-dns-failsafe-proxy_1.0.6_all.ipk
+Size: 8929
+SHA256sum: 980e7d6945f828a19d6bee95e50a53745af97bdfd41067fb612ce42ac1b8000a
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r3
+Version: 2025.07.01-r4
 Depends: libc, luci-base, doh-proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761420402
+SourceDateEpoch: 1761835702
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r3_all.ipk
-Size: 11812
-SHA256sum: ef03a9884fc03779037837f01bc7460afc02b0116448cd20457344e342f5dc0f
+Filename: luci-app-doh-proxy_2025.07.01-r4_all.ipk
+Size: 11852
+SHA256sum: 657f0ffcbb745d2e10d99998ed1f2979caf86f9f337aa95c1c1292913075d528
 Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-filebrowser-go
@@ -589,17 +589,17 @@ SHA256sum: 7bcb1092f99910c58cebbdd436142d3432b2ba0734da412943c776beefc78aab
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-hostacl
-Version: 1.0.0-r1
+Version: 1.0.0-r2
 Depends: libc, kmod-natflow, lua-ipops
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-hostacl
 SourceName: luci-app-hostacl
 Section: utils
-SourceDateEpoch: 1761043701
+SourceDateEpoch: 1761838032
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-hostacl_1.0.0-r1_all.ipk
-Size: 5034
-SHA256sum: 68cd70d26b21ab80b39936f5cc74f04c24385b7e54a4c8e909e819721fd69ebf
+Filename: luci-app-hostacl_1.0.0-r2_all.ipk
+Size: 5091
+SHA256sum: c7ec1b2d9e7a63f371126888cc47066fd8d060d57149a973ad56b0c19bef5179
 Description:  LuCI Web Filtering
 
 Package: luci-app-interfaces-statistics
@@ -636,19 +636,19 @@ SHA256sum: 62b23b344d862be21d2b7c9ee05f0e9d0ccdedd5080c1f20dece041ab8ad5b0e
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
-Version: 0.9.6-r1
+Version: 0.9.7-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1757271772
+SourceDateEpoch: 1761834139
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-ledcontrol_0.9.6-r1_all.ipk
-Size: 3908
-SHA256sum: 77248c4df1e1cef7567ffb8bf8529659d593b2eb6866075554b5a334b1cfd90e
+Filename: luci-app-ledcontrol_0.9.7-r1_all.ipk
+Size: 4143
+SHA256sum: ab28eeb72114950218cae583dabebdf6314bcf92a8e7b41e7ab560bbe0c4d83c
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
@@ -811,19 +811,19 @@ SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
 Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
 
 Package: luci-app-stubby
-Version: 0.9.5-r1
+Version: 0.9.6-r1
 Depends: libc, stubby, luci-base, nftables
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761307927
+SourceDateEpoch: 1761835702
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.5-r1_all.ipk
-Size: 3276
-SHA256sum: 2c87d3648c07559deeb39f78459ceec4af66a867c9f6543edcab56175232ed16
+Filename: luci-app-stubby_0.9.6-r1_all.ipk
+Size: 3290
+SHA256sum: b9294a9444f623559da7ddc34c8a1fb14314c31147ecbb1309d611c4113c57fc
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -877,17 +877,17 @@ SHA256sum: a6ea3a01f6caef799999273b24c23eaee37c70efe8bce7812af3e802f893a2c0
 Description:  Temperature sensors data for the LuCI status page
 
 Package: luci-app-urllogger
-Version: 1.0.1-r1
+Version: 1.0.1-r2
 Depends: libc, kmod-natflow
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-urllogger
 SourceName: luci-app-urllogger
 Section: utils
-SourceDateEpoch: 1761144920
+SourceDateEpoch: 1761836944
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-urllogger_1.0.1-r1_all.ipk
-Size: 4241
-SHA256sum: 5f47ff08e4ee6b00606f2c5801354eea77c154d63f102958488d35dec5b0b783
+Filename: luci-app-urllogger_1.0.1-r2_all.ipk
+Size: 4246
+SHA256sum: d8b3e2472472bfe05ec448dba3c6c5d31c39d08cc592886f90dadfdadd694ce4
 Description:  LuCI URL Logger
 
 Package: luci-app-ussd
@@ -987,17 +987,17 @@ SHA256sum: 44b6e4a715389be5d2cad340b8f891f5841696deedddba78dfc13efb739de1bd
 Description:  LuCI for Zerotier
 
 Package: luci-i18n-access-control-ru
-Version: 25.294.51178~a5e7275
+Version: 25.303.55670~82aed5a
 Depends: libc, luci-app-access-control
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
-SourceDateEpoch: 1761055978
+SourceDateEpoch: 1761838070
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-access-control-ru_25.294.51178~a5e7275_all.ipk
-Size: 1987
-SHA256sum: ada753cd5d1ab8bf82eba59646f7c98f9701eac74e48dd95195921a7de646fe0
+Filename: luci-i18n-access-control-ru_25.303.55670~82aed5a_all.ipk
+Size: 2012
+SHA256sum: 079762e2d254d0f2b561891e521f0539c579211f4f7f6022612c9023acd09caf
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
@@ -1044,19 +1044,19 @@ SHA256sum: 6f3cf852609111f705018573ec00ba1de6336bbd1636daa83006a4450eee6f7d
 Description:  Translation for luci-app-cpu-status - Русский (Russian)
 
 Package: luci-i18n-doh-proxy-ru
-Version: 25.184.36164~152d511
+Version: 25.303.53302~de7e901
 Depends: libc, luci-app-doh-proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761420402
+SourceDateEpoch: 1761835702
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-doh-proxy-ru_25.184.36164~152d511_all.ipk
-Size: 4072
-SHA256sum: 2a07a3ccb629f5fff5ac81eca5d1c8817a619065aa56a80d16cba5352609fdfb
+Filename: luci-i18n-doh-proxy-ru_25.303.53302~de7e901_all.ipk
+Size: 4089
+SHA256sum: ac784dbf5558bc9ed7e74031e0e5327eef3bef5e212d23b60df649300b236c5d
 Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
@@ -1103,17 +1103,17 @@ SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
-Version: 25.160.39218~84c780c
+Version: 25.303.50711~cf9fcac
 Depends: libc, luci-app-ledcontrol
-Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1757271772
+SourceDateEpoch: 1761834139
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
-Size: 1493
-SHA256sum: c447e1a97e2da77b4475e9d435d1ff39a971ebf0e4c6dbf997beb3fbeb904153
+Filename: luci-i18n-ledcontrol-ru_25.303.50711~cf9fcac_all.ipk
+Size: 1494
+SHA256sum: dadcf1aab561fdf5514172f72991fb4f1e7ee8dbbc653a6ac98fee95936a7834
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
@@ -1246,17 +1246,17 @@ SHA256sum: ee9d8c751f5fc343ca4e949b13ca1a6f14175083b19c258d62ee375795d90f64
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
-Version: 25.297.43927~8c8536e
+Version: 25.303.53302~de7e901
 Depends: libc, luci-app-stubby
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761307927
+SourceDateEpoch: 1761835702
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-stubby-ru_25.297.43927~8c8536e_all.ipk
-Size: 2049
-SHA256sum: 7850546e587783853e67a9f604f1d67f114d42a30da10537b59ed79f274508ed
+Filename: luci-i18n-stubby-ru_25.303.53302~de7e901_all.ipk
+Size: 2072
+SHA256sum: e84276407c36d1c025265d139b6729bc659cac32caa70e34ad9599314ee50333
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
@@ -1907,12 +1907,12 @@ Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761420369
+SourceDateEpoch: 1761838070
 Architecture: all
 Installed-Size: 51200
 Filename: routerich-defaults_1.4.1_all.ipk
-Size: 8695
-SHA256sum: d4cb7ff5dcc43824cd3556203786d6cc2c3628327f82d44f742e636aaa1a413f
+Size: 8810
+SHA256sum: b746f2e71f4666a9ee3f4cf0b06354d30ac4a166f3750f74bbec4359688ee4ec
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
