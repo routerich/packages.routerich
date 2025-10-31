@@ -922,6 +922,20 @@ Size: 4358
 SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
+Package: luci-app-wdoc
+Version: 1.1-r4
+Depends: libc, wdoc
+Source: /openwrt/src/sdk/repositories/santa-packages/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: utils
+SourceDateEpoch: 1761916343
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc_1.1-r4_all.ipk
+Size: 2255
+SHA256sum: 16684260ae53924bf9008c7462e4c515ee28c8d59125c80bddc6dc403020a591
+Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
 Package: luci-app-wizard
 Version: 1.2.9
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra
@@ -1330,6 +1344,20 @@ Filename: luci-i18n-vsftpd-ru_24.250.49664~12eb8d3_all.ipk
 Size: 3091
 SHA256sum: 183d49415820a5b98c55ed3235af58da4210a7d9ff8d03324da4f4d2ae4c130f
 Description:  Translation for luci-app-vsftpd - Русский (Russian)
+
+Package: luci-i18n-wdoc-ru
+Version: 25.304.47543~0df972c
+Depends: libc, luci-app-wdoc
+Source: /openwrt/src/sdk/repositories/santa-packages/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: luci
+SourceDateEpoch: 1761916343
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-ru_25.304.47543~0df972c_all.ipk
+Size: 1766
+SHA256sum: aedf2d6add0c4b2a600afdef4b723b1120ecf3f734f513a7b7cb80391aa80aec
+Description:  Translation for luci-app-wdoc - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
 Version: 25.139.41679~1cd31c7
@@ -2066,6 +2094,21 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
  reduce the file size of programs and DLLs by around 50%-70%, thus
  reducing disk space, network load times, download times and
  other distribution and storage costs.
+
+Package: wdoc
+Version: 1.5-r2
+Depends: libc, curl
+Source: /openwrt/src/sdk/repositories/santa-packages/wdoc
+SourceName: wdoc
+Section: utils
+SourceDateEpoch: 1761916034
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc_1.5-r2_all.ipk
+Size: 2859
+SHA256sum: e09c5bc9f6b9ad3db7792ca5fb2739207fcd13baecfafa4056f36422c4cfba5c
+Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: xmm-modem
 Version: 0.1.5-r1
