@@ -481,31 +481,31 @@ SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
 Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-block-users-addon
-Version: 1.0.0-r1
+Version: 1.0.0-r2
 Depends: libc, luci-app-block-users
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users-addon
 SourceName: luci-app-block-users-addon
 Section: utils
-SourceDateEpoch: 1761300335
+SourceDateEpoch: 1761950324
 Architecture: all
 Installed-Size: 10240
-Filename: luci-app-block-users-addon_1.0.0-r1_all.ipk
-Size: 2067
-SHA256sum: e140131b8a75cc6bb1cea9a72bf6732d87fc6d3a22defa24b38559a573129ba9
+Filename: luci-app-block-users-addon_1.0.0-r2_all.ipk
+Size: 2063
+SHA256sum: ccde9d859845f7aef1c2228310a6a4d15a61733852b8c04af64317985ca26b34
 Description:  LuCI Web Filtering Status Include Addon
 
 Package: luci-app-block-users
-Version: 1.0.0-r4
+Version: 1.0.0-r5
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users
 SourceName: luci-app-block-users
 Section: utils
-SourceDateEpoch: 1761838032
+SourceDateEpoch: 1761950324
 Architecture: all
 Installed-Size: 40960
-Filename: luci-app-block-users_1.0.0-r4_all.ipk
-Size: 6905
-SHA256sum: b07e2d4152784625dc520f7dac865ea161238d1ced23deacb1bdd660abef3003
+Filename: luci-app-block-users_1.0.0-r5_all.ipk
+Size: 6894
+SHA256sum: 9c69a98f1c5569a0dcfd54a057282717b0d8b45c12b89b9e927d9e32a1f7d5f1
 Description:  LuCI Web Filtering
 
 Package: luci-app-cifs-mount
@@ -589,17 +589,17 @@ SHA256sum: 7bcb1092f99910c58cebbdd436142d3432b2ba0734da412943c776beefc78aab
 Description:  LuCI app for FileBrowser
 
 Package: luci-app-hostacl
-Version: 1.0.0-r2
+Version: 1.0.0-r3
 Depends: libc, kmod-natflow, lua-ipops
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-hostacl
 SourceName: luci-app-hostacl
 Section: utils
-SourceDateEpoch: 1761838032
+SourceDateEpoch: 1761950324
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-hostacl_1.0.0-r2_all.ipk
-Size: 5091
-SHA256sum: c7ec1b2d9e7a63f371126888cc47066fd8d060d57149a973ad56b0c19bef5179
+Filename: luci-app-hostacl_1.0.0-r3_all.ipk
+Size: 5053
+SHA256sum: d133db0312ce8f9ca4f42809a802debed705e905878ac23eafe59b8c4cb59a0e
 Description:  LuCI Web Filtering
 
 Package: luci-app-interfaces-statistics
@@ -816,14 +816,14 @@ Depends: libc, stubby, luci-base, nftables
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761835702
+SourceDateEpoch: 1761946134
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-stubby_0.9.6-r1_all.ipk
-Size: 3290
-SHA256sum: b9294a9444f623559da7ddc34c8a1fb14314c31147ecbb1309d611c4113c57fc
+Size: 3293
+SHA256sum: 66fc0de440c1e58d357b0fbf066858fbdeca92c0c31b045d81bb94b3622e9487
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -1265,12 +1265,12 @@ Depends: libc, luci-app-stubby
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761835702
+SourceDateEpoch: 1761946134
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-stubby-ru_25.303.53302~de7e901_all.ipk
-Size: 2072
-SHA256sum: e84276407c36d1c025265d139b6729bc659cac32caa70e34ad9599314ee50333
+Size: 2067
+SHA256sum: b1c5517ec5762dbccf1a0db9283868fd64e0beb07aa4630d17823857ec4cdc66
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
