@@ -384,6 +384,25 @@ Size: 71446
 SHA256sum: d09539ff5ae2f51dfefb8d8721c352d8182b9e4b398954dc5b925cc8f1d64420
 Description:  This package provides the Qt6 Xml v6.8.3 library.
 
+Package: lpac
+Version: 2.2.1-r2
+Depends: libc, libmbim, libcurl4
+Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/telephony/lpac
+SourceName: lpac
+License: AGPL-3.0-only LGPL-2.0-only
+Section: utils
+SourceDateEpoch: 1762077975
+URL: https://github.com/estkme-group/lpac
+Maintainer: David Bauer <david.bauer@uniberg.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 143360
+Filename: lpac_2.2.1-r2_aarch64_cortex-a53.ipk
+Size: 40218
+SHA256sum: 0612d57fdaebff1ec20ae75095585227f391b1e05a3f7b34af99d488fe5ba52d
+Description:  lpac is a eUICC eSIM LPA manager written in C. It allows to
+ manage eSIM profiles on eUICC SIM cards or modules using multiple
+ backends.
+
 Package: lua-ipops
 Version: 0.0.1-r1
 Depends: libc, lua
