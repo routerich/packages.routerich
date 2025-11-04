@@ -530,34 +530,34 @@ SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dns-failsafe-proxy
-Version: 1.0.5
+Version: 1.0.6
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1761554082
+SourceDateEpoch: 1761835702
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-dns-failsafe-proxy_1.0.5_all.ipk
-Size: 8879
-SHA256sum: 00ba081897d477d7bb2be5ebf5d4d0a10bb43dd4618dab06aedaef1c06c334a8
+Filename: luci-app-dns-failsafe-proxy_1.0.6_all.ipk
+Size: 8929
+SHA256sum: 980e7d6945f828a19d6bee95e50a53745af97bdfd41067fb612ce42ac1b8000a
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r3
+Version: 2025.07.01-r4
 Depends: libc, luci-base, doh-proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761420402
+SourceDateEpoch: 1761835702
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r3_all.ipk
-Size: 11812
-SHA256sum: ef03a9884fc03779037837f01bc7460afc02b0116448cd20457344e342f5dc0f
+Filename: luci-app-doh-proxy_2025.07.01-r4_all.ipk
+Size: 11852
+SHA256sum: 657f0ffcbb745d2e10d99998ed1f2979caf86f9f337aa95c1c1292913075d528
 Description:  Provides Web UI for DoH Proxy
 
 Package: luci-app-filebrowser-go
@@ -610,19 +610,19 @@ SHA256sum: 62b23b344d862be21d2b7c9ee05f0e9d0ccdedd5080c1f20dece041ab8ad5b0e
 Description:  LuCI support for internet-detector
 
 Package: luci-app-ledcontrol
-Version: 0.9.6-r1
+Version: 0.9.7-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1757271772
+SourceDateEpoch: 1761834139
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 30720
-Filename: luci-app-ledcontrol_0.9.6-r1_all.ipk
-Size: 3908
-SHA256sum: 77248c4df1e1cef7567ffb8bf8529659d593b2eb6866075554b5a334b1cfd90e
+Filename: luci-app-ledcontrol_0.9.7-r1_all.ipk
+Size: 4143
+SHA256sum: ab28eeb72114950218cae583dabebdf6314bcf92a8e7b41e7ab560bbe0c4d83c
 Description:  Routerich Led Control app
 
 Package: luci-app-log-viewer
@@ -802,19 +802,19 @@ SHA256sum: 7f2062a1d96d46505f55e73a6208ede39debd46cf2028ae0e577fa8dc1a65132
 Description:  LuCI interface for SSClash, a tool for managing and configuring Clash.
 
 Package: luci-app-stubby
-Version: 0.9.5-r1
+Version: 0.9.6-r1
 Depends: libc, stubby, luci-base, nftables
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761307927
+SourceDateEpoch: 1761946134
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-stubby_0.9.5-r1_all.ipk
-Size: 3276
-SHA256sum: 2c87d3648c07559deeb39f78459ceec4af66a867c9f6543edcab56175232ed16
+Filename: luci-app-stubby_0.9.6-r1_all.ipk
+Size: 3293
+SHA256sum: 66fc0de440c1e58d357b0fbf066858fbdeca92c0c31b045d81bb94b3622e9487
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
@@ -899,6 +899,20 @@ Size: 4358
 SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
+Package: luci-app-wdoc
+Version: 1.1-r4
+Depends: libc, wdoc
+Source: /openwrt/src/sdk/repositories/santa-packages/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: utils
+SourceDateEpoch: 1761916343
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc_1.1-r4_all.ipk
+Size: 2255
+SHA256sum: 16684260ae53924bf9008c7462e4c515ee28c8d59125c80bddc6dc403020a591
+Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
 Package: luci-app-wizard
 Version: 1.2.9
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra
@@ -931,20 +945,20 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret
-Version: 71.20250708-r1
+Version: 72.20251022-r1
 Depends: libc, zapret
 Source: feeds/base/zapret-openwrt/luci-app-zapret
 SourceName: luci-app-zapret
 License: MIT
 Section: luci
-SourceDateEpoch: 1751964941
+SourceDateEpoch: 1761135329
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
-Filename: luci-app-zapret_71.20250708-r1_all.ipk
-Size: 13453
-SHA256sum: 6c8c8419d826523a432c755503f4619ec249fe70ae35ad4c32cda034e43226af
+Filename: luci-app-zapret_72.20251022-r1_all.ipk
+Size: 13735
+SHA256sum: 139dbf6b07ed50c18d1a318913f930dcc96ec4d1f86808910abef6b1e50a1b56
 Description:  LuCI support for zapret
 
 Package: luci-app-zerotier
@@ -1021,19 +1035,19 @@ SHA256sum: 6f3cf852609111f705018573ec00ba1de6336bbd1636daa83006a4450eee6f7d
 Description:  Translation for luci-app-cpu-status - Русский (Russian)
 
 Package: luci-i18n-doh-proxy-ru
-Version: 25.184.36164~152d511
+Version: 25.303.53302~de7e901
 Depends: libc, luci-app-doh-proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761420402
+SourceDateEpoch: 1761835702
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-doh-proxy-ru_25.184.36164~152d511_all.ipk
-Size: 4072
-SHA256sum: 2a07a3ccb629f5fff5ac81eca5d1c8817a619065aa56a80d16cba5352609fdfb
+Filename: luci-i18n-doh-proxy-ru_25.303.53302~de7e901_all.ipk
+Size: 4089
+SHA256sum: ac784dbf5558bc9ed7e74031e0e5327eef3bef5e212d23b60df649300b236c5d
 Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 
 Package: luci-i18n-filebrowser-go-ru
@@ -1080,17 +1094,17 @@ SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
-Version: 25.160.39218~84c780c
+Version: 25.303.50711~cf9fcac
 Depends: libc, luci-app-ledcontrol
-Source: /home/santaclaus/feed.routerich/luci-app-ledcontrol
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
-SourceDateEpoch: 1757271772
+SourceDateEpoch: 1761834139
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-ledcontrol-ru_25.160.39218~84c780c_all.ipk
-Size: 1493
-SHA256sum: c447e1a97e2da77b4475e9d435d1ff39a971ebf0e4c6dbf997beb3fbeb904153
+Filename: luci-i18n-ledcontrol-ru_25.303.50711~cf9fcac_all.ipk
+Size: 1494
+SHA256sum: dadcf1aab561fdf5514172f72991fb4f1e7ee8dbbc653a6ac98fee95936a7834
 Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 
 Package: luci-i18n-log-ru
@@ -1223,17 +1237,17 @@ SHA256sum: ee9d8c751f5fc343ca4e949b13ca1a6f14175083b19c258d62ee375795d90f64
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
-Version: 25.297.43927~8c8536e
+Version: 25.303.53302~de7e901
 Depends: libc, luci-app-stubby
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761307927
+SourceDateEpoch: 1761946134
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-stubby-ru_25.297.43927~8c8536e_all.ipk
-Size: 2049
-SHA256sum: 7850546e587783853e67a9f604f1d67f114d42a30da10537b59ed79f274508ed
+Filename: luci-i18n-stubby-ru_25.303.53302~de7e901_all.ipk
+Size: 2067
+SHA256sum: b1c5517ec5762dbccf1a0db9283868fd64e0beb07aa4630d17823857ec4cdc66
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
@@ -1307,6 +1321,20 @@ Filename: luci-i18n-vsftpd-ru_24.250.49664~12eb8d3_all.ipk
 Size: 3091
 SHA256sum: 183d49415820a5b98c55ed3235af58da4210a7d9ff8d03324da4f4d2ae4c130f
 Description:  Translation for luci-app-vsftpd - Русский (Russian)
+
+Package: luci-i18n-wdoc-ru
+Version: 25.304.47543~0df972c
+Depends: libc, luci-app-wdoc
+Source: /openwrt/src/sdk/repositories/santa-packages/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: luci
+SourceDateEpoch: 1761916343
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-ru_25.304.47543~0df972c_all.ipk
+Size: 1766
+SHA256sum: aedf2d6add0c4b2a600afdef4b723b1120ecf3f734f513a7b7cb80391aa80aec
+Description:  Translation for luci-app-wdoc - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
 Version: 25.139.41679~1cd31c7
@@ -1948,12 +1976,12 @@ Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761420369
+SourceDateEpoch: 1761838070
 Architecture: all
 Installed-Size: 51200
 Filename: routerich-defaults_1.4.1_all.ipk
-Size: 8695
-SHA256sum: d4cb7ff5dcc43824cd3556203786d6cc2c3628327f82d44f742e636aaa1a413f
+Size: 8810
+SHA256sum: b746f2e71f4666a9ee3f4cf0b06354d30ac4a166f3750f74bbec4359688ee4ec
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -1989,17 +2017,17 @@ SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
 Description:  Ruantiblock
 
 Package: smount
-Version: 1.0.4
-Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs-3g, acl
-Source: /home/santaclaus/feed.routerich/smount
+Version: 1.0.5
+Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, kmod-fs-ntfs3, acl
+Source: /home/santaclaus/sdk/repositories/feed.routerich/smount
 SourceName: smount
 Section: utils
-SourceDateEpoch: 1759400348
+SourceDateEpoch: 1761992366
 Architecture: all
 Installed-Size: 10240
-Filename: smount_1.0.4_all.ipk
-Size: 1609
-SHA256sum: 647e9948983ce2b70425e9f4f1795e76f97c06ffc6a5c5b87757936f5783ab72
+Filename: smount_1.0.5_all.ipk
+Size: 1689
+SHA256sum: fd589aa8cd629b263fe2a16eaca0e61c10565acbc1f2e646af128d98180e2313
 Description:  Auto-mount scripts
 
 Package: sms-tool
@@ -2124,6 +2152,21 @@ Size: 2325
 SHA256sum: 914505ec0721f2ac5942b1d67b6208c7317e3cc60c409950eec937350aa68d8f
 Description:  urllogger
 
+Package: wdoc
+Version: 1.5-r2
+Depends: libc, curl
+Source: /openwrt/src/sdk/repositories/santa-packages/wdoc
+SourceName: wdoc
+Section: utils
+SourceDateEpoch: 1761916034
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc_1.5-r2_all.ipk
+Size: 2859
+SHA256sum: e09c5bc9f6b9ad3db7792ca5fb2739207fcd13baecfafa4056f36422c4cfba5c
+Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
 Package: xmm-modem
 Version: 0.1.5-r1
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-cdc-ncm, kmod-usb-net-rndis
@@ -2157,72 +2200,72 @@ SHA256sum: 9603a056bfc0376d34d4eae6a73d491c2d41378a99e4d67a5fe8651804ccbc21
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zapret-ip2net
-Version: 71.20250708
+Version: 72.20251022
 Depends: libc, zlib, zapret
 Source: feeds/base/zapret-openwrt/zapret-ip2net
 SourceName: zapret-ip2net
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1751964941
+SourceDateEpoch: 1761135329
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: zapret-ip2net_71.20250708_aarch64_cortex-a53.ipk
-Size: 5504
-SHA256sum: e7ad7d8bca6fcce5d64256c6a63465f7859f220bb872e53d6eb94b552d0e6aa7
+Filename: zapret-ip2net_72.20251022_aarch64_cortex-a53.ipk
+Size: 5510
+SHA256sum: 3966ef8410f646d7e12f41e9a0d8ac093b4e6393924ccd0ddf0ecb9ba918cf48
 Description:  ip2net
 
 Package: zapret-mdig
-Version: 71.20250708
+Version: 72.20251022
 Depends: libc, zlib, zapret
 Source: feeds/base/zapret-openwrt/zapret-mdig
 SourceName: zapret-mdig
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1751964941
+SourceDateEpoch: 1761135329
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: zapret-mdig_71.20250708_aarch64_cortex-a53.ipk
-Size: 6515
-SHA256sum: 47d852de14ba9aebecc00924732b50a9767d7eadd3b6d0de9a66d544e1c43247
+Filename: zapret-mdig_72.20251022_aarch64_cortex-a53.ipk
+Size: 6511
+SHA256sum: 5165ce1f8aecbda23cf8aa0e2aa5989d527b7d3ee07996e107a87512f5ee83db
 Description:  mdig
 
 Package: zapret-tpws
-Version: 71.20250708
+Version: 72.20251022
 Depends: libc, zlib, libcap, zapret
 Source: feeds/base/zapret-openwrt/zapret-tpws
 SourceName: zapret-tpws
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1751964941
+SourceDateEpoch: 1761135329
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: zapret-tpws_71.20250708_aarch64_cortex-a53.ipk
-Size: 49084
-SHA256sum: b713914bc3f91ab5e362d3ddb1b57ff28032cc7e3e37e00090a22233d00994bd
+Filename: zapret-tpws_72.20251022_aarch64_cortex-a53.ipk
+Size: 49417
+SHA256sum: 9970401d0b2f212c782b8fbe1fd7624143d95c9aec347420ee81cd6e06f165c2
 Description:  tpws
 
 Package: zapret
-Version: 71.20250708
+Version: 72.20251022
 Depends: libc, nftables, curl, gzip, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap, zlib
 Source: feeds/base/zapret-openwrt/zapret
 SourceName: zapret
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1751964941
+SourceDateEpoch: 1761135329
 URL: https://github.com/bol-van/zapret
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 532480
-Filename: zapret_71.20250708_aarch64_cortex-a53.ipk
-Size: 154415
-SHA256sum: 34881c2177c4f885b24e38c2e15a2f4fd6457a2b707a59ad5bb09363b80ac986
+Filename: zapret_72.20251022_aarch64_cortex-a53.ipk
+Size: 162253
+SHA256sum: 0052b2df5c7a29d616d8af7245bb39af11ae01b6199d240274b589b450cfd854
 Description:  zapret
 
 Package: zerotier-lite
