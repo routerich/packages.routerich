@@ -2027,7 +2027,7 @@ SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
 
 Package: tailscale-lite
-Version: 1.90.1-r3
+Version: 1.90.6-r1
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
 Source: /home/santaclaus/sdk/repositories/feed.routerich/tailscale-lite
@@ -2035,15 +2035,15 @@ SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1761318617
+SourceDateEpoch: 1762250243
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6144000
-Filename: tailscale-lite_1.90.1-r3_aarch64_cortex-a53.ipk
-Size: 6139902
-SHA256sum: e1ce41fe106ad04f55ec3d2adce6c0534fc7d1726fd3a297ce35c5bc176b6f59
+Installed-Size: 6154240
+Filename: tailscale-lite_1.90.6-r1_aarch64_cortex-a53.ipk
+Size: 6147576
+SHA256sum: ebc299e2565ffd36ef2d0568780ede1e8cae1cb10603e3088eb8fdd6c3d20175
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
