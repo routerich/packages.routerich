@@ -45,13 +45,13 @@ Depends: libc
 Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1762462114
+SourceDateEpoch: 1762462880
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
 Filename: automodem_1.0.8_all.ipk
-Size: 6076
-SHA256sum: ed51c55c09454576c8378bf5eac9b50a246ed2c1b2b288bb9c2c507c46befea9
+Size: 6084
+SHA256sum: f21ade5e46bd9551f5e99ef26a2cebd4b91a3be7b8cff463dfe88c721575192e
 Description:  Automatic modem setup
 
 Package: automount
