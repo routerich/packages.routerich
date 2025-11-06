@@ -42,16 +42,16 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 Package: automodem
 Version: 1.0.8
 Depends: libc
-Source: /home/santaclaus/rr-modemfeed/packages/net/automodem
+Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
-SourceDateEpoch: 1756057105
+SourceDateEpoch: 1762462114
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 51200
 Filename: automodem_1.0.8_all.ipk
-Size: 6061
-SHA256sum: adcac95c7c29a46d4c853ec4675b8a0578802f9ecc59267ca2cd5f8273f1bee5
+Size: 6076
+SHA256sum: ed51c55c09454576c8378bf5eac9b50a246ed2c1b2b288bb9c2c507c46befea9
 Description:  Automatic modem setup
 
 Package: automount
