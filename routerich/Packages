@@ -750,7 +750,7 @@ SHA256sum: e524d9ec3121e3d9fcc072e84253132a9e1d7d6632604d0df81502f47526dac4
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-podkop
-Version: v0.6.2-r1
+Version: v0.7.7-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -760,10 +760,10 @@ SourceDateEpoch: 1758316778
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 143360
-Filename: luci-app-podkop-v0.6.2-r1-all.ipk
-Size: 28353
-SHA256sum: 2e785fd9c337709252c6edca6b8dbea81e7159ee3cf999cb630b4545a0b9fec8
+Installed-Size: 184320
+Filename: luci-app-podkop-v0.7.7-r1-all.ipk
+Size: 32976
+SHA256sum: 6138503c0b0b5271479188f7d201dd9f4b942fb3af1b94b5580c0f8e26c41e99
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1263,7 +1263,7 @@ SHA256sum: 63532d0c5a01561da5427aecc67410cf61cea2a771f82c828235d916cbb14a82
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251010.42464
+Version: 0.251030.47015
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1273,9 +1273,9 @@ SourceDateEpoch: 1758316778
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru-0.6.2.ipk
-Size: 7108
-SHA256sum: 1f9611bc6dc2a4bd9f03ddf6a00b7de37f96483898bebf15b61d3678adb22c41
+Filename: luci-i18n-podkop-ru-0.7.7.ipk
+Size: 7647
+SHA256sum: 2ceb668340ee270f5f607062465c549ab705e464e6b12f2b443bc8b3a4c01efd
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1851,8 +1851,8 @@ SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.6.2-r1
-Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
+Version: v0.7.7-r1
+Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64, bind-dig
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilities/podkop
 SourceName: podkop
@@ -1862,10 +1862,10 @@ SourceDateEpoch: 1758316778
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 174080
-Filename: podkop-v0.6.2-r1-all.ipk
-Size: 30080
-SHA256sum: 61fba269e292746c71bba55f2019b944a430d5a98b578e769c1059b61827a22b
+Installed-Size: 184320
+Filename: podkop-v0.7.7-r1-all.ipk
+Size: 32865
+SHA256sum: 10718a51ba7eab25f87cec185a5ac31874cb4798b57a04ac9e63c0689221a8d6
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
