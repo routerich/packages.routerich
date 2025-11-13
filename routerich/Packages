@@ -2280,18 +2280,18 @@ SHA256sum: 33caf7a8b44932af3ff9da1ca2e3dca9dff0f22edf1948808088ce0f09d2e8a2
 Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: wdoc-warp
-Version: 1.0.0-r1
+Version: 1.0.0-r2
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-warp
 SourceName: wdoc-warp
 Section: utils
-SourceDateEpoch: 1763045243
+SourceDateEpoch: 1763065228
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: wdoc-warp_1.0.0-r1_all.ipk
-Size: 2720
-SHA256sum: e3b2074e229cc76db95aab0478a46d0d46b603321561483662ffaf762f3c632d
+Filename: wdoc-warp_1.0.0-r2_all.ipk
+Size: 2747
+SHA256sum: 3bf289c5b167b55fe9dc4fcb83192049a7431cb3ea0de693dc81a1f3f57630c4
 Description:  WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
 
 Package: wdoc-wg
