@@ -722,7 +722,7 @@ SHA256sum: 131d0fca5ac5f4b3a690ff4cc7c1cc10cb8080a9988d322c3f06f93cddca103a
 Description:  LuCI Support for natflow users.
 
 Package: luci-app-podkop
-Version: v0.6.2-r1
+Version: v0.7.7-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -732,10 +732,10 @@ SourceDateEpoch: 1758316778
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 143360
-Filename: luci-app-podkop-v0.6.2-r1-all.ipk
-Size: 28353
-SHA256sum: 2e785fd9c337709252c6edca6b8dbea81e7159ee3cf999cb630b4545a0b9fec8
+Installed-Size: 184320
+Filename: luci-app-podkop-v0.7.7-r1-all.ipk
+Size: 32976
+SHA256sum: 6138503c0b0b5271479188f7d201dd9f4b942fb3af1b94b5580c0f8e26c41e99
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -899,6 +899,48 @@ Size: 4358
 SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
+Package: luci-app-wdoc-singbox
+Version: 1.1-r6
+Depends: libc, luci-app-wdoc, wdoc-singbox
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-singbox
+SourceName: luci-app-wdoc-singbox
+Section: utils
+SourceDateEpoch: 1762891935
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc-singbox_1.1-r6_all.ipk
+Size: 2140
+SHA256sum: 8c7e3d38d8ffaf6f92179769a1da45f719dfd48357961fbb9b49590cda7e11ac
+Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
+
+Package: luci-app-wdoc-warp
+Version: 1.0-r1
+Depends: libc, luci-app-wdoc, wdoc-warp
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-warp
+SourceName: luci-app-wdoc-warp
+Section: utils
+SourceDateEpoch: 1763045243
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc-warp_1.0-r1_all.ipk
+Size: 2275
+SHA256sum: 1024e1dd4196d9f2688965a9e9077deddc0c5162a7b71d62b19d234828fa4dad
+Description:  LuCI WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
+
+Package: luci-app-wdoc-wg
+Version: 1.1-r6
+Depends: libc, luci-app-wdoc, wdoc-wg
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-wg
+SourceName: luci-app-wdoc-wg
+Section: utils
+SourceDateEpoch: 1762891935
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc-wg_1.1-r6_all.ipk
+Size: 2269
+SHA256sum: 631872da0fe2b9974c020c14264489ff629dcf1286fdd054332f5770c902be8c
+Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
+
 Package: luci-app-wdoc
 Version: 1.1-r4
 Depends: libc, wdoc
@@ -911,6 +953,20 @@ Installed-Size: 20480
 Filename: luci-app-wdoc_1.1-r4_all.ipk
 Size: 2255
 SHA256sum: 16684260ae53924bf9008c7462e4c515ee28c8d59125c80bddc6dc403020a591
+Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
+Package: luci-app-wdoc
+Version: 1.1-r6
+Depends: libc, wdoc
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: utils
+SourceDateEpoch: 1762892375
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc_1.1-r6_all.ipk
+Size: 2248
+SHA256sum: cb20634a4298a69dd6a5a51392258f7c3ae879078f9296936c189735497316ff
 Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wizard
@@ -1179,7 +1235,7 @@ SHA256sum: 63532d0c5a01561da5427aecc67410cf61cea2a771f82c828235d916cbb14a82
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251010.42464
+Version: 0.251030.47015
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1189,9 +1245,9 @@ SourceDateEpoch: 1758316778
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru-0.6.2.ipk
-Size: 7108
-SHA256sum: 1f9611bc6dc2a4bd9f03ddf6a00b7de37f96483898bebf15b61d3678adb22c41
+Filename: luci-i18n-podkop-ru-0.7.7.ipk
+Size: 7647
+SHA256sum: 2ceb668340ee270f5f607062465c549ab705e464e6b12f2b443bc8b3a4c01efd
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1335,6 +1391,62 @@ Filename: luci-i18n-wdoc-ru_25.304.47543~0df972c_all.ipk
 Size: 1766
 SHA256sum: aedf2d6add0c4b2a600afdef4b723b1120ecf3f734f513a7b7cb80391aa80aec
 Description:  Translation for luci-app-wdoc - Русский (Russian)
+
+Package: luci-i18n-wdoc-ru
+Version: 25.315.72735~4d7310c
+Depends: libc, luci-app-wdoc
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc
+SourceName: luci-app-wdoc
+Section: luci
+SourceDateEpoch: 1762892375
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-ru_25.315.72735~4d7310c_all.ipk
+Size: 1749
+SHA256sum: 4cea2fd02d3906ccf299823b7d9beadbcfbac0b271ec8310cc7a45ce015979de
+Description:  Translation for luci-app-wdoc - Русский (Russian)
+
+Package: luci-i18n-wdoc-singbox-ru
+Version: 25.315.72735~4d7310c
+Depends: libc, luci-app-wdoc-singbox
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-singbox
+SourceName: luci-app-wdoc-singbox
+Section: luci
+SourceDateEpoch: 1762891935
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-singbox-ru_25.315.72735~4d7310c_all.ipk
+Size: 1629
+SHA256sum: c6f45623db499d1388a50411b2741d472720a8f88b7cc57cc043da73c19267ab
+Description:  Translation for luci-app-wdoc-singbox - Русский (Russian)
+
+Package: luci-i18n-wdoc-warp-ru
+Version: 25.317.53243~4098d84
+Depends: libc, luci-app-wdoc-warp
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-warp
+SourceName: luci-app-wdoc-warp
+Section: luci
+SourceDateEpoch: 1763045243
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-warp-ru_25.317.53243~4098d84_all.ipk
+Size: 1697
+SHA256sum: 647e19ba1fe0c89d5d800d3adb4ec4ff016a8a26a3fdf70c3758cc854f9e2150
+Description:  Translation for luci-app-wdoc-warp - Русский (Russian)
+
+Package: luci-i18n-wdoc-wg-ru
+Version: 25.315.72735~4d7310c
+Depends: libc, luci-app-wdoc-wg
+Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-wg
+SourceName: luci-app-wdoc-wg
+Section: luci
+SourceDateEpoch: 1762891935
+Architecture: all
+Installed-Size: 10240
+Filename: luci-i18n-wdoc-wg-ru_25.315.72735~4d7310c_all.ipk
+Size: 1740
+SHA256sum: eb7856263c3cfc3d963a9ffd43f0b985b823733e258a4c02e37e9395c4a21bf2
+Description:  Translation for luci-app-wdoc-wg - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
 Version: 25.139.41679~1cd31c7
@@ -1789,8 +1901,8 @@ SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.6.2-r1
-Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64
+Version: v0.7.7-r1
+Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64, bind-dig
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilities/podkop
 SourceName: podkop
@@ -1800,10 +1912,10 @@ SourceDateEpoch: 1758316778
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 174080
-Filename: podkop-v0.6.2-r1-all.ipk
-Size: 30080
-SHA256sum: 61fba269e292746c71bba55f2019b944a430d5a98b578e769c1059b61827a22b
+Installed-Size: 184320
+Filename: podkop-v0.7.7-r1-all.ipk
+Size: 32865
+SHA256sum: 10718a51ba7eab25f87cec185a5ac31874cb4798b57a04ac9e63c0689221a8d6
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
@@ -2152,6 +2264,51 @@ Size: 2325
 SHA256sum: 914505ec0721f2ac5942b1d67b6208c7317e3cc60c409950eec937350aa68d8f
 Description:  urllogger
 
+Package: wdoc-singbox
+Version: 1.2.5-r1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-singbox
+SourceName: wdoc-singbox
+Section: utils
+SourceDateEpoch: 1762891935
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 10240
+Filename: wdoc-singbox_1.2.5-r1_all.ipk
+Size: 2338
+SHA256sum: 33caf7a8b44932af3ff9da1ca2e3dca9dff0f22edf1948808088ce0f09d2e8a2
+Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
+
+Package: wdoc-warp
+Version: 1.0.0-r1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-warp
+SourceName: wdoc-warp
+Section: utils
+SourceDateEpoch: 1763045243
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc-warp_1.0.0-r1_all.ipk
+Size: 2720
+SHA256sum: e3b2074e229cc76db95aab0478a46d0d46b603321561483662ffaf762f3c632d
+Description:  WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
+
+Package: wdoc-wg
+Version: 1.2.5-r1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-wg
+SourceName: wdoc-wg
+Section: utils
+SourceDateEpoch: 1762891935
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc-wg_1.2.5-r1_all.ipk
+Size: 2835
+SHA256sum: 4ff77bd7d5c7e97a7a5f0d1f8d61f6920e49a8c60c83ee5610ee18b6a01cba10
+Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
+
 Package: wdoc
 Version: 1.5-r2
 Depends: libc, curl
@@ -2165,6 +2322,21 @@ Installed-Size: 20480
 Filename: wdoc_1.5-r2_all.ipk
 Size: 2859
 SHA256sum: e09c5bc9f6b9ad3db7792ca5fb2739207fcd13baecfafa4056f36422c4cfba5c
+Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
+Package: wdoc
+Version: 1.5-r3
+Depends: libc, curl
+Source: /home/santaclaus/sdk/repositories/wdoc/wdoc
+SourceName: wdoc
+Section: utils
+SourceDateEpoch: 1762891935
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc_1.5-r3_all.ipk
+Size: 2857
+SHA256sum: 5ef5ac247f84e65e57b5489f896c27d4a46202f3c1216a4fd7056f804784180b
 Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: xmm-modem
