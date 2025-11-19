@@ -86,7 +86,7 @@ SHA256sum: c3713fa913782493b6df67611fca1f14bfe320f4cbc85689d58e4d5de1f268e1
 Description:  Bandix core service for network traffic monitoring
 
 Package: doh-proxy
-Version: 2025.07.01-r1
+Version: 2025.07.01-r2
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/doh-proxy
@@ -94,13 +94,13 @@ SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1751494965
+SourceDateEpoch: 1763561999
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
-Filename: doh-proxy_2025.07.01-r1_aarch64_cortex-a53.ipk
-Size: 24263
-SHA256sum: 62b4badee3a39df9c6788d39847d20a7da02078797c6a6c7c11b9de61e890ff4
+Filename: doh-proxy_2025.07.01-r2_aarch64_cortex-a53.ipk
+Size: 24251
+SHA256sum: cd6d730ba1cb9b3f8dbf758a974864a112925c6cb7b40210fb756aa1d0157951
 Description:  Dns_over_https_Proxy
 
 Package: filebrowser
@@ -2033,17 +2033,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.4.1
+Version: 1.4.2
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761838070
+SourceDateEpoch: 1763561999
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.4.1_all.ipk
-Size: 8810
-SHA256sum: b746f2e71f4666a9ee3f4cf0b06354d30ac4a166f3750f74bbec4359688ee4ec
+Filename: routerich-defaults_1.4.2_all.ipk
+Size: 8774
+SHA256sum: 8f835146b5c6b0d58b07e4324396c8ce65ead95c2f74304b85eb9d7b11331fec
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
