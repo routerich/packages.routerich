@@ -102,7 +102,7 @@ SHA256sum: 2c6260f17994c56471595390805471dd5d9b0cfc1aa1cfc9b556919f332873c6
 Description:  Bridge forwarding accelerator
 
 Package: doh-proxy
-Version: 2025.07.01-r1
+Version: 2025.07.01-r2
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
 Source: /home/santaclaus/sdk/repositories/feed.routerich/doh-proxy
@@ -110,13 +110,13 @@ SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1751494965
+SourceDateEpoch: 1763561999
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
-Filename: doh-proxy_2025.07.01-r1_aarch64_cortex-a53.ipk
-Size: 24263
-SHA256sum: 62b4badee3a39df9c6788d39847d20a7da02078797c6a6c7c11b9de61e890ff4
+Filename: doh-proxy_2025.07.01-r2_aarch64_cortex-a53.ipk
+Size: 24251
+SHA256sum: cd6d730ba1cb9b3f8dbf758a974864a112925c6cb7b40210fb756aa1d0157951
 Description:  Dns_over_https_Proxy
 
 Package: filebrowser
@@ -1495,19 +1495,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.4-r20251024
+Version: 1.0.9.7-r20251120
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1761383531
+SourceDateEpoch: 1763646946
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1320960
-Filename: luci-theme-routerich_1.0.9.4-r20251024_all.ipk
-Size: 526090
-SHA256sum: 7633b6c3fb40cacc5c0bf64005818e5ab9b11ac071e19b677bf6a2109664095c
+Installed-Size: 1341440
+Filename: luci-theme-routerich_1.0.9.7-r20251120_all.ipk
+Size: 533515
+SHA256sum: fa003e4d8b0a20a9c5fb085c6ed52dbdb0bd134a7d8a956545b5e6e0922616c1
 Description:  Routerich Theme
 
 Package: mesh-button
@@ -1886,18 +1886,18 @@ Description:  Speedtest CLI brings the trusted technology and global server netw
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
 
 Package: opera-proxy
-Version: 1.12.0-r1
+Version: 1.13.1-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich/opera-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/opera-proxy
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1760178596
+SourceDateEpoch: 1763649003
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 1935360
-Filename: opera-proxy_1.12.0-r1_aarch64_cortex-a53.ipk
-Size: 1923679
-SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
+Installed-Size: 1945600
+Filename: opera-proxy_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 1938366
+SHA256sum: 8faa9b93ebbd7870267db67d1a38e14aad02362894d6a4740675fc1fc7bffd98
 Description:  Opera Proxy client
 
 Package: podkop
@@ -2083,17 +2083,17 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.4.1
+Version: 1.4.2
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1761838070
+SourceDateEpoch: 1763561999
 Architecture: all
 Installed-Size: 51200
-Filename: routerich-defaults_1.4.1_all.ipk
-Size: 8810
-SHA256sum: b746f2e71f4666a9ee3f4cf0b06354d30ac4a166f3750f74bbec4359688ee4ec
+Filename: routerich-defaults_1.4.2_all.ipk
+Size: 8774
+SHA256sum: 8f835146b5c6b0d58b07e4324396c8ce65ead95c2f74304b85eb9d7b11331fec
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
@@ -2295,18 +2295,18 @@ SHA256sum: 3bf289c5b167b55fe9dc4fcb83192049a7431cb3ea0de693dc81a1f3f57630c4
 Description:  WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
 
 Package: wdoc-wg
-Version: 1.2.5-r1
+Version: 1.2.5-r2
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-wg
 SourceName: wdoc-wg
 Section: utils
-SourceDateEpoch: 1762891935
+SourceDateEpoch: 1763391970
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: wdoc-wg_1.2.5-r1_all.ipk
-Size: 2835
-SHA256sum: 4ff77bd7d5c7e97a7a5f0d1f8d61f6920e49a8c60c83ee5610ee18b6a01cba10
+Filename: wdoc-wg_1.2.5-r2_all.ipk
+Size: 2791
+SHA256sum: c780b875eae7d58ffef4ae116ab7fc312816a7ab558761f01a0f5adaba3deff6
 Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: wdoc
