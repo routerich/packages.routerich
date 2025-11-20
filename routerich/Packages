@@ -1509,19 +1509,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.6-r20251107
+Version: 1.0.9.7-r20251120
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1762598548
+SourceDateEpoch: 1763646946
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 1382400
-Filename: luci-theme-routerich_1.0.9.6-r20251107_all.ipk
-Size: 537786
-SHA256sum: 13589cbf720394671c9fc7e3df338f344042d5bdb052e5c3b6b5681b4a6e69b6
+Installed-Size: 1341440
+Filename: luci-theme-routerich_1.0.9.7-r20251120_all.ipk
+Size: 533515
+SHA256sum: fa003e4d8b0a20a9c5fb085c6ed52dbdb0bd134a7d8a956545b5e6e0922616c1
 Description:  Routerich Theme
 
 Package: mesh-button
@@ -1836,18 +1836,18 @@ SHA256sum: ab729399e60198f864f33f2edd5aad15fbcc36843e653b62e12862247925614c
 Description:  NTFS mount script for Paragon NTFS3 driver
 
 Package: opera-proxy
-Version: 1.12.0-r1
+Version: 1.13.1-r1
 Depends: libc
-Source: /home/santaclaus/feed.routerich/opera-proxy
+Source: /home/santaclaus/sdk/repositories/feed.routerich/opera-proxy
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1760178596
+SourceDateEpoch: 1763649003
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 1935360
-Filename: opera-proxy_1.12.0-r1_aarch64_cortex-a53.ipk
-Size: 1923679
-SHA256sum: bb0f55accd386aa78002d40fce748651001cc19093f69bdd24fbe5ca1f693bd6
+Installed-Size: 1945600
+Filename: opera-proxy_1.13.1-r1_aarch64_cortex-a53.ipk
+Size: 1938366
+SHA256sum: 8faa9b93ebbd7870267db67d1a38e14aad02362894d6a4740675fc1fc7bffd98
 Description:  Opera Proxy client
 
 Package: podkop
