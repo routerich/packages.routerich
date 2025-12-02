@@ -750,7 +750,7 @@ SHA256sum: e524d9ec3121e3d9fcc072e84253132a9e1d7d6632604d0df81502f47526dac4
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-podkop
-Version: v0.7.7-r1
+Version: v0.7.9-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -761,9 +761,9 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 184320
-Filename: luci-app-podkop-v0.7.7-r1-all.ipk
-Size: 32976
-SHA256sum: 6138503c0b0b5271479188f7d201dd9f4b942fb3af1b94b5580c0f8e26c41e99
+Filename: luci-app-podkop-v0.7.9-r1-all.ipk
+Size: 33616
+SHA256sum: 021514395db8b5929ffce173d89ad42294c8d0268e10cdcb3eae5eb1e42375ec
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1263,7 +1263,7 @@ SHA256sum: 63532d0c5a01561da5427aecc67410cf61cea2a771f82c828235d916cbb14a82
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251030.47015
+Version: 0.251201.73871
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1273,9 +1273,9 @@ SourceDateEpoch: 1758316778
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru-0.7.7.ipk
-Size: 7647
-SHA256sum: 2ceb668340ee270f5f607062465c549ab705e464e6b12f2b443bc8b3a4c01efd
+Filename: luci-i18n-podkop-ru-0.7.9.ipk
+Size: 8070
+SHA256sum: 740d864c8aa074ca7913ed1d2e56fb2a57875e7ab46de2af59d81e71ba2fdd2a
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1509,19 +1509,19 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.8-r20251128
+Version: 1.0.9.9-r20251202
 Depends: libc, curl, jsonfilter, luci-lua-runtime
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
-SourceDateEpoch: 1764318086
+SourceDateEpoch: 1764684927
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 1341440
-Filename: luci-theme-routerich_1.0.9.8-r20251128_all.ipk
-Size: 533980
-SHA256sum: 99d937fdf5cbf5713dceeb5eb23ee7fc1132f77df793bdfad879aee980e90f7f
+Filename: luci-theme-routerich_1.0.9.9-r20251202_all.ipk
+Size: 533750
+SHA256sum: 1283773c422364493b791217faa631b00602d793e4b5659c9721e1f544ac5748
 Description:  Routerich Theme
 
 Package: mesh-button
@@ -1851,7 +1851,7 @@ SHA256sum: 8faa9b93ebbd7870267db67d1a38e14aad02362894d6a4740675fc1fc7bffd98
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.7.7-r1
+Version: v0.7.9-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64, bind-dig
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilities/podkop
@@ -1862,10 +1862,10 @@ SourceDateEpoch: 1758316778
 URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
-Installed-Size: 184320
-Filename: podkop-v0.7.7-r1-all.ipk
-Size: 32865
-SHA256sum: 10718a51ba7eab25f87cec185a5ac31874cb4798b57a04ac9e63c0689221a8d6
+Installed-Size: 194560
+Filename: podkop-v0.7.9-r1-all.ipk
+Size: 34414
+SHA256sum: 1808b8fc8459936d22cad96458b078c93cc4d3959dc075be8ca571578678371b
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
