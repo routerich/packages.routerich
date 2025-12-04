@@ -1001,20 +1001,20 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret
-Version: 72.20251022-r1
+Version: 72.20251122-r1
 Depends: libc, zapret
 Source: feeds/base/zapret-openwrt/luci-app-zapret
 SourceName: luci-app-zapret
 License: MIT
 Section: luci
-SourceDateEpoch: 1761135329
+SourceDateEpoch: 1763801926
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
-Filename: luci-app-zapret_72.20251022-r1_all.ipk
-Size: 13735
-SHA256sum: 139dbf6b07ed50c18d1a318913f930dcc96ec4d1f86808910abef6b1e50a1b56
+Filename: luci-app-zapret_72.20251122-r1_all.ipk
+Size: 13737
+SHA256sum: 32eff761288cd1ca01639765f401531cdd6d534249f65ad4032cd7fb69a05447
 Description:  LuCI support for zapret
 
 Package: luci-app-zerotier
@@ -2374,72 +2374,72 @@ SHA256sum: 9603a056bfc0376d34d4eae6a73d491c2d41378a99e4d67a5fe8651804ccbc21
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zapret-ip2net
-Version: 72.20251022
+Version: 72.20251122
 Depends: libc, zlib, zapret
 Source: feeds/base/zapret-openwrt/zapret-ip2net
 SourceName: zapret-ip2net
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1761135329
+SourceDateEpoch: 1763801926
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: zapret-ip2net_72.20251022_aarch64_cortex-a53.ipk
-Size: 5510
-SHA256sum: 3966ef8410f646d7e12f41e9a0d8ac093b4e6393924ccd0ddf0ecb9ba918cf48
+Filename: zapret-ip2net_72.20251122_aarch64_cortex-a53.ipk
+Size: 5502
+SHA256sum: d04f072ed8fe974e9cb81f06e0363fc40fe510325e85e12200db2aacef9e4782
 Description:  ip2net
 
 Package: zapret-mdig
-Version: 72.20251022
+Version: 72.20251122
 Depends: libc, zlib, zapret
 Source: feeds/base/zapret-openwrt/zapret-mdig
 SourceName: zapret-mdig
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1761135329
+SourceDateEpoch: 1763801926
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 71680
-Filename: zapret-mdig_72.20251022_aarch64_cortex-a53.ipk
-Size: 6511
-SHA256sum: 5165ce1f8aecbda23cf8aa0e2aa5989d527b7d3ee07996e107a87512f5ee83db
+Filename: zapret-mdig_72.20251122_aarch64_cortex-a53.ipk
+Size: 6503
+SHA256sum: d248defd4116b51116c8e03599741f02d5af1e6f0cc87613727d0f8f1fffa6cf
 Description:  mdig
 
 Package: zapret-tpws
-Version: 72.20251022
+Version: 72.20251122
 Depends: libc, zlib, libcap, zapret
 Source: feeds/base/zapret-openwrt/zapret-tpws
 SourceName: zapret-tpws
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1761135329
+SourceDateEpoch: 1763801926
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
 Installed-Size: 143360
-Filename: zapret-tpws_72.20251022_aarch64_cortex-a53.ipk
-Size: 49417
-SHA256sum: 9970401d0b2f212c782b8fbe1fd7624143d95c9aec347420ee81cd6e06f165c2
+Filename: zapret-tpws_72.20251122_aarch64_cortex-a53.ipk
+Size: 49444
+SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret
-Version: 72.20251022
+Version: 72.20251122
 Depends: libc, nftables, curl, gzip, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap, zlib
 Source: feeds/base/zapret-openwrt/zapret
 SourceName: zapret
 License: MIT
 LicenseFiles: docs/LICENSE.txt
 Section: net
-SourceDateEpoch: 1761135329
+SourceDateEpoch: 1763801926
 URL: https://github.com/bol-van/zapret
 Maintainer: bol-van
 Architecture: aarch64_cortex-a53
-Installed-Size: 532480
-Filename: zapret_72.20251022_aarch64_cortex-a53.ipk
-Size: 162253
-SHA256sum: 0052b2df5c7a29d616d8af7245bb39af11ae01b6199d240274b589b450cfd854
+Installed-Size: 542720
+Filename: zapret_72.20251122_aarch64_cortex-a53.ipk
+Size: 163646
+SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
 Description:  zapret
 
 Package: zerotier-lite
