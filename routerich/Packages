@@ -783,19 +783,19 @@ SHA256sum: 1cd915783bc778b25de86e33551c5a36b00eac1e2301033455531690937f7b5c
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
-Version: 2.1.4-r1
+Version: 2.1.10-r1
 Depends: libc, ruantiblock
-Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
+Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/luci-app-ruantiblock
 SourceName: luci-app-ruantiblock
 Section: luci
-SourceDateEpoch: 1741033461
+SourceDateEpoch: 1763087725
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-ruantiblock_2.1.4-r1_all.ipk
-Size: 20207
-SHA256sum: 2f61728048a9da457247ac3b9dd6ba5eadb4472456c516d0f48c0fb6a517ff60
+Filename: luci-app-ruantiblock_2.1.10-r1_all.ipk
+Size: 20882
+SHA256sum: 99e1ecce11b5a1e808dd9356a8b041f9fab24cb50c15a989e4d8d28242a01ded
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
@@ -1293,17 +1293,19 @@ SHA256sum: 2c0b1a4d2ffd38fa09f75309714aeadd748c28f6d426ac7406e5d78817c24337
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-ruantiblock-ru
-Version: 24.334.78666~f21fa64
-Depends: libc, luci-app-ruantiblock
-Source: feeds/routerich/ruantiblock_openwrt/luci-app-ruantiblock
-SourceName: luci-app-ruantiblock
+Version: 2.1.10-r1
+Depends: libc, luci-app-ruantiblock, luci-lua-runtime
+Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/luci-i18n-ruantiblock-ru
+SourceName: luci-i18n-ruantiblock-ru
 Section: luci
-SourceDateEpoch: 1741033461
+SourceDateEpoch: 1750968602
+URL: https://github.com/openwrt/luci
+Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-ruantiblock-ru_24.334.78666~f21fa64_all.ipk
-Size: 6187
-SHA256sum: 7cff6bec3e21e5abfb6bc1c41f77caf397a04bd53918b0d0546210f24c7cc615
+Filename: luci-i18n-ruantiblock-ru_2.1.10-r1_all.ipk
+Size: 7151
+SHA256sum: 3b3cd8f5f895979dab69ecf0c3140983261129c6088de8a17de5889fca820fa0
 Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-smstools3-ru
@@ -2047,35 +2049,35 @@ SHA256sum: 8f835146b5c6b0d58b07e4324396c8ce65ead95c2f74304b85eb9d7b11331fec
 Description:  Default settings by RouteRich
 
 Package: ruantiblock-mod-lua
-Version: 2.1.4-r1
+Version: 2.1.10-r1
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
-Source: feeds/routerich/ruantiblock_openwrt/ruantiblock-mod-lua
+Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/ruantiblock-mod-lua
 SourceName: ruantiblock-mod-lua
 Section: net
-SourceDateEpoch: 1741033461
+SourceDateEpoch: 1763046846
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
-Installed-Size: 51200
-Filename: ruantiblock-mod-lua_2.1.4-r1_all.ipk
-Size: 9694
-SHA256sum: 4c6267b687a95e9f487c9b7e01fb5b588a03633ca4ab54ad616e1e889ddbb594
+Installed-Size: 71680
+Filename: ruantiblock-mod-lua_2.1.10-r1_all.ipk
+Size: 13178
+SHA256sum: 4e1944f4fea77fca24dcccfb7ce06db1b819cd63e77e2c03132fc82207e0bb29
 Description:  Lua module for ruantiblock
 
 Package: ruantiblock
-Version: 2.1.4-r2
+Version: 2.1.10-r1
 Depends: libc, dnsmasq-full, kmod-nft-tproxy
-Source: feeds/routerich/ruantiblock_openwrt/ruantiblock
+Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/ruantiblock
 SourceName: ruantiblock
 Section: net
-SourceDateEpoch: 1741033461
+SourceDateEpoch: 1763046846
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
-Installed-Size: 133120
-Filename: ruantiblock_2.1.4-r2_all.ipk
-Size: 22013
-SHA256sum: 6544a0383ef8e92e818c389dd0e37ccf3e3a801eeed2f6689a44846fb9ae0946
+Installed-Size: 143360
+Filename: ruantiblock_2.1.10-r1_all.ipk
+Size: 23112
+SHA256sum: 347b30c36a060691e6e2d43e74670acf3bfdb8f536f9fc94e42145f1682ed7da
 Description:  Ruantiblock
 
 Package: smount
