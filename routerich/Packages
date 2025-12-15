@@ -1013,8 +1013,8 @@ Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 61440
 Filename: luci-app-zapret2_0.6.1-r157_all.ipk
-Size: 12252
-SHA256sum: 6a7eae6b917c644eb2b43c8cbf35e02a0059565f2dc07347c9ac3f4d499c1d2e
+Size: 12249
+SHA256sum: af41590034a0dcd345bf7cf4ef177caf72e8b5d810613b7976c0f2274994e1c5
 Description:  Web interface for managing zapret2 DPI bypass tool
 
 Package: luci-app-zapret
@@ -1475,12 +1475,12 @@ SourceName: luci-app-zapret2
 License: MIT
 Section: luci
 SourceDateEpoch: 1765800748
-Maintainer: Your Name <your@email.com>
+Maintainer: Routerich (https://t.me/routerich)
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-zapret2-ru_25.349.43948~3bda4fb_all.ipk
-Size: 5102
-SHA256sum: 8d542833fa985d86eaf047911f302ff7b084395ef890622d031e53e509fb43d0
+Size: 5098
+SHA256sum: d1e334945ae97337a7cfda5889015ed0fdbaa5d74d904eb058b89f97ba9eb2d7
 Description:  Translation for luci-app-zapret2 - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
@@ -2464,12 +2464,12 @@ Source: /home/santaclaus/sdk/repositories/zapret2/zapret2
 SourceName: zapret2
 Section: net
 SourceDateEpoch: 1760891865
-Maintainer: zapret2wrt
+Maintainer: Routerich (https://t.me/routerich)
 Architecture: aarch64_cortex-a53
-Installed-Size: 727040
+Installed-Size: 716800
 Filename: zapret2_0.6.1-r157_aarch64_cortex-a53.ipk
-Size: 395890
-SHA256sum: 7de0a2a7d5a7abc463d86cb9227a384d3c6bd9c0b79096d33342d4eb2e3b69ce
+Size: 389745
+SHA256sum: c5ac7148f4d61375bffc4e44935e7bd6f255fee5cb86cf112e8a0240f8cf182e
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
