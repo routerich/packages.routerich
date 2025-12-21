@@ -750,7 +750,7 @@ SHA256sum: e524d9ec3121e3d9fcc072e84253132a9e1d7d6632604d0df81502f47526dac4
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-podkop
-Version: v0.7.9-r1
+Version: v0.7.10-r1
 Depends: libc, luci-base, podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -761,9 +761,9 @@ URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 184320
-Filename: luci-app-podkop-v0.7.9-r1-all.ipk
-Size: 33616
-SHA256sum: 021514395db8b5929ffce173d89ad42294c8d0268e10cdcb3eae5eb1e42375ec
+Filename: luci-app-podkop-v0.7.10-r1-all.ipk
+Size: 33613
+SHA256sum: 4210077b321be0ae39f3317a7a1b438f61427da8cd05141534f6e0f027f4ef1b
 Description:  LuCI podkop app
 
 Package: luci-app-qbittorrent
@@ -1029,20 +1029,20 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.7.2-r168
+Version: 0.7.5-r4
 Depends: libc, luci-base, zapret2
 Source: /home/santaclaus/sdk/repositories/zapret2/luci-app-zapret2
 SourceName: luci-app-zapret2
 License: MIT
 Section: luci
-SourceDateEpoch: 1765970493
+SourceDateEpoch: 1766348978
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 61440
-Filename: luci-app-zapret2_0.7.2-r168_all.ipk
-Size: 11992
-SHA256sum: 9ef05c1a2af86e44c1bcd4ad250a318571ac3c9f76a915da7645d14e07b9f9e1
+Installed-Size: 71680
+Filename: luci-app-zapret2_0.7.5-r4_all.ipk
+Size: 15005
+SHA256sum: fb6936d996767731fc7c67389f3342d031949986acc4503be366755902771b07
 Description:  Web interface for managing zapret2 DPI bypass tool
 
 Package: luci-app-zapret
@@ -1280,7 +1280,7 @@ SHA256sum: 63532d0c5a01561da5427aecc67410cf61cea2a771f82c828235d916cbb14a82
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
-Version: 0.251201.73871
+Version: 0.251203.31812
 Depends: libc, luci-app-podkop
 Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
@@ -1290,9 +1290,9 @@ SourceDateEpoch: 1758316778
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-podkop-ru-0.7.9.ipk
-Size: 8070
-SHA256sum: 740d864c8aa074ca7913ed1d2e56fb2a57875e7ab46de2af59d81e71ba2fdd2a
+Filename: luci-i18n-podkop-ru-0.7.10.ipk
+Size: 8069
+SHA256sum: 625c653b409580d791eb5d5aa1037970570cc0a488461b9f078f8290bb6869dd
 Description:  Translation for luci-app-podkop - Русский (Russian)
 
 Package: luci-i18n-qbittorrent-ru
@@ -1488,13 +1488,13 @@ Source: /home/santaclaus/sdk/repositories/zapret2/luci-app-zapret2
 SourceName: luci-app-zapret2
 License: MIT
 Section: luci
-SourceDateEpoch: 1765970493
+SourceDateEpoch: 1766348978
 Maintainer: Routerich (https://t.me/routerich)
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-zapret2-ru_25.349.43948~3bda4fb_all.ipk
-Size: 5097
-SHA256sum: 653b317dbbc61bf3554431155156956be1335e79d9922375c37e9303989f5f36
+Size: 5098
+SHA256sum: a2fdb564272656b0365e337a64ec0d4f59810f3e1f4e72baf2d331eb663831dc
 Description:  Translation for luci-app-zapret2 - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
@@ -1886,7 +1886,7 @@ SHA256sum: 8faa9b93ebbd7870267db67d1a38e14aad02362894d6a4740675fc1fc7bffd98
 Description:  Opera Proxy client
 
 Package: podkop
-Version: v0.7.9-r1
+Version: v0.7.10-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64, bind-dig
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
 Source: feeds/base/feeds/utilities/podkop
@@ -1898,9 +1898,9 @@ URL: https://podkop.net
 Maintainer: ITDog <podkop@itdog.info>
 Architecture: all
 Installed-Size: 194560
-Filename: podkop-v0.7.9-r1-all.ipk
-Size: 34414
-SHA256sum: 1808b8fc8459936d22cad96458b078c93cc4d3959dc075be8ca571578678371b
+Filename: podkop-v0.7.10-r1-all.ipk
+Size: 34442
+SHA256sum: 9eb5ddb318184f5ff6357674e0c5a400361fdf7fdc832635ccb154d1c5a915d3
 Description:  Domain routing. Use of VLESS, Shadowsocks technologies
 
 Package: qbittorrent
@@ -2377,18 +2377,18 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.7.2-r168
-Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl
+Version: 0.7.5-r4
+Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 Source: /home/santaclaus/sdk/repositories/zapret2/zapret2
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1765970493
+SourceDateEpoch: 1766348978
 Maintainer: Routerich (https://t.me/routerich)
 Architecture: aarch64_cortex-a53
-Installed-Size: 747520
-Filename: zapret2_0.7.2-r168_aarch64_cortex-a53.ipk
-Size: 397325
-SHA256sum: 8481681d41d88bf06b5cf4081f939c9bbce83939f1c1741439f44457747e6ce9
+Installed-Size: 921600
+Filename: zapret2_0.7.5-r4_aarch64_cortex-a53.ipk
+Size: 469701
+SHA256sum: 1b3236c316d34dd587d0697bcb4cd76a396775369e8e86cf2d63da1595f0e82d
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
