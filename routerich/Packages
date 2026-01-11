@@ -846,19 +846,19 @@ SHA256sum: 66fc0de440c1e58d357b0fbf066858fbdeca92c0c31b045d81bb94b3622e9487
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
-Version: 1.2.6-r4
+Version: 1.2.6-r7
 Depends: libc, tailscale-lite
-Source: /home/santaclaus/feed.routerich/luci-app-tailscale
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1760620477
+SourceDateEpoch: 1768121663
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-tailscale_1.2.6-r4_all.ipk
-Size: 9899
-SHA256sum: 84c41a61b3c9e4a4168fb852ac8ac23348785bcca1ec1335a8782bf312850533
+Filename: luci-app-tailscale_1.2.6-r7_all.ipk
+Size: 11119
+SHA256sum: 3690b72616907570de09eb3c2d0ac7e38fe50aad19c4279e61168f1a9dbedecd
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -1353,17 +1353,17 @@ SHA256sum: b1c5517ec5762dbccf1a0db9283868fd64e0beb07aa4630d17823857ec4cdc66
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
-Version: 25.146.50576~a026bc8
+Version: 26.010.84641~be0f43e
 Depends: libc, luci-app-tailscale
-Source: /home/santaclaus/feed.routerich/luci-app-tailscale
+Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1760620477
+SourceDateEpoch: 1768121663
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-tailscale-ru_25.146.50576~a026bc8_all.ipk
-Size: 3225
-SHA256sum: 40b9061c35e1ee7df0638f25a42daf4c0729cf95a0ee82787a642c170bac9bd3
+Filename: luci-i18n-tailscale-ru_26.010.84641~be0f43e_all.ipk
+Size: 3745
+SHA256sum: 57351bdffb891ba2262bfe642c215fade7ae75d15dbe006fed592d9db689d893
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
@@ -2145,7 +2145,7 @@ SHA256sum: 380d4b482e931e75bbfa25ce6f9f6262bd5a45d03d70109fc8464971524e1aa5
 Description:  SMS Tool for 3G/4G modem
 
 Package: tailscale-lite
-Version: 1.90.6-r1
+Version: 1.92.5-r1
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
 Source: /home/santaclaus/sdk/repositories/feed.routerich/tailscale-lite
@@ -2153,15 +2153,15 @@ SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1762250243
+SourceDateEpoch: 1768080612
 URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 6154240
-Filename: tailscale-lite_1.90.6-r1_aarch64_cortex-a53.ipk
-Size: 6147576
-SHA256sum: ebc299e2565ffd36ef2d0568780ede1e8cae1cb10603e3088eb8fdd6c3d20175
+Installed-Size: 5130240
+Filename: tailscale-lite_1.92.5-r1_aarch64_cortex-a53.ipk
+Size: 5126673
+SHA256sum: c4bcb31068a7c0692a8a7e712ecab4a6e906eed926de03d8e2009fd477c15a50
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
