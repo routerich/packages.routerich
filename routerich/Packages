@@ -818,19 +818,19 @@ SHA256sum: 66fc0de440c1e58d357b0fbf066858fbdeca92c0c31b045d81bb94b3622e9487
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
-Version: 1.2.6-r9
+Version: 1.2.6-r12
 Depends: libc, tailscale-lite
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1768211744
+SourceDateEpoch: 1768221362
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 51200
-Filename: luci-app-tailscale_1.2.6-r9_all.ipk
-Size: 11130
-SHA256sum: 352f1c36ecda60f8837d7ca92458edc042b0af6173a796ff95581d076ffffe00
+Installed-Size: 61440
+Filename: luci-app-tailscale_1.2.6-r12_all.ipk
+Size: 12193
+SHA256sum: 9c1eadb744cfc25b207ec0f3dc42ce21d1cb7e0d70fc89c02107ea562aed394f
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -1311,17 +1311,17 @@ SHA256sum: b1c5517ec5762dbccf1a0db9283868fd64e0beb07aa4630d17823857ec4cdc66
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
-Version: 26.010.84641~be0f43e
+Version: 26.012.45362~8b7f8c8
 Depends: libc, luci-app-tailscale
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1768211744
+SourceDateEpoch: 1768221362
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-tailscale-ru_26.010.84641~be0f43e_all.ipk
-Size: 3751
-SHA256sum: fe370c66da395c51d750b5e6060df404bb601fbb0589b25ccfcdad12cfdafc35
+Filename: luci-i18n-tailscale-ru_26.012.45362~8b7f8c8_all.ipk
+Size: 3754
+SHA256sum: 10d06c7f271aadaababcd2cb031a914bf1fa8b378e3b19457e1a1184298e85a7
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
