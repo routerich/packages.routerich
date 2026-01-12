@@ -846,19 +846,19 @@ SHA256sum: 66fc0de440c1e58d357b0fbf066858fbdeca92c0c31b045d81bb94b3622e9487
 Description:  LuCI Stubby
 
 Package: luci-app-tailscale
-Version: 1.2.6-r7
+Version: 1.2.6-r9
 Depends: libc, tailscale-lite
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1768121663
+SourceDateEpoch: 1768211744
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-tailscale_1.2.6-r7_all.ipk
-Size: 11119
-SHA256sum: 3690b72616907570de09eb3c2d0ac7e38fe50aad19c4279e61168f1a9dbedecd
+Filename: luci-app-tailscale_1.2.6-r9_all.ipk
+Size: 11130
+SHA256sum: 352f1c36ecda60f8837d7ca92458edc042b0af6173a796ff95581d076ffffe00
 Description:  LuCI for Tailscale
 
 Package: luci-app-temp-status
@@ -1358,12 +1358,12 @@ Depends: libc, luci-app-tailscale
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
-SourceDateEpoch: 1768121663
+SourceDateEpoch: 1768211744
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-tailscale-ru_26.010.84641~be0f43e_all.ipk
-Size: 3745
-SHA256sum: 57351bdffb891ba2262bfe642c215fade7ae75d15dbe006fed592d9db689d893
+Size: 3751
+SHA256sum: fe370c66da395c51d750b5e6060df404bb601fbb0589b25ccfcdad12cfdafc35
 Description:  Translation for luci-app-tailscale - Русский (Russian)
 
 Package: luci-i18n-temp-status-ru
@@ -2158,10 +2158,10 @@ URL: https://tailscale.com
 CPE-ID: cpe:/a:tailscale:tailscale
 Maintainer: Zephyr Lykos <self@mochaa.ws>, Sandro Jäckel <sandro.jaeckel@gmail.com>
 Architecture: aarch64_cortex-a53
-Installed-Size: 5130240
+Installed-Size: 5140480
 Filename: tailscale-lite_1.92.5-r1_aarch64_cortex-a53.ipk
-Size: 5126673
-SHA256sum: c4bcb31068a7c0692a8a7e712ecab4a6e906eed926de03d8e2009fd477c15a50
+Size: 5126783
+SHA256sum: 0592e6c961194600d3c58626d9175224a184cc682534e211e4cfe3c1900ef8ae
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
