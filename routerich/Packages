@@ -2181,18 +2181,32 @@ Size: 3806376
 SHA256sum: 2f4b9aa5ccdfff0c139bac6b14a889b137baa1a6573044a67054fdb9e173b9a2
 Description:  tun to socks proxy redirector written on golang
 
+Package: uboot-routerich-ax3000
+Version: 1.1.1
+Depends: libc
+Source: /home/santaclaus/sdk/repositories/feed.routerich/uboot-routerich-ax3000
+SourceName: uboot-routerich-ax3000
+Section: config
+SourceDateEpoch: 1768554696
+Architecture: all
+Installed-Size: 1208320
+Filename: uboot-routerich-ax3000_1.1.1_all.ipk
+Size: 532122
+SHA256sum: 829d4b1a11409b857c522fa636c5e48bf1bc17f02ee66a993af172e0ca981545
+Description:  Uboot files
+
 Package: uboot-routerich
-Version: 1.0.1
+Version: 1.1.0
 Depends: libc, kmod-mtd-rw
-Source: /home/santaclaus/next/feed.routerich_next/uboot-routerich
+Source: /home/santaclaus/sdk/repositories/feed.routerich/uboot-routerich
 SourceName: uboot-routerich
 Section: config
-SourceDateEpoch: 1747167544
+SourceDateEpoch: 1768400154
 Architecture: all
-Installed-Size: 952320
-Filename: uboot-routerich_1.0.1_all.ipk
-Size: 434007
-SHA256sum: 842291cc40838ac1ddc7f1f89cfc8a876effd119e48668cf3969b446e94e192e
+Installed-Size: 10240
+Filename: uboot-routerich_1.1.0_all.ipk
+Size: 1541
+SHA256sum: 62902655fa2df5776eb82facec574b2816f21b09276ea32c208d9fd28874f9e5
 Description:  Uboot upgrade
 
 Package: upx
