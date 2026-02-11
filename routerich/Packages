@@ -514,17 +514,17 @@ SHA256sum: befc2172c723903f8b4cfce19be3af3508b704912531603048f5268d550f3502
 Description:  LuCI Blocking user connections Status Include Users traffic Addon
 
 Package: luci-app-block-users
-Version: 1.0.0-r5
+Version: 1.0.1-r1
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
 Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users
 SourceName: luci-app-block-users
 Section: utils
-SourceDateEpoch: 1761980437
+SourceDateEpoch: 1770793063
 Architecture: all
-Installed-Size: 40960
-Filename: luci-app-block-users_1.0.0-r5_all.ipk
-Size: 6898
-SHA256sum: 956738acfd9390a3b47c7effe390d4a59bda46416641d503c49b9f256e0511d1
+Installed-Size: 51200
+Filename: luci-app-block-users_1.0.1-r1_all.ipk
+Size: 7470
+SHA256sum: eb18cf62a46dcd3f033cae2799d4ad283ade5ab5fb3c20611e7ae7919ac03d59
 Description:  LuCI Blocking user connections
 
 Package: luci-app-cifs-mount
