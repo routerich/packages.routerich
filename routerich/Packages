@@ -1549,12 +1549,12 @@ Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1770779690
+SourceDateEpoch: 1770800402
 Architecture: all
 Installed-Size: 296960
 Filename: luci-theme-routerich_1.1.0-r20260211_all.ipk
-Size: 77188
-SHA256sum: f20c0584e72d0d1de17cf0884e75d5d72a00500f810e44dd5dba6d98c855f5ee
+Size: 77400
+SHA256sum: 2d71a9c0fd12fc59541accf39f41312e4c1c3be5c5cd7a6296d8d35300257685
 Description:  RouteRich Theme
 
 Package: mesh-button
