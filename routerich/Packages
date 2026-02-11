@@ -1543,18 +1543,18 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.1.1-r1
+Version: 1.1.1-r2
 Depends: libc, luci-base
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1770821471
+SourceDateEpoch: 1770827381
 Architecture: all
 Installed-Size: 296960
-Filename: luci-theme-routerich_1.1.1-r1_all.ipk
-Size: 77571
-SHA256sum: c916795df72cbff0397c9e34399d8e4e3ebdb99530a11d0bd6050a0e7743a303
+Filename: luci-theme-routerich_1.1.1-r2_all.ipk
+Size: 77572
+SHA256sum: 6c37b6ea7b04623801ddf222bcff2a4a139b9f363dc1574b4fac0a8baab6fe3e
 Description:  RouteRich Theme
 
 Package: mesh-button
