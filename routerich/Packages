@@ -207,17 +207,17 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: kmod-amneziawg
-Version: 6.6.119.1.0.20251104-r1
+Version: 6.6.119.1.0.20260210-r1
 Depends: kernel (=6.6.119~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
 Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/kmod-amneziawg
 SourceName: kmod-amneziawg
 Section: kernel
-SourceDateEpoch: 1766580543
+SourceDateEpoch: 1770994352
 Architecture: aarch64_cortex-a53
 Installed-Size: 122880
-Filename: kmod-amneziawg_6.6.119.1.0.20251104-r1_aarch64_cortex-a53.ipk
-Size: 41092
-SHA256sum: bcd9aa642d634ca5b48c7fc6f3d9ae7e4a784a756f1414b9cc5afd14cf9847cb
+Filename: kmod-amneziawg_6.6.119.1.0.20260210-r1_aarch64_cortex-a53.ipk
+Size: 41095
+SHA256sum: 63833193e6a957fa3dc4f507c165b259517e750a6484b6e13d5ada08895552e7
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
