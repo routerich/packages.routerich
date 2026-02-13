@@ -191,17 +191,17 @@ Description:  Internet-detector is a small daemon
  Written in Lua using the luaposix library.
 
 Package: kmod-amneziawg
-Version: 6.6.110.1.0.20251104-r1
+Version: 6.6.110.1.0.20260210-r1
 Depends: kernel (=6.6.110~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
 Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/kmod-amneziawg
 SourceName: kmod-amneziawg
 Section: kernel
-SourceDateEpoch: 1766580543
+SourceDateEpoch: 1770994352
 Architecture: aarch64_cortex-a53
 Installed-Size: 122880
-Filename: kmod-amneziawg_6.6.110.1.0.20251104-r1_aarch64_cortex-a53.ipk
-Size: 41100
-SHA256sum: ff5a06b3c506d72b3f3d9efe1c17ef0c23e86d6b81e4bd59ae741656009b7f74
+Filename: kmod-amneziawg_6.6.110.1.0.20260210-r1_aarch64_cortex-a53.ipk
+Size: 41101
+SHA256sum: b697d6e5306733719129f5a6d32f744a2c4982f8edc5f5edcb789211a737183c
 Description:  AmneziaWG VPN Kernel Module
 
 Package: kmod-natflow
@@ -434,19 +434,19 @@ SHA256sum: 34bab2a1f6c8fb6793a5cd75699bfae5971725f7c8938f61050567e2c1d46108
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
-Version: 2.0.5-r1
+Version: 2.0.5-r2
 Depends: libc, ucode, amneziawg-tools, qrencode, luci-lib-uqr, resolveip
 Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1761141974
+SourceDateEpoch: 1770997784
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-amneziawg_2.0.5-r1_all.ipk
-Size: 29966
-SHA256sum: c79a847a4f4a1db4b16ad018e0625c759c36b483fdbcfb45b23cc709429ebc95
+Filename: luci-app-amneziawg_2.0.5-r2_all.ipk
+Size: 29960
+SHA256sum: c1d501f9641af1d6d5e5ecbfdf95503c79adf59f706c0f6506a037617de926d2
 Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-app-atinout
@@ -1097,12 +1097,12 @@ Depends: libc, luci-app-amneziawg
 Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1761141974
+SourceDateEpoch: 1770997784
 Architecture: all
 Installed-Size: 20480
 Filename: luci-i18n-amneziawg-ru_25.273.39265~a4ea36f_all.ipk
-Size: 4060
-SHA256sum: 89dca4b9c2df233308ea610fed07794946cfbf7617ea5cc851edbaa8ae85916b
+Size: 4048
+SHA256sum: 488586399518b0ff4e13c8a74eafa61ca1fdfc86ae7dd42759133f6293835ba0
 Description:  Translation for luci-app-amneziawg - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
