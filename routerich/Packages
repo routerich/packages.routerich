@@ -1029,18 +1029,18 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.2-r24
+Version: 0.9.2-r34
 Depends: libc, luci-base, zapret2
 Source: /home/santaclaus/sdk/repositories/zapret2/luci-app-zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1770929442
+SourceDateEpoch: 1771072236
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 133120
-Filename: luci-app-zapret2_0.9.2-r24_all.ipk
-Size: 26815
-SHA256sum: b7dfe8a0a0a813aef7f4a7c0d0467c34928f188949be6bd031a8253009437d3c
+Filename: luci-app-zapret2_0.9.2-r34_all.ipk
+Size: 28369
+SHA256sum: fc04d00f238bdbc1debbb2e2d95b894da3d3b50563e417afa44957ad07f73f75
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -2065,18 +2065,18 @@ SHA256sum: 8f835146b5c6b0d58b07e4324396c8ce65ead95c2f74304b85eb9d7b11331fec
 Description:  Default settings by RouteRich
 
 Package: routerich-diag
-Version: 1.0.0-r48
+Version: 1.0.0-r51
 Depends: libc, luci-base, libjson-c5, libuci20250120
 Source: /home/santaclaus/sdk/repositories/routerich_diag/routerich-diag
 SourceName: routerich-diag
 Section: utils
-SourceDateEpoch: 1770967737
+SourceDateEpoch: 1771016182
 Maintainer: RouteRich (https://t.me/routerich)
 Architecture: aarch64_cortex-a53
 Installed-Size: 112640
-Filename: routerich-diag_1.0.0-r48_aarch64_cortex-a53.ipk
-Size: 24763
-SHA256sum: 84cf3270f37a0fe507ee9e7f2c1db808d338bfe3aa1bf7c601c68588a3bd02c1
+Filename: routerich-diag_1.0.0-r51_aarch64_cortex-a53.ipk
+Size: 25601
+SHA256sum: caec55d4cf26c96840b4196e8ee940a8c673fb2c5862deb9eb172cdadc768399
 Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI integration.
  Provides system, network, and service diagnostics with sensitive data filtering.
 
@@ -2390,18 +2390,18 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.2-r24
+Version: 0.9.2-r34
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 Source: /home/santaclaus/sdk/repositories/zapret2/zapret2
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1770956161
+SourceDateEpoch: 1771072236
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1054720
-Filename: zapret2_0.9.2-r24_aarch64_cortex-a53.ipk
-Size: 511012
-SHA256sum: b5a05c2d786f589e545b8c05aea7b0681e5a05d78c238e043e292e17ab62a880
+Filename: zapret2_0.9.2-r34_aarch64_cortex-a53.ipk
+Size: 510981
+SHA256sum: 0f8520bd669c394cae194cf0da364a2e438365bcd103181ae0ffb390d2e19456
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
