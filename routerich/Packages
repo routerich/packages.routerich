@@ -1854,18 +1854,18 @@ SHA256sum: ab729399e60198f864f33f2edd5aad15fbcc36843e653b62e12862247925614c
 Description:  NTFS mount script for Paragon NTFS3 driver
 
 Package: opera-proxy
-Version: 1.13.1-r1
+Version: 1.15.0-r1
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/opera-proxy
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1763649003
+SourceDateEpoch: 1768554677
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 1945600
-Filename: opera-proxy_1.13.1-r1_aarch64_cortex-a53.ipk
-Size: 1938366
-SHA256sum: 8faa9b93ebbd7870267db67d1a38e14aad02362894d6a4740675fc1fc7bffd98
+Installed-Size: 2068480
+Filename: opera-proxy_1.15.0-r1_aarch64_cortex-a53.ipk
+Size: 2059346
+SHA256sum: 1d4c63b69d5a562c5f01fe69d5360304071929ab55f46dc19d88c26883f1f45d
 Description:  Opera Proxy client
 
 Package: podkop
