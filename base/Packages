@@ -10080,7 +10080,7 @@ Description:  Traffic control utility (minimal)
 Package: tcpdump-mini
 Version: 4.99.5-r1
 Depends: libc, libpcap1
-Source: feeds/base/package/network/utils/tcpdump
+Source: feeds/base/network/utils/tcpdump
 SourceName: tcpdump
 License: BSD-3-Clause
 Section: net
@@ -10091,14 +10091,14 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 419840
 Filename: tcpdump-mini_4.99.5-r1_aarch64_cortex-a53.ipk
-Size: 160474
-SHA256sum: 1eacf727a734ac7d7baffd597cc9900654f8e05068e3cefaa4b5c2207e0bd789
+Size: 159923
+SHA256sum: eadf6521d9ee0ab8f9985a7c883b84829215a7f34bcb4f88551a55899eb9e728
 Description:  Network monitoring and data acquisition tool (minimal version)
 
 Package: tcpdump
 Version: 4.99.5-r1
 Depends: libc, libpcap1
-Source: feeds/base/package/network/utils/tcpdump
+Source: feeds/base/network/utils/tcpdump
 SourceName: tcpdump
 License: BSD-3-Clause
 Section: net
@@ -10109,8 +10109,8 @@ Maintainer: Felix Fietkau <nbd@nbd.name>
 Architecture: aarch64_cortex-a53
 Installed-Size: 942080
 Filename: tcpdump_4.99.5-r1_aarch64_cortex-a53.ipk
-Size: 364222
-SHA256sum: 7dc75e4eccc25721020cb232f7d126cfb78e3cec636725c03c6458319b97ecd4
+Size: 363629
+SHA256sum: 5591def89dc243d9bfc1dc5f49a0bf341a43e9d70212e52e7d0bdb2025e80fd2
 Description:  Network monitoring and data acquisition tool
 
 Package: terminfo
