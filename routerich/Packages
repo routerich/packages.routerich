@@ -1019,12 +1019,12 @@ Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, k
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1770736208
+SourceDateEpoch: 1771597415
 Architecture: all
 Installed-Size: 184320
 Filename: luci-app-wizard_1.3.1_all.ipk
-Size: 34202
-SHA256sum: b1ad90eb49a6ebc296c4bf6737e9a30d5758b5e9d438b279083e3d9220fb859f
+Size: 34230
+SHA256sum: f9f6c886f8ca7d0b1708e036c7fbe92fe307847e071cbd8a2938909f0542842d
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
@@ -1045,18 +1045,18 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.2-r39
+Version: 0.9.4.1-r2
 Depends: libc, luci-base, zapret2
 Source: /home/santaclaus/sdk/repositories/zapret2/luci-app-zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1771233118
+SourceDateEpoch: 1771590015
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 133120
-Filename: luci-app-zapret2_0.9.2-r39_all.ipk
-Size: 28633
-SHA256sum: 2ccb00049597a7fe956ccead34ab92466b02a6490a4e2268f4cddab0569dfaef
+Filename: luci-app-zapret2_0.9.4.1-r2_all.ipk
+Size: 28638
+SHA256sum: a282a58144b2eb516b940040e9ebed3d47d56fcaa86f7cffc325ff0d899d1f9b
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -1543,18 +1543,18 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.1.1-r3
+Version: 1.1.1-r4
 Depends: libc, luci-base
 Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1770956340
+SourceDateEpoch: 1771597401
 Architecture: all
 Installed-Size: 296960
-Filename: luci-theme-routerich_1.1.1-r3_all.ipk
-Size: 77688
-SHA256sum: dfd8d4f9ac577d6bd5f74569a28f1c93b421a7d0fec3bdf360c44c1a58484c09
+Filename: luci-theme-routerich_1.1.1-r4_all.ipk
+Size: 77706
+SHA256sum: 77b13f8d66b75ae8c0603dbae6f67503991bebc436e7cd4177dc734ce4b2b0d0
 Description:  RouteRich Theme
 
 Package: mesh-button
@@ -2181,18 +2181,18 @@ Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
 Package: telemt
-Version: 3.0.3-r1
+Version: 3.0.4-r2
 Depends: libc
 Source: /home/santaclaus/sdk/repositories/feed.routerich/telemt
 SourceName: telemt
 Section: net
-SourceDateEpoch: 1771493061
+SourceDateEpoch: 1771568574
 URL: https://github.com/telemt/telemt
 Architecture: aarch64_cortex-a53
-Installed-Size: 1751040
-Filename: telemt_3.0.3-r1_aarch64_cortex-a53.ipk
-Size: 1739455
-SHA256sum: cb1a38d477a3e1e24cc445e4be3a5c4db2c95160c9da448f9344167e75ac7138
+Installed-Size: 1761280
+Filename: telemt_3.0.4-r2_aarch64_cortex-a53.ipk
+Size: 1751202
+SHA256sum: 71332c8aa6620dc6717aa55339b3a463669543cc0029033c0e0162b44075ba46
 Description:  High-performance Telegram MTProxy server written in Rust.
  Implements the official Telegram proxy protocol with connection pooling,
  replay protection, detailed statistics, and TLS masking.
@@ -2422,18 +2422,18 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.2-r39
+Version: 0.9.4.1-r2
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 Source: /home/santaclaus/sdk/repositories/zapret2/zapret2
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1771233118
+SourceDateEpoch: 1771590015
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1064960
-Filename: zapret2_0.9.2-r39_aarch64_cortex-a53.ipk
-Size: 512256
-SHA256sum: f98eea6eb93aa6e1b1f04b2fa188480271820aa2f525e544eaa722dc3c940c0e
+Filename: zapret2_0.9.4.1-r2_aarch64_cortex-a53.ipk
+Size: 512757
+SHA256sum: ad8ca0ddf5139ef8f9300ed152e2e0319f3064ffc2f9c8dc3bdc93da2b50d6dd
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
