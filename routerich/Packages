@@ -1,7 +1,6 @@
 Package: amneziawg-tools
 Version: 1.0.20250903-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/amneziawg-tools
 SourceName: amneziawg-tools
 License: GPL-2.0
 LicenseFiles: COPYING
@@ -23,7 +22,6 @@ Description:  Amnezia VPN — simple and free app to run a self-hosted VPN with
 Package: atinout
 Version: 0.9.1
 Depends: libc
-Source: feeds/modemfeed/packages/telephony/atinout
 SourceName: atinout
 License: GPLv2
 LicenseFiles: LICENSE
@@ -42,7 +40,6 @@ Description:  Atinout is a program that will execute AT commands in sequence and
 Package: automodem
 Version: 1.0.8
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/automodem
 SourceName: automodem
 Section: net
 SourceDateEpoch: 1762462880
@@ -57,7 +54,6 @@ Description:  Automatic modem setup
 Package: automount
 Version: 10
 Depends: libc, block-mount, e2fsprogs, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, ntfs3-mount
-Source: /home/santaclaus/feed.routerich/automount
 SourceName: automount
 Section: opt
 SourceDateEpoch: 1725307136
@@ -72,7 +68,6 @@ Description:  Mount autoconfig hotplug script.
 Package: bandix
 Version: 0.6.0-r1
 Depends: libc
-Source: /root/app/VsCodeProjects/openwrt-packages-custom/openwrt-bandix/openwrt-bandix
 SourceName: bandix
 License: Apache-2.0
 Section: net
@@ -89,7 +84,6 @@ Package: doh-proxy
 Version: 2025.07.01-r2
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
-Source: /home/santaclaus/sdk/repositories/feed.routerich/doh-proxy
 SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
@@ -106,7 +100,6 @@ Description:  Dns_over_https_Proxy
 Package: filebrowser
 Version: 2.31.2-r1
 Depends: libc
-Source: feeds/routerich/filebrowser
 SourceName: filebrowser
 License: Apache-2.0
 LicenseFiles: LICENSE
@@ -127,7 +120,6 @@ Description:  filebrowser provides a file managing interface within a specified 
 Package: internet-detector-mod-email
 Version: 1.7.0-r1
 Depends: libc, internet-detector, mailsend
-Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-email
 SourceName: internet-detector-mod-email
 Section: net
 SourceDateEpoch: 1761309917
@@ -143,7 +135,6 @@ Description:  Email support for internet-detector.
 Package: internet-detector-mod-modem-restart
 Version: 1.7.0-r1
 Depends: libc, internet-detector, modemmanager
-Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-modem-restart
 SourceName: internet-detector-mod-modem-restart
 Section: net
 SourceDateEpoch: 1761309917
@@ -159,7 +150,6 @@ Description:  Support modem restart for internet detector.
 Package: internet-detector-mod-telegram
 Version: 1.7.0-r1
 Depends: libc, internet-detector, curl
-Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector-mod-telegram
 SourceName: internet-detector-mod-telegram
 Section: net
 SourceDateEpoch: 1761309917
@@ -175,7 +165,6 @@ Description:  Telegram messenger support for internet-detector.
 Package: internet-detector
 Version: 1.7.0-r1
 Depends: libc, lua, luaposix, libuci-lua
-Source: /home/santaclaus/sdk/repositories/feed.routerich/internet-detector
 SourceName: internet-detector
 Section: net
 SourceDateEpoch: 1761309748
@@ -193,7 +182,6 @@ Description:  Internet-detector is a small daemon
 Package: kmod-amneziawg
 Version: 6.6.110.1.0.20260210-r1
 Depends: kernel (=6.6.110~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-udptunnel4, kmod-udptunnel6, kmod-crypto-lib-chacha20poly1305, kmod-crypto-lib-curve25519
-Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/kmod-amneziawg
 SourceName: kmod-amneziawg
 Section: kernel
 SourceDateEpoch: 1770994352
@@ -207,7 +195,6 @@ Description:  AmneziaWG VPN Kernel Module
 Package: kmod-natflow
 Version: 6.6.110.20251011-r1
 Depends: kernel (=6.6.110~6a9e125268c43e0bae8cecb014c8ab03-r1), kmod-ipt-conntrack, kmod-ipt-nat, kmod-ipt-ipset, kmod-br-netfilter
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/natflow
 SourceName: natflow
 License: GPL-2.0
 Section: kernel
@@ -223,7 +210,6 @@ Description:  fast nat forward kmod
 Package: ksmbd-rrplug
 Version: 1.0.2
 Depends: libc, ksmbd-server, ksmbd-avahi-service, wsdd2, smount
-Source: /home/santaclaus/next/feed.routerich_next/ksmbd-rrplug
 SourceName: ksmbd-rrplug
 Section: utils
 SourceDateEpoch: 1750171868
@@ -237,7 +223,6 @@ Description:  Auto-share ksmbd hotplug
 Package: libQt6Concurrent
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -252,7 +237,6 @@ Description:  This package provides the Qt6 Concurrent v6.8.3 library.
 Package: libQt6Core
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libpcre2-16
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -267,7 +251,6 @@ Description:  This package provides the Qt6 Core v6.8.3 library.
 Package: libQt6DBus
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -282,7 +265,6 @@ Description:  This package provides the Qt6 DBus v6.8.3 library.
 Package: libQt6Gui
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libdrm, libfreetype
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -297,7 +279,6 @@ Description:  This package provides the Qt6 Gui v6.8.3 library.
 Package: libQt6Network
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core, libopenssl3, krb5-libs
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -312,7 +293,6 @@ Description:  This package provides the Qt6 Network v6.8.3 library.
 Package: libQt6PrintSupport
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Widgets
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -327,7 +307,6 @@ Description:  This package provides the Qt6 PrintSupport v6.8.3 library.
 Package: libQt6Sql
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -342,7 +321,6 @@ Description:  This package provides the Qt6 Sql v6.8.3 library.
 Package: libQt6Test
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -357,7 +335,6 @@ Description:  This package provides the Qt6 Test v6.8.3 library.
 Package: libQt6Widgets
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -372,7 +349,6 @@ Description:  This package provides the Qt6 Widgets v6.8.3 library.
 Package: libQt6Xml
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Core
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -387,7 +363,6 @@ Description:  This package provides the Qt6 Xml v6.8.3 library.
 Package: lpac
 Version: 2.2.1-r2
 Depends: libc, libmbim, libcurl4
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/telephony/lpac
 SourceName: lpac
 License: AGPL-3.0-only LGPL-2.0-only
 Section: utils
@@ -406,7 +381,6 @@ Description:  lpac is a eUICC eSIM LPA manager written in C. It allows to
 Package: lua-ipops
 Version: 0.0.1-r1
 Depends: libc, lua
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/lua-ipops
 SourceName: lua-ipops
 License: GPL-2.0
 Section: opt
@@ -422,7 +396,6 @@ Description:  lua ipops lib
 Package: luci-app-access-control
 Version: 0.4.7-r1
 Depends: libc, luci-compat
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: utils
 SourceDateEpoch: 1761838070
@@ -436,7 +409,6 @@ Description:  LuCI Internet Access Control
 Package: luci-app-amneziawg
 Version: 2.0.5-r2
 Depends: libc, ucode, amneziawg-tools, qrencode, luci-lib-uqr, resolveip
-Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
 SourceDateEpoch: 1770997784
@@ -452,7 +424,6 @@ Description:  Provides support and Web UI for AmneziaWG VPN
 Package: luci-app-atinout
 Version: 1.0.0-r1
 Depends: libc, sms-tool
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-atinout
 SourceName: luci-app-atinout
 Section: luci
 SourceDateEpoch: 1747061918
@@ -468,7 +439,6 @@ Description:  LuCI JS interface for the AT commands.
 Package: luci-app-autoreboot
 Version: 1.0.1-r1
 Depends: libc, busybox
-Source: /home/santaclaus/feed.routerich/luci-app-autoreboot
 SourceName: luci-app-autoreboot
 License: GPLv3
 LicenseFiles: LICENSE
@@ -485,7 +455,6 @@ Description:  LuCI Support for autoreboot.
 Package: luci-app-bandix
 Version: 0.6.2-r1
 Depends: libc, luci-base, luci-lib-jsonc, curl, bandix
-Source: /root/app/VsCodeProjects/openwrt-packages-custom/luci-app-bandix/luci-app-bandix
 SourceName: luci-app-bandix
 License: Apache-2.0
 Section: luci
@@ -502,7 +471,6 @@ Description:  LuCI Bandix app for network traffic monitoring
 Package: luci-app-block-users-addon
 Version: 1.0.0-r2
 Depends: libc, luci-app-block-users
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users-addon
 SourceName: luci-app-block-users-addon
 Section: utils
 SourceDateEpoch: 1761980437
@@ -516,7 +484,6 @@ Description:  LuCI Blocking user connections Status Include Users traffic Addon
 Package: luci-app-block-users
 Version: 1.0.1-r1
 Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-block-users
 SourceName: luci-app-block-users
 Section: utils
 SourceDateEpoch: 1770793063
@@ -530,7 +497,6 @@ Description:  LuCI Blocking user connections
 Package: luci-app-cifs-mount
 Version: 1-r8
 Depends: libc, kmod-fs-cifs, kmod-nls-utf8, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-misc, kmod-nls-base, luci-lua-runtime
-Source: feeds/routerich/luci-app-cifs-mount
 SourceName: luci-app-cifs-mount
 Section: luci
 SourceDateEpoch: 1734607608
@@ -546,7 +512,6 @@ Description:  LuCI for SMB/CIFS Mount
 Package: luci-app-cpu-status
 Version: 0.6.1-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-cpu-status
 SourceName: luci-app-cpu-status
 License: MIT
 Section: luci
@@ -563,7 +528,6 @@ Description:  CPU utilization info for the LuCI status page
 Package: luci-app-dns-failsafe-proxy
 Version: 1.0.6
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-dns-failsafe-proxy
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
 SourceDateEpoch: 1761835702
@@ -577,7 +541,6 @@ Description:  LuCI dns-failsafe-proxy
 Package: luci-app-doh-proxy
 Version: 2025.07.01-r4
 Depends: libc, luci-base, doh-proxy
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
@@ -594,7 +557,6 @@ Description:  Provides Web UI for DoH Proxy
 Package: luci-app-filebrowser-go
 Version: 24.252.39226~c89d418
 Depends: libc, filebrowser
-Source: feeds/routerich/luci-app-filebrowser-go
 SourceName: luci-app-filebrowser-go
 Section: luci
 SourceDateEpoch: 1725794675
@@ -610,7 +572,6 @@ Description:  LuCI app for FileBrowser
 Package: luci-app-hostacl
 Version: 1.0.0-r3
 Depends: libc, kmod-natflow, lua-ipops
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-hostacl
 SourceName: luci-app-hostacl
 Section: utils
 SourceDateEpoch: 1761950324
@@ -624,7 +585,6 @@ Description:  LuCI Web Filtering
 Package: luci-app-interfaces-statistics
 Version: 0.4.1-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-interfaces-statistics
 SourceName: luci-app-interfaces-statistics
 License: MIT
 Section: luci
@@ -641,7 +601,6 @@ Description:  Network interfaces statistics
 Package: luci-app-internet-detector
 Version: 1.7.0-r1
 Depends: libc, internet-detector
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
 SourceDateEpoch: 1761309850
@@ -657,7 +616,6 @@ Description:  LuCI support for internet-detector
 Package: luci-app-ledcontrol
 Version: 0.9.7-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
 SourceDateEpoch: 1761834139
@@ -673,7 +631,6 @@ Description:  Routerich Led Control app
 Package: luci-app-log-viewer
 Version: 1.5.0-r2
 Depends: libc, ucode, ucode-mod-fs
-Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
@@ -690,7 +647,6 @@ Description:  Advanced syslog and kernel log (tail, search, etc)
 Package: luci-app-mmconfig
 Version: 1.0.0-r1
 Depends: libc, luci-proto-modemmanager, luci-app-modeminfo
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-mmconfig
 SourceName: luci-app-mmconfig
 Section: luci
 SourceDateEpoch: 1747061918
@@ -706,7 +662,6 @@ Description:  Configrure modem bands via mmcli utility
 Package: luci-app-modemband
 Version: 1.0.0-r1
 Depends: libc, sms-tool, modemband
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modemband
 SourceName: luci-app-modemband
 Section: luci
 SourceDateEpoch: 1747064335
@@ -722,7 +677,6 @@ Description:  Configrure modem bands via atcommands
 Package: luci-app-modeminfo-mqtt
 Version: 1.1-r3
 Depends: libc, modeminfo-mqtt
-Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/luci-app-modeminfo-mqtt
 SourceName: luci-app-modeminfo-mqtt
 Section: utils
 SourceDateEpoch: 1761416059
@@ -736,7 +690,6 @@ Description:  LuCI Add-on for ModemInfo: collects modem readings and publishes t
 Package: luci-app-modeminfo
 Version: 1.5.7-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
 SourceDateEpoch: 1761413983
@@ -752,7 +705,6 @@ Description:  Information dashboard for 3G/LTE dongle
 Package: luci-app-podkop
 Version: v0.7.10-r1
 Depends: libc, luci-base, podkop
-Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
@@ -769,7 +721,6 @@ Description:  LuCI podkop app
 Package: luci-app-qbittorrent
 Version: 1.0.1-r1
 Depends: libc, qbittorrent
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
 SourceDateEpoch: 1753719027
@@ -785,7 +736,6 @@ Description:  LuCI support for qBittorrent
 Package: luci-app-ruantiblock
 Version: 2.1.10-r1
 Depends: libc, ruantiblock
-Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/luci-app-ruantiblock
 SourceName: luci-app-ruantiblock
 Section: luci
 SourceDateEpoch: 1763087725
@@ -801,7 +751,6 @@ Description:  LuCI support for ruantiblock
 Package: luci-app-smstools3
 Version: 1.0.4-r1
 Depends: libc, smstools3, iconv, jq
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 Section: luci
 SourceDateEpoch: 1753091963
@@ -817,7 +766,6 @@ Description:  Web UI for smstools3
 Package: luci-app-ssclash
 Version: 2.8.2-1
 Depends: libc, luci-base
-Source: package/luci-app-ssclash
 SourceName: luci-app-ssclash
 Section: luci
 SourceDateEpoch: 1721081658
@@ -832,7 +780,6 @@ Description:  LuCI interface for SSClash, a tool for managing and configuring Cl
 Package: luci-app-stubby
 Version: 0.9.6-r1
 Depends: libc, stubby, luci-base, nftables
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
 SourceDateEpoch: 1761946134
@@ -848,7 +795,6 @@ Description:  LuCI Stubby
 Package: luci-app-tailscale
 Version: 1.2.6-r12
 Depends: libc, tailscale-lite
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
 SourceDateEpoch: 1768221362
@@ -864,7 +810,6 @@ Description:  LuCI for Tailscale
 Package: luci-app-temp-status
 Version: 0.4.1-r1
 Depends: libc, lua, luci-lib-nixio, luci-lib-jsonc
-Source: feeds/routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
@@ -881,7 +826,6 @@ Description:  Temperature sensors data for the LuCI status page
 Package: luci-app-temp-status
 Version: 0.7.1-r2
 Depends: libc, ucode, ucode-mod-fs
-Source: /home/santaclaus/feed.routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
@@ -898,7 +842,6 @@ Description:  Temperature sensors data for the LuCI status page
 Package: luci-app-urllogger
 Version: 1.0.1-r2
 Depends: libc, kmod-natflow
-Source: /home/santaclaus/sdk/repositories/natflow-openwrt/luci-app-urllogger
 SourceName: luci-app-urllogger
 Section: utils
 SourceDateEpoch: 1761836944
@@ -912,7 +855,6 @@ Description:  LuCI URL Logger
 Package: luci-app-ussd
 Version: 1.0.0-r1
 Depends: libc
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
 SourceName: luci-app-ussd
 Section: luci
 SourceDateEpoch: 1747082154
@@ -928,7 +870,6 @@ Description:  LuCI JS interface for for USSD commands
 Package: luci-app-vsftpd
 Version: 24.247.46290~8e5e6c3
 Depends: libc, vsftpd, luci-lua-runtime
-Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
 SourceName: luci-app-vsftpd
 Section: luci
 SourceDateEpoch: 1725630464
@@ -944,7 +885,6 @@ Description:  LuCI support for VSFTPD
 Package: luci-app-wdoc-singbox
 Version: 1.1-r6
 Depends: libc, luci-app-wdoc, wdoc-singbox
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-singbox
 SourceName: luci-app-wdoc-singbox
 Section: utils
 SourceDateEpoch: 1762891935
@@ -958,7 +898,6 @@ Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziaw
 Package: luci-app-wdoc-warp
 Version: 1.0-r2
 Depends: libc, luci-app-wdoc, wdoc-warp
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-warp
 SourceName: luci-app-wdoc-warp
 Section: utils
 SourceDateEpoch: 1765888044
@@ -972,7 +911,6 @@ Description:  LuCI WatchDoc WARP - monitors WARP availability via WireGuard/Amne
 Package: luci-app-wdoc-wg
 Version: 1.1-r6
 Depends: libc, luci-app-wdoc, wdoc-wg
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-wg
 SourceName: luci-app-wdoc-wg
 Section: utils
 SourceDateEpoch: 1762891935
@@ -986,7 +924,6 @@ Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziaw
 Package: luci-app-wdoc
 Version: 1.1-r6
 Depends: libc, wdoc
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc
 SourceName: luci-app-wdoc
 Section: utils
 SourceDateEpoch: 1762892375
@@ -1000,7 +937,6 @@ Description:  LuCI WatchDoc a package that monitors internet connectivity and au
 Package: luci-app-wizard
 Version: 1.2.9
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra
-Source: /home/santaclaus/feed.routerich/luci-app-wizard
 SourceName: luci-app-wizard
 Section: opt
 SourceDateEpoch: 1759167284
@@ -1014,7 +950,6 @@ Description:  LuCI Support for wizard.
 Package: luci-app-youtubeUnblock
 Version: 25.226.54593~493cd77
 Depends: libc, luci-base
-Source: /home/santaclaus/feed.routerich/luci-app-youtubeUnblock
 SourceName: luci-app-youtubeUnblock
 License: GPL
 Section: luci
@@ -1029,25 +964,23 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.4.1-r2
+Version: 0.9.4.1-r3
 Depends: libc, luci-base, zapret2
-Source: /home/santaclaus/sdk/repositories/zapret2/luci-app-zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1771590015
+SourceDateEpoch: 1772178927
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 133120
-Filename: luci-app-zapret2_0.9.4.1-r2_all.ipk
-Size: 28638
-SHA256sum: a282a58144b2eb516b940040e9ebed3d47d56fcaa86f7cffc325ff0d899d1f9b
+Filename: luci-app-zapret2_0.9.4.1-r3_all.ipk
+Size: 28668
+SHA256sum: f6d98de43a0f5870f18fb1ce5260b833660b046e706f6d5b002659a60ef431d1
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
 Package: luci-app-zapret
 Version: 72.20251122-r1
 Depends: libc, zapret
-Source: feeds/base/zapret-openwrt/luci-app-zapret
 SourceName: luci-app-zapret
 License: MIT
 Section: luci
@@ -1064,7 +997,6 @@ Description:  LuCI support for zapret
 Package: luci-app-zerotier
 Version: 25.139.41679~1cd31c7
 Depends: libc, zerotier-lite, jsonfilter, ucode
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
 SourceDateEpoch: 1747654479
@@ -1080,7 +1012,6 @@ Description:  LuCI for Zerotier
 Package: luci-i18n-access-control-ru
 Version: 25.303.55670~82aed5a
 Depends: libc, luci-app-access-control
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-access-control
 SourceName: luci-app-access-control
 Section: luci
 SourceDateEpoch: 1761838070
@@ -1094,7 +1025,6 @@ Description:  Translation for luci-app-access-control - Русский (Russian)
 Package: luci-i18n-amneziawg-ru
 Version: 25.273.39265~a4ea36f
 Depends: libc, luci-app-amneziawg
-Source: /home/santaclaus/sdk/repositories/amneziawg-openwrt/luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
 SourceDateEpoch: 1770997784
@@ -1108,7 +1038,6 @@ Description:  Translation for luci-app-amneziawg - Русский (Russian)
 Package: luci-i18n-atinout-ru
 Version: 25.092.26714~279ca85
 Depends: libc, luci-app-atinout
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-atinout
 SourceName: luci-app-atinout
 Section: luci
 SourceDateEpoch: 1747061918
@@ -1122,7 +1051,6 @@ Description:  Translation for luci-app-atinout - Русский (Russian)
 Package: luci-i18n-cpu-status-ru
 Version: 25.294.51538~b574723
 Depends: libc, luci-app-cpu-status
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-cpu-status
 SourceName: luci-app-cpu-status
 License: MIT
 Section: luci
@@ -1137,7 +1065,6 @@ Description:  Translation for luci-app-cpu-status - Русский (Russian)
 Package: luci-i18n-doh-proxy-ru
 Version: 25.303.53302~de7e901
 Depends: libc, luci-app-doh-proxy
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
@@ -1153,7 +1080,6 @@ Description:  Translation for luci-app-doh-proxy - Русский (Russian)
 Package: luci-i18n-filebrowser-go-ru
 Version: 24.252.41075~d2f498a
 Depends: libc, luci-app-filebrowser-go
-Source: feeds/routerich/luci-app-filebrowser-go
 SourceName: luci-app-filebrowser-go
 Section: luci
 SourceDateEpoch: 1725794675
@@ -1167,7 +1093,6 @@ Description:  Translation for luci-app-filebrowser-go - Русский (Russian)
 Package: luci-i18n-interfaces-statistics-ru
 Version: 25.294.51538~b574723
 Depends: libc, luci-app-interfaces-statistics
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-interfaces-statistics
 SourceName: luci-app-interfaces-statistics
 License: MIT
 Section: luci
@@ -1182,7 +1107,6 @@ Description:  Translation for luci-app-interfaces-statistics - Русский (R
 Package: luci-i18n-internet-detector-ru
 Version: 25.297.45850~091b257
 Depends: libc, luci-app-internet-detector
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
 SourceDateEpoch: 1761309850
@@ -1196,7 +1120,6 @@ Description:  Translation for luci-app-internet-detector - Русский (Russi
 Package: luci-i18n-ledcontrol-ru
 Version: 25.303.50711~cf9fcac
 Depends: libc, luci-app-ledcontrol
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-ledcontrol
 SourceName: luci-app-ledcontrol
 Section: luci
 SourceDateEpoch: 1761834139
@@ -1210,7 +1133,6 @@ Description:  Translation for luci-app-ledcontrol - Русский (Russian)
 Package: luci-i18n-log-ru
 Version: 25.255.59040~fb8131b
 Depends: libc, luci-app-log-viewer
-Source: /home/santaclaus/feed.routerich/luci-app-log
 SourceName: luci-app-log-viewer
 License: MIT
 Section: luci
@@ -1225,7 +1147,6 @@ Description:  Translation for luci-app-log-viewer - Русский (Russian)
 Package: luci-i18n-mmconfig-ru
 Version: 25.086.27065~e8d41ba
 Depends: libc, luci-app-mmconfig
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-mmconfig
 SourceName: luci-app-mmconfig
 Section: luci
 SourceDateEpoch: 1747061918
@@ -1239,7 +1160,6 @@ Description:  Translation for luci-app-mmconfig - Русский (Russian)
 Package: luci-i18n-modemband-ru
 Version: 25.132.56335~db23e9f
 Depends: libc, luci-app-modemband
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-modemband
 SourceName: luci-app-modemband
 Section: luci
 SourceDateEpoch: 1747064335
@@ -1253,7 +1173,6 @@ Description:  Translation for luci-app-modemband - Русский (Russian)
 Package: luci-i18n-modeminfo-mqtt-ru
 Version: 25.298.65286~160e144
 Depends: libc, luci-app-modeminfo-mqtt
-Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/luci-app-modeminfo-mqtt
 SourceName: luci-app-modeminfo-mqtt
 Section: luci
 SourceDateEpoch: 1761416059
@@ -1267,7 +1186,6 @@ Description:  Translation for luci-app-modeminfo-mqtt - Русский (Russian)
 Package: luci-i18n-modeminfo-ru
 Version: 25.184.46721~77e26c0
 Depends: libc, luci-app-modeminfo
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/luci/applications/luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
 SourceDateEpoch: 1761413983
@@ -1281,7 +1199,6 @@ Description:  Translation for luci-app-modeminfo - Русский (Russian)
 Package: luci-i18n-podkop-ru
 Version: 0.251203.31812
 Depends: libc, luci-app-podkop
-Source: feeds/base/feeds/luci/luci-app-podkop
 SourceName: luci-app-podkop
 License: GPL-2.0-or-later
 Section: luci
@@ -1297,7 +1214,6 @@ Description:  Translation for luci-app-podkop - Русский (Russian)
 Package: luci-i18n-qbittorrent-ru
 Version: 25.209.58227~6e95037
 Depends: libc, luci-app-qbittorrent
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/luci-app-qbittorrent
 SourceName: luci-app-qbittorrent
 Section: luci
 SourceDateEpoch: 1753719027
@@ -1311,7 +1227,6 @@ Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 Package: luci-i18n-ruantiblock-ru
 Version: 2.1.10-r1
 Depends: libc, luci-app-ruantiblock, luci-lua-runtime
-Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/luci-i18n-ruantiblock-ru
 SourceName: luci-i18n-ruantiblock-ru
 Section: luci
 SourceDateEpoch: 1750968602
@@ -1327,7 +1242,6 @@ Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 Package: luci-i18n-smstools3-ru
 Version: 25.092.26460~32cb0dd
 Depends: libc, luci-app-smstools3
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-smstools3
 SourceName: luci-app-smstools3
 Section: luci
 SourceDateEpoch: 1751537224
@@ -1341,7 +1255,6 @@ Description:  Translation for luci-app-smstools3 - Русский (Russian)
 Package: luci-i18n-stubby-ru
 Version: 25.303.53302~de7e901
 Depends: libc, luci-app-stubby
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
 SourceDateEpoch: 1761946134
@@ -1355,7 +1268,6 @@ Description:  Translation for luci-app-stubby - Русский (Russian)
 Package: luci-i18n-tailscale-ru
 Version: 26.012.45362~8b7f8c8
 Depends: libc, luci-app-tailscale
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-app-tailscale
 SourceName: luci-app-tailscale
 Section: luci
 SourceDateEpoch: 1768221362
@@ -1369,7 +1281,6 @@ Description:  Translation for luci-app-tailscale - Русский (Russian)
 Package: luci-i18n-temp-status-ru
 Version: 25.062.74067~1d17083
 Depends: libc, luci-app-temp-status
-Source: feeds/routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
@@ -1384,7 +1295,6 @@ Description:  Translation for luci-app-temp-status - Русский (Russian)
 Package: luci-i18n-temp-status-ru
 Version: 25.282.44050~a4e8acf
 Depends: libc, luci-app-temp-status
-Source: /home/santaclaus/feed.routerich/luci-app-temp-status
 SourceName: luci-app-temp-status
 License: MIT
 Section: luci
@@ -1399,7 +1309,6 @@ Description:  Translation for luci-app-temp-status - Русский (Russian)
 Package: luci-i18n-ussd-ru
 Version: 25.091.34280~15c8dc0
 Depends: libc, luci-app-ussd
-Source: /home/santaclaus/rr-modemfeed/luci/applications/luci-app-ussd
 SourceName: luci-app-ussd
 Section: luci
 SourceDateEpoch: 1747082154
@@ -1413,7 +1322,6 @@ Description:  Translation for luci-app-ussd - Русский (Russian)
 Package: luci-i18n-vsftpd-ru
 Version: 24.250.49664~12eb8d3
 Depends: libc, luci-app-vsftpd
-Source: /home/santaclaus/feed.routerich/luci-app-vsftpd
 SourceName: luci-app-vsftpd
 Section: luci
 SourceDateEpoch: 1725630464
@@ -1427,7 +1335,6 @@ Description:  Translation for luci-app-vsftpd - Русский (Russian)
 Package: luci-i18n-wdoc-ru
 Version: 25.315.72735~4d7310c
 Depends: libc, luci-app-wdoc
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc
 SourceName: luci-app-wdoc
 Section: luci
 SourceDateEpoch: 1762892375
@@ -1441,7 +1348,6 @@ Description:  Translation for luci-app-wdoc - Русский (Russian)
 Package: luci-i18n-wdoc-singbox-ru
 Version: 25.315.72735~4d7310c
 Depends: libc, luci-app-wdoc-singbox
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-singbox
 SourceName: luci-app-wdoc-singbox
 Section: luci
 SourceDateEpoch: 1762891935
@@ -1455,7 +1361,6 @@ Description:  Translation for luci-app-wdoc-singbox - Русский (Russian)
 Package: luci-i18n-wdoc-warp-ru
 Version: 25.349.56671~a6f275d
 Depends: libc, luci-app-wdoc-warp
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-warp
 SourceName: luci-app-wdoc-warp
 Section: luci
 SourceDateEpoch: 1765888044
@@ -1469,7 +1374,6 @@ Description:  Translation for luci-app-wdoc-warp - Русский (Russian)
 Package: luci-i18n-wdoc-wg-ru
 Version: 25.315.72735~4d7310c
 Depends: libc, luci-app-wdoc-wg
-Source: /home/santaclaus/sdk/repositories/wdoc/luci-app-wdoc-wg
 SourceName: luci-app-wdoc-wg
 Section: luci
 SourceDateEpoch: 1762891935
@@ -1483,7 +1387,6 @@ Description:  Translation for luci-app-wdoc-wg - Русский (Russian)
 Package: luci-i18n-zerotier-ru
 Version: 25.139.41679~1cd31c7
 Depends: libc, luci-app-zerotier
-Source: /home/santaclaus/next/feed.routerich_next/luci-app-zerotier
 SourceName: luci-app-zerotier
 Section: luci
 SourceDateEpoch: 1747654479
@@ -1497,7 +1400,6 @@ Description:  Translation for luci-app-zerotier - Русский (Russian)
 Package: luci-proto-tun2socks
 Version: 24.295.43713~4b245f8
 Depends: libc, tun2socks
-Source: feeds/routerich/modemfeed/luci/protocols/luci-proto-tun2socks
 SourceName: luci-proto-tun2socks
 Section: luci
 SourceDateEpoch: 1729512513
@@ -1513,7 +1415,6 @@ Description:  Support for tun2socks
 Package: luci-proto-xmm
 Version: 25.112.56602~ee9a34d
 Depends: libc, xmm-modem
-Source: /home/santaclaus/rr-modemfeed/luci/protocols/luci-proto-xmm
 SourceName: luci-proto-xmm
 Section: luci
 SourceDateEpoch: 1745336602
@@ -1529,7 +1430,6 @@ Description:  Support for Intel XMM
 Package: luci-theme-routerich
 Version: 1.0.9.10-r20251204
 Depends: libc, curl, jsonfilter, luci-lua-runtime
-Source: /home/santaclaus/sdk/repositories/feed.routerich/luci-theme-routerich
 SourceName: luci-theme-routerich
 Section: luci
 SourceDateEpoch: 1764838291
@@ -1545,7 +1445,6 @@ Description:  Routerich Theme
 Package: mesh-button
 Version: 1.0.3-r2
 Depends: libc, hostapd-utils, luci-app-wizard, curl, jq
-Source: /home/santaclaus/feed.routerich/mesh-button
 SourceName: mesh-button
 Section: utils
 SourceDateEpoch: 1759849866
@@ -1560,7 +1459,6 @@ Description:  Adds Mesh and WPS control functionality to the mesh button
 Package: modemband
 Version: 1.0.0
 Depends: libc, sms-tool
-Source: /home/santaclaus/rr-modemfeed/packages/net/modemband
 SourceName: modemband
 Section: net
 SourceDateEpoch: 1747061918
@@ -1574,7 +1472,6 @@ Description:  Setting LTE/5G bands for selected modems
 Package: modeminfo-mqtt
 Version: 1.1-r3
 Depends: libc, modeminfo, mosquitto-client-ssl, jsonfilter
-Source: /home/santaclaus/sdk/repositories/modeminfo-mqtt/modeminfo-mqtt
 SourceName: modeminfo-mqtt
 Section: utils
 SourceDateEpoch: 1761416059
@@ -1589,7 +1486,6 @@ Description:  Add-on for ModemInfo: collects modem readings and publishes them t
 Package: modeminfo-qmi
 Version: 1.1.1
 Depends: libc, modeminfo, qmi-utils
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1603,7 +1499,6 @@ Description:  QMI addon for modeminfo
 Package: modeminfo-serial-dell
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1617,7 +1512,6 @@ Description:  Dell DW5821e serial addon for modeminfo
 Package: modeminfo-serial-fibocom
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1631,7 +1525,6 @@ Description:  FIBOCOM NL668/678/FM150/FM190 serial addon for modeminfo
 Package: modeminfo-serial-gosun
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1645,7 +1538,6 @@ Description:  Gosuncnwelink GM510 serial addon for modeminfo
 Package: modeminfo-serial-huawei
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1659,7 +1551,6 @@ Description:  HUAWEI serial addon for modeminfo
 Package: modeminfo-serial-meig
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1673,7 +1564,6 @@ Description:  MEIGLink SLM750-R2/SLM820/SLM828 serial addon for modeminfo
 Package: modeminfo-serial-mikrotik
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-acm, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1687,7 +1577,6 @@ Description:  MikroTik R11e-LTE/R11e-LTE6 serial addon for modeminfo
 Package: modeminfo-serial-quectel
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1701,7 +1590,6 @@ Description:  QUECTEL serial addon for modeminfo
 Package: modeminfo-serial-sierra
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-qualcomm, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1715,7 +1603,6 @@ Description:  Sierra Wireless EM7455 serial addon for modeminfo
 Package: modeminfo-serial-simcom
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1729,7 +1616,6 @@ Description:  SIMCOM SIM7600/SIM7906/SIM7912/A7600/A7906 serial addon for modemi
 Package: modeminfo-serial-styx
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1743,7 +1629,6 @@ Description:  STYX MG8224 serial addon for modeminfo
 Package: modeminfo-serial-telit
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1757,7 +1642,6 @@ Description:  TELIT LN940/T77W678/HP4220 serial addon for modeminfo
 Package: modeminfo-serial-thales
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1771,7 +1655,6 @@ Description:  Thales MV31-W T99W175 serial addon for modeminfo
 Package: modeminfo-serial-tw
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1785,7 +1668,6 @@ Description:  ThinkWill ML7820+ serial addon for modeminfo
 Package: modeminfo-serial-xmm
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, kmod-usb-acm, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1799,7 +1681,6 @@ Description:  FIBOCOM L850/L860/FM350 Intel XMM chips serial addon for modeminfo
 Package: modeminfo-serial-yuge
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1813,7 +1694,6 @@ Description:  Yuge CLM920 serial addon for modeminfo
 Package: modeminfo-serial-zte
 Version: 1.1.1
 Depends: libc, modeminfo, kmod-usb-serial-option, sms-tool
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1827,7 +1707,6 @@ Description:  ZTE MF823/MF823D serial addon for modeminfo
 Package: modeminfo
 Version: 1.1.1
 Depends: libc, comgt
-Source: /home/santaclaus/sdk/repositories/rr-modemfeed/packages/net/modeminfo
 SourceName: modeminfo
 Section: net
 SourceDateEpoch: 1756936372
@@ -1842,7 +1721,6 @@ Package: ntfs3-mount
 Version: 10
 Depends: libc, kmod-fs-ntfs3
 Conflicts: ntfs-3g
-Source: /home/santaclaus/feed.routerich/automount
 SourceName: automount
 Section: utils
 SourceDateEpoch: 1725307136
@@ -1856,7 +1734,6 @@ Description:  NTFS mount script for Paragon NTFS3 driver
 Package: opera-proxy
 Version: 1.15.0-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/opera-proxy
 SourceName: opera-proxy
 Section: net
 SourceDateEpoch: 1768554677
@@ -1872,7 +1749,6 @@ Package: podkop
 Version: v0.7.10-r1
 Depends: libc, sing-box, curl, jq, kmod-nft-tproxy, coreutils-base64, bind-dig
 Conflicts: https-dns-proxy, nextdns, luci-app-passwall, luci-app-passwall2
-Source: feeds/base/feeds/utilities/podkop
 SourceName: podkop
 License: GPL-2.0-or-later
 Section: net
@@ -1890,7 +1766,6 @@ Package: qbittorrent
 Version: 5.1.2-r1
 Depends: libc, libgcc1, libstdcpp6, rblibtorrent2.0, libQt6Core, libQt6Network, libQt6Sql, libQt6Xml, qt6-plugin-libqopensslbackend, qt6-plugin-libqsqlite
 Provides: qBittorrent
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qbittorrent
 SourceName: qbittorrent
 License: GPL-2.0+
 LicenseFiles: COPYING
@@ -1912,7 +1787,6 @@ Description:  qBittorrent is a bittorrent client programmed in C++ / Qt that use
 Package: qt6-plugin-libqcertonlybackend
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -1927,7 +1801,6 @@ Description:  Qt6 Plugin libqcertonlybackend
 Package: qt6-plugin-libqminimal
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -1942,7 +1815,6 @@ Description:  Qt6 Plugin libqminimal
 Package: qt6-plugin-libqnetworkmanager
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6DBus, libQt6Network
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -1957,7 +1829,6 @@ Description:  Qt6 Plugin libqnetworkmanager
 Package: qt6-plugin-libqoffscreen
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -1972,7 +1843,6 @@ Description:  Qt6 Plugin libqoffscreen
 Package: qt6-plugin-libqopensslbackend
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Network
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -1987,7 +1857,6 @@ Description:  Qt6 Plugin libqopensslbackend
 Package: qt6-plugin-libqsqlite
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Sql
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -2002,7 +1871,6 @@ Description:  Qt6 Plugin libqsqlite
 Package: qt6-plugin-libqtuiotouchplugin
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui, libQt6Network
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -2017,7 +1885,6 @@ Description:  Qt6 Plugin libqtuiotouchplugin
 Package: qt6-plugin-libqxdgdesktopportal
 Version: 6.8.3-r1
 Depends: libc, libatomic1, libstdcpp6, zlib, libQt6Gui
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/qt6base
 SourceName: qt6base
 Section: libs
 SourceDateEpoch: 1753719027
@@ -2033,7 +1900,6 @@ Package: rblibtorrent2.0
 Version: 2.0.11-r1
 Depends: libc, boost, boost-system, libatomic1, libgcc1, libopenssl3, libstdcpp6
 Provides: rblibtorrent
-Source: /home/santaclaus/feed.routerich/openwrt-qBittorrent/rblibtorrent
 SourceName: rblibtorrent
 License: BSD
 LicenseFiles: COPYING
@@ -2053,7 +1919,6 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
 Package: routerich-defaults
 Version: 1.4.2
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/routerich-defaults
 SourceName: routerich-defaults
 Section: config
 SourceDateEpoch: 1763561999
@@ -2067,7 +1932,6 @@ Description:  Default settings by RouteRich
 Package: routerich-diag
 Version: 1.0.0-r52
 Depends: libc, luci-base, libjson-c5, libuci20250120
-Source: /home/santaclaus/sdk/repositories/routerich_diag/routerich-diag
 SourceName: routerich-diag
 Section: utils
 SourceDateEpoch: 1771334348
@@ -2083,7 +1947,6 @@ Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI inte
 Package: ruantiblock-mod-lua
 Version: 2.1.10-r1
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
-Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/ruantiblock-mod-lua
 SourceName: ruantiblock-mod-lua
 Section: net
 SourceDateEpoch: 1763046846
@@ -2099,7 +1962,6 @@ Description:  Lua module for ruantiblock
 Package: ruantiblock
 Version: 2.1.10-r1
 Depends: libc, dnsmasq-full, kmod-nft-tproxy
-Source: /mounts/storage/Projects/ruantiblock/_OPENWRT/_GitHub/ruantiblock_openwrt/ruantiblock
 SourceName: ruantiblock
 Section: net
 SourceDateEpoch: 1763046846
@@ -2115,7 +1977,6 @@ Description:  Ruantiblock
 Package: smount
 Version: 1.0.5
 Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, kmod-fs-ntfs3, acl
-Source: /home/santaclaus/sdk/repositories/feed.routerich/smount
 SourceName: smount
 Section: utils
 SourceDateEpoch: 1761992366
@@ -2129,7 +1990,6 @@ Description:  Auto-mount scripts
 Package: sms-tool
 Version: 2023.09.21~1b6ca032-r1
 Depends: libc
-Source: feeds/packages/utils/sms-tool
 SourceName: sms-tool
 License: Apache-2.0
 LicenseFiles: LICENSE-2.0.txt
@@ -2148,7 +2008,6 @@ Package: tailscale-lite
 Version: 1.92.5-r1
 Depends: libc, ca-bundle, kmod-tun
 Provides: tailscaled
-Source: /home/santaclaus/sdk/repositories/feed.routerich/tailscale-lite
 SourceName: tailscale-lite
 License: BSD-3-Clause
 LicenseFiles: LICENSE
@@ -2168,7 +2027,6 @@ Description:  It creates a secure network between your servers, computers,
 Package: torrserver
 Version: 1.3.5-r0
 Depends: libc, ffprobe
-Source: /home/santaclaus/feed.routerich/torrserver
 SourceName: torrserver
 Section: utils
 SourceDateEpoch: 1754244281
@@ -2182,7 +2040,6 @@ Description:  TorrServer. Simple and powerful tool for streaming torrents.
 Package: tun2socks
 Version: 2.5.2-r250128~master-1
 Depends: libc, ca-bundle, kmod-tun, ip-full, coreutils-base64
-Source: feeds/routerich/modemfeed/packages/net/tun2socks
 SourceName: tun2socks
 License: GPL-3.0
 LicenseFiles: LICENSE
@@ -2200,7 +2057,6 @@ Description:  tun to socks proxy redirector written on golang
 Package: uboot-routerich-ax3000
 Version: 1.1.1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/feed.routerich/uboot-routerich-ax3000
 SourceName: uboot-routerich-ax3000
 Section: config
 SourceDateEpoch: 1768554696
@@ -2214,7 +2070,6 @@ Description:  Uboot files
 Package: uboot-routerich
 Version: 1.1.0
 Depends: libc, kmod-mtd-rw
-Source: /home/santaclaus/sdk/repositories/feed.routerich/uboot-routerich
 SourceName: uboot-routerich
 Section: config
 SourceDateEpoch: 1768400154
@@ -2228,7 +2083,6 @@ Description:  Uboot upgrade
 Package: upx
 Version: 5.0.0-r1
 Depends: libc, libstdcpp6
-Source: feeds/routerich/upx
 SourceName: upx
 License: GPL-2.0-or-later
 LicenseFiles: COPYING LICENSE
@@ -2249,7 +2103,6 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
 Package: wdoc-singbox
 Version: 1.2.5-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-singbox
 SourceName: wdoc-singbox
 Section: utils
 SourceDateEpoch: 1762891935
@@ -2264,7 +2117,6 @@ Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg con
 Package: wdoc-warp
 Version: 1.0.1-r1
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-warp
 SourceName: wdoc-warp
 Section: utils
 SourceDateEpoch: 1765898032
@@ -2279,7 +2131,6 @@ Description:  WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG
 Package: wdoc-wg
 Version: 1.2.5-r2
 Depends: libc
-Source: /home/santaclaus/sdk/repositories/wdoc/wdoc-wg
 SourceName: wdoc-wg
 Section: utils
 SourceDateEpoch: 1763391970
@@ -2294,7 +2145,6 @@ Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg con
 Package: wdoc
 Version: 1.5-r3
 Depends: libc, curl
-Source: /home/santaclaus/sdk/repositories/wdoc/wdoc
 SourceName: wdoc
 Section: utils
 SourceDateEpoch: 1762891935
@@ -2309,7 +2159,6 @@ Description:  WatchDoc a package that monitors internet connectivity and automat
 Package: xmm-modem
 Version: 0.1.5-r1
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-cdc-ncm, kmod-usb-net-rndis
-Source: /home/santaclaus/rr-modemfeed/packages/net/xmm-modem
 SourceName: xmm-modem
 Section: opt
 SourceDateEpoch: 1754211168
@@ -2325,7 +2174,6 @@ Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
 Package: youtubeUnblock
 Version: 1.3.0~330efb5-r1
 Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
-Source: /home/santaclaus/sdk/repositories/feed.routerich/youtubeUnblock
 SourceName: youtubeUnblock
 Section: services
 SourceDateEpoch: 1770606243
@@ -2341,7 +2189,6 @@ Description:  Bypasses Googlevideo detection systems that relies on SNI
 Package: zapret-ip2net
 Version: 72.20251122
 Depends: libc, zlib, zapret
-Source: feeds/base/zapret-openwrt/zapret-ip2net
 SourceName: zapret-ip2net
 License: MIT
 LicenseFiles: docs/LICENSE.txt
@@ -2358,7 +2205,6 @@ Description:  ip2net
 Package: zapret-mdig
 Version: 72.20251122
 Depends: libc, zlib, zapret
-Source: feeds/base/zapret-openwrt/zapret-mdig
 SourceName: zapret-mdig
 License: MIT
 LicenseFiles: docs/LICENSE.txt
@@ -2375,7 +2221,6 @@ Description:  mdig
 Package: zapret-tpws
 Version: 72.20251122
 Depends: libc, zlib, libcap, zapret
-Source: feeds/base/zapret-openwrt/zapret-tpws
 SourceName: zapret-tpws
 License: MIT
 LicenseFiles: docs/LICENSE.txt
@@ -2390,18 +2235,17 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.4.1-r2
+Version: 0.9.4.1-r3
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
-Source: /home/santaclaus/sdk/repositories/zapret2/zapret2
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1771590015
+SourceDateEpoch: 1772178927
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1064960
-Filename: zapret2_0.9.4.1-r2_aarch64_cortex-a53.ipk
-Size: 512757
-SHA256sum: ad8ca0ddf5139ef8f9300ed152e2e0319f3064ffc2f9c8dc3bdc93da2b50d6dd
+Filename: zapret2_0.9.4.1-r3_aarch64_cortex-a53.ipk
+Size: 512766
+SHA256sum: 86b1b80533840bf16438b053a35108a973f3abab3c681900efd31b29a9fb9af3
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
@@ -2409,7 +2253,6 @@ Description:  zapret2 is a DPI bypass tool using nfqws2.
 Package: zapret
 Version: 72.20251122
 Depends: libc, nftables, curl, gzip, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap, zlib
-Source: feeds/base/zapret-openwrt/zapret
 SourceName: zapret
 License: MIT
 LicenseFiles: docs/LICENSE.txt
@@ -2427,7 +2270,6 @@ Description:  zapret
 Package: zerotier-lite
 Version: 1.14.1-r2
 Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
-Source: /home/santaclaus/next/feed.routerich_next/zerotier-lite
 SourceName: zerotier-lite
 License: BSL 1.1
 LicenseFiles: LICENSE.txt
