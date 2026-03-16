@@ -81,18 +81,18 @@ SHA256sum: 7b8a786cfc084b271366d72e64253a1475b80a1a4b237e74bf354540db3b8eb6
 Description:  Mount autoconfig hotplug script.
 
 Package: bandix
-Version: 0.6.0-r1
-Depends: libc
+Version: 0.12.7-r1
+Depends: libc, zoneinfo-all, conntrack, iw
 SourceName: bandix
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1760889742
+SourceDateEpoch: 1773670931
 Maintainer: timsaya
 Architecture: aarch64_cortex-a53
-Installed-Size: 1914880
-Filename: bandix_0.6.0-r1_aarch64_cortex-a53.ipk
-Size: 899985
-SHA256sum: c3713fa913782493b6df67611fca1f14bfe320f4cbc85689d58e4d5de1f268e1
+Installed-Size: 4782080
+Filename: bandix_0.12.7-r1_aarch64_cortex-a53.ipk
+Size: 2352423
+SHA256sum: 168383c2c3bdcde56aa9fcd80245eeffa07b780727135e4ca1eadfd8b2ac33a4
 Description:  Bandix core service for network traffic monitoring
 
 Package: doh-proxy
@@ -468,19 +468,19 @@ SHA256sum: 411f4fe820d6359a3a6c48155258553a14b9197b581989fb84db4add7a1d11f5
 Description:  LuCI Support for autoreboot.
 
 Package: luci-app-bandix
-Version: 0.6.2-r1
+Version: 0.12.6-r1
 Depends: libc, luci-base, luci-lib-jsonc, curl, bandix
 SourceName: luci-app-bandix
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1761057617
+SourceDateEpoch: 1773670931
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 174080
-Filename: luci-app-bandix_0.6.2-r1_all.ipk
-Size: 36364
-SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
+Installed-Size: 389120
+Filename: luci-app-bandix_0.12.6-r1_all.ipk
+Size: 68035
+SHA256sum: 81e09dce8923d097ba3e989271555257aa405b2a1f3be4e2b5291e4f2c8fc6cd
 Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-block-users-addon
@@ -749,18 +749,18 @@ SHA256sum: a1f6f7a059de38ad92b895914507ebf70b694d840d8006d1585844a57680e726
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, ruantiblock
 SourceName: luci-app-ruantiblock
 Section: luci
-SourceDateEpoch: 1763087725
+SourceDateEpoch: 1773669991
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-ruantiblock_2.1.10-r1_all.ipk
-Size: 20882
-SHA256sum: 99e1ecce11b5a1e808dd9356a8b041f9fab24cb50c15a989e4d8d28242a01ded
+Filename: luci-app-ruantiblock_2.1.12-r3_all.ipk
+Size: 20893
+SHA256sum: 5a95d633418d87093a3648dfafb5fca426968006c245193a567aafed1670dd5c
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
@@ -1063,6 +1063,21 @@ Size: 1602
 SHA256sum: 50a578a26243b47feb83cd7acb1e1d6daf408961e9d5d94fff054fcec6025775
 Description:  Translation for luci-app-atinout - Русский (Russian)
 
+Package: luci-i18n-bandix-ru
+Version: 26.075.51731~5ce7573
+Depends: libc, luci-app-bandix
+SourceName: luci-app-bandix
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773670931
+Maintainer: timsaya
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-bandix-ru_26.075.51731~5ce7573_all.ipk
+Size: 9531
+SHA256sum: 30470c8095e5b71ba41606adf666ec8b4eea7a5cee64fd6068945960f379d79c
+Description:  Translation for luci-app-bandix - Русский (Russian)
+
 Package: luci-i18n-cpu-status-ru
 Version: 25.294.51538~b574723
 Depends: libc, luci-app-cpu-status
@@ -1240,18 +1255,17 @@ SHA256sum: ac37f7dacfb6cb2a86c46ac825042f1f338eb4ea6566d979c74d27a3f90e8cf6
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-ruantiblock-ru
-Version: 2.1.10-r1
-Depends: libc, luci-app-ruantiblock, luci-lua-runtime
-SourceName: luci-i18n-ruantiblock-ru
+Version: 26.075.50791~3c95903
+Depends: libc, luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
 Section: luci
-SourceDateEpoch: 1750968602
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1773669991
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-ruantiblock-ru_2.1.10-r1_all.ipk
-Size: 7151
-SHA256sum: 3b3cd8f5f895979dab69ecf0c3140983261129c6088de8a17de5889fca820fa0
+Installed-Size: 30720
+Filename: luci-i18n-ruantiblock-ru_26.075.50791~3c95903_all.ipk
+Size: 6249
+SHA256sum: c2049611a3fe22e1cd48639519b228e0626390ec172a3b9954cb14a706ed8807
 Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-smstools3-ru
@@ -1959,33 +1973,48 @@ Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI inte
  Provides system, network, and service diagnostics with sensitive data filtering.
 
 Package: ruantiblock-mod-lua
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
 SourceName: ruantiblock-mod-lua
 Section: net
-SourceDateEpoch: 1763046846
+SourceDateEpoch: 1773669991
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
 Installed-Size: 71680
-Filename: ruantiblock-mod-lua_2.1.10-r1_all.ipk
-Size: 13178
-SHA256sum: 4e1944f4fea77fca24dcccfb7ce06db1b819cd63e77e2c03132fc82207e0bb29
+Filename: ruantiblock-mod-lua_2.1.12-r3_all.ipk
+Size: 13174
+SHA256sum: ad5f8fdf610a0950a8076b2e3c116a435aa38853ff69f19856c7517547d4003f
 Description:  Lua module for ruantiblock
 
+Package: ruantiblock-mod-py
+Version: 2.1.12-r3
+Depends: libc, ruantiblock, python3, python3-setuptools, python3-openssl
+SourceName: ruantiblock-mod-py
+Section: net
+SourceDateEpoch: 1773669991
+URL: https://github.com/gSpotx2f/ruantiblock_openwrt
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 51200
+Filename: ruantiblock-mod-py_2.1.12-r3_all.ipk
+Size: 7894
+SHA256sum: dc54cca7b80780acaaaf77bf6e8a08ddeb40044900524c6a0699f1a42614ea07
+Description:  Python module for ruantiblock
+
 Package: ruantiblock
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, dnsmasq-full, kmod-nft-tproxy
 SourceName: ruantiblock
 Section: net
-SourceDateEpoch: 1763046846
+SourceDateEpoch: 1773669991
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
 Installed-Size: 143360
-Filename: ruantiblock_2.1.10-r1_all.ipk
-Size: 23112
-SHA256sum: 347b30c36a060691e6e2d43e74670acf3bfdb8f536f9fc94e42145f1682ed7da
+Filename: ruantiblock_2.1.12-r3_all.ipk
+Size: 24221
+SHA256sum: 6f8504590f0e9a892e07f922baed50e1d6673a1157b092fd75882e907ed065b2
 Description:  Ruantiblock
 
 Package: smount
