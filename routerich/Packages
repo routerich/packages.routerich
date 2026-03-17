@@ -1135,16 +1135,16 @@ SHA256sum: 9889999e2b84a7e3a5d8482395c142540200ccd0f9050f3de0cedd53fc493d0a
 Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
-Version: 25.297.45850~091b257
+Version: 26.076.52157~4e053f4
 Depends: libc, luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1761309850
+SourceDateEpoch: 1773757757
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-internet-detector-ru_25.297.45850~091b257_all.ipk
-Size: 6744
-SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
+Filename: luci-i18n-internet-detector-ru_26.076.52157~4e053f4_all.ipk
+Size: 6727
+SHA256sum: 2557ce5f7f4748154360929b24bf407abe566bccd68257422dffc2965043e528
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
