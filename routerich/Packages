@@ -66,35 +66,35 @@ SHA256sum: 7b8a786cfc084b271366d72e64253a1475b80a1a4b237e74bf354540db3b8eb6
 Description:  Mount autoconfig hotplug script.
 
 Package: bandix
-Version: 0.6.0-r1
-Depends: libc
+Version: 0.12.7-r1
+Depends: libc, zoneinfo-all, conntrack, iw
 SourceName: bandix
 License: Apache-2.0
 Section: net
-SourceDateEpoch: 1760889742
+SourceDateEpoch: 1773670931
 Maintainer: timsaya
 Architecture: aarch64_cortex-a53
-Installed-Size: 1914880
-Filename: bandix_0.6.0-r1_aarch64_cortex-a53.ipk
-Size: 899985
-SHA256sum: c3713fa913782493b6df67611fca1f14bfe320f4cbc85689d58e4d5de1f268e1
+Installed-Size: 4782080
+Filename: bandix_0.12.7-r1_aarch64_cortex-a53.ipk
+Size: 2352423
+SHA256sum: 168383c2c3bdcde56aa9fcd80245eeffa07b780727135e4ca1eadfd8b2ac33a4
 Description:  Bandix core service for network traffic monitoring
 
 Package: doh-proxy
-Version: 2025.07.01-r2
+Version: 2025.12.29-r4
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
 SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1763561999
+SourceDateEpoch: 1773068843
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
-Filename: doh-proxy_2025.07.01-r2_aarch64_cortex-a53.ipk
-Size: 24251
-SHA256sum: cd6d730ba1cb9b3f8dbf758a974864a112925c6cb7b40210fb756aa1d0157951
+Filename: doh-proxy_2025.12.29-r4_aarch64_cortex-a53.ipk
+Size: 32398
+SHA256sum: 64bcd468a6d13156bf46e0073714e2ec55feaeffe2b59d67e1fb333966a436c0
 Description:  Dns_over_https_Proxy
 
 Package: filebrowser
@@ -453,19 +453,19 @@ SHA256sum: 411f4fe820d6359a3a6c48155258553a14b9197b581989fb84db4add7a1d11f5
 Description:  LuCI Support for autoreboot.
 
 Package: luci-app-bandix
-Version: 0.6.2-r1
+Version: 0.12.6-r1
 Depends: libc, luci-base, luci-lib-jsonc, curl, bandix
 SourceName: luci-app-bandix
 License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1761057617
+SourceDateEpoch: 1773670931
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
-Installed-Size: 174080
-Filename: luci-app-bandix_0.6.2-r1_all.ipk
-Size: 36364
-SHA256sum: e18067cd1fb885e707722274f933e831e68b33175b517fab3874baa74e7e1609
+Installed-Size: 389120
+Filename: luci-app-bandix_0.12.6-r1_all.ipk
+Size: 68035
+SHA256sum: 81e09dce8923d097ba3e989271555257aa405b2a1f3be4e2b5291e4f2c8fc6cd
 Description:  LuCI Bandix app for network traffic monitoring
 
 Package: luci-app-block-users-addon
@@ -539,20 +539,20 @@ SHA256sum: 980e7d6945f828a19d6bee95e50a53745af97bdfd41067fb612ce42ac1b8000a
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r4
+Version: 2025.12.29-r4
 Depends: libc, luci-base, doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761835702
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1773068614
+URL: https://github.com/mossdef-org/luci-app-doh-proxy/
+Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r4_all.ipk
-Size: 11852
-SHA256sum: 657f0ffcbb745d2e10d99998ed1f2979caf86f9f337aa95c1c1292913075d528
-Description:  Provides Web UI for DoH Proxy
+Installed-Size: 81920
+Filename: luci-app-doh-proxy_2025.12.29-r4_all.ipk
+Size: 13547
+SHA256sum: aed6e1bf98ce52792974d3bc2845c7b360d93a0d34f5943a118a684432e44fcf
+Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-filebrowser-go
 Version: 24.252.39226~c89d418
@@ -734,18 +734,18 @@ SHA256sum: 1cd915783bc778b25de86e33551c5a36b00eac1e2301033455531690937f7b5c
 Description:  LuCI support for qBittorrent
 
 Package: luci-app-ruantiblock
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, ruantiblock
 SourceName: luci-app-ruantiblock
 Section: luci
-SourceDateEpoch: 1763087725
+SourceDateEpoch: 1773669991
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-ruantiblock_2.1.10-r1_all.ipk
-Size: 20882
-SHA256sum: 99e1ecce11b5a1e808dd9356a8b041f9fab24cb50c15a989e4d8d28242a01ded
+Filename: luci-app-ruantiblock_2.1.12-r3_all.ipk
+Size: 20893
+SHA256sum: 5a95d633418d87093a3648dfafb5fca426968006c245193a567aafed1670dd5c
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
@@ -964,17 +964,17 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.4.3-r4
+Version: 0.9.4.3-r7
 Depends: libc, luci-base, zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1772542546
+SourceDateEpoch: 1773261811
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 143360
-Filename: luci-app-zapret2_0.9.4.3-r4_all.ipk
-Size: 29317
-SHA256sum: d686bd2cf78b775ff5c468689340e17712c299a91237c0244285a9c2d2823f21
+Filename: luci-app-zapret2_0.9.4.3-r7_all.ipk
+Size: 29758
+SHA256sum: 86813dc5cfb1bd6cd117a4a38496395f55a91c6a16e46251ec2abcbfa302cd8c
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -1048,6 +1048,21 @@ Size: 1602
 SHA256sum: 50a578a26243b47feb83cd7acb1e1d6daf408961e9d5d94fff054fcec6025775
 Description:  Translation for luci-app-atinout - Русский (Russian)
 
+Package: luci-i18n-bandix-ru
+Version: 26.075.51731~5ce7573
+Depends: libc, luci-app-bandix
+SourceName: luci-app-bandix
+License: Apache-2.0
+Section: luci
+SourceDateEpoch: 1773670931
+Maintainer: timsaya
+Architecture: all
+Installed-Size: 30720
+Filename: luci-i18n-bandix-ru_26.075.51731~5ce7573_all.ipk
+Size: 9531
+SHA256sum: 30470c8095e5b71ba41606adf666ec8b4eea7a5cee64fd6068945960f379d79c
+Description:  Translation for luci-app-bandix - Русский (Russian)
+
 Package: luci-i18n-cpu-status-ru
 Version: 25.294.51538~b574723
 Depends: libc, luci-app-cpu-status
@@ -1063,19 +1078,19 @@ SHA256sum: 6f3cf852609111f705018573ec00ba1de6336bbd1636daa83006a4450eee6f7d
 Description:  Translation for luci-app-cpu-status - Русский (Russian)
 
 Package: luci-i18n-doh-proxy-ru
-Version: 25.303.53302~de7e901
+Version: 2025.12.29-r4
 Depends: libc, luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761835702
+SourceDateEpoch: 1773068614
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-doh-proxy-ru_25.303.53302~de7e901_all.ipk
-Size: 4089
-SHA256sum: ac784dbf5558bc9ed7e74031e0e5327eef3bef5e212d23b60df649300b236c5d
-Description:  Translation for luci-app-doh-proxy - Русский (Russian)
+Filename: luci-i18n-doh-proxy-ru_2025.12.29-r4_all.ipk
+Size: 5031
+SHA256sum: 204b1dad7357db316a35dc2d3168f6efcffb9decd6ffc896910b275fa922b642
+Description:  Russian translation for luci-app-doh-proxy
 
 Package: luci-i18n-filebrowser-go-ru
 Version: 24.252.41075~d2f498a
@@ -1105,16 +1120,16 @@ SHA256sum: 9889999e2b84a7e3a5d8482395c142540200ccd0f9050f3de0cedd53fc493d0a
 Description:  Translation for luci-app-interfaces-statistics - Русский (Russian)
 
 Package: luci-i18n-internet-detector-ru
-Version: 25.297.45850~091b257
+Version: 26.076.52157~4e053f4
 Depends: libc, luci-app-internet-detector
 SourceName: luci-app-internet-detector
 Section: luci
-SourceDateEpoch: 1761309850
+SourceDateEpoch: 1773757757
 Architecture: all
 Installed-Size: 30720
-Filename: luci-i18n-internet-detector-ru_25.297.45850~091b257_all.ipk
-Size: 6744
-SHA256sum: 691708ac1c43c1672fc5adbaf45a86f2d7a6278881a932711141ba0fa84c1a3c
+Filename: luci-i18n-internet-detector-ru_26.076.52157~4e053f4_all.ipk
+Size: 6727
+SHA256sum: 2557ce5f7f4748154360929b24bf407abe566bccd68257422dffc2965043e528
 Description:  Translation for luci-app-internet-detector - Русский (Russian)
 
 Package: luci-i18n-ledcontrol-ru
@@ -1225,31 +1240,30 @@ SHA256sum: 2c0b1a4d2ffd38fa09f75309714aeadd748c28f6d426ac7406e5d78817c24337
 Description:  Translation for luci-app-qbittorrent - Русский (Russian)
 
 Package: luci-i18n-ruantiblock-ru
-Version: 2.1.10-r1
-Depends: libc, luci-app-ruantiblock, luci-lua-runtime
-SourceName: luci-i18n-ruantiblock-ru
+Version: 26.075.50791~3c95903
+Depends: libc, luci-app-ruantiblock
+SourceName: luci-app-ruantiblock
 Section: luci
-SourceDateEpoch: 1750968602
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1773669991
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
-Installed-Size: 20480
-Filename: luci-i18n-ruantiblock-ru_2.1.10-r1_all.ipk
-Size: 7151
-SHA256sum: 3b3cd8f5f895979dab69ecf0c3140983261129c6088de8a17de5889fca820fa0
+Installed-Size: 30720
+Filename: luci-i18n-ruantiblock-ru_26.075.50791~3c95903_all.ipk
+Size: 6249
+SHA256sum: c2049611a3fe22e1cd48639519b228e0626390ec172a3b9954cb14a706ed8807
 Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-smstools3-ru
-Version: 25.092.26460~32cb0dd
+Version: 26.074.47365~354dc9d
 Depends: libc, luci-app-smstools3
 SourceName: luci-app-smstools3
 Section: luci
-SourceDateEpoch: 1751537224
+SourceDateEpoch: 1773580165
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-smstools3-ru_25.092.26460~32cb0dd_all.ipk
-Size: 3159
-SHA256sum: ee9d8c751f5fc343ca4e949b13ca1a6f14175083b19c258d62ee375795d90f64
+Filename: luci-i18n-smstools3-ru_26.074.47365~354dc9d_all.ipk
+Size: 3168
+SHA256sum: 394513b13a2edb2b469fb8bf9cb3643790743fe0aa4bf4ad533327f492c6d6d2
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
@@ -1428,19 +1442,18 @@ SHA256sum: 36f4c6930afc3182342a47b9ee0916db599bb8167d56bcc617ae9e4d314e3499
 Description:  Support for Intel XMM
 
 Package: luci-theme-routerich
-Version: 1.0.9.10-r20251204
-Depends: libc, curl, jsonfilter, luci-lua-runtime
+Version: 1.1.1-r5
+Depends: libc, luci-base
 SourceName: luci-theme-routerich
+License: Apache-2.0
 Section: luci
-SourceDateEpoch: 1764838291
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1772768473
 Architecture: all
-Installed-Size: 1341440
-Filename: luci-theme-routerich_1.0.9.10-r20251204_all.ipk
-Size: 534086
-SHA256sum: 0f248ebcf2dbad645b2c5c1a9f944f2a2eb830dc8b88c87540c347c8a819f93d
-Description:  Routerich Theme
+Installed-Size: 296960
+Filename: luci-theme-routerich_1.1.1-r5_all.ipk
+Size: 77715
+SHA256sum: 89fe35acafcbdcc36f2ae2671fca5f762476ea984f2407a29778481244dd8b50
+Description:  RouteRich Theme
 
 Package: mesh-button
 Version: 1.0.3-r2
@@ -1945,33 +1958,48 @@ Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI inte
  Provides system, network, and service diagnostics with sensitive data filtering.
 
 Package: ruantiblock-mod-lua
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
 SourceName: ruantiblock-mod-lua
 Section: net
-SourceDateEpoch: 1763046846
+SourceDateEpoch: 1773669991
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
 Installed-Size: 71680
-Filename: ruantiblock-mod-lua_2.1.10-r1_all.ipk
-Size: 13178
-SHA256sum: 4e1944f4fea77fca24dcccfb7ce06db1b819cd63e77e2c03132fc82207e0bb29
+Filename: ruantiblock-mod-lua_2.1.12-r3_all.ipk
+Size: 13174
+SHA256sum: ad5f8fdf610a0950a8076b2e3c116a435aa38853ff69f19856c7517547d4003f
 Description:  Lua module for ruantiblock
 
+Package: ruantiblock-mod-py
+Version: 2.1.12-r3
+Depends: libc, ruantiblock, python3, python3-setuptools, python3-openssl
+SourceName: ruantiblock-mod-py
+Section: net
+SourceDateEpoch: 1773669991
+URL: https://github.com/gSpotx2f/ruantiblock_openwrt
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 51200
+Filename: ruantiblock-mod-py_2.1.12-r3_all.ipk
+Size: 7894
+SHA256sum: dc54cca7b80780acaaaf77bf6e8a08ddeb40044900524c6a0699f1a42614ea07
+Description:  Python module for ruantiblock
+
 Package: ruantiblock
-Version: 2.1.10-r1
+Version: 2.1.12-r3
 Depends: libc, dnsmasq-full, kmod-nft-tproxy
 SourceName: ruantiblock
 Section: net
-SourceDateEpoch: 1763046846
+SourceDateEpoch: 1773669991
 URL: https://github.com/gSpotx2f/ruantiblock_openwrt
 Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
 Architecture: all
 Installed-Size: 143360
-Filename: ruantiblock_2.1.10-r1_all.ipk
-Size: 23112
-SHA256sum: 347b30c36a060691e6e2d43e74670acf3bfdb8f536f9fc94e42145f1682ed7da
+Filename: ruantiblock_2.1.12-r3_all.ipk
+Size: 24221
+SHA256sum: 6f8504590f0e9a892e07f922baed50e1d6673a1157b092fd75882e907ed065b2
 Description:  Ruantiblock
 
 Package: smount
@@ -2024,18 +2052,35 @@ SHA256sum: 0592e6c961194600d3c58626d9175224a184cc682534e211e4cfe3c1900ef8ae
 Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
+Package: telemt
+Version: 3.3.5-r1
+Depends: libc
+SourceName: telemt
+Section: net
+SourceDateEpoch: 1773069207
+URL: https://github.com/telemt/telemt
+Architecture: aarch64_cortex-a53
+Installed-Size: 2252800
+Filename: telemt_3.3.5-r1_aarch64_cortex-a53.ipk
+Size: 2218742
+SHA256sum: 9ffce0552aab850b438fc5f168266af13f6f31a59f6532830c0bc69e7afdd212
+Description:  High-performance Telegram MTProxy server written in Rust.
+ Implements the official Telegram proxy protocol with connection pooling,
+ replay protection, detailed statistics, and TLS masking.
+
 Package: torrserver
-Version: 1.3.5-r0
-Depends: libc, ffprobe
+Version: 141-r1
+Depends: libc
 SourceName: torrserver
-Section: utils
-SourceDateEpoch: 1754244281
-Architecture: all
-Installed-Size: 45312000
-Filename: torrserver_1.3.5-r0_all.ipk
-Size: 18433295
-SHA256sum: bb1a7b0424a7d04d2035169ce185065d44839858953e387a53e0e93711d7d459
-Description:  TorrServer. Simple and powerful tool for streaming torrents.
+Section: net
+SourceDateEpoch: 1773236228
+URL: https://github.com/YouROK/TorrServer
+Architecture: aarch64_cortex-a53
+Installed-Size: 19845120
+Filename: torrserver_141-r1_aarch64_cortex-a53.ipk
+Size: 19836394
+SHA256sum: af967be38f9c4b24e612a829b5418c117174b872eeea3bf413c74d31882a166a
+Description:  TorrServer - simple and powerful torrent streaming server.
 
 Package: tun2socks
 Version: 2.5.2-r250128~master-1
@@ -2235,17 +2280,17 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.4.3-r4
+Version: 0.9.4.3-r7
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1772542546
+SourceDateEpoch: 1773177743
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1075200
-Filename: zapret2_0.9.4.3-r4_aarch64_cortex-a53.ipk
-Size: 514706
-SHA256sum: 6449f9af231a5b4bacd48b2ef84a7bbdcd25961ac4bded22241c23c9ac23e275
+Installed-Size: 1064960
+Filename: zapret2_0.9.4.3-r7_aarch64_cortex-a53.ipk
+Size: 514642
+SHA256sum: 449bcd4b34faa35152db6b83f3cb5ba87406d0c1cc24219ba5cf7d7f7a0cddf7
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
