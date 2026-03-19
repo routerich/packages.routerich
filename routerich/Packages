@@ -1267,16 +1267,16 @@ SHA256sum: 394513b13a2edb2b469fb8bf9cb3643790743fe0aa4bf4ad533327f492c6d6d2
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
-Version: 25.303.53302~de7e901
+Version: 26.078.60853~8881a8f
 Depends: libc, luci-app-stubby
 SourceName: luci-app-stubby
 Section: luci
-SourceDateEpoch: 1761946134
+SourceDateEpoch: 1773939253
 Architecture: all
 Installed-Size: 10240
-Filename: luci-i18n-stubby-ru_25.303.53302~de7e901_all.ipk
-Size: 2067
-SHA256sum: b1c5517ec5762dbccf1a0db9283868fd64e0beb07aa4630d17823857ec4cdc66
+Filename: luci-i18n-stubby-ru_26.078.60853~8881a8f_all.ipk
+Size: 2087
+SHA256sum: cbceb7e930c0456bb190ffe9da990f8115595631c53633708434a4c34c823a23
 Description:  Translation for luci-app-stubby - Русский (Russian)
 
 Package: luci-i18n-tailscale-ru
