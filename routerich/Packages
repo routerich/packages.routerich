@@ -995,7 +995,7 @@ SHA256sum: 32eff761288cd1ca01639765f401531cdd6d534249f65ad4032cd7fb69a05447
 Description:  LuCI support for zapret
 
 Package: luci-app-zeroblock
-Version: 0.7.2-r1
+Version: 0.7.2-r24
 Depends: libc, luci-base, zeroblock
 SourceName: luci-app-zeroblock
 License: MIT
@@ -1004,9 +1004,9 @@ SourceDateEpoch: 1774272033
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: all
 Installed-Size: 389120
-Filename: luci-app-zeroblock_0.7.2-r1_all.ipk
-Size: 80779
-SHA256sum: 695a0b951f8b089ae9373e29b07d005c7c5f6ca378f7a7e9afa006496120ee53
+Filename: luci-app-zeroblock_0.7.2-r24_all.ipk
+Size: 80780
+SHA256sum: 6ef5b9ef00ac0c6cec99cde2cd11946070f06ebc9cce5629b8108bd52125d48f
 Description:  Web interface for ZeroBlock transparent proxy manager.
  Supports sing-box/xray with VLESS, VMess, Trojan, Shadowsocks, Hysteria2,
  TUIC, WireGuard, AmneziaWG, SOCKS4/5, HTTP/HTTPS protocols.
@@ -2331,7 +2331,7 @@ SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
 Description:  zapret
 
 Package: zeroblock
-Version: 0.7.2-r1
+Version: 0.7.2-r24
 Depends: libc, libuci20250120, libubus20250102, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, nftables-json, kmod-nft-tproxy, sing-box-tiny, conntrack
 SourceName: zeroblock
 License: MIT
@@ -2341,9 +2341,9 @@ URL: https://git.routerich.ru/routerich/zeroblock
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 624640
-Filename: zeroblock_0.7.2-r1_aarch64_cortex-a53.ipk
-Size: 261248
-SHA256sum: c0c75c5374da0e6c900aa5744ff0ef2d540bd40902e55fd62139d478f9d4a1c0
+Filename: zeroblock_0.7.2-r24_aarch64_cortex-a53.ipk
+Size: 261201
+SHA256sum: 3a86ebd505e77608956e8bbfb731b92d888e152637ffbfd76d151ab374bf3145
 Description:  ZeroBlock is a transparent proxy manager for OpenWrt that uses sing-box
  and xray-core as proxy engines.
  
