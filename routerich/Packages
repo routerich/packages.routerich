@@ -925,17 +925,17 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.4.5-r14
+Version: 0.9.4.5-r26
 Depends: libc, luci-base, zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1774040113
+SourceDateEpoch: 1774441117
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 174080
-Filename: luci-app-zapret2_0.9.4.5-r14_all.ipk
-Size: 37482
-SHA256sum: cb4fd16520b2fcbcc92ceb83cb144aed2a0844e0bbb4e340631bb7d7e6a914d4
+Filename: luci-app-zapret2_0.9.4.5-r26_all.ipk
+Size: 38868
+SHA256sum: 81e3b924d8b9b22c0952ff471d433d091e9a88e23a55efffbbc3fd960ac42be8
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -956,18 +956,18 @@ SHA256sum: 32eff761288cd1ca01639765f401531cdd6d534249f65ad4032cd7fb69a05447
 Description:  LuCI support for zapret
 
 Package: luci-app-zeroblock
-Version: 0.7.2-r24
+Version: 0.7.2-r41
 Depends: libc, luci-base, zeroblock
 SourceName: luci-app-zeroblock
 License: MIT
 Section: luci
-SourceDateEpoch: 1774272033
+SourceDateEpoch: 1774442036
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: all
 Installed-Size: 389120
-Filename: luci-app-zeroblock_0.7.2-r24_all.ipk
-Size: 80780
-SHA256sum: 6ef5b9ef00ac0c6cec99cde2cd11946070f06ebc9cce5629b8108bd52125d48f
+Filename: luci-app-zeroblock_0.7.2-r41_all.ipk
+Size: 81201
+SHA256sum: 36f7e9233ad0c977a4b92b28ae8657a7d5f2cdd00f80b890d36549998fb3ad1b
 Description:  Web interface for ZeroBlock transparent proxy manager.
  Supports sing-box/xray with VLESS, VMess, Trojan, Shadowsocks, Hysteria2,
  TUIC, WireGuard, AmneziaWG, SOCKS4/5, HTTP/HTTPS protocols.
@@ -1968,6 +1968,21 @@ Size: 8774
 SHA256sum: 8f835146b5c6b0d58b07e4324396c8ce65ead95c2f74304b85eb9d7b11331fec
 Description:  Default settings by RouteRich
 
+Package: routerich-diag
+Version: 1.0.0-r57
+Depends: libc, luci-base, libjson-c5, libuci20250120
+SourceName: routerich-diag
+Section: utils
+SourceDateEpoch: 1774444808
+Maintainer: RouteRich (https://t.me/routerich)
+Architecture: aarch64_cortex-a53
+Installed-Size: 122880
+Filename: routerich-diag_1.0.0-r57_aarch64_cortex-a53.ipk
+Size: 32689
+SHA256sum: c9727768dc9e41f18bb9cb7d7b460a73279f8f352d1679dc1460b03b253bdba3
+Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI integration.
+ Provides system, network, and service diagnostics with sensitive data filtering.
+
 Package: ruantiblock-mod-lua
 Version: 2.1.10-r1
 Depends: libc, ruantiblock, lua, luasocket, luasec, luabitop, iconv, idn
@@ -2261,17 +2276,17 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.4.5-r14
+Version: 0.9.4.5-r26
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1774040113
+SourceDateEpoch: 1774441117
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1228800
-Filename: zapret2_0.9.4.5-r14_aarch64_cortex-a53.ipk
-Size: 567598
-SHA256sum: 49498ccc455abd38b4def6efaedf79783af7792901a1d28f5ae592d6a9c8ed70
+Filename: zapret2_0.9.4.5-r26_aarch64_cortex-a53.ipk
+Size: 567783
+SHA256sum: bdf6197df5db34b525e313ffc831ad90ef37a6ab39ef5b909342c45ef9c21849
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
@@ -2294,19 +2309,19 @@ SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
 Description:  zapret
 
 Package: zeroblock
-Version: 0.7.2-r24
+Version: 0.7.2-r41
 Depends: libc, libuci20250120, libubus20250102, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, nftables-json, kmod-nft-tproxy, sing-box-tiny, conntrack
 SourceName: zeroblock
 License: MIT
 Section: net
-SourceDateEpoch: 1774271975
+SourceDateEpoch: 1774442036
 URL: https://git.routerich.ru/routerich/zeroblock
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 624640
-Filename: zeroblock_0.7.2-r24_aarch64_cortex-a53.ipk
-Size: 261201
-SHA256sum: 3a86ebd505e77608956e8bbfb731b92d888e152637ffbfd76d151ab374bf3145
+Filename: zeroblock_0.7.2-r41_aarch64_cortex-a53.ipk
+Size: 261443
+SHA256sum: 0654f5cc30323b350dfb584d7be3f04469ba2d66271294afada1424c5990a36f
 Description:  ZeroBlock is a transparent proxy manager for OpenWrt that uses sing-box
  and xray-core as proxy engines.
  
