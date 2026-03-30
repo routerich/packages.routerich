@@ -749,18 +749,18 @@ SHA256sum: 5a95d633418d87093a3648dfafb5fca426968006c245193a567aafed1670dd5c
 Description:  LuCI support for ruantiblock
 
 Package: luci-app-smstools3
-Version: 1.0.4-r1
+Version: 1.0.5-r1
 Depends: libc, smstools3, iconv, jq
 SourceName: luci-app-smstools3
 Section: luci
-SourceDateEpoch: 1753091963
+SourceDateEpoch: 1774866724
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 51200
-Filename: luci-app-smstools3_1.0.4-r1_all.ipk
-Size: 9140
-SHA256sum: 25904d2f1b303e388183296622c8b9a5ab867602acaafc83464d61bf688bf069
+Filename: luci-app-smstools3_1.0.5-r1_all.ipk
+Size: 9159
+SHA256sum: f3bdeb14cb5900231b0b8d4a5aaa12a8be1cb24ac2dd06a629c34939abb16b7a
 Description:  Web UI for smstools3
 
 Package: luci-app-ssclash
@@ -1272,16 +1272,16 @@ SHA256sum: c2049611a3fe22e1cd48639519b228e0626390ec172a3b9954cb14a706ed8807
 Description:  Translation for luci-app-ruantiblock - Русский (Russian)
 
 Package: luci-i18n-smstools3-ru
-Version: 26.074.47365~354dc9d
+Version: 26.089.37924~5639ed3
 Depends: libc, luci-app-smstools3
 SourceName: luci-app-smstools3
 Section: luci
-SourceDateEpoch: 1773580165
+SourceDateEpoch: 1774866724
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-smstools3-ru_26.074.47365~354dc9d_all.ipk
+Filename: luci-i18n-smstools3-ru_26.089.37924~5639ed3_all.ipk
 Size: 3168
-SHA256sum: 394513b13a2edb2b469fb8bf9cb3643790743fe0aa4bf4ad533327f492c6d6d2
+SHA256sum: 221594ecc234f25c81af58320ca799c16175cfadb8594cc9d8a449a4236487dc
 Description:  Translation for luci-app-smstools3 - Русский (Russian)
 
 Package: luci-i18n-stubby-ru
