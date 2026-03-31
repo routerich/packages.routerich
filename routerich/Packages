@@ -964,17 +964,17 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.4.5-r27
+Version: 0.9.4.6-r2
 Depends: libc, luci-base, zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1774675862
+SourceDateEpoch: 1774935850
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 174080
-Filename: luci-app-zapret2_0.9.4.5-r27_all.ipk
-Size: 38883
-SHA256sum: e02edaf1971d7a03bc313aa51c8cdecb857224bfac592c423219b69e3071711e
+Filename: luci-app-zapret2_0.9.4.6-r2_all.ipk
+Size: 38827
+SHA256sum: d42dd33cfcc607dbb5edd3ab4119dabef292fb9d5b76b628aa5d1af4acd43b59
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -2298,17 +2298,17 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.4.5-r27
+Version: 0.9.4.6-r2
 Depends: libc, libuci20250120, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1774675862
+SourceDateEpoch: 1774935850
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
 Installed-Size: 1228800
-Filename: zapret2_0.9.4.5-r27_aarch64_cortex-a53.ipk
-Size: 568832
-SHA256sum: c03362cc0a8066c6df90f5dff562b6a1192975fcbde535320a036bec3142ee6a
+Filename: zapret2_0.9.4.6-r2_aarch64_cortex-a53.ipk
+Size: 568882
+SHA256sum: 423073bf463e8fd51e7506981288fc93ea339e436b8e50c4d0225194ea65e765
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
