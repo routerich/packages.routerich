@@ -954,12 +954,12 @@ Version: 1.4.0
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra, dnsmasq-full
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1775126505
+SourceDateEpoch: 1775134828
 Architecture: all
 Installed-Size: 235520
 Filename: luci-app-wizard_1.4.0_all.ipk
-Size: 43052
-SHA256sum: 2c711fe9270e62677948162506c32be9e7093d412635664350602325c393b3a8
+Size: 43061
+SHA256sum: b416bba72a2de7ec2ef7d0d747ba5318bd0b646b4e4a304430ce8e8b85faa4f3
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
