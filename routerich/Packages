@@ -1976,17 +1976,17 @@ SHA256sum: 72e6724a1c90310cfa7f706cf928dd506866bfc2ce91e55b74c21cbac56f6c33
 Description:  Default settings by RouteRich
 
 Package: routerich-diag
-Version: 1.0.0-r57
+Version: 1.0.0-r58
 Depends: libc, luci-base, libjson-c5, libuci20250120
 SourceName: routerich-diag
 Section: utils
-SourceDateEpoch: 1774512360
+SourceDateEpoch: 1775124458
 Maintainer: RouteRich (https://t.me/routerich)
 Architecture: aarch64_cortex-a53
-Installed-Size: 122880
-Filename: routerich-diag_1.0.0-r57_aarch64_cortex-a53.ipk
-Size: 33607
-SHA256sum: 266147f427dfbfaf00b657a062e131825237a1fbc590a41d78f564e953353f66
+Installed-Size: 112640
+Filename: routerich-diag_1.0.0-r58_aarch64_cortex-a53.ipk
+Size: 33513
+SHA256sum: 13d1780c03f21e260c6a43d2949442b6bab0aac873ad8d493926f5e0878d026d
 Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI integration.
  Provides system, network, and service diagnostics with sensitive data filtering.
 
