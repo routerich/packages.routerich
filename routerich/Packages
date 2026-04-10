@@ -1771,17 +1771,17 @@ Description:  Speedtest CLI brings the trusted technology and global server netw
  Speedtest CLI is the first official Linux-native Speedtest application backed by Ookla®.
 
 Package: opera-proxy
-Version: 1.15.0-r1
+Version: 1.15.1-r1
 Depends: libc
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1768554677
+SourceDateEpoch: 1775847139
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 2068480
-Filename: opera-proxy_1.15.0-r1_aarch64_cortex-a53.ipk
-Size: 2059346
-SHA256sum: 1d4c63b69d5a562c5f01fe69d5360304071929ab55f46dc19d88c26883f1f45d
+Installed-Size: 2119680
+Filename: opera-proxy_1.15.1-r1_aarch64_cortex-a53.ipk
+Size: 2110017
+SHA256sum: b3e78aba4df41aabf7422aa80d35398dccee951cfbb775163f0cbabd938d8d26
 Description:  Opera Proxy client
 
 Package: podkop
