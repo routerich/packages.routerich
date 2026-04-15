@@ -950,16 +950,16 @@ SHA256sum: cb20634a4298a69dd6a5a51392258f7c3ae879078f9296936c189735497316ff
 Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wizard
-Version: 1.4.0
+Version: 1.4.0-r3
 Depends: libc, luci-base, rpcd-mod-iwinfo, kmod-pptp, ppp-mod-pptp, kmod-l2tp, kmod-l2tp-eth, kmod-l2tp-ip, kmod-pppol2tp, xl2tpd, jq, kmod-nf-nathelper-extra, dnsmasq-full
 SourceName: luci-app-wizard
 Section: opt
-SourceDateEpoch: 1775134828
+SourceDateEpoch: 1776289104
 Architecture: all
 Installed-Size: 235520
-Filename: luci-app-wizard_1.4.0_all.ipk
-Size: 43061
-SHA256sum: b416bba72a2de7ec2ef7d0d747ba5318bd0b646b4e4a304430ce8e8b85faa4f3
+Filename: luci-app-wizard_1.4.0-r3_all.ipk
+Size: 43332
+SHA256sum: c1918d09bae6835bb69698235c68e52a6fb27f32758641a426aa0ecdd5d7a74c
 Description:  LuCI Support for wizard.
 
 Package: luci-app-youtubeUnblock
