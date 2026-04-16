@@ -404,18 +404,18 @@ SHA256sum: 9c4d38381fcbef2879367d110d0e87abbdfb98145ee9daecc9ef32c57a281a54
 Description:  LuCI Internet Access Control
 
 Package: luci-app-amneziawg
-Version: 2.0.5-r3
+Version: 2.0.5-r4
 Depends: libc, ucode, amneziawg-tools, qrencode, luci-lib-uqr, resolveip
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1775582392
+SourceDateEpoch: 1776330123
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 102400
-Filename: luci-app-amneziawg_2.0.5-r3_all.ipk
-Size: 29969
-SHA256sum: c4a735f7c59e34dcf79fa46d9d52f73ff916da40984386e7a7e63743fd3492f7
+Filename: luci-app-amneziawg_2.0.5-r4_all.ipk
+Size: 30111
+SHA256sum: ac6a562431892254f2ad6760ce91c2b9e6f60f3bc5ea51ee12eb5d049fb8374a
 Description:  Provides support and Web UI for AmneziaWG VPN
 
 Package: luci-app-atinout
@@ -1002,16 +1002,16 @@ SHA256sum: ada753cd5d1ab8bf82eba59646f7c98f9701eac74e48dd95195921a7de646fe0
 Description:  Translation for luci-app-access-control - Русский (Russian)
 
 Package: luci-i18n-amneziawg-ru
-Version: 26.097.62392~ab87597
+Version: 26.106.32523~62139d7
 Depends: libc, luci-app-amneziawg
 SourceName: luci-app-amneziawg
 Section: luci
-SourceDateEpoch: 1775582392
+SourceDateEpoch: 1776330123
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-amneziawg-ru_26.097.62392~ab87597_all.ipk
-Size: 4169
-SHA256sum: c9de9a315df14217d8a9ff99fa60a1d2598a7c4c168049efd86cbd99c59904b1
+Filename: luci-i18n-amneziawg-ru_26.106.32523~62139d7_all.ipk
+Size: 4189
+SHA256sum: 48c9e332b6a3eeacc92cf368c668c3551ad70bd270e7d1927be35286d175e5d2
 Description:  Translation for luci-app-amneziawg - Русский (Russian)
 
 Package: luci-i18n-atinout-ru
