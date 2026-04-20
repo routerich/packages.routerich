@@ -2263,18 +2263,18 @@ Description:  Simple connect to cellular for Fibocom L850/L860/FM350 module.
  Intel XMM LTE-A 7360/7560 and MediaTek T700 chipsets
 
 Package: youtubeUnblock
-Version: 1.3.0~330efb5-r1
-Depends: libc, libpthread, kmod-nfnetlink-queue, kmod-nft-queue, kmod-nf-conntrack
+Version: 1.3.1~ec242d0-r1
+Depends: libc, libpthread
 SourceName: youtubeUnblock
 Section: services
-SourceDateEpoch: 1770606243
+SourceDateEpoch: 1776703385
 URL: https://github.com/Waujito/youtubeUnblock
 Maintainer: Vadim Vetrov <vetrovvd@gmail.com>
 Architecture: aarch64_cortex-a53
 Installed-Size: 225280
-Filename: youtubeUnblock_1.3.0~330efb5-r1_aarch64_cortex-a53.ipk
-Size: 72237
-SHA256sum: c2fc1a1d8b358aaf36201b0540cd1634b3c066a2a0c8f8b46681a437a771f88b
+Filename: youtubeUnblock_1.3.1~ec242d0-r1_aarch64_cortex-a53.ipk
+Size: 72890
+SHA256sum: 9e7f378af6a3950f4533a9f10d0cacec53aa9fa0198c04b7a528f24df0629eee
 Description:  Bypasses Googlevideo detection systems that relies on SNI
 
 Package: zapret-ip2net
