@@ -1009,18 +1009,18 @@ SHA256sum: 32eff761288cd1ca01639765f401531cdd6d534249f65ad4032cd7fb69a05447
 Description:  LuCI support for zapret
 
 Package: luci-app-zeroblock
-Version: 0.7.2-r55
+Version: 0.8.2-r1
 Depends: libc, luci-base, zeroblock
 SourceName: luci-app-zeroblock
 License: MIT
 Section: luci
-SourceDateEpoch: 1774534157
+SourceDateEpoch: 1776939700
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: all
-Installed-Size: 399360
-Filename: luci-app-zeroblock_0.7.2-r55_all.ipk
-Size: 82150
-SHA256sum: 29bd8b1be761a0c6854473a16a3690e59f24ddcf63c029fc974c707b9e60924a
+Installed-Size: 542720
+Filename: luci-app-zeroblock_0.8.2-r1_all.ipk
+Size: 122111
+SHA256sum: f07370d0c7db2b495db344178c4316871ed7e9e744c1e67bf6eecbd435a392cd
 Description:  Web interface for ZeroBlock transparent proxy manager.
  Supports sing-box/xray with VLESS, VMess, Trojan, Shadowsocks, Hysteria2,
  TUIC, WireGuard, AmneziaWG, SOCKS4/5, HTTP/HTTPS protocols.
@@ -2345,19 +2345,19 @@ SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
 Description:  zapret
 
 Package: zeroblock
-Version: 0.7.2-r55
-Depends: libc, libuci20250120, libubus20250102, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, nftables-json, kmod-nft-tproxy, sing-box-tiny, conntrack
+Version: 0.8.2-r1
+Depends: libc, libuci20250120, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, libopenssl3, zlib, nftables-json, kmod-nft-tproxy, sing-box-tiny, conntrack
 SourceName: zeroblock
 License: MIT
 Section: net
-SourceDateEpoch: 1775455377
+SourceDateEpoch: 1776934534
 URL: https://git.routerich.ru/routerich/zeroblock
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: aarch64_cortex-a53
-Installed-Size: 624640
-Filename: zeroblock_0.7.2-r55_aarch64_cortex-a53.ipk
-Size: 265278
-SHA256sum: 95ab3cbf4c02cf0a9d67273dd6cbb87075a27bec2ff5faf2f2ce7467109ec700
+Installed-Size: 747520
+Filename: zeroblock_0.8.2-r1_aarch64_cortex-a53.ipk
+Size: 323879
+SHA256sum: 9599df5a420e7018b39c03a68edf23d97f11541c76c053795ced79da4d95e118
 Description:  ZeroBlock is a transparent proxy manager for OpenWrt that uses sing-box
  and xray-core as proxy engines.
  
