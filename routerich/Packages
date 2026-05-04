@@ -548,12 +548,12 @@ Version: 1.1.2
 Depends: libc, libpthread
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1777718237
+SourceDateEpoch: 1777909936
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
 Filename: luci-app-dns-failsafe-proxy_1.1.2_aarch64_cortex-a53.ipk
-Size: 9566
-SHA256sum: 7cc162d350f7349f0e37922e9d9eae1bbe60ebca91efdb37930ff700312d428b
+Size: 9582
+SHA256sum: 334317159394f6a15f14ab9b8bfdc0b04825955da654c6e7bfa0aa34fb01d1cf
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
