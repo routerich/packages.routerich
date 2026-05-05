@@ -103,14 +103,14 @@ SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1777456243
+SourceDateEpoch: 1777968237
 URL: https://github.com/mossdef-org/https-dns-proxy/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
 Installed-Size: 102400
 Filename: doh-proxy_2025.12.29-r5_aarch64_cortex-a53.ipk
-Size: 32974
-SHA256sum: f495388f02bf1abd6747c1f51a6dd941695802453f0f120bf4f1238942249bd4
+Size: 32992
+SHA256sum: c6e657021481f0e039568387743dae7c9fcab9dd099a2ffdd89a09f1fd508f0e
 Description:  Light-weight DNS-over-HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
  It receives regular, unencrypted (UDP) DNS requests and resolves them via DoH resolver.
  Please see https://docs.openwrt.melmac.ca/https-dns-proxy/ for more information.
