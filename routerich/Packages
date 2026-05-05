@@ -96,21 +96,24 @@ SHA256sum: 2c6260f17994c56471595390805471dd5d9b0cfc1aa1cfc9b556919f332873c6
 Description:  Bridge forwarding accelerator
 
 Package: doh-proxy
-Version: 2025.07.01-r2
+Version: 2025.12.29-r5
 Depends: libc, libcares, libcurl4, libev, ca-bundle, jsonfilter, resolveip
 Conflicts: https_dns_proxy
 SourceName: doh-proxy
 License: MIT
 LicenseFiles: LICENSE
 Section: net
-SourceDateEpoch: 1763561999
+SourceDateEpoch: 1777968237
+URL: https://github.com/mossdef-org/https-dns-proxy/
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: aarch64_cortex-a53
-Installed-Size: 92160
-Filename: doh-proxy_2025.07.01-r2_aarch64_cortex-a53.ipk
-Size: 24251
-SHA256sum: cd6d730ba1cb9b3f8dbf758a974864a112925c6cb7b40210fb756aa1d0157951
-Description:  Dns_over_https_Proxy
+Installed-Size: 102400
+Filename: doh-proxy_2025.12.29-r5_aarch64_cortex-a53.ipk
+Size: 32992
+SHA256sum: c6e657021481f0e039568387743dae7c9fcab9dd099a2ffdd89a09f1fd508f0e
+Description:  Light-weight DNS-over-HTTPS, non-caching translation proxy for the RFC 8484 DoH standard.
+ It receives regular, unencrypted (UDP) DNS requests and resolves them via DoH resolver.
+ Please see https://docs.openwrt.melmac.ca/https-dns-proxy/ for more information.
 
 Package: filebrowser
 Version: 2.31.2-r1
@@ -510,20 +513,20 @@ SHA256sum: 334317159394f6a15f14ab9b8bfdc0b04825955da654c6e7bfa0aa34fb01d1cf
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
-Version: 2025.07.01-r4
+Version: 2025.12.29-r5
 Depends: libc, luci-base, doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761835702
-URL: https://github.com/openwrt/luci
-Maintainer: OpenWrt LuCI community
+SourceDateEpoch: 1777456243
+URL: https://github.com/mossdef-org/luci-app-doh-proxy/
+Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
-Installed-Size: 92160
-Filename: luci-app-doh-proxy_2025.07.01-r4_all.ipk
-Size: 11852
-SHA256sum: 657f0ffcbb745d2e10d99998ed1f2979caf86f9f337aa95c1c1292913075d528
-Description:  Provides Web UI for DoH Proxy
+Installed-Size: 81920
+Filename: luci-app-doh-proxy_2025.12.29-r5_all.ipk
+Size: 13440
+SHA256sum: 968f263d3cc8783ab26b57b59422ccaaa3b5f57dc705122498a941039042080b
+Description:  Provides Web UI for DNS Over HTTPS Proxy
 
 Package: luci-app-filebrowser-go
 Version: 24.252.39226~c89d418
@@ -1056,19 +1059,19 @@ SHA256sum: 6f3cf852609111f705018573ec00ba1de6336bbd1636daa83006a4450eee6f7d
 Description:  Translation for luci-app-cpu-status - Русский (Russian)
 
 Package: luci-i18n-doh-proxy-ru
-Version: 25.303.53302~de7e901
+Version: 2025.12.29-r5
 Depends: libc, luci-app-doh-proxy
 SourceName: luci-app-doh-proxy
 License: AGPL-3.0-or-later
 Section: luci
-SourceDateEpoch: 1761835702
+SourceDateEpoch: 1777456243
 Maintainer: Stan Grishin <stangri@melmac.ca>
 Architecture: all
 Installed-Size: 20480
-Filename: luci-i18n-doh-proxy-ru_25.303.53302~de7e901_all.ipk
-Size: 4089
-SHA256sum: ac784dbf5558bc9ed7e74031e0e5327eef3bef5e212d23b60df649300b236c5d
-Description:  Translation for luci-app-doh-proxy - Русский (Russian)
+Filename: luci-i18n-doh-proxy-ru_2025.12.29-r5_all.ipk
+Size: 5010
+SHA256sum: 18092e47e46483a44621b89151909451ed43af49e6d64723a6543a160390b374
+Description:  Russian translation for luci-app-doh-proxy
 
 Package: luci-i18n-filebrowser-go-ru
 Version: 24.252.41075~d2f498a
