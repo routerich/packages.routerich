@@ -928,29 +928,29 @@ SHA256sum: 8c7e3d38d8ffaf6f92179769a1da45f719dfd48357961fbb9b49590cda7e11ac
 Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wdoc-warp
-Version: 1.0-r2
+Version: 1.0-r3
 Depends: libc, luci-app-wdoc, wdoc-warp
 SourceName: luci-app-wdoc-warp
 Section: utils
-SourceDateEpoch: 1765888044
+SourceDateEpoch: 1778102016
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-wdoc-warp_1.0-r2_all.ipk
-Size: 2450
-SHA256sum: 292b752ac4f35c0c8cbc060c34e0e6a4fb426ff112904b868c241be03b37fbdd
+Filename: luci-app-wdoc-warp_1.0-r3_all.ipk
+Size: 2445
+SHA256sum: 84681f5260466675892a6cbe20e87b8d4e9429439546c2ddad2044dcfd447830
 Description:  LuCI WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
 
 Package: luci-app-wdoc-wg
-Version: 1.1-r6
+Version: 1.1-r7
 Depends: libc, luci-app-wdoc, wdoc-wg
 SourceName: luci-app-wdoc-wg
 Section: utils
-SourceDateEpoch: 1762891935
+SourceDateEpoch: 1778102016
 Architecture: all
 Installed-Size: 20480
-Filename: luci-app-wdoc-wg_1.1-r6_all.ipk
-Size: 2269
-SHA256sum: 631872da0fe2b9974c020c14264489ff629dcf1286fdd054332f5770c902be8c
+Filename: luci-app-wdoc-wg_1.1-r7_all.ipk
+Size: 2272
+SHA256sum: 9be25bd7bd4124ef59d91397c08310bba9ca67e1bba5ec3f46e8f0573d65d572
 Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wdoc
@@ -962,8 +962,8 @@ SourceDateEpoch: 1762892375
 Architecture: all
 Installed-Size: 20480
 Filename: luci-app-wdoc_1.1-r6_all.ipk
-Size: 2248
-SHA256sum: cb20634a4298a69dd6a5a51392258f7c3ae879078f9296936c189735497316ff
+Size: 2247
+SHA256sum: c16b7d6ddb7a8ae2859e2cb41b38c1319c1c03bc59d719c0d01095e361e8165b
 Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wizard
@@ -1427,12 +1427,12 @@ Version: 25.349.56671~a6f275d
 Depends: libc, luci-app-wdoc-warp
 SourceName: luci-app-wdoc-warp
 Section: luci
-SourceDateEpoch: 1765888044
+SourceDateEpoch: 1778102016
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-wdoc-warp-ru_25.349.56671~a6f275d_all.ipk
-Size: 1910
-SHA256sum: 4ab14ed29a185aa593cd70d750f752c542e6ee5b88d54463a11cbd372db73e63
+Size: 1909
+SHA256sum: e80cae43a2d397cfc4ec610bfa7ddd46f2c66a50ea379867d2126f26850a3edc
 Description:  Translation for luci-app-wdoc-warp - Русский (Russian)
 
 Package: luci-i18n-wdoc-wg-ru
@@ -1440,12 +1440,12 @@ Version: 25.315.72735~4d7310c
 Depends: libc, luci-app-wdoc-wg
 SourceName: luci-app-wdoc-wg
 Section: luci
-SourceDateEpoch: 1762891935
+SourceDateEpoch: 1778102016
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-wdoc-wg-ru_25.315.72735~4d7310c_all.ipk
-Size: 1740
-SHA256sum: eb7856263c3cfc3d963a9ffd43f0b985b823733e258a4c02e37e9395c4a21bf2
+Size: 1732
+SHA256sum: 4ab8df0066696195eb4476977b514fc8a1197566b7b7a448e16d957d41cbe41b
 Description:  Translation for luci-app-wdoc-wg - Русский (Russian)
 
 Package: luci-i18n-zerotier-ru
@@ -2209,31 +2209,31 @@ SHA256sum: 33caf7a8b44932af3ff9da1ca2e3dca9dff0f22edf1948808088ce0f09d2e8a2
 Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: wdoc-warp
-Version: 1.0.1-r1
+Version: 1.0.1-r2
 Depends: libc
 SourceName: wdoc-warp
 Section: utils
-SourceDateEpoch: 1765898032
+SourceDateEpoch: 1778101821
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: wdoc-warp_1.0.1-r1_all.ipk
-Size: 3034
-SHA256sum: d12ee30ecb3d79ee18f44350fcdeeffb6fb0131abafec172bbcbadbfb90e428e
+Filename: wdoc-warp_1.0.1-r2_all.ipk
+Size: 3032
+SHA256sum: 1c2c678bc4d2446e07b7a344352f5514d176738b4fc1cc9a08d1cf59e060b2d4
 Description:  WatchDoc WARP - monitors WARP availability via WireGuard/AmneziaWG and automatically changes the endpoint and port if connection issues are detected.
 
 Package: wdoc-wg
-Version: 1.2.5-r2
+Version: 1.2.5-r3
 Depends: libc
 SourceName: wdoc-wg
 Section: utils
-SourceDateEpoch: 1763391970
+SourceDateEpoch: 1778101821
 Maintainer: Aleksandr Danilov <sc16me@gmail.com>
 Architecture: all
 Installed-Size: 20480
-Filename: wdoc-wg_1.2.5-r2_all.ipk
+Filename: wdoc-wg_1.2.5-r3_all.ipk
 Size: 2791
-SHA256sum: c780b875eae7d58ffef4ae116ab7fc312816a7ab558761f01a0f5adaba3deff6
+SHA256sum: 89cf1c14c49811dcfc7b08d26f670cb0591160a813e539c83afdb5baefbafbbb
 Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
 Package: wdoc
