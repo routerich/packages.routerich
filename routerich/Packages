@@ -135,23 +135,6 @@ Description:  filebrowser provides a file managing interface within a specified 
  It allows the creation of multiple users and each user can have its own directory.
  It can be used as a standalone app or as a middleware.
 
-Package: internet-detector
-Version: 1.7.0-r1
-Depends: libc, lua, luaposix, libuci-lua
-SourceName: internet-detector
-Section: net
-SourceDateEpoch: 1761309748
-URL: https://github.com/gSpotx2f/luci-app-internet-detector
-Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
-Architecture: all
-Installed-Size: 92160
-Filename: internet-detector_1.7.0-r1_all.ipk
-Size: 16326
-SHA256sum: 04f6fc3d90e150cf2a0026de88ed8c0967d2e09551fd5718e0d3264565f4d77c
-Description:  Internet-detector is a small daemon
- for checking Internet availability.
- Written in Lua using the luaposix library.
-
 Package: internet-detector-mod-email
 Version: 1.7.0-r1
 Depends: libc, internet-detector, mailsend
@@ -196,6 +179,23 @@ Filename: internet-detector-mod-telegram_1.7.0-r1_all.ipk
 Size: 3219
 SHA256sum: 218bf902fca96e2b07ac8a52ee432ef6d2e044f0e9dcc9370427c735c97519c8
 Description:  Telegram messenger support for internet-detector.
+
+Package: internet-detector
+Version: 1.7.0-r1
+Depends: libc, lua, luaposix, libuci-lua
+SourceName: internet-detector
+Section: net
+SourceDateEpoch: 1761309748
+URL: https://github.com/gSpotx2f/luci-app-internet-detector
+Maintainer: gSpot <https://github.com/gSpotx2f/luci-app-internet-detector>
+Architecture: all
+Installed-Size: 92160
+Filename: internet-detector_1.7.0-r1_all.ipk
+Size: 16326
+SHA256sum: 04f6fc3d90e150cf2a0026de88ed8c0967d2e09551fd5718e0d3264565f4d77c
+Description:  Internet-detector is a small daemon
+ for checking Internet availability.
+ Written in Lua using the luaposix library.
 
 Package: ksmbd-rrplug
 Version: 1.0.2
@@ -440,19 +440,6 @@ Size: 68035
 SHA256sum: 81e09dce8923d097ba3e989271555257aa405b2a1f3be4e2b5291e4f2c8fc6cd
 Description:  LuCI Bandix app for network traffic monitoring
 
-Package: luci-app-block-users
-Version: 1.0.1-r1
-Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
-SourceName: luci-app-block-users
-Section: utils
-SourceDateEpoch: 1770793063
-Architecture: all
-Installed-Size: 51200
-Filename: luci-app-block-users_1.0.1-r1_all.ipk
-Size: 7470
-SHA256sum: eb18cf62a46dcd3f033cae2799d4ad283ade5ab5fb3c20611e7ae7919ac03d59
-Description:  LuCI Blocking user connections
-
 Package: luci-app-block-users-addon
 Version: 1.0.0-r2
 Depends: libc, luci-app-block-users
@@ -465,6 +452,19 @@ Filename: luci-app-block-users-addon_1.0.0-r2_all.ipk
 Size: 2078
 SHA256sum: befc2172c723903f8b4cfce19be3af3508b704912531603048f5268d550f3502
 Description:  LuCI Blocking user connections Status Include Users traffic Addon
+
+Package: luci-app-block-users
+Version: 1.0.1-r1
+Depends: libc, kmod-natflow, ipset, lua-ipops, luci-compat
+SourceName: luci-app-block-users
+Section: utils
+SourceDateEpoch: 1770793063
+Architecture: all
+Installed-Size: 51200
+Filename: luci-app-block-users_1.0.1-r1_all.ipk
+Size: 7470
+SHA256sum: eb18cf62a46dcd3f033cae2799d4ad283ade5ab5fb3c20611e7ae7919ac03d59
+Description:  LuCI Blocking user connections
 
 Package: luci-app-cifs-mount
 Version: 1-r8
@@ -646,6 +646,19 @@ Size: 5467
 SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
+Package: luci-app-modeminfo-mqtt
+Version: 1.1-r3
+Depends: libc, modeminfo-mqtt
+SourceName: luci-app-modeminfo-mqtt
+Section: utils
+SourceDateEpoch: 1761416059
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-modeminfo-mqtt_1.1-r3_all.ipk
+Size: 2150
+SHA256sum: 0b4579e2adbeb0e98f4ce557c9e37e901d3f76bc7e78a5c1f103e63350bb2f18
+Description:  LuCI Add-on for ModemInfo: collects modem readings and publishes them to an MQTT server. Supports automatic discovery in Home Assistant.
+
 Package: luci-app-modeminfo
 Version: 1.5.8-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
@@ -660,19 +673,6 @@ Filename: luci-app-modeminfo_1.5.8-r1_all.ipk
 Size: 10175
 SHA256sum: 6f9eadf3225f49752cf3063eae7eab3f2f01500edee5d791292966987e55e96b
 Description:  Information dashboard for 3G/LTE dongle
-
-Package: luci-app-modeminfo-mqtt
-Version: 1.1-r3
-Depends: libc, modeminfo-mqtt
-SourceName: luci-app-modeminfo-mqtt
-Section: utils
-SourceDateEpoch: 1761416059
-Architecture: all
-Installed-Size: 20480
-Filename: luci-app-modeminfo-mqtt_1.1-r3_all.ipk
-Size: 2150
-SHA256sum: 0b4579e2adbeb0e98f4ce557c9e37e901d3f76bc7e78a5c1f103e63350bb2f18
-Description:  LuCI Add-on for ModemInfo: collects modem readings and publishes them to an MQTT server. Supports automatic discovery in Home Assistant.
 
 Package: luci-app-pinboard
 Version: 1.0.0-r9
@@ -868,19 +868,6 @@ Size: 4358
 SHA256sum: 5a829dcbdd357ff90455e5f0ebd0046194455255b58a018435427379203a1086
 Description:  LuCI support for VSFTPD
 
-Package: luci-app-wdoc
-Version: 1.1-r6
-Depends: libc, wdoc
-SourceName: luci-app-wdoc
-Section: utils
-SourceDateEpoch: 1762892375
-Architecture: all
-Installed-Size: 20480
-Filename: luci-app-wdoc_1.1-r6_all.ipk
-Size: 2247
-SHA256sum: c16b7d6ddb7a8ae2859e2cb41b38c1319c1c03bc59d719c0d01095e361e8165b
-Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
-
 Package: luci-app-wdoc-singbox
 Version: 1.1-r6
 Depends: libc, luci-app-wdoc, wdoc-singbox
@@ -919,6 +906,19 @@ Filename: luci-app-wdoc-wg_1.1-r7_all.ipk
 Size: 2272
 SHA256sum: 9be25bd7bd4124ef59d91397c08310bba9ca67e1bba5ec3f46e8f0573d65d572
 Description:  LuCI WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
+
+Package: luci-app-wdoc
+Version: 1.1-r6
+Depends: libc, wdoc
+SourceName: luci-app-wdoc
+Section: utils
+SourceDateEpoch: 1762892375
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-wdoc_1.1-r6_all.ipk
+Size: 2247
+SHA256sum: c16b7d6ddb7a8ae2859e2cb41b38c1319c1c03bc59d719c0d01095e361e8165b
+Description:  LuCI WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: luci-app-wizard
 Version: 1.4.0-r7
@@ -1486,19 +1486,6 @@ Size: 7519
 SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
 
-Package: modeminfo
-Version: 1.1.2
-Depends: libc, comgt
-SourceName: modeminfo
-Section: net
-SourceDateEpoch: 1776757144
-Architecture: all
-Installed-Size: 30720
-Filename: modeminfo_1.1.2_all.ipk
-Size: 5943
-SHA256sum: e969601dcd0bacb692045c0007cf52d2dd858e6c4e91a3104a31af1f32a7b09b
-Description:  Signal information for 3G/LTE dongle
-
 Package: modeminfo-mqtt
 Version: 1.1-r3
 Depends: libc, modeminfo, mosquitto-client-ssl, jsonfilter
@@ -1734,6 +1721,19 @@ Size: 1643
 SHA256sum: 902a85bc761e9f2d9dbfec61ad09d2998892c9e96433c2c944ea3d27e5818fcd
 Description:  ZTE MF823/MF823D serial addon for modeminfo
 
+Package: modeminfo
+Version: 1.1.2
+Depends: libc, comgt
+SourceName: modeminfo
+Section: net
+SourceDateEpoch: 1776757144
+Architecture: all
+Installed-Size: 30720
+Filename: modeminfo_1.1.2_all.ipk
+Size: 5943
+SHA256sum: e969601dcd0bacb692045c0007cf52d2dd858e6c4e91a3104a31af1f32a7b09b
+Description:  Signal information for 3G/LTE dongle
+
 Package: ntfs3-mount
 Version: 10
 Depends: libc, kmod-fs-ntfs3
@@ -1934,16 +1934,16 @@ Description:  Rasterbar libtorrent is a C++ library that aims to be a good alter
  full featured client, although it comes with a working example client.
 
 Package: routerich-defaults
-Version: 1.6.2
+Version: 1.6.3
 Depends: libc, openssl-util
 SourceName: routerich-defaults
 Section: config
-SourceDateEpoch: 1778494778
+SourceDateEpoch: 1778919913
 Architecture: all
 Installed-Size: 71680
-Filename: routerich-defaults_1.6.2_all.ipk
-Size: 11598
-SHA256sum: f7f38452d46104587f0ca12246babc1090f8e459d8225949b15a739b092242f7
+Filename: routerich-defaults_1.6.3_all.ipk
+Size: 11655
+SHA256sum: 30ff4110efc4c36a8bc05259669f6d7a4126164e17848140e2ae79831a86c3b9
 Description:  Default settings by RouteRich
 
 Package: routerich-diag
@@ -1960,21 +1960,6 @@ Size: 33513
 SHA256sum: 13d1780c03f21e260c6a43d2949442b6bab0aac873ad8d493926f5e0878d026d
 Description:  Comprehensive router diagnostic utility for OpenWrt with LuCI integration.
  Provides system, network, and service diagnostics with sensitive data filtering.
-
-Package: ruantiblock
-Version: 2.1.12-r3
-Depends: libc, dnsmasq-full, kmod-nft-tproxy
-SourceName: ruantiblock
-Section: net
-SourceDateEpoch: 1773669991
-URL: https://github.com/gSpotx2f/ruantiblock_openwrt
-Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
-Architecture: all
-Installed-Size: 143360
-Filename: ruantiblock_2.1.12-r3_all.ipk
-Size: 24221
-SHA256sum: 6f8504590f0e9a892e07f922baed50e1d6673a1157b092fd75882e907ed065b2
-Description:  Ruantiblock
 
 Package: ruantiblock-mod-lua
 Version: 2.1.12-r3
@@ -2005,6 +1990,21 @@ Filename: ruantiblock-mod-py_2.1.12-r3_all.ipk
 Size: 7894
 SHA256sum: dc54cca7b80780acaaaf77bf6e8a08ddeb40044900524c6a0699f1a42614ea07
 Description:  Python module for ruantiblock
+
+Package: ruantiblock
+Version: 2.1.12-r3
+Depends: libc, dnsmasq-full, kmod-nft-tproxy
+SourceName: ruantiblock
+Section: net
+SourceDateEpoch: 1773669991
+URL: https://github.com/gSpotx2f/ruantiblock_openwrt
+Maintainer: gSpot <https://github.com/gSpotx2f/ruantiblock_openwrt>
+Architecture: all
+Installed-Size: 143360
+Filename: ruantiblock_2.1.12-r3_all.ipk
+Size: 24221
+SHA256sum: 6f8504590f0e9a892e07f922baed50e1d6673a1157b092fd75882e907ed065b2
+Description:  Ruantiblock
 
 Package: smount
 Version: 1.0.5
@@ -2102,19 +2102,6 @@ Size: 3806376
 SHA256sum: 2f4b9aa5ccdfff0c139bac6b14a889b137baa1a6573044a67054fdb9e173b9a2
 Description:  tun to socks proxy redirector written on golang
 
-Package: uboot-routerich
-Version: 1.1.2
-Depends: libc, kmod-mtd-rw
-SourceName: uboot-routerich
-Section: config
-SourceDateEpoch: 1776807133
-Architecture: all
-Installed-Size: 10240
-Filename: uboot-routerich_1.1.2_all.ipk
-Size: 1626
-SHA256sum: 8dae1b971b93e094ca6758379a98936005e914b726dbe520a089273296753711
-Description:  Uboot upgrade
-
 Package: uboot-routerich-ax3000
 Version: 1.1.3
 Depends: libc
@@ -2127,6 +2114,19 @@ Filename: uboot-routerich-ax3000_1.1.3_all.ipk
 Size: 535859
 SHA256sum: 84af985872742c00c8eac1a3c3305db4afbd6471fb41d6f12456ca08d06c0f5d
 Description:  Uboot files
+
+Package: uboot-routerich
+Version: 1.1.2
+Depends: libc, kmod-mtd-rw
+SourceName: uboot-routerich
+Section: config
+SourceDateEpoch: 1776807133
+Architecture: all
+Installed-Size: 10240
+Filename: uboot-routerich_1.1.2_all.ipk
+Size: 1626
+SHA256sum: 8dae1b971b93e094ca6758379a98936005e914b726dbe520a089273296753711
+Description:  Uboot upgrade
 
 Package: upx
 Version: 5.0.0-r1
@@ -2147,20 +2147,6 @@ Description:  UPX is an advanced executable file compressor. UPX will typically
  reduce the file size of programs and DLLs by around 50%-70%, thus
  reducing disk space, network load times, download times and
  other distribution and storage costs.
-
-Package: wdoc
-Version: 1.5-r3
-Depends: libc, curl
-SourceName: wdoc
-Section: utils
-SourceDateEpoch: 1762891935
-Maintainer: Aleksandr Danilov <sc16me@gmail.com>
-Architecture: all
-Installed-Size: 20480
-Filename: wdoc_1.5-r3_all.ipk
-Size: 2857
-SHA256sum: 5ef5ac247f84e65e57b5489f896c27d4a46202f3c1216a4fd7056f804784180b
-Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
 
 Package: wdoc-singbox
 Version: 1.2.5-r1
@@ -2204,6 +2190,20 @@ Size: 2791
 SHA256sum: 89cf1c14c49811dcfc7b08d26f670cb0591160a813e539c83afdb5baefbafbbb
 Description:  WatchDoc Wireguard a package that monitors wireguard/amneziawg connectivity and automatically takes actions to restore it if problems occur.
 
+Package: wdoc
+Version: 1.5-r3
+Depends: libc, curl
+SourceName: wdoc
+Section: utils
+SourceDateEpoch: 1762891935
+Maintainer: Aleksandr Danilov <sc16me@gmail.com>
+Architecture: all
+Installed-Size: 20480
+Filename: wdoc_1.5-r3_all.ipk
+Size: 2857
+SHA256sum: 5ef5ac247f84e65e57b5489f896c27d4a46202f3c1216a4fd7056f804784180b
+Description:  WatchDoc a package that monitors internet connectivity and automatically takes actions to restore it if problems occur.
+
 Package: xmm-modem
 Version: 0.1.5-r1
 Depends: libc, comgt, kmod-usb-acm, kmod-usb-serial-option, kmod-usb-net-cdc-ncm, kmod-usb-net-rndis
@@ -2233,39 +2233,6 @@ Filename: youtubeUnblock_1.3.1~ec242d0-r2_aarch64_cortex-a53.ipk
 Size: 72915
 SHA256sum: 804e2f413607c8ef80704367222b83702cae35c50e52bb7d75753b15420fbf9a
 Description:  Bypasses Googlevideo detection systems that relies on SNI
-
-Package: zapret2
-Version: 0.9.5-r6
-Depends: libc, libuci20250120, libopenssl3, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
-SourceName: zapret2
-Section: net
-SourceDateEpoch: 1778050446
-Maintainer: Routerich <support@routerich.ru>
-Architecture: aarch64_cortex-a53
-Installed-Size: 1228800
-Filename: zapret2_0.9.5-r6_aarch64_cortex-a53.ipk
-Size: 577854
-SHA256sum: 61058fe9a1f120f45c871c86dab56672dc6522f3a7112910a3b319783ced9d6a
-Description:  zapret2 is a DPI bypass tool using nfqws2.
- This is a C rewrite with zeroblock-style management.
- Includes nfqws2 binary, Lua scripts, and firewall scripts.
-
-Package: zapret
-Version: 72.20251122
-Depends: libc, nftables, curl, gzip, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap, zlib
-SourceName: zapret
-License: MIT
-LicenseFiles: docs/LICENSE.txt
-Section: net
-SourceDateEpoch: 1763801926
-URL: https://github.com/bol-van/zapret
-Maintainer: bol-van
-Architecture: aarch64_cortex-a53
-Installed-Size: 542720
-Filename: zapret_72.20251122_aarch64_cortex-a53.ipk
-Size: 163646
-SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
-Description:  zapret
 
 Package: zapret-ip2net
 Version: 72.20251122
@@ -2314,6 +2281,39 @@ Filename: zapret-tpws_72.20251122_aarch64_cortex-a53.ipk
 Size: 49444
 SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
+
+Package: zapret2
+Version: 0.9.5-r6
+Depends: libc, libuci20250120, libopenssl3, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
+SourceName: zapret2
+Section: net
+SourceDateEpoch: 1778050446
+Maintainer: Routerich <support@routerich.ru>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1228800
+Filename: zapret2_0.9.5-r6_aarch64_cortex-a53.ipk
+Size: 577854
+SHA256sum: 61058fe9a1f120f45c871c86dab56672dc6522f3a7112910a3b319783ced9d6a
+Description:  zapret2 is a DPI bypass tool using nfqws2.
+ This is a C rewrite with zeroblock-style management.
+ Includes nfqws2 binary, Lua scripts, and firewall scripts.
+
+Package: zapret
+Version: 72.20251122
+Depends: libc, nftables, curl, gzip, coreutils, coreutils-sort, coreutils-sleep, kmod-nft-nat, kmod-nft-offload, kmod-nft-queue, libnetfilter-queue1, libcap, zlib
+SourceName: zapret
+License: MIT
+LicenseFiles: docs/LICENSE.txt
+Section: net
+SourceDateEpoch: 1763801926
+URL: https://github.com/bol-van/zapret
+Maintainer: bol-van
+Architecture: aarch64_cortex-a53
+Installed-Size: 542720
+Filename: zapret_72.20251122_aarch64_cortex-a53.ipk
+Size: 163646
+SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
+Description:  zapret
 
 Package: zeroblock
 Version: 0.8.2-r212
