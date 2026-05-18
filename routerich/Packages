@@ -2030,6 +2030,24 @@ Size: 23112
 SHA256sum: 347b30c36a060691e6e2d43e74670acf3bfdb8f536f9fc94e42145f1682ed7da
 Description:  Ruantiblock
 
+Package: sing-box-rr
+Version: 1.13.11-rr-edition-2.1.0-r5
+Depends: ca-bundle, kmod-inet-diag, kmod-tun
+Provides: sing-box, sing-box-tiny
+Conflicts: sing-box
+SourceName: sing-box-rr-edition
+License: GPL-3.0-or-later
+Section: net
+Require-User: sing-box=5566:sing-box=5566
+URL: https://git.my-handbook.ru/fresa/sing-box-rr-edition
+Maintainer: RR Edition
+Architecture: aarch64_cortex-a53
+Installed-Size: 40570880
+Filename: sing-box-rr_1.13.11-rr-edition-2.1.0-r5_aarch64_cortex-a53.ipk
+Size: 15057015
+SHA256sum: 5aa52b855a3acb20fab6cc40ebca54b673e305255690dd7493f85ce7c61115e2
+Description: RR Edition trimmed network-only sing-box fork for OpenWrt.
+
 Package: smount
 Version: 1.0.5
 Depends: libc, kmod-usb-storage, kmod-usb-storage-extras, kmod-usb-storage-uas, block-mount, fdisk, hdparm, kmod-fs-ext4, kmod-fs-exfat, kmod-fs-vfat, kmod-fs-ntfs3, acl
