@@ -635,6 +635,19 @@ Size: 5467
 SHA256sum: 604c740933e855ad5c4f608a6f8de23a323d90551cec2d73e55d34bc4df39ca2
 Description:  Configrure modem bands via atcommands
 
+Package: luci-app-modeminfo-diag
+Version: 0.1-r1
+Depends: libc
+SourceName: luci-app-modeminfo-diag
+Section: luci
+SourceDateEpoch: 1779196201
+Architecture: all
+Installed-Size: 20480
+Filename: luci-app-modeminfo-diag_0.1-r1_all.ipk
+Size: 3392
+SHA256sum: 2ee360020c5e137f3f44aa08d6baf45fa7fd1f2d9acfbe5ca9525ffc45d11681
+Description:  LuCI modem diagnostics
+
 Package: luci-app-modeminfo-mqtt
 Version: 1.1-r3
 Depends: libc, modeminfo-mqtt
@@ -1464,6 +1477,19 @@ Filename: modemband_1.0.0_all.ipk
 Size: 7519
 SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
+
+Package: modeminfo-diag
+Version: 0.1-r2
+Depends: libc, modeminfo
+SourceName: modeminfo-diag
+Section: utils
+SourceDateEpoch: 1779194713
+Architecture: all
+Installed-Size: 10240
+Filename: modeminfo-diag_0.1-r2_all.ipk
+Size: 2467
+SHA256sum: a5c2356094926d974603fe4578350039b0d48675249314f4b8635fb752d3f1a0
+Description:  Add-on for ModemInfo: simple diagnostics for modems.
 
 Package: modeminfo-mqtt
 Version: 1.1-r3
