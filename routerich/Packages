@@ -692,6 +692,19 @@ Size: 10637
 SHA256sum: 131d0fca5ac5f4b3a690ff4cc7c1cc10cb8080a9988d322c3f06f93cddca103a
 Description:  LuCI Support for natflow users.
 
+Package: luci-app-netlog
+Version: 1.0.0-r1
+Depends: libc, kmod-natflow, libpcap1
+SourceName: luci-app-netlog
+Section: utils
+SourceDateEpoch: 1779455705
+Architecture: aarch64_cortex-a53
+Installed-Size: 399360
+Filename: luci-app-netlog_1.0.0-r1_aarch64_cortex-a53.ipk
+Size: 106045
+SHA256sum: 102e5080be1b7df35d5f43bb0002aa58cf3aed45662699c15dd8107912c0e0f7
+Description:  LuCI Network Logs
+
 Package: luci-app-pinboard
 Version: 1.0.0-r9
 Depends: libc, luci-base, rpcd, qrencode
