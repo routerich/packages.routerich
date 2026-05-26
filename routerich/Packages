@@ -2145,17 +2145,17 @@ Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
 Package: telemt
-Version: 3.3.5-r1
+Version: 3.4.12-r1
 Depends: libc
 SourceName: telemt
 Section: net
-SourceDateEpoch: 1773069207
+SourceDateEpoch: 1779832165
 URL: https://github.com/telemt/telemt
 Architecture: aarch64_cortex-a53
-Installed-Size: 2252800
-Filename: telemt_3.3.5-r1_aarch64_cortex-a53.ipk
-Size: 2218742
-SHA256sum: 9ffce0552aab850b438fc5f168266af13f6f31a59f6532830c0bc69e7afdd212
+Installed-Size: 3225600
+Filename: telemt_3.4.12-r1_aarch64_cortex-a53.ipk
+Size: 3218476
+SHA256sum: 06d9a14c8cba1bde264b5382dda623f02ce60d61da7c29af95031063b2ddf6bb
 Description:  High-performance Telegram MTProxy server written in Rust.
  Implements the official Telegram proxy protocol with connection pooling,
  replay protection, detailed statistics, and TLS masking.
