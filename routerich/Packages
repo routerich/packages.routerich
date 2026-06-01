@@ -1544,16 +1544,16 @@ SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-diag
-Version: 0.1-r2
+Version: 0.2-r1
 Depends: libc, modeminfo
 SourceName: modeminfo-diag
 Section: utils
-SourceDateEpoch: 1779197669
+SourceDateEpoch: 1780321174
 Architecture: all
 Installed-Size: 10240
-Filename: modeminfo-diag_0.1-r2_all.ipk
-Size: 2553
-SHA256sum: 5d9b4dee404d90e17acc7ce2d76199fbfeb0196b9168c17665ff0062983aa5ff
+Filename: modeminfo-diag_0.2-r1_all.ipk
+Size: 3025
+SHA256sum: 474fd4d18a73bb0afd609c72b8aafdcadbb7781f07b5aa09000c8c70bce92304
 Description:  Add-on for ModemInfo: simple diagnostics for modems.
 
 Package: modeminfo-mqtt
