@@ -1818,6 +1818,23 @@ Size: 904
 SHA256sum: ab729399e60198f864f33f2edd5aad15fbcc36843e653b62e12862247925614c
 Description:  NTFS mount script for Paragon NTFS3 driver
 
+Package: openwrt-xray
+Version: 26.6.1-1
+Depends: libc
+Provides: xray-core
+SourceName: openwrt-xray
+License: MPLv2
+LicenseFiles: LICENSE
+Section: Custom
+SourceDateEpoch: 1780284981
+Maintainer: yichya <mail@yichya.dev>
+Architecture: aarch64_cortex-a53
+Installed-Size: 11011039
+Filename: openwrt-xray_26.6.1-1_aarch64_cortex-a53-aarch64_cortex-a53.ipk
+Size: 10977900
+SHA256sum: 2e7c9bec5ff8ea34f12b2fe80580c9a23b1842da7b6cbe9bf3f44225166e553d
+Description:  Xray-core bare bones binary (compiled without cgo)
+
 Package: opera-proxy
 Version: 1.15.1-r1
 Depends: libc
