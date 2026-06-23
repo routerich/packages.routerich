@@ -1818,17 +1818,17 @@ SHA256sum: 2e7c9bec5ff8ea34f12b2fe80580c9a23b1842da7b6cbe9bf3f44225166e553d
 Description:  Xray-core bare bones binary (compiled without cgo)
 
 Package: opera-proxy
-Version: 1.15.1-r1
+Version: 1.15.2-r1
 Depends: libc
 SourceName: opera-proxy
 Section: net
-SourceDateEpoch: 1775847139
+SourceDateEpoch: 1782214480
 URL: https://github.com/Snawoot/opera-proxy
 Architecture: aarch64_cortex-a53
-Installed-Size: 2119680
-Filename: opera-proxy_1.15.1-r1_aarch64_cortex-a53.ipk
-Size: 2110017
-SHA256sum: b3e78aba4df41aabf7422aa80d35398dccee951cfbb775163f0cbabd938d8d26
+Installed-Size: 2150400
+Filename: opera-proxy_1.15.2-r1_aarch64_cortex-a53.ipk
+Size: 2141818
+SHA256sum: 1ca8334ea87af9686755c570dccc48b165c9a6399f5399d4b90b772528fe7747
 Description:  Opera Proxy client
 
 Package: podkop
