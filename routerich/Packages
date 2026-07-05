@@ -968,17 +968,17 @@ SHA256sum: dee9e193c63463a14a6c59696863930d6a2eb2ea36c8e8a40b51ab65e7e3ed94
 Description:  LuCI Support for youtubeUnblock
 
 Package: luci-app-zapret2
-Version: 0.9.5-r6
+Version: 1.0.2-r2
 Depends: libc, luci-base, zapret2
 SourceName: luci-app-zapret2
 Section: luci
-SourceDateEpoch: 1778050446
+SourceDateEpoch: 1773709139
 Maintainer: RouteRich <support@routerich.ru>
 Architecture: all
 Installed-Size: 174080
-Filename: luci-app-zapret2_0.9.5-r6_all.ipk
-Size: 38874
-SHA256sum: 2db97422b44c8518e78d0e51ce8748d6491c847df6334f15232f64e87c67068d
+Filename: luci-app-zapret2_1.0.2-r2_all.ipk
+Size: 39375
+SHA256sum: ced9612ba55827bcb380c948ebfc2d5e287991116fa270c65eba5e4965a7208d
 Description:  Web interface for managing zapret2 DPI bypass tool.
  Provides configuration UI for strategies, lists, scripts, and blockcheck.
 
@@ -999,18 +999,18 @@ SHA256sum: 32eff761288cd1ca01639765f401531cdd6d534249f65ad4032cd7fb69a05447
 Description:  LuCI support for zapret
 
 Package: luci-app-zeroblock
-Version: 0.8.2-r212
+Version: 0.8.3-r164
 Depends: libc, luci-base, zeroblock
 SourceName: luci-app-zeroblock
 License: MIT
 Section: luci
-SourceDateEpoch: 1778273439
+SourceDateEpoch: 1773709139
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: all
-Installed-Size: 716800
-Filename: luci-app-zeroblock_0.8.2-r212_all.ipk
-Size: 164343
-SHA256sum: 035b4c172c314014512c2222c0a409d92ee1445b2488503323872198258112aa
+Installed-Size: 1034240
+Filename: luci-app-zeroblock_0.8.3-r164_all.ipk
+Size: 226608
+SHA256sum: a32a4c2d8da0c1f88efa8f30b0d58a5b87eed9699f9689d1f2b6b5255dba6607
 Description:  Web interface for ZeroBlock transparent proxy manager.
  Supports sing-box/xray with VLESS, VMess, Trojan, Shadowsocks, Hysteria2,
  TUIC, WireGuard, AmneziaWG, SOCKS4/5, HTTP/HTTPS protocols.
@@ -2100,22 +2100,25 @@ SHA256sum: 347b30c36a060691e6e2d43e74670acf3bfdb8f536f9fc94e42145f1682ed7da
 Description:  Ruantiblock
 
 Package: sing-box-rr
-Version: 1.13.11-rr-edition-2.1.0-r5
-Depends: ca-bundle, kmod-inet-diag, kmod-tun
-Provides: sing-box, sing-box-tiny
+Version: 1.13.14-rr-edition-2.5.0-r1
+Depends: libc, ca-bundle, kmod-inet-diag, kmod-tun
 Conflicts: sing-box
-SourceName: sing-box-rr-edition
+Provides: sing-box, sing-box-tiny
+SourceName: sing-box-rr
 License: GPL-3.0-or-later
+LicenseFiles: LICENSE
 Section: net
 Require-User: sing-box=5566:sing-box=5566
+SourceDateEpoch: 1773709139
 URL: https://git.my-handbook.ru/fresa/sing-box-rr-edition
 Maintainer: RR Edition
 Architecture: aarch64_cortex-a53
-Installed-Size: 40570880
-Filename: sing-box-rr_1.13.11-rr-edition-2.1.0-r5_aarch64_cortex-a53.ipk
-Size: 15057015
-SHA256sum: 5aa52b855a3acb20fab6cc40ebca54b673e305255690dd7493f85ce7c61115e2
-Description: RR Edition trimmed network-only sing-box fork for OpenWrt.
+Installed-Size: 29143040
+Filename: sing-box-rr_1.13.14-rr-edition-2.5.0-r1_aarch64_cortex-a53.ipk
+Size: 10347833
+SHA256sum: fef16c6f1daecf019f74a7e870a619695d352b7ee35395484ce1954a252480cc
+Description:  Trimmed OpenWrt build of the sing-box RR Edition fork.
+ Keeps the network-oriented runtime and preserves XHTTP and mKCP.
 
 Package: smount
 Version: 1.0.5
@@ -2396,17 +2399,17 @@ SHA256sum: 1430152022547938e212f59402dbbad9e30944b4d7a8fd3bcec3357f48c89090
 Description:  tpws
 
 Package: zapret2
-Version: 0.9.5-r6
+Version: 1.0.2-r2
 Depends: libc, libuci20250120, libopenssl3, nftables, kmod-nft-queue, kmod-nfnetlink-queue, gzip, curl, ncat
 SourceName: zapret2
 Section: net
-SourceDateEpoch: 1778050446
+SourceDateEpoch: 1773709139
 Maintainer: Routerich <support@routerich.ru>
 Architecture: aarch64_cortex-a53
-Installed-Size: 1228800
-Filename: zapret2_0.9.5-r6_aarch64_cortex-a53.ipk
-Size: 577854
-SHA256sum: 61058fe9a1f120f45c871c86dab56672dc6522f3a7112910a3b319783ced9d6a
+Installed-Size: 1239040
+Filename: zapret2_1.0.2-r2_aarch64_cortex-a53.ipk
+Size: 579071
+SHA256sum: ab9f838d4d5b0b6a102df5b004852a63a1ac1b0986eaaa6db2ed1dfeb3ca99b7
 Description:  zapret2 is a DPI bypass tool using nfqws2.
  This is a C rewrite with zeroblock-style management.
  Includes nfqws2 binary, Lua scripts, and firewall scripts.
@@ -2429,19 +2432,19 @@ SHA256sum: d6517c8ee2cf65fdbab03014332acfc73431d4efc7c07670a166a21c01f78400
 Description:  zapret
 
 Package: zeroblock
-Version: 0.8.2-r212
-Depends: libc, libuci20250120, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, libopenssl3, zlib, nftables-json, kmod-nft-tproxy, sing-box-tiny, conntrack
+Version: 0.8.3-r164
+Depends: libc, libuci20250120, libubus20250102, libubox20240329, libblobmsg-json20240329, libjson-c5, libcurl4, libmbedtls21, libmnl0, libyaml, libopenssl3, zlib, nftables-json, kmod-nft-tproxy, conntrack
 SourceName: zeroblock
 License: MIT
 Section: net
-SourceDateEpoch: 1778262709
+SourceDateEpoch: 1773709139
 URL: https://git.routerich.ru/routerich/zeroblock
 Maintainer: ZeroBlock <support@routerich.ru>
 Architecture: aarch64_cortex-a53
-Installed-Size: 880640
-Filename: zeroblock_0.8.2-r212_aarch64_cortex-a53.ipk
-Size: 388066
-SHA256sum: 66bb00f1454813b653571ab8b2be20e439dc90bd90a8f09c19f4663d964100ec
+Installed-Size: 1269760
+Filename: zeroblock_0.8.3-r164_aarch64_cortex-a53.ipk
+Size: 555639
+SHA256sum: 454ee50488979e3d067a2733972eecfb00e86227ee0a32e48a9c1f4adc9b10f0
 Description:  ZeroBlock is a transparent proxy manager for OpenWrt that uses sing-box
  and xray-core as proxy engines.
  
