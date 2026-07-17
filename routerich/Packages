@@ -498,16 +498,16 @@ SHA256sum: 97f36334fe93719a86ee0a2c75bbe986cebed53727eb273fb1aa085d6c761930
 Description:  CPU utilization info for the LuCI status page
 
 Package: luci-app-dns-failsafe-proxy
-Version: 1.1.2
+Version: 1.1.3
 Depends: libc, libpthread
 SourceName: luci-app-dns-failsafe-proxy
 Section: utils
-SourceDateEpoch: 1778532548
+SourceDateEpoch: 1784282319
 Architecture: aarch64_cortex-a53
 Installed-Size: 92160
-Filename: luci-app-dns-failsafe-proxy_1.1.2_aarch64_cortex-a53.ipk
-Size: 9461
-SHA256sum: 998320711cba6f37ec59713779c9dbe7ebf625d446e559bae9d97570595ca719
+Filename: luci-app-dns-failsafe-proxy_1.1.3_aarch64_cortex-a53.ipk
+Size: 9626
+SHA256sum: 0ed13c0bb665546912408558270cb8fe407dc56be828a30fb40fec097b866046
 Description:  LuCI dns-failsafe-proxy
 
 Package: luci-app-doh-proxy
@@ -2146,17 +2146,17 @@ Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
 Package: telemt
-Version: 3.4.23-r1
+Version: 3.4.24-r1
 Depends: libc
 SourceName: telemt
 Section: net
-SourceDateEpoch: 1783767458
+SourceDateEpoch: 1784284127
 URL: https://github.com/telemt/telemt
 Architecture: aarch64_cortex-a53
-Installed-Size: 3358720
-Filename: telemt_3.4.23-r1_aarch64_cortex-a53.ipk
-Size: 3344663
-SHA256sum: 5a874b1bdd460f37e6f7b1f077e251c36cd39627dfe92e29619fc1a28aa0086f
+Installed-Size: 3379200
+Filename: telemt_3.4.24-r1_aarch64_cortex-a53.ipk
+Size: 3365183
+SHA256sum: e0b44a76d4106aeadf63b582d8e3d47dae209fb142cf2b1d546f58c8e36b5743
 Description:  High-performance Telegram MTProxy server written in Rust.
  Implements the official Telegram proxy protocol with connection pooling,
  replay protection, detailed statistics, and TLS masking.
