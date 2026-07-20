@@ -673,18 +673,18 @@ SHA256sum: 0b4579e2adbeb0e98f4ce557c9e37e901d3f76bc7e78a5c1f103e63350bb2f18
 Description:  LuCI Add-on for ModemInfo: collects modem readings and publishes them to an MQTT server. Supports automatic discovery in Home Assistant.
 
 Package: luci-app-modeminfo
-Version: 1.6.2-r1
+Version: 1.6.3-r1
 Depends: libc, modeminfo, luci-compat, sms-tool
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1784115026
+SourceDateEpoch: 1784570091
 URL: https://github.com/openwrt/luci
 Maintainer: OpenWrt LuCI community
 Architecture: all
 Installed-Size: 81920
-Filename: luci-app-modeminfo_1.6.2-r1_all.ipk
-Size: 10550
-SHA256sum: 2e31576d9745ae02fe57b1450acd145e366291adaa898548d48502c9c3403da8
+Filename: luci-app-modeminfo_1.6.3-r1_all.ipk
+Size: 10555
+SHA256sum: 8d5a7d4ec2e27c04a0e30d9d86d885f37e15dfc7a09ab2b2d4d8a3cd4410e091
 Description:  Information dashboard for 3G/LTE dongle
 
 Package: luci-app-netlog
@@ -1233,12 +1233,12 @@ Version: 26.196.41426~45f309c
 Depends: libc, luci-app-modeminfo
 SourceName: luci-app-modeminfo
 Section: luci
-SourceDateEpoch: 1784115026
+SourceDateEpoch: 1784570091
 Architecture: all
 Installed-Size: 10240
 Filename: luci-i18n-modeminfo-ru_26.196.41426~45f309c_all.ipk
-Size: 2442
-SHA256sum: 073aef8199523f8ccf3d8edc5d87b34a59c279ee93969271fb2f54685dd1be3b
+Size: 2451
+SHA256sum: c1cf7cb66de63883aa4ea8aede3b0b09abcff5aa792ed5110ccdedbc1bb67534
 Description:  Translation for luci-app-modeminfo - Русский (Russian)
 
 Package: luci-i18n-podkop-ru
