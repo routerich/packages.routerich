@@ -1492,16 +1492,16 @@ SHA256sum: a12c78006a640506e4b5c213fd25e64a740000da6bd1a97d5b3916e83bdf5707
 Description:  Setting LTE/5G bands for selected modems
 
 Package: modeminfo-diag
-Version: 0.3-r1
+Version: 0.3-r3
 Depends: libc, modeminfo
 SourceName: modeminfo-diag
 Section: utils
-SourceDateEpoch: 1781015659
+SourceDateEpoch: 1785346292
 Architecture: all
 Installed-Size: 20480
-Filename: modeminfo-diag_0.3-r1_all.ipk
-Size: 5008
-SHA256sum: 5f3bad42cefd2fc6080ad2dea707afa62c43cc231e67e860b2244d2c54fa9ccb
+Filename: modeminfo-diag_0.3-r3_all.ipk
+Size: 5315
+SHA256sum: ccb1154e9c8194d77e23f2cf3f98d279956ff28dd111368937b1182d207b8cf0
 Description:  Add-on for ModemInfo: simple diagnostics for modems.
 
 Package: modeminfo-mqtt
@@ -2171,17 +2171,17 @@ Description:  It creates a secure network between your servers, computers,
  and cloud instances. Even when separated by firewalls or subnets.
 
 Package: telemt
-Version: 3.4.24-r1
+Version: 3.4.25-r1
 Depends: libc
 SourceName: telemt
 Section: net
-SourceDateEpoch: 1784284127
+SourceDateEpoch: 1784808350
 URL: https://github.com/telemt/telemt
 Architecture: aarch64_cortex-a53
-Installed-Size: 3379200
-Filename: telemt_3.4.24-r1_aarch64_cortex-a53.ipk
-Size: 3365183
-SHA256sum: e0b44a76d4106aeadf63b582d8e3d47dae209fb142cf2b1d546f58c8e36b5743
+Installed-Size: 3420160
+Filename: telemt_3.4.25-r1_aarch64_cortex-a53.ipk
+Size: 3413603
+SHA256sum: 2e0fdcaca5c83496e11680e50e0eaf676ff70d64659a7de6ee5058b8e86e236f
 Description:  High-performance Telegram MTProxy server written in Rust.
  Implements the official Telegram proxy protocol with connection pooling,
  replay protection, detailed statistics, and TLS masking.
